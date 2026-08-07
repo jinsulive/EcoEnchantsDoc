@@ -1,0 +1,43 @@
+---
+title: hook_in_ground
+titleZh: hook_in_ground
+category: triggers
+subcategory: internal
+tags:
+  - libreforge
+outline: deep
+---
+
+# hook_in_ground <Badge type="info" text="libreforge" /> 
+
+> Triggered when a fishing rod hook hits the ground
+
+## Overview
+
+| Property | Value |
+|----------|-------|
+| Type ID | `hook_in_ground` |
+| Module | libreforge |
+| Category | Internal |
+| Value | 1 |
+
+## Configuration Example
+
+```yaml
+triggers:
+  - hook_in_ground
+```
+
+## Placeholders
+
+| Placeholder | Value |
+|-------------|-------|
+| `%trigger_value%` | 1 |
+| `%alt_trigger_value%` | The alt-value passed by the trigger (if any) |
+
+## Related Pages
+
+- [All Triggers](./)
+- [Guide: Effect Basics](../guide/effect-basics)
+- [All Effects](../effects/)
+- [All Conditions](../conditions/)

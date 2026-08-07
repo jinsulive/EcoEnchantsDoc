@@ -1,0 +1,34 @@
+---
+title: victim_as_dispatcher
+titleEn: victim_as_dispatcher
+category: mutators
+subcategory: victim_player
+tags:
+  - libreforge
+outline: deep
+---
+
+# victim_as_dispatcher <Badge type="info" text="libreforge" />
+
+> Set the player / entity / etc that triggered the effect to be the victim.
+
+## 基本信息
+
+| 属性 | 值 |
+|------|-----|
+| 类型 ID | `victim_as_dispatcher` |
+| 所属模块 | libreforge |
+| 分类 | 目标/玩家（Victim/Player） |
+
+## 配置示例
+
+```yaml
+- id: victim_as_dispatcher
+```
+
+## 关联页面
+
+- [所有变异器](./)
+- [指南：Effect 基础](../guide/effect-basics)
+- [所有效果](../effects/)
+- [所有条件](../conditions/)

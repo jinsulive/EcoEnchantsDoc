@@ -1,0 +1,46 @@
+---
+title: deactivate_pet
+titleEn: deactivate_pet
+category: effects
+subcategory: utility
+tags:
+  - libreforge
+outline: deep
+---
+
+# deactivate_pet <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
+
+> Deactivates the Pet
+
+> **需要依赖：** EcoPets
+
+## 基本信息
+
+| 属性 | 值 |
+|------|-----|
+| 类型 ID | `deactivate_pet` |
+| 所属模块 | libreforge |
+| 分类 | 工具（Utility） |
+| 效果类型 | 触发型 |
+
+## 参数说明
+
+| 参数名 | 说明 |
+|--------|------|
+| `pet` | The pet to give the xp for |
+
+## 配置示例
+
+```yaml
+- id: deactivate_pet
+  args:
+    pet: ghost_wolf # The pet to give the xp for
+  ...other config (eg triggers, filters, mutators, etc)
+```
+
+## 关联页面
+
+- [所有效果](./)
+- [指南：Effect 基础](../guide/effect-basics)
+- [所有触发器](../triggers/)
+- [所有条件](../conditions/)

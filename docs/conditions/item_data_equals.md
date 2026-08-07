@@ -1,0 +1,48 @@
+---
+title: item_data_equals
+titleZh: item_data_equals
+category: conditions
+subcategory: items
+tags:
+  - libreforge
+outline: deep
+---
+
+# item_data_equals <Badge type="info" text="libreforge" />
+
+> Requires an item to have a certain data value
+
+## Overview
+
+| Property | Value |
+|----------|-------|
+| Type ID | `item_data_equals` |
+| Module | libreforge |
+| Category | Items & Equipment |
+
+::: tip Inverse Argument
+Every condition supports the optional `inverse` argument, which negates the condition.
+:::
+
+## Parameters
+
+| Parameter | Description |
+|-----------|-------------|
+| `key` | The data key |
+| `value` | The data value |
+
+## Configuration Example
+
+```yaml
+- id: item_data_equals
+  args:
+    key: owner # The data key
+    value: "%player_uuid%" # The data value
+```
+
+## Related Pages
+
+- [All Conditions](./)
+- [Guide: Configuring a Condition](../guide/effect-basics)
+- [All Effects](../effects/)
+- [All Triggers](../triggers/)

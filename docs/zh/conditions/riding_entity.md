@@ -1,0 +1,48 @@
+---
+title: riding_entity
+titleEn: riding_entity
+category: conditions
+subcategory: position
+tags:
+  - libreforge
+outline: deep
+---
+
+# riding_entity <Badge type="info" text="libreforge" />
+
+> Requires a player to be riding a certain entity
+
+## 基本信息
+
+| 属性 | 值 |
+|------|-----|
+| 类型 ID | `riding_entity` |
+| 所属模块 | libreforge |
+| 分类 | 位置与移动（Position & Movement） |
+
+::: tip 反向参数
+每个条件都支持可选的 `inverse` 参数，用于取反条件。
+:::
+
+## 参数说明
+
+| 参数名 | 说明 |
+|--------|------|
+| `entities` | A list of entities |
+
+## 配置示例
+
+```yaml
+- id: riding_entity
+  args:
+    entities: # A list of entities
+      - pig
+      - zombie
+```
+
+## 关联页面
+
+- [所有条件](./)
+- [指南：配置条件](../guide/effect-basics)
+- [所有效果](../effects/)
+- [所有触发器](../triggers/)
