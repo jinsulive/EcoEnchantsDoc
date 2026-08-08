@@ -9,6 +9,9 @@ export default defineConfig({
   lang: "en-US",
   cleanUrls: true,
   lastUpdated: true,
+  // GitHub Pages 项目页部署：base 为 /eco-enchants-guide/
+  // 本地开发/预览无前缀（默认 '/'）；生产构建时设置 VITEPRESS_BASE_URL=/eco-enchants-guide/（见 package.json docs:build:gh）
+  base: process.env.VITEPRESS_BASE_URL || "/",
 
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
 

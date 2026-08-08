@@ -6,15 +6,15 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:build:gh": "vitepress build docs --base=/eco-enchants-guide/",
+    "docs:preview": "vitepress preview docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
+    "@types/node": "^20.14.0",
     "vitepress": "^1.6.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "source-map-js": "^1.2.1"
-  }
+  "license": "ISC"
 }
