@@ -4,10 +4,9 @@
   "description": "libreforge & EcoEnchants bilingual documentation",
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:build:gh": "vitepress build docs --base=/eco-enchants-guide/",
-    "docs:preview": "vitepress preview docs",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
@@ -15,6 +14,6 @@
     "vitepress": "^1.6.0"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "jinsulive",
+  "license": "MIT"
 }

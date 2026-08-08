@@ -9,11 +9,20 @@ export default defineConfig({
   lang: "en-US",
   cleanUrls: true,
   lastUpdated: true,
+  // 文档源目录：.vitepress 已移至项目根，文档源位于 docs/
+  srcDir: "docs",
   // GitHub Pages 项目页部署：base 为 /eco-enchants-guide/
-  // 本地开发/预览无前缀（默认 '/'）；生产构建时设置 VITEPRESS_BASE_URL=/eco-enchants-guide/（见 package.json docs:build:gh）
-  base: process.env.VITEPRESS_BASE_URL || "/",
+  base: process.env.NODE_ENV === "production" ? "/eco-enchants-guide/" : "/",
 
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: `/logo.svg`,
+      },
+    ],
+  ],
 
   locales: {
     root: {
