@@ -7,7 +7,7 @@ outline: deep
 
 # 📖 总览
 
-> 本文档涵盖 **libreforge** 效果框架及其与 **EcoEnchants**（eco 生态驱动的附魔插件）的集成。这是一份可直接部署为 VitePress 站点的英中双语参考文档。
+> 本文档涵盖 **libreforge** 效果框架及其与 **EcoEnchants**（eco 生态驱动的附魔插件）的集成。
 
 ## 什么是 libreforge？
 
@@ -21,14 +21,14 @@ outline: deep
 
 ## 文档结构
 
-| 章节 | 说明 |
-|------|------|
-| [指南](./effect-basics) | Effect 系统基础、YAML 结构、通用参数 |
-| [Effects 效果](../effects/) | 所有可用效果的完整参数参考 |
-| [Triggers 触发器](../triggers/) | 激活触发型效果的全部触发器 |
-| [Conditions 条件](../conditions/) | 限制效果激活的全部条件 |
-| [Mutators 变异器](../mutators/) | 转换效果数据的全部变异器 |
-| [示例](../examples/) | 即用配置方案 |
+| 章节                              | 说明                                 |
+| --------------------------------- | ------------------------------------ |
+| [指南](./effect-basics)           | Effect 系统基础、YAML 结构、通用参数 |
+| [Effects 效果](../effects/)       | 所有可用效果的完整参数参考           |
+| [Triggers 触发器](../triggers/)   | 激活触发型效果的全部触发器           |
+| [Conditions 条件](../conditions/) | 限制效果激活的全部条件               |
+| [Mutators 变异器](../mutators/)   | 转换效果数据的全部变异器             |
+| [示例](../examples/)              | 即用配置方案                         |
 
 ## 生态架构总览
 

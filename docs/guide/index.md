@@ -7,7 +7,7 @@ outline: deep
 
 # 📖 Overview
 
-> This documentation covers the **libreforge** effect framework and its integration with **EcoEnchants**, the enchantment plugin powered by the eco ecosystem. It is a bilingual (English / 简体中文) reference directly deployable as a VitePress site.
+> This documentation covers the **libreforge** effect framework and its integration with **EcoEnchants**, the enchantment plugin powered by the eco ecosystem.
 
 ## What is libreforge?
 
@@ -21,14 +21,14 @@ The system contains **over 200 effects, over 100 triggers, and over 100 conditio
 
 ## Documentation Structure
 
-| Section | Description |
-|---------|-------------|
-| [Guide](./effect-basics) | Effect system basics, YAML structure, common arguments |
-| [Effects](../effects/) | All available effects with full parameter references |
-| [Triggers](../triggers/) | All triggers that activate triggered effects |
-| [Conditions](../conditions/) | All conditions that gate effect activation |
-| [Mutators](../mutators/) | All mutators that transform effect data |
-| [Examples](../examples/) | Ready-to-use configuration recipes |
+| Section                      | Description                                            |
+| ---------------------------- | ------------------------------------------------------ |
+| [Guide](./effect-basics)     | Effect system basics, YAML structure, common arguments |
+| [Effects](../effects/)       | All available effects with full parameter references   |
+| [Triggers](../triggers/)     | All triggers that activate triggered effects           |
+| [Conditions](../conditions/) | All conditions that gate effect activation             |
+| [Mutators](../mutators/)     | All mutators that transform effect data                |
+| [Examples](../examples/)     | Ready-to-use configuration recipes                     |
 
 ## Ecosystem Overview
 
