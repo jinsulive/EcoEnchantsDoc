@@ -10,7 +10,7 @@ outline: deep
 
 # start_quest <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Starts a quest for the player
+> 为玩家开始一个任务。
 
 > **需要依赖：** EcoQuests
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `quest` | The quest ID |
+| `quest` | 任务 ID。 |
 
 ## 配置示例
 

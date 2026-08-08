@@ -11,7 +11,7 @@ outline: deep
 
 # complete_battlepass_task <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoBattlepass" />
 
-> Triggered when completing a battlepass task
+> 当完成战斗通行证任务时触发。
 
 ## 基本信息
 

@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `fuse` | Expression(数学表达式) | ✅ | — | — | The delay in ticks before the explosion \| Source: How many ticks before the explosion occurs. Supports expressions. Example: `20 * %level%` |
-| `power` | Expression(数学表达式) | ✅ | — | — | The explosion power \| Source: The power of the explosion. Vanilla TNT is 4. Supports expressions. |
-| `break_blocks` | Boolean | — | `false` | — | (Optional) Whether the explosion breaks blocks, defaults to false \| Source: Whether the explosion breaks blocks. |
-| `glow` | Boolean | — | `true` | — | (Optional) Whether the entity glows while the fuse is active, defaults to true \| Source: Whether the victim glows while waiting for the explosion. |
+| `fuse` | Expression(数学表达式) | ✅ | — | — | How many ticks before the explosion occurs. Supports expressions. Example: `20 * %level%` |
+| `power` | Expression(数学表达式) | ✅ | — | — | The power of the explosion. Vanilla TNT is 4. Supports expressions. |
+| `break_blocks` | Boolean | — | `false` | — | Whether the explosion breaks blocks. |
+| `glow` | Boolean | — | `true` | — | Whether the victim glows while waiting for the explosion. |
 
 ## 📝 Source Notes
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `key` | String | ✅ | — | — | The key to remove \| Source: The key of the custom item data entry to remove. Example: `custom_id` |
+| `key` | String | ✅ | — | — | The key of the custom item data entry to remove. Example: `custom_id` |
 
 ## 📝 Source Notes
 

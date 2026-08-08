@@ -10,7 +10,7 @@ outline: deep
 
 # global_points_equal <Badge type="info" text="libreforge" />
 
-> Requires the server to have a exactly a certain amount of points (check the points wiki page if you don't know what these are)
+> 需要服务器的点数恰好等于一定数量（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The global points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points \| Source: The exact global points value required. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 点数类型（全局点数类型标识）。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 点数数量（要求的精确全局点数）。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionGlobalPointsEqual.kt`）。
 
-- **源码描述**: Passes when the global points of the given type exactly equal the specified amount.
+- **源码描述**: 当指定类型的全局点数恰好等于指定数量时通过。
 - **所属分类**: `economy`
 
 ## 配置示例

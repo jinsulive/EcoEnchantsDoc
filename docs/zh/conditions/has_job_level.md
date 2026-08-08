@@ -10,7 +10,7 @@ outline: deep
 
 # has_job_level <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain job level
+> 需要玩家拥有一定的职业等级。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `job` | The job ID |
-| `level` | The minimum level |
+| `job` | 职业 ID。 |
+| `level` | 最小等级。 |
 
 ## 配置示例
 

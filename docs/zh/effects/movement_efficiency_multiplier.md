@@ -10,7 +10,7 @@ outline: deep
 
 # movement_efficiency_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies movement speed through difficult terrain
+> 倍率化穿越困难地形时的移动速度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for movement efficiency \| Source: The movement efficiency multiplier to apply (e.g. 2 = double efficiency). Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 移动效率倍率（例如 2 = 两倍效率）。支持表达式。示例：`1 + %level% * 0.05` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMovementEfficiencyMultiplier.kt`）。
 
-- **源码描述**: Multiplies the player's movement efficiency, reducing the speed penalty from blocks like soul sand.
+- **源码描述**: 倍率化玩家的移动效率，降低灵魂沙等方块的减速惩罚。
 - **所属分类**: `movement`, `player`, `attribute`
 
 ## 配置示例

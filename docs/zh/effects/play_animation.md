@@ -10,7 +10,7 @@ outline: deep
 
 # play_animation <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Plays a Model Engine animation (The entity must have a custom model active)
+> 播放 Model Engine 动画（实体必须启用自定义模型）。
 
 > **需要依赖：** Model Engine
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `animation` | The name of the animation |
+| `animation` | 动画名称。 |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # change_chunk <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing chunk
+> 当进入不同区块时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerChangeChunk.kt`）。
 
-- **源码描述**: Fires when the player or a living entity moves into a different chunk.
+- **源码描述**: 当玩家或生物实体进入不同的区块时触发。
 - **所属分类**: `world`, `movement`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `VELOCITY`, `ITEM`
 

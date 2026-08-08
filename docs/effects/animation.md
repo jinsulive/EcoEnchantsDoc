@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `animation` | String | ✅ | — | `spin_item` | The ID of the animation \| Source: The animation to play. |
+| `animation` | String | ✅ | — | `spin_item` | The animation to play. |
 | `animation_args` | Custom | — | — | — | Arguments for the animation |
 
 ## 📝 Source Notes

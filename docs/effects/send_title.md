@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `title` | String | ✅ | — | — | The title \| Source: The main title text to display. Supports placeholders. Example: `Level Up!` |
-| `subtitle` | String | ✅ | — | — | The subtitle \| Source: The subtitle text to display below the title. Supports placeholders. Example: `You reached level %player_level%!` |
+| `title` | String | ✅ | — | — | The main title text to display. Supports placeholders. Example: `Level Up!` |
+| `subtitle` | String | ✅ | — | — | The subtitle text to display below the title. Supports placeholders. Example: `You reached level %player_level%!` |
 
 ## 📝 Source Notes
 

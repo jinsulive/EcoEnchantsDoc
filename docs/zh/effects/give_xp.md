@@ -10,7 +10,7 @@ outline: deep
 
 # give_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives experience points
+> 给予经验值。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of xp to give \| Source: The amount of experience points to give the player. Supports expressions. Example: `%level% * 10` |
-| `apply_mending` | Boolean | — | `true` | — | PAPER ONLY - If mending should be applied from the xp \| Source: Whether to apply Mending repair before adding XP to the bar (Paper only). Defaults to true. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予的经验值数量。支持表达式。示例：`%level% * 10` |
+| `apply_mending` | Boolean | — | `true` | — | 仅 Paper - 是否先用经验值进行经验修补修复（仅 Paper）。默认为 true。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveXp.kt`）。
 
-- **源码描述**: Gives the player experience points when triggered, with optional Mending repair support.
+- **源码描述**: 触发时给予玩家经验值，可选支持经验修补修复。
 - **所属分类**: `economy`
 - **需要触发器数据**: `PLAYER`
 

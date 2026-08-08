@@ -10,7 +10,7 @@ outline: deep
 
 # brew_time_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies the time taken to brew potions
+> 倍率化酿造药水所需的时间。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The multiplier |
+| `multiplier` | Custom | — | — | — | 倍率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBrewTimeMultiplier.kt`）。
 
-- **源码描述**: Multiplies the time taken to brew potions while the holder is active.
+- **源码描述**: 持有器激活期间，倍率化酿造药水所需的时间。
 - **所属分类**: `player`
 
 ## 配置示例

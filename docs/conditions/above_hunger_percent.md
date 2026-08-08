@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `percent` | Expression(数学表达式) | ✅ | — | — | The minimum percent \| Source: The minimum hunger percentage (0–100). Example: `50 + %level%` |
+| `percent` | Expression(数学表达式) | ✅ | — | — | The minimum hunger percentage (0–100). Example: `50 + %level%` |
 
 ## 📝 Source Notes
 

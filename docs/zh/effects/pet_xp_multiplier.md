@@ -10,7 +10,7 @@ outline: deep
 
 # pet_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies pet xp gain
+> 倍率化宠物经验值获取。
 
 > **需要依赖：** EcoPets
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The experience multiplier |
-| `pets` | The list of pets to multiply xp for. If removed, it will multiply all pets. |
+| `multiplier` | 经验值倍率。 |
+| `pets` | 要倍率化经验值的宠物列表。移除后将对所有宠物生效。 |
 
 ## 配置示例
 

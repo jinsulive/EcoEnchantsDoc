@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `messages` | String List | — | — | — | The messages to send if a player tries to run the commands \| Source: Messages to send to the player when a blocked command is attempted. Example: `&cYou can't use that command right now!, &7Complete your quest first.` |
-| `commands` | String List | ✅ | — | — | The list of commands to block \| Source: The list of command names to block (without the leading slash). |
+| `messages` | String List | — | — | — | Messages to send to the player when a blocked command is attempted. Example: `&cYou can't use that command right now!, &7Complete your quest first.` |
+| `commands` | String List | ✅ | — | — | The list of command names to block (without the leading slash). |
 
 ## 📝 Source Notes
 

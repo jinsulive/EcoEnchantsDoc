@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `slot` | String | ✅ | — | — | The slot to drop, can be any numeric slot, hand, or 'any' \| Source: The inventory slot to drop items from, e.g. mainhand or slot_0. Example: `mainhand` |
-| `amount` | Expression(数学表达式) | — | — | — | The amount of items to drop, defaults to full stack \| Source: How many items to drop. If omitted, drops the entire stack. |
+| `slot` | String | ✅ | — | — | The inventory slot to drop items from, e.g. mainhand or slot_0. Example: `mainhand` |
+| `amount` | Expression(数学表达式) | — | — | — | How many items to drop. If omitted, drops the entire stack. |
 
 ## 📝 Source Notes
 

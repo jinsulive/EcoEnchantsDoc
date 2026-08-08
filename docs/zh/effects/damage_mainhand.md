@@ -10,7 +10,7 @@ outline: deep
 
 # damage_mainhand <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Damage a victim's mainhand item
+> 损耗受害者主手物品的耐久。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Custom | — | — | — | The amount of damage to deal |
+| `damage` | Custom | — | — | — | 要造成的伤害/耐久损耗值。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageMainhand.kt`）。
 
-- **源码描述**: Applies durability damage to the item in the victim's main hand.
+- **源码描述**: 对受害者主手物品造成耐久损耗。
 - **所属分类**: `combat`, `inventory`
 - **需要触发器数据**: `VICTIM`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # remove_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Removes an item from the player's inventory
+> 从玩家背包中移除物品。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item | ✅ | — | — | The item to remove \| Source: The item to remove from the player's inventory, including its stack size. |
+| `item` | Item | ✅ | — | — | 要从玩家背包移除的物品（包含数量）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveItem.kt`）。
 
-- **源码描述**: Removes a specified item (and its stack amount) from the player's inventory.
+- **源码描述**: 从玩家背包移除指定物品（及其堆叠数量）。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`
 

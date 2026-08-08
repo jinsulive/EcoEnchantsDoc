@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of luck to add \| Source: The amount of luck to add. Supports expressions. Example: `%level% * 0.5` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要添加的幸运值。支持表达式。示例：`%level% * 0.5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddLuck.kt`）。
 
-- **源码描述**: Permanently increases the player's luck attribute while the holder is active.
+- **源码描述**: 持有器激活期间，永久增加玩家的幸运属性。
 - **所属分类**: `player`, `attribute`
 
 ## 配置示例

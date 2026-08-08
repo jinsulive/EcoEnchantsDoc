@@ -11,7 +11,7 @@ outline: deep
 
 # join_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
 
-> Triggered when joining a Town
+> 当加入城镇时触发。
 
 ## 基本信息
 

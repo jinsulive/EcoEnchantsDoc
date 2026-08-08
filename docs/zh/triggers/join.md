@@ -10,7 +10,7 @@ outline: deep
 
 # join <Badge type="info" text="libreforge" /> 
 
-> Triggered when joining the server
+> 当加入服务器时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerJoin.kt`）。
 
-- **源码描述**: Fires when the player joins the server.
+- **源码描述**: 当玩家加入服务器时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `LOCATION`
 

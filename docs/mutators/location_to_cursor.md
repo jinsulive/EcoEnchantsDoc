@@ -24,8 +24,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `target` | String | ✅ | — | `block`, `entity` | The target location (either block or entity) \| Source: The entity or block to target with the raytrace. |
-| `start` | String | ✅ | — | `player`, `victim` | Where to raytrace from (either player or victim) \| Source: The entity to raytrace from. |
+| `target` | String | ✅ | — | `block`, `entity` | The entity or block to target with the raytrace. |
+| `start` | String | ✅ | — | `player`, `victim` | The entity to raytrace from (either player or victim). |
 
 ## 📝 Source Notes
 

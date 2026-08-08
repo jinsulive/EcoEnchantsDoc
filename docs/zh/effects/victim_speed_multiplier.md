@@ -10,7 +10,7 @@ outline: deep
 
 # victim_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Temporarily multiplies victim movement speed
+> 临时倍率化受害者的移动速度。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for movement speed \| Source: The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 移动速度倍率。支持表达式。示例：`1 - %level% * 0.02` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVictimSpeedMultiplier.kt`）。
 
-- **源码描述**: Temporarily multiplies the victim's movement speed for a given duration.
+- **源码描述**: 在指定时长内，临时倍率化受害者的移动速度。
 - **所属分类**: `movement`, `combat`, `attribute`
 - **需要触发器数据**: `VICTIM`
 

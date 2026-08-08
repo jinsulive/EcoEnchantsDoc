@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `power` | Integer | — | `0` | — | The power of the firework, which affects how high it flies before exploding. (0-255, 0 is instant explosion) \| Source: The flight duration of the firework (0–255). Defaults to 0. |
-| `effects` | Dynamic Config | — | — | — | You can specify multiple firework effects \| Source: A list of firework effect subsections, each with type, colors, fade-colors, trail, and flicker. |
+| `power` | Integer | — | `0` | — | The flight duration of the firework (0–255). Defaults to 0. |
+| `effects` | Dynamic Config | — | — | — | A list of firework effect subsections, each with type, colors, fade-colors, trail, and flicker. |
 
 ## 📝 Source Notes
 

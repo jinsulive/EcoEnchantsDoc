@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for movement speed \| Source: The movement speed multiplier to apply (e.g. 1.5 = 50% faster). Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The movement speed multiplier to apply (e.g. 1.5 = 50% faster). Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # is_op <Badge type="info" text="libreforge" />
 
-> Requires a player to be an operator
+> 需要玩家是管理员（OP）。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsOp.kt`）。
 
-- **源码描述**: Passes when the player has operator status on the server.
+- **源码描述**: 当玩家拥有服务器 OP 权限时通过。
 - **所属分类**: `permission`
 
 ## 配置示例

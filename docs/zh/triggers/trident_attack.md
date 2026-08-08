@@ -11,7 +11,7 @@ outline: deep
 
 # trident_attack <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered on injuring an entity with a thrown trident
+> 当投掷的三叉戟伤害实体时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `trident_attack` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The damage dealt |
+| 值 | 造成的伤害 |
 | 需要 | Paper |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The damage dealt |
+| `%trigger_value%` | 造成的伤害 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

@@ -10,7 +10,7 @@ outline: deep
 
 # activate_pet <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Activates the Pet
+> 激活宠物。
 
 > **需要依赖：** EcoPets
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `pet` | The pet to give the xp for |
+| `pet` | 要给予经验值的宠物。 |
 
 ## 配置示例
 

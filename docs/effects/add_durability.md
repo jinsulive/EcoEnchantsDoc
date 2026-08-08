@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `durability` | Expression(数学表达式) | ✅ | — | — | The durability to add (or subtract) \| Source: The amount of maximum durability to add. Supports expressions. Example: `50 + %level% * 10` |
+| `durability` | Expression(数学表达式) | ✅ | — | — | The amount of maximum durability to add (or subtract). Supports expressions. Example: `50 + %level% * 10` |
 
 ## 📝 Source Notes
 

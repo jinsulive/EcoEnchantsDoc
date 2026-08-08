@@ -10,7 +10,7 @@ outline: deep
 
 # has_premium_battlepass <Badge type="info" text="libreforge" />
 
-> Requires a player to have the premium battlepass
+> 需要玩家拥有高级战斗通行证。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `battlepass` | The battlepass ID |
+| `battlepass` | 战斗通行证 ID。 |
 
 ## 配置示例
 

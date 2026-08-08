@@ -27,8 +27,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `text` | String List | ✅ | — | — | The text in the hologram \| Source: The lines of text to show on the hologram. Supports placeholders. Example: `&6%player%, &7Level %level%` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How long to show the hologram, in ticks. Supports expressions. Example: `20 * %level%` |
+| `text` | String List | ✅ | — | — | The lines of text to show on the hologram. Supports placeholders. Example: `&6%player%, &7Level %level%` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How long to show the hologram, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

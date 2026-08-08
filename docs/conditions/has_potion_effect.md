@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effect` | Potion Effect List | ✅ | — | — | The potion effect \| Source: The potion effect(s) to check for. Example: `speed, strength` |
-| `effects` | Potion Effect List | ✅ | — | — | You can also specify a list of potion effects \| Source: The potion effect(s) to check for. Example: `speed, strength` |
+| `effect` | Potion Effect List | ✅ | — | — | The potion effect(s) to check for. Example: `speed, strength` |
+| `effects` | Potion Effect List | ✅ | — | — | The potion effect(s) to check for. Example: `speed, strength` |
 | `level` | Integer | — | `1` | — | The minimum amplifier level required (1-based). |
 
 ## 📝 Source Notes

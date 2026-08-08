@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_stat <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies a stat by a specific value
+> 将特定属性乘以指定值。
 
 > **需要依赖：** EcoSkills
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `stat` | The name of the stat |
-| `multiplier` | The amount to multiply the stat by |
+| `stat` | 属性名称。 |
+| `multiplier` | 属性要乘以的数值。 |
 
 ## 配置示例
 

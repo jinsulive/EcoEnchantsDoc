@@ -11,7 +11,7 @@ outline: deep
 
 # advance_armor <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoArmor" />
 
-> Triggered when a player advances an armor set
+> 当玩家进阶一套盔甲时触发。
 
 ## 基本信息
 

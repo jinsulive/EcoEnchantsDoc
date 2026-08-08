@@ -11,7 +11,7 @@ outline: deep
 
 # start_quest <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoQuests" />
 
-> Triggered when starting a quest
+> 当开始任务时触发。
 
 ## 基本信息
 

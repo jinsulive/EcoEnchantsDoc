@@ -24,9 +24,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `add_x` | Expression(数学表达式) | ✅ | — | — | The amount to add to x \| Source: The amount to add to the X coordinate. Example: `0.5` |
-| `add_y` | Expression(数学表达式) | ✅ | — | — | The amount to add to y \| Source: The amount to add to the Y coordinate. Example: `1.0` |
-| `add-z` | Expression(数学表达式) | ✅ | — | — | The amount to add to z \| Source: The amount to add to the Z coordinate. Example: `-0.5` |
+| `add_x` | Expression(数学表达式) | ✅ | — | — | The amount to add to the X coordinate. Example: `0.5` |
+| `add_y` | Expression(数学表达式) | ✅ | — | — | The amount to add to the Y coordinate. Example: `1.0` |
+| `add-z` | Expression(数学表达式) | ✅ | — | — | The amount to add to the Z coordinate. Example: `-0.5` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # give_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives the player EdPrison economy.
+> 给予玩家 EdPrison 经济。
 
 > **需要依赖：** EdPrison
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of economy to give |
-| `type` | The ID of the economy type |
+| `amount` | 要给予的经济数量。 |
+| `type` | 经济类型 ID。 |
 
 ## 配置示例
 

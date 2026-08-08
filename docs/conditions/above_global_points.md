@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The global points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The minimum amount of points \| Source: The minimum number of global points required. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The global points type identifier. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The minimum number of global points required. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

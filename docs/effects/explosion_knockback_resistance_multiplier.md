@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for explosion knockback resistance \| Source: The value to add to the explosion knockback resistance attribute. Supports expressions. Example: `%level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The value to add to the explosion knockback resistance attribute. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

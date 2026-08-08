@@ -10,7 +10,7 @@ outline: deep
 
 # set_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sets the EdPrison economy for the player
+> 设置玩家的 EdPrison 经济。
 
 > **需要依赖：** EdPrison
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `type` | the ID of the economy type |
-| `amount` | The amount to set |
+| `type` | 经济类型 ID。 |
+| `amount` | 要设置的数值。 |
 
 ## 配置示例
 

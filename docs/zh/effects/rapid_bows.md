@@ -10,7 +10,7 @@ outline: deep
 
 # rapid_bows <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Allows bows to be shot at full speed without pulling back as far
+> 允许弓无需拉满即可全速射击。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent_faster` | Expression(数学表达式) | ✅ | — | — | The percentage less tension to require \| Source: How many percent faster the bow charges. Supports expressions. Example: `10 + %level%` |
+| `percent_faster` | Expression(数学表达式) | ✅ | — | — | 弓弦拉满所需减少的百分比。支持表达式。示例：`10 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRapidBows.kt`）。
 
-- **源码描述**: Allows the player to fire bows faster by a given percentage, as a permanent passive effect.
+- **源码描述**: 作为永久被动效果，允许玩家以指定百分比更快地拉满弓弦。
 - **所属分类**: `combat`
 
 ## 配置示例

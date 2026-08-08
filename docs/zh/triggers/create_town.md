@@ -11,7 +11,7 @@ outline: deep
 
 # create_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
 
-> Triggered when creating a Town
+> 当创建城镇时触发。
 
 ## 基本信息
 

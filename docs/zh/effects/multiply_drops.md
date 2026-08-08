@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `on_items` | Item List | — | `[]` | — | (Optional) The drops to multiply \| Source: A list of items to restrict drop multiplication to. Defaults to all drops. |
-| `fortune` | Expression(数学表达式) | ✅ | — | — | The level of fortune to mimic (Option 1) \| Source: Either a flat drop multiplier or a fortune level to simulate. Supports expressions. Example: `1 + %level% * 0.1` |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The drop multiplier (Option 2) \| Source: Either a flat drop multiplier or a fortune level to simulate. Supports expressions. Example: `1 + %level% * 0.1` |
+| `on_items` | Item List | — | `[]` | — | （可选）要倍率化的掉落物列表。默认作用于所有掉落物。 |
+| `fortune` | Expression(数学表达式) | ✅ | — | — | 模拟的时运等级（选项 1）。 |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 掉落倍率（选项 2）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyDrops.kt`）。
 
-- **源码描述**: Multiplies the item drops from an event, either by a flat multiplier or by simulating a fortune level.
+- **源码描述**: 以固定倍率或模拟时运等级的方式倍率化事件的物品掉落。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `EVENT`
 

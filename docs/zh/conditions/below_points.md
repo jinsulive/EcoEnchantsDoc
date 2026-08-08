@@ -10,7 +10,7 @@ outline: deep
 
 # below_points <Badge type="info" text="libreforge" />
 
-> Requires a player to have a below amount of points (check the points wiki page if you don't know what these are)
+> 需要玩家的点数低于一定数量（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The maximum amount of points \| Source: The points threshold; the player must be below this amount. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 点数类型标识。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 最大点数数量（点数阈值，玩家必须低于此值）。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowPoints.kt`）。
 
-- **源码描述**: Passes when the player's points of the given type are below the specified amount.
+- **源码描述**: 当玩家指定类型的点数低于指定数量时通过。
 - **所属分类**: `economy`
 
 ## 配置示例

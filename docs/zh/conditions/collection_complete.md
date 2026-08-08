@@ -10,7 +10,7 @@ outline: deep
 
 # collection_complete <Badge type="info" text="libreforge" />
 
-> Requires a player to have fully completed (maxed) a collection
+> 需要玩家完全完成（满级）某个收藏。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `collection` | The collection ID |
+| `collection` | 收藏 ID。 |
 
 ## 配置示例
 

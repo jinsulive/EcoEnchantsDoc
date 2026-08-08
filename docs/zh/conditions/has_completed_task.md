@@ -10,7 +10,7 @@ outline: deep
 
 # has_completed_task <Badge type="info" text="libreforge" />
 
-> Requires a player to have completed task for a quest
+> 需要玩家已完成某个任务的任务目标。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `quest` | The quest ID |
-| `task` | The task ID |
+| `quest` | 任务 ID。 |
+| `task` | 任务目标 ID。 |
 
 ## 配置示例
 

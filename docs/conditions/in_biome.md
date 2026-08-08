@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `biomes` | String List | ✅ | — | — | A list of biomes \| Source: The list of biome names to check against. |
+| `biomes` | String List | ✅ | — | — | The list of biome names to check against. |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # entity_catch_fire_from_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity catches fire from a block
+> 当实体因方块而起火时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntityCatchFireFromBlock.kt`）。
 
-- **源码描述**: Fires when an entity catches fire from a block such as lava.
+- **源码描述**: 当实体因熔岩等方块着火时触发。
 - **所属分类**: `entity`
 - **需要触发器数据**: `VICTIM`, `LOCATION`
 

@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `entities` | Entity List | ✅ | — | — | A list of entities \| Source: The list of entity types the player must be riding. |
+| `entities` | Entity List | ✅ | — | — | The list of entity types the player must be riding. |
 
 ## 📝 Source Notes
 

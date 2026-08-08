@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `balance` | Expression(数学表达式) | ✅ | — | — | The maximum amount of money \| Source: The balance threshold; the player must be below this amount. Example: `%level% * 500` |
+| `balance` | Expression(数学表达式) | ✅ | — | — | The balance threshold; the player must be below this amount. Example: `%level% * 500` |
 
 ## 📝 Source Notes
 

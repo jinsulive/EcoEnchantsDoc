@@ -10,7 +10,7 @@ outline: deep
 
 # spin_velocity <Badge type="info" text="libreforge" />
 
-> Rotate a velocity around the y axis
+> 将速度绕 Y 轴旋转。
 
 ## 基本信息
 
@@ -24,13 +24,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to spin around, in degrees \| Source: The angle in degrees to rotate the velocity around the Y axis. Example: `%level% * 5` |
+| `angle` | Expression(数学表达式) | ✅ | — | — | 旋转角度（以度为单位，绕 Y 轴旋转速度）。示例：`%level% * 5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorSpinVelocity.kt`）。
 
-- **源码描述**: Rotates the velocity vector around the Y axis by the given angle.
+- **源码描述**: 将速度向量绕 Y 轴旋转指定角度。
 - **所属分类**: `meta`
 
 ## 配置示例

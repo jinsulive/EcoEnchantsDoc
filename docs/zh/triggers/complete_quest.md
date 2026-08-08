@@ -11,7 +11,7 @@ outline: deep
 
 # complete_quest <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoQuests" />
 
-> Triggered when completing a quest
+> 当完成任务时触发。
 
 ## 基本信息
 

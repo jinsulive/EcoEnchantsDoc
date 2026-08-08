@@ -10,7 +10,7 @@ outline: deep
 
 # is_expression_true <Badge type="info" text="libreforge" />
 
-> Requires a certain expression to be true
+> 需要某个表达式为真。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `expression` | Expression(数学表达式) | ✅ | — | — | A mathematical expression or placeholder that must evaluate to 1 for the condition to pass. Example: `%player_level% >= 10` |
+| `expression` | Expression(数学表达式) | ✅ | — | — | 必须计算为 1 才能使条件通过的数学表达式或占位符。示例：`%player_level% >= 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsExpressionTrue.kt`）。
 
-- **源码描述**: Passes when the given mathematical expression evaluates to 1.
+- **源码描述**: 当给定的数学表达式计算结果为 1 时通过。
 - **所属分类**: `meta`
 
 ## 配置示例

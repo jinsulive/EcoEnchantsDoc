@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `jumps` | Expression(数学表达式) | ✅ | — | — | The number of times the lightning jumps \| Source: The number of entities the lightning can chain to. Supports expressions. Example: `3 + %level%` |
-| `range` | Expression(数学表达式) | ✅ | — | — | The range in blocks to look for the next target \| Source: The maximum distance between chain targets. Supports expressions. Example: `5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each entity hit \| Source: The damage dealt to each entity struck. Supports expressions. Example: `%level% * 1.5` |
+| `jumps` | Expression(数学表达式) | ✅ | — | — | The number of entities the lightning can chain to. Supports expressions. Example: `3 + %level%` |
+| `range` | Expression(数学表达式) | ✅ | — | — | The maximum distance between chain targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each entity struck. Supports expressions. Example: `%level% * 1.5` |
 
 ## 📝 Source Notes
 

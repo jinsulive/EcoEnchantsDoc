@@ -10,7 +10,7 @@ outline: deep
 
 # smith_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when smithing an item in a smithing table
+> 当在锻造台锻造物品时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSmithItem.kt`）。
 
-- **源码描述**: Fires when the player smiths an item at a smithing table.
+- **源码描述**: 当玩家在锻造台锻造物品时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`
 

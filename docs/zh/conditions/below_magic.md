@@ -10,7 +10,7 @@ outline: deep
 
 # below_magic <Badge type="info" text="libreforge" />
 
-> Requires a player to have less than a certain amount of magic
+> 需要玩家的魔力低于一定数量。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `type` | The type of magic |
-| `amount` | The minimum amount of magic |
+| `type` | 魔力类型。 |
+| `amount` | 最小魔力数量。 |
 
 ## 配置示例
 

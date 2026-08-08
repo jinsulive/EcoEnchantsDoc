@@ -10,7 +10,7 @@ outline: deep
 
 # shoot_arrow <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Shoots an arrow
+> 射出一支箭。
 
 ## 基本信息
 
@@ -25,16 +25,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `inherit_velocity` | Boolean | — | `false` | — | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) \| Source: Whether the arrow should inherit the player's current velocity. |
-| `no_source` | Boolean | — | `false` | — | If the player should not be marked as the source, leaving this option out defaults to false \| Source: Whether the arrow should have no shooter, preventing attribution to the player. |
-| `launch-at-location` | Boolean | — | `false` | — | If the arrow should be launched at the location of the trigger rather than the player \| Source: Whether the arrow should be teleported to the trigger location after launch. |
-| `allow_pickup` | Boolean | — | `false` | — | If the arrow should be able to be picked up by players \| Source: Whether the arrow can be picked up by players. |
+| `inherit_velocity` | Boolean | — | `false` | — | 箭是否继承触发时的速度（例如制作三连射效果）。 |
+| `no_source` | Boolean | — | `false` | — | 是否不将玩家标记为来源（省略时默认为 false）。 |
+| `launch-at-location` | Boolean | — | `false` | — | 箭是否在触发位置而非玩家位置发射。 |
+| `allow_pickup` | Boolean | — | `false` | — | 箭是否可被玩家拾取。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShootArrow.kt`）。
 
-- **源码描述**: Shoots an arrow from the player, optionally inheriting bow fire and velocity.
+- **源码描述**: 从玩家处射出箭矢，可选继承弓的点燃与速度。
 - **所属分类**: `combat`
 - **需要触发器数据**: `PLAYER`
 - **继承子配置**: 是（此效果继承子配置，详见对应子配置页）

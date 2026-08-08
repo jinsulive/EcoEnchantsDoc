@@ -10,7 +10,7 @@ outline: deep
 
 # create_hologram <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Creates a hologram temporarily (Requires a hologram plugin to be installed)
+> 临时创建全息文字（需要安装全息文字插件）。
 
 > **需要依赖：** 无（需安装 hologram 插件）
 
@@ -27,14 +27,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `text` | String List | ✅ | — | — | The text in the hologram \| Source: The lines of text to show on the hologram. Supports placeholders. Example: `&6%player%, &7Level %level%` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How long to show the hologram, in ticks. Supports expressions. Example: `20 * %level%` |
+| `text` | String List | ✅ | — | — | 全息文字中显示的文本行。支持占位符。示例：`&6%player%, &7Level %level%` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 全息文字的显示时长（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCreateHologram.kt`）。
 
-- **源码描述**: Creates a temporary hologram at the trigger location.
+- **源码描述**: 在触发位置创建临时全息文字。
 - **所属分类**: `visual`
 - **需要触发器数据**: `LOCATION`
 

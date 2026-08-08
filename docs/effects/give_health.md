@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of health to give/take (allows negative values) \| Source: The amount of health points to restore. Supports expressions. Example: `%level% * 2` |
-| `trigger_heal` | Boolean | — | `false` | — | Whether to trigger the heal event ("heal" trigger) \| Source: If true, fires an EntityRegainHealthEvent and respects cancellation (e.g. for Mending). Defaults to false. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of health points to restore (allows negative values). Supports expressions. Example: `%level% * 2` |
+| `trigger_heal` | Boolean | — | `false` | — | If true, fires an EntityRegainHealthEvent ("heal" trigger) and respects cancellation (e.g. for Mending). Defaults to false. |
 
 ## 📝 Source Notes
 

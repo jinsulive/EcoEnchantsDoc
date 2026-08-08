@@ -10,7 +10,7 @@ outline: deep
 
 # standing_on_block <Badge type="info" text="libreforge" />
 
-> Requires a player to be standing on a block
+> 需要玩家站在某个方块上。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block type \| Source: The block type (material name) the player must be standing on. |
+| `block` | Block | ✅ | — | — | 方块类型（玩家必须站立于其上的材料名）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionStandingOnBlock.kt`）。
 
-- **源码描述**: Passes when the player is standing on or inside the specified block type.
+- **源码描述**: 当玩家站在或位于指定方块类型内时通过。
 - **所属分类**: `world`
 
 ## 配置示例

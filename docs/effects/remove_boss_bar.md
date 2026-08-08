@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `id` | String | ✅ | — | — | The ID of the boss bar to remove \| Source: The unique ID of the boss bar to remove. Supports placeholders. Example: `boss_%player_name%` |
+| `id` | String | ✅ | — | — | The unique ID of the boss bar to remove. Supports placeholders. Example: `boss_%player_name%` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # item_level_equals <Badge type="info" text="libreforge" />
 
-> Requires an item to be on a certain level
+> 需要物品处于某个等级。
 
 ## 基本信息
 
@@ -28,15 +28,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | Custom | — | — | — | The level ID |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level \| Source: The exact level the item must have. Example: `5 + %level%` |
-| `name` | String | ✅ | — | — | The name of the level type to check on the held item. |
+| `id` | Custom | — | — | — | 等级类型 ID。 |
+| `level` | Expression(数学表达式) | ✅ | — | — | 等级（物品必须精确达到的等级）。示例：`5 + %level%` |
+| `name` | String | ✅ | — | — | 要检查的等级类型名称。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemLevelEquals.kt`）。
 
-- **源码描述**: Passes when the held item's level for a given level type equals the specified value.
+- **源码描述**: 当手持物品指定等级类型的等级等于指定值时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

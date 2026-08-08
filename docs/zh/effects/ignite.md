@@ -10,7 +10,7 @@ outline: deep
 
 # ignite <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Lights the victim on fire
+> 点燃受害者。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal per fire tick \| Source: The amount of damage dealt per fire tick. Supports expressions. Example: `%level%` |
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The amount of time the victim should be on fire for \| Source: The number of fire ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | 每游戏刻燃烧造成的伤害。支持表达式。示例：`%level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | 受害者着火的时长（以燃烧游戏刻为单位）。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectIgnite.kt`）。
 
-- **源码描述**: Sets the victim on fire for a specified number of ticks with custom damage per tick.
+- **源码描述**: 使受害者着火指定数量的游戏刻，并可自定义每游戏刻的伤害。
 - **所属分类**: `combat`
 - **需要触发器数据**: `VICTIM`, `PLAYER`
 

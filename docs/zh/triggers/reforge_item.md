@@ -11,7 +11,7 @@ outline: deep
 
 # reforge_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Reforges" />
 
-> Triggered when reforging an item
+> 当重铸物品时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `reforge_item` |
 | 所属模块 | libreforge |
 | 分类 | Eco 插件（EcoPlugin） |
-| 值 | The reforge cost |
+| 值 | 重铸花费 |
 | 需要 | Reforges |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The reforge cost |
+| `%trigger_value%` | 重铸花费 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

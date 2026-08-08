@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The durability to repair \| Source: The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
 
 ## 📝 Source Notes
 

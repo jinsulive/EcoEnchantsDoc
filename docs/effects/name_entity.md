@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `name` | String | ✅ | — | — | The name to set \| Source: The custom name to display above the entity. Supports placeholders. Example: `%player_name%'s Wolf` |
+| `name` | String | ✅ | — | — | The custom name to display above the entity. Supports placeholders. Example: `%player_name%'s Wolf` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_cursor <Badge type="info" text="libreforge" />
 
-> Move the location to where you or the victim are looking
+> 将位置移动到玩家或受害者注视的位置。
 
 ## 基本信息
 
@@ -24,14 +24,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `target` | String | ✅ | — | `block`, `entity` | The target location (either block or entity) \| Source: The entity or block to target with the raytrace. |
-| `start` | String | ✅ | — | `player`, `victim` | Where to raytrace from (either player or victim) \| Source: The entity to raytrace from. |
+| `target` | String | ✅ | — | `block`, `entity` | 目标位置（方块或实体）。 |
+| `start` | String | ✅ | — | `player`, `victim` | 射线检测的起点（玩家或受害者）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToCursor.kt`）。
 
-- **源码描述**: Sets the location to the position of the entity or block at the player's or victim's cursor.
+- **源码描述**: 将位置设置为玩家或受害者准星所指的实体或方块的位置。
 - **所属分类**: `location`
 
 ## 配置示例

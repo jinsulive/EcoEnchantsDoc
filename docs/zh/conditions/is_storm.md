@@ -10,7 +10,7 @@ outline: deep
 
 # is_storm <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a storm
+> 需要玩家处于暴风雨中。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsStorm.kt`）。
 
-- **源码描述**: Passes when the world is experiencing a storm.
+- **源码描述**: 当世界正在下雨/雷暴时通过。
 - **所属分类**: `world`
 
 ## 配置示例

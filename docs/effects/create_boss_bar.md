@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `id` | String | ✅ | — | — | The ID of the boss bar \| Source: A unique identifier used to reference this boss bar with update_boss_bar or remove_boss_bar. |
-| `name` | String | ✅ | — | — | The name of the boss bar \| Source: The display text shown on the boss bar. Supports placeholders. Example: `&6%player%'s Charge` |
-| `color` | String | ✅ | — | `BLUE`, `GREEN`, `PINK`, `PURPLE`, `RED`, `WHITE`, `YELLOW` | The boss bar color (pink, blue, red, green, yellow, purple, white) \| Source: The boss bar color. |
-| `style` | String | ✅ | — | `PROGRESS`, `NOTCHED_6`, `NOTCHED_10`, `NOTCHED_12`, `NOTCHED_20` | The boss bar style (progress, notched_6, notched_10, notched_12, notched_20) \| Source: The boss bar overlay style. |
-| `progress` | Expression(数学表达式) | ✅ | — | — | The percentage completion of the boss bar \| Source: The fill percentage of the boss bar, from 0 to 100. Supports expressions. Example: `50 + %level%` |
+| `id` | String | ✅ | — | — | A unique identifier used to reference this boss bar with update_boss_bar or remove_boss_bar. |
+| `name` | String | ✅ | — | — | The display text shown on the boss bar. Supports placeholders. Example: `&6%player%'s Charge` |
+| `color` | String | ✅ | — | `BLUE`, `GREEN`, `PINK`, `PURPLE`, `RED`, `WHITE`, `YELLOW` | The boss bar color (pink, blue, red, green, yellow, purple, white). |
+| `style` | String | ✅ | — | `PROGRESS`, `NOTCHED_6`, `NOTCHED_10`, `NOTCHED_12`, `NOTCHED_20` | The boss bar overlay style (progress, notched_6, notched_10, notched_12, notched_20). |
+| `progress` | Expression(数学表达式) | ✅ | — | — | The fill percentage of the boss bar, from 0 to 100. Supports expressions. Example: `50 + %level%` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # unlock_collection <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Unlocks a collection for the player
+> 为玩家解锁收藏。
 
 > **需要依赖：** EcoCollections
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `collection` | The collection ID |
+| `collection` | 收藏 ID。 |
 
 ## 配置示例
 

@@ -27,7 +27,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to give \| Source: The amount of money to deposit into the player's balance. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to deposit into the player's balance. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

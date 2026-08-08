@@ -10,7 +10,7 @@ outline: deep
 
 # hunger_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies hunger loss
+> 倍率化饥饿值消耗。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The multiplier for hunger loss, smaller means slower loss |
+| `multiplier` | Custom | — | — | — | 饥饿值消耗倍率，越小消耗越慢。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectHungerMultiplier.kt`）。
 
-- **源码描述**: Multiplies the rate at which the player loses hunger.
+- **源码描述**: 倍率化玩家饥饿值的消耗速率。
 - **所属分类**: `player`
 
 ## 配置示例

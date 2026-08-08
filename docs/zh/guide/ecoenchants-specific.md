@@ -170,7 +170,150 @@ effects:
 |--------|------|-----|
 | `enchant_<type>` | 使用特定类型附魔附魔物品时触发（如 `enchant_normal`） | `value: XP 花费` |
 
-📝 **编者注：** EcoEnchants 没有插件专属的 Effects、Conditions 或 Mutators——它使用共享的 libreforge `/effects/` 库。EcoEnchants 对效果系统的唯一专属补充是 `enchant_<type>` 触发器。
+📝 **编者注：** EcoEnchants 没有插件专属的 Conditions 或 Mutators——它使用共享的 libreforge 库。它**确实**带有 1 个专属效果（`apply_random_enchant`）和 1 个专属触发器（`enchant_<type>`），详见下文。
+
+## 源码级配置细节
+
+以下细节直接来自 EcoEnchants 源码，官方 wiki 中并未覆盖。
+
+### 插件依赖（`dependencies`）
+
+附魔可以声明它依赖的插件名列表：
+
+```yaml
+dependencies:
+  - EcoSkills
+  - MMOCore
+```
+
+如果列表中任何插件**未安装**，该附魔将加载失败（`MissingDependencyException`）。热重载时会提示你安装缺失的插件；预加载的附魔则会被静默跳过。
+
+> 源码：`enchant/impl/LibreforgeEcoEnchant.kt:26-34`（`init` 中的依赖检查）、`enchant/EcoEnchants.kt:70-72, 89-91`。
+
+### 没有 `effects` 键的附魔不会加载
+
+`/enchants/` 下的配置文件如果没有 `effects` 键，会被完全忽略：
+
+```kotlin
+if (!config.has("effects")) {
+    return
+}
+```
+
+也就是说，只写了显示/稀有度/获取方式的配置不会被注册为附魔。你可以借此把"禁用"或未完成的附魔留在文件夹里而不生效。
+
+> 源码：`enchant/EcoEnchants.kt:59-61` 与 `78-80`（`acceptPreloadConfig` / `acceptConfig`）。
+
+### 自动占位符 `%<id>_name%`
+
+每个已注册的附魔都会自动注册占位符 `%<id>_name%`，返回该附魔格式化后的显示名称：
+
+```kotlin
+PlayerlessPlaceholder(plugin, "${id}_name") {
+    this.getFormattedName(0, false)
+}.register()
+```
+
+例如 ID 为 `razor` 的附魔，占位符就是 `%razor_name%`。
+
+> 源码：`enchant/impl/EcoEnchantBase.kt:103-105`。
+
+### 自动权限 `ecoenchants.fromtable.<id>`
+
+每个附魔都会自动注册 Bukkit 权限节点 `ecoenchants.fromtable.<id>`（默认为 `true`），以及通配父权限 `ecoenchants.fromtable.*`。该权限控制玩家能否从附魔台获得这个附魔。
+
+> 源码：`enchant/impl/EcoEnchantBase.kt:108-131`，检查点：`mechanics/EnchantingTableSupport.kt:89`。
+
+### `conflicts` 支持 `all` / `everything` 通配
+
+在 `conflicts` 列表中写入 `all` 或 `everything`（不区分大小写），会让该附魔与**所有**其他附魔冲突：
+
+```yaml
+conflicts:
+  - all
+```
+
+此外，冲突判定是**双向**且不区分大小写的；`required` 前置附魔列表同样不区分大小写。
+
+> 源码：`enchant/impl/EcoEnchantBase.kt:50-53`（`conflictsWithEverything`）、`147-155`。
+
+### 附魔能否应用（`canEnchantItem`）的判定规则
+
+`canEnchantItem`（附魔台、铁砧与 `apply_random_enchant` 都会用到）要求**同时满足**以下条件：
+
+- 物品上同**类型**的附魔数量低于该类型的 `limit`（来自 `types.yml`）；
+- 物品上的任何附魔都与它**不冲突**（双向，包括 `all`/`everything` 通配）；
+- `required` 中的前置附魔都已存在；
+- 附魔总数低于 `config.yml` 中的 `anvil.enchant-limit`；
+- 物品是附魔书，或匹配该附魔的某个 `targets`。
+
+> 源码：`enchant/EcoEnchantLike.kt:58-89`。
+
+### `enchant_<type>` 触发器延迟 2 tick 检测
+
+`enchant_<type>` 触发器不会在 `EnchantItemEvent` 时立即触发——它会**延迟 2 tick**（`runLater(..., 2)`）再检查，让原版附魔逻辑先完成。`value` 参数是经验等级花费，`text` 是附魔类型 ID。
+
+> 源码：`libreforge/TriggerEnchantType.kt:42-59`。
+
+### EcoEnchants 专属效果：`apply_random_enchant`
+
+EcoEnchants 自带 1 个专属效果：`apply_random_enchant`。它会给触发物品应用一个随机附魔：
+
+```yaml
+- id: apply_random_enchant
+  args:
+    types: []          # 可选：仅限这些附魔类型
+    rarities: []       # 可选：仅限这些稀有度
+    enchants: []       # 可选：仅限这些附魔 ID
+    allow_unsafe: false # 为 true 时忽略目标/冲突/等级上限限制
+```
+
+如果 `types`、`rarities`、`enchants` 均为空，则任何附魔都可能被选中；`allow_unsafe: false` 时只会选择物品正常能承受的附魔。随机等级在 1 与该附魔 `max-level` 之间（附魔书会写入 stored enchant）。
+
+> 源码：`libreforge/EffectApplyRandomEnchant.kt:15-88`。
+
+### `%level%` 的注入机制
+
+`%level%` 之所以能在 effects、conditions 和描述占位符中使用，是因为 EcoEnchants 为 `EcoEnchantLevel` 注册了**持有者占位符提供器**，把附魔等级作为 `level` 具名值暴露出来：
+
+```kotlin
+registerHolderPlaceholderProvider<EcoEnchantLevel> { it, _ ->
+    listOf(NamedValue("level", it.level))
+}
+```
+
+每个附魔等级都是一个 libreforge *持有者（holder）*；当绑定该持有者的效果或条件运行时，`%level%` 就求值为对应附魔等级。在附魔描述中，`level` 还会被直接注入到 `placeholders` 表达式里（`EcoEnchantLike.getRawDescription`）。
+
+> 源码：`EcoEnchantsPlugin.kt:84-88`、`enchant/EcoEnchantLike.kt:111-118`。
+
+### 原版附魔同样可配置
+
+原版附魔可以在 `vanillaenchants.yml` 中自定义——每个条目可设置 `max-level` 与 `conflicts`：
+
+```yaml
+sharpness:
+  max-level: 10
+  conflicts: [ ]
+```
+
+> 源码：`enchant/VanillaEnchantments.kt:7-15`。
+
+### 细粒度发现方式与 GUI 可见性
+
+除了布尔值的 `discoverable`，还可以用映射表分别限制每种发现方式——缺失的子键默认为 `true`，写 `false` 则禁用全部方式：
+
+```yaml
+discoverable:
+  chests: true
+  fishing: true
+  mob-drops: true
+  raids: true
+hide-from-enchantgui: false
+```
+
+`hide-from-enchantgui: true` 会在 `/enchants` GUI 中隐藏该附魔。
+
+> 源码：`enchant/impl/EcoEnchantBase.kt:89-99`。
 
 ## 插件配置要点
 

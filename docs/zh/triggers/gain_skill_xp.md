@@ -11,7 +11,7 @@ outline: deep
 
 # gain_skill_xp <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoSkills" />
 
-> Triggered when gaining skill experience points
+> 当获得技能经验值时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `gain_skill_xp` |
 | 所属模块 | libreforge |
 | 分类 | Eco 插件（EcoPlugin） |
-| 值 | The experience gained |
+| 值 | 获得的经验值 |
 | 需要 | EcoSkills |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The experience gained |
+| `%trigger_value%` | 获得的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

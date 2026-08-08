@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `webhook_url` | String | ✅ | — | — | The webhook URL to send to \| Source: The Discord webhook URL to send the message to. Example: `https:         )         require(             ` |
+| `webhook_url` | String | ✅ | — | — | The Discord webhook URL to send the message to. Example: `https:         )         require(             ` |
 | `text` | Custom | — | — | — | The message content |
 | `username` | Custom | — | — | — | (Optional) Override the webhook username |
 | `avatar_url` | Custom | — | — | — | (Optional) Override the webhook avatar |
-| `tts` | Boolean | — | `false` | — | (Optional) Send as text-to-speech \| Source: Whether to send the message as text-to-speech. |
-| `embeds` | Any/Custom | — | — | — | (Optional) List of embeds to include \| Source: A list of embed objects to include in the webhook message. |
+| `tts` | Boolean | — | `false` | — | Whether to send the message as text-to-speech. |
+| `embeds` | Any/Custom | — | — | — | A list of embed objects to include in the webhook message. |
 
 ## 📝 Source Notes
 

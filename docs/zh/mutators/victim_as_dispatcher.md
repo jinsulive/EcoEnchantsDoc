@@ -10,7 +10,7 @@ outline: deep
 
 # victim_as_dispatcher <Badge type="info" text="libreforge" />
 
-> Set the player / entity / etc that triggered the effect to be the victim.
+> 将触发此效果的玩家/实体等设置为受害者。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorVictimAsDispatcher.kt`）。
 
-- **源码描述**: Sets the dispatcher to the current victim.
+- **源码描述**: 将触发者设置为当前的受害者。
 - **所属分类**: `victim`, `meta`
 
 ## 配置示例

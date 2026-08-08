@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The item point type to add to. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to add/subtract \| Source: The amount of points to add to the item. Supports expressions. Example: `%level% * 5` |
+| `type` | String | ✅ | — | — | The item point type to add to. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points to add to the item. Supports expressions. Example: `%level% * 5` |
 
 ## 📝 Source Notes
 

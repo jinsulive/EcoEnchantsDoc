@@ -10,7 +10,7 @@ outline: deep
 
 # repair_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Repairs the item
+> 修复物品。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The durability to repair \| Source: The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | 要修复的耐久值。支持表达式。示例：`50 + %level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRepairItem.kt`）。
 
-- **源码描述**: Repairs the triggering item by a specified amount of durability.
+- **源码描述**: 修复触发物品的指定耐久值。
 - **所属分类**: `inventory`
 
 ## 配置示例

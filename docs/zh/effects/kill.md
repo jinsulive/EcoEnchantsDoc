@@ -10,7 +10,7 @@ outline: deep
 
 # kill <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Kills the victim
+> 杀死受害者。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKill.kt`）。
 
-- **源码描述**: Instantly kills the victim entity.
+- **源码描述**: 立即杀死受害者实体。
 - **所属分类**: `combat`
 - **需要触发器数据**: `VICTIM`
 

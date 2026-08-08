@@ -10,7 +10,7 @@ outline: deep
 
 # has_scoreboard_visible <Badge type="info" text="libreforge" />
 
-> Requires a player to have the TAB scoreboard shown to them
+> 需要 TAB 计分板显示给玩家。
 
 ## 基本信息
 

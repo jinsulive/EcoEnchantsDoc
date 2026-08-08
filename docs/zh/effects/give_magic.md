@@ -10,7 +10,7 @@ outline: deep
 
 # give_magic <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Add / subtract magic
+> 增加/扣除魔力。
 
 > **需要依赖：** EcoSkills
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `type` | The point to add/subtract |
-| `amount` | The amount to add/subtract |
+| `type` | 要增加/扣除的点数类型。 |
+| `amount` | 要增加/扣除的数量。 |
 
 ## 配置示例
 

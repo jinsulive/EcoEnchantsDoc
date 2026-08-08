@@ -10,7 +10,7 @@ outline: deep
 
 # has_completed_advancement <Badge type="info" text="libreforge" />
 
-> Requires a player to have completed an advancement
+> 需要玩家已完成某个进度。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `advancement` | String | ✅ | — | — | The advancement ID \| Source: The namespaced key of the advancement (e.g. minecraft:story/mine_stone). Example: `minecraft:story/mine_stone` |
+| `advancement` | String | ✅ | — | — | 进度 ID（进度的命名空间键）。示例：`minecraft:story/mine_stone` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasCompletedAdvancement.kt`）。
 
-- **源码描述**: Passes when the player has completed the specified advancement.
+- **源码描述**: 当玩家已完成指定进度时通过。
 - **所属分类**: `player`
 
 ## 配置示例

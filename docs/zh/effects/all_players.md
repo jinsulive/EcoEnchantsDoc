@@ -10,7 +10,7 @@ outline: deep
 
 # all_players <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Runs effects for all players on the server
+> 对服务器上的所有玩家运行效果。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for each player \| Source: The effects to run on every online player. |
-| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor to use. |
+| `effects` | Effect List | ✅ | — | — | 对每个在线玩家运行的效果。 |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | 要使用的链执行器。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAllPlayers.kt`）。
 
-- **源码描述**: Runs a set of effects on every online player.
+- **源码描述**: 对每个在线玩家运行一组效果。
 - **所属分类**: `meta`
 
 ## 配置示例

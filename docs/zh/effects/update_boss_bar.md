@@ -10,7 +10,7 @@ outline: deep
 
 # update_boss_bar <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Updates a boss bar
+> 更新 Boss 血条。
 
 ## 基本信息
 
@@ -25,17 +25,17 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | The ID of the boss bar to update \| Source: The ID of the boss bar to update. Example: `boss_%player_name%` |
-| `name` | String | — | `` | — | (Optional) The new name of the boss bar \| Source: The new display name of the boss bar. Supports placeholders. Example: `%player_name%'s Boss` |
-| `color` | String | — | `` | — | (Optional) The new boss bar color (pink, blue, red, green, yellow, purple, white) \| Source: The new color of the boss bar (e.g. BLUE, RED). Example: `RED` |
-| `style` | String | — | `` | — | (Optional) The new boss bar style (progress, notched_6, notched_10, notched_12, notched_20) \| Source: The new overlay style of the boss bar (e.g. PROGRESS, NOTCHED_10). Example: `NOTCHED_10` |
-| `progress` | Expression(数学表达式) | — | `` | — | (Optional) The new percentage completion of the boss bar \| Source: The new progress value (0–100). Supports expressions. |
+| `id` | String | ✅ | — | — | 要更新的 Boss 血条 ID。示例：`boss_%player_name%` |
+| `name` | String | — | `` | — | （可选）Boss 血条的新名称。支持占位符。示例：`%player_name%'s Boss` |
+| `color` | String | — | `` | — | （可选）Boss 血条的新颜色。示例：`RED` |
+| `style` | String | — | `` | — | （可选）Boss 血条的新样式。示例：`NOTCHED_10` |
+| `progress` | Expression(数学表达式) | — | `` | — | （可选）Boss 血条的新完成百分比（0–100）。支持表达式。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectUpdateBossBar.kt`）。
 
-- **源码描述**: Updates the properties of an existing boss bar created by create_boss_bar.
+- **源码描述**: 更新由 create_boss_bar 创建的现有 Boss 血条的属性。
 - **所属分类**: `visual`
 
 ## 配置示例

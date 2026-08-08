@@ -11,7 +11,7 @@ outline: deep
 
 # level_down_mcmmo <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
 
-> Triggered when levelling down McMMO skill
+> 当 McMMO 技能降级时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `level_down_mcmmo` |
 | 所属模块 | libreforge |
 | 分类 | 外部集成（External Integration） |
-| 值 | The new level |
+| 值 | 新等级 |
 | 需要 | McMMO |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The new level |
+| `%trigger_value%` | 新等级 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

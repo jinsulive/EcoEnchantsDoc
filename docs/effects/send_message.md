@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `message` | String List | ✅ | — | — | The message to send \| Source: The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
-| `messages` | String List | ✅ | — | — | You can also specify a list of messages \| Source: The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
-| `action_bar` | Boolean | — | `false` | — | If the message should go to the action bar instead of chat \| Source: Whether to display the first message in the action bar instead of chat. |
+| `message` | String List | ✅ | — | — | The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
+| `messages` | String List | ✅ | — | — | The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
+| `action_bar` | Boolean | — | `false` | — | Whether to display the first message in the action bar instead of chat. |
 
 ## 📝 Source Notes
 

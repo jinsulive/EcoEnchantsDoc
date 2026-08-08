@@ -10,7 +10,7 @@ outline: deep
 
 # feather_step <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Prevents trampling crops
+> 防止踩踏作物。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFeatherStep.kt`）。
 
-- **源码描述**: Prevents the player trampling crops.
+- **源码描述**: 防止玩家踩踏作物。
 - **所属分类**: `movement`, `player`
 
 ## 配置示例

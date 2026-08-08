@@ -10,7 +10,7 @@ outline: deep
 
 # reset_previous_menu <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Resets the previous menu for the player.
+> 重置玩家之前的菜单。
 
 > **需要依赖：** EcoMenus
 

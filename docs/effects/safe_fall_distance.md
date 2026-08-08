@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The extra distance \| Source: The number of extra blocks the player can fall safely. Supports expressions. Example: `%level% * 0.5` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | The number of extra blocks the player can fall safely. Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

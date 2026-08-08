@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal \| Source: The durability damage to apply to each armor piece. Supports expressions. Example: `10 + %level%` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The durability damage to apply to each armor piece. Supports expressions. Example: `10 + %level%` |
 | `slots` | String List | — | — | `HEAD`, `CHEST`, `LEGS`, `FEET` | Which armor slots to damage. If omitted, all armor slots are damaged. |
 
 ## 📝 Source Notes

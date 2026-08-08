@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `advancement` | String | ✅ | — | — | The advancement ID \| Source: The namespaced key of the advancement (e.g. minecraft:story/mine_stone). Example: `minecraft:story/mine_stone` |
+| `advancement` | String | ✅ | — | — | The namespaced key of the advancement (e.g. minecraft:story/mine_stone). Example: `minecraft:story/mine_stone` |
 
 ## 📝 Source Notes
 

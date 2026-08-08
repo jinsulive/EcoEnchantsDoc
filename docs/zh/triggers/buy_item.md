@@ -11,7 +11,7 @@ outline: deep
 
 # buy_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoShop" />
 
-> Triggered when buying an item in a shop
+> 当在商店购买物品时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `buy_item` |
 | 所属模块 | libreforge |
 | 分类 | Eco 插件（EcoPlugin） |
-| 值 | The price |
+| 值 | 价格 |
 | 需要 | EcoShop |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The price |
+| `%trigger_value%` | 价格 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

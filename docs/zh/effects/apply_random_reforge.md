@@ -10,7 +10,7 @@ outline: deep
 
 # apply_random_reforge <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Applies a random reforge to an item
+> 为物品随机应用一个重铸属性。
 
 > **需要依赖：** Reforges
 

@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The player point type to add to. |
-| `amount` | Expression(数学表达式) | — | `0` | — | The amount to add/subtract \| Source: The amount of points to add to the player. Supports expressions. Defaults to 0. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The player point type to add to. |
+| `amount` | Expression(数学表达式) | — | `0` | — | The amount of points to add to the player. Supports expressions. Defaults to 0. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

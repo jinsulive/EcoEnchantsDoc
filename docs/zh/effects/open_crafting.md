@@ -10,7 +10,7 @@ outline: deep
 
 # open_crafting <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Opens a crafting table for the player
+> 为玩家打开工作台。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectOpenCrafting.kt`）。
 
-- **源码描述**: Opens a virtual crafting table GUI for the player.
+- **源码描述**: 为玩家打开虚拟工作台 GUI。
 - **所属分类**: `player`, `inventory`
 - **需要触发器数据**: `PLAYER`
 

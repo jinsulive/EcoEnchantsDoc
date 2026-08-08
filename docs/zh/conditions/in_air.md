@@ -10,7 +10,7 @@ outline: deep
 
 # in_air <Badge type="info" text="libreforge" />
 
-> Requires a player to be in the air
+> 需要玩家处于空中。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInAir.kt`）。
 
-- **源码描述**: Passes when the entity has no solid block directly below them.
+- **源码描述**: 当实体正下方没有实心方块时通过。
 - **所属分类**: `player`
 
 ## 配置示例

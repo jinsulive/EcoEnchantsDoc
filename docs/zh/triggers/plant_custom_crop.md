@@ -11,7 +11,7 @@ outline: deep
 
 # plant_custom_crop <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
 
-> Triggered when planting a custom crop
+> 当种植自定义作物时触发。
 
 ## 基本信息
 

@@ -10,7 +10,7 @@ outline: deep
 
 # is_season <Badge type="info" text="libreforge" />
 
-> Requires it to be a certain season
+> 需要处于某个季节。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `season` | Use for a single season |
-| `seasons` | Use for multiple seasons |
+| `season` | 用于单一季节。 |
+| `seasons` | 用于多个季节。 |
 
 ## 配置示例
 

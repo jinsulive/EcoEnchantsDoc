@@ -10,7 +10,7 @@ outline: deep
 
 # jobs_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies xp gain from jobs
+> 倍率化职业获得的经验值。
 
 > **需要依赖：** Jobs Reborn
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The experience multiplier |
-| `jobs` | The list of jobs to multiply xp for. If removed, it will multiply all jobs. |
+| `multiplier` | 经验值倍率。 |
+| `jobs` | 要倍率化经验值的职业列表。移除后将对所有职业生效。 |
 
 ## 配置示例
 

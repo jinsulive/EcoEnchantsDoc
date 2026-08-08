@@ -10,7 +10,7 @@ outline: deep
 
 # give_saturation <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives the player saturation
+> 给予玩家饱和值。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of saturation to give/take (allows negative values) \| Source: The amount of saturation points to add. Supports expressions. Example: `%level%` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予/扣除的饱和值（允许负数）。支持表达式。示例：`%level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveSaturation.kt`）。
 
-- **源码描述**: Restores a set amount of saturation to the player, capped at 20.
+- **源码描述**: 为玩家恢复指定数量的饱和值，上限为 20。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

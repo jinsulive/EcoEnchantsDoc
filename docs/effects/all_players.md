@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for each player \| Source: The effects to run on every online player. |
+| `effects` | Effect List | ✅ | — | — | The effects to run on every online player. |
 | `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor to use. |
 
 ## 📝 Source Notes

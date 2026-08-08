@@ -25,10 +25,10 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntityXpDrop.kt`）。
 
-- **源码描述**: Fires when an entity killed by the player drops experience.
+- **源码描述**: 当被玩家击杀的实体掉落经验时触发。
 - **所属分类**: `combat`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `VALUE`
-- **值**: The amount of XP dropped.
+- **值**: 掉落的经验值数量。
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # note_block_play <Badge type="info" text="libreforge" /> 
 
-> Triggered when playing a note block
+> 当敲击音符盒时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerNoteBlockPlay.kt`）。
 
-- **源码描述**: Fires when the player plays a note block.
+- **源码描述**: 当玩家敲击音符盒时触发。
 - **所属分类**: `interaction`
 - **需要触发器数据**: `PLAYER`, `BLOCK`, `LOCATION`, `TEXT`
 

@@ -11,7 +11,7 @@ outline: deep
 
 # register_vote <Badge type="info" text="libreforge" /> <Badge type="warning" text="Votifier" />
 
-> Triggered when a player votes for the server
+> 当玩家为服务器投票时触发。
 
 ## 基本信息
 

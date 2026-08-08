@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `world` | String | ✅ | — | — | The world name \| Source: The name of the world to check against. |
+| `world` | String | ✅ | — | — | The name of the world to check against. |
 
 ## 📝 Source Notes
 

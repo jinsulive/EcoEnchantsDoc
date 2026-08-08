@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `limit` | Expression(数学表达式) | ✅ | — | — | The maximum amount of blocks to mine \| Source: The maximum number of connected blocks to break in one vein. Supports expressions. Example: `10 + %level%` |
-| `blocks` | Block List | — | `[]` | — | (Optional) The blocks allowed to mine - if this is not specified, only blocks of the same type as the first block will be mined. \| Source: A list of block types to consider part of the vein. Defaults to the same type as the mined block. |
-| `disable_on_sneak` | Boolean | — | `false` | — | If the effect shouldn't activate while sneaking \| Source: Whether to disable vein mining when the player is sneaking. |
-| `prevent_trigger` | Boolean | — | `false` | — | Optional, if the mine_block trigger should not be called from this \| Source: Whether to prevent the vein blocks from re-triggering this effect. |
+| `limit` | Expression(数学表达式) | ✅ | — | — | The maximum number of connected blocks to break in one vein. Supports expressions. Example: `10 + %level%` |
+| `blocks` | Block List | — | `[]` | — | A list of block types to consider part of the vein. Defaults to the same type as the mined block. |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether to disable vein mining when the player is sneaking. |
+| `prevent_trigger` | Boolean | — | `false` | — | Whether to prevent the vein blocks from re-triggering this effect. |
 | `filters` | Custom | — | — | — | (Optional) Filters for the blocks |
 
 ## 📝 Source Notes

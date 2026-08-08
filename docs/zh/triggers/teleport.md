@@ -10,7 +10,7 @@ outline: deep
 
 # teleport <Badge type="info" text="libreforge" /> 
 
-> Triggered when teleporting
+> 当传送时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerTeleport.kt`）。
 
-- **源码描述**: Fires when the player teleports.
+- **源码描述**: 当玩家传送时触发。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `TEXT`
 

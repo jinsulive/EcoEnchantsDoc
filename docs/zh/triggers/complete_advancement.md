@@ -10,7 +10,7 @@ outline: deep
 
 # complete_advancement <Badge type="info" text="libreforge" /> 
 
-> Triggered when completing an advancement
+> 当完成进度时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerCompleteAdvancement.kt`）。
 
-- **源码描述**: Fires when the player completes an advancement.
+- **源码描述**: 当玩家完成进度时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `TEXT`
 

@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `sound` | Sound | ✅ | — | — | The sound to play (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html) \| Source: The sound to play. Supports Minecraft sound names and resource pack sounds. |
-| `pitch` | Expression(数学表达式) | ✅ | — | — | The pitch of the sound (0.5 - 2) \| Source: The pitch of the sound, between 0.5 and 2.0. Supports expressions. |
-| `volume` | Expression(数学表达式) | ✅ | — | — | The volume of the sound \| Source: The volume of the sound. Supports expressions. |
-| `category` | String | — | `MASTER` | — | The sound category (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/SoundCategory.html) \| Source: The sound category to play the sound in. |
+| `sound` | Sound | ✅ | — | — | The sound to play. Supports Minecraft sound names and resource pack sounds. |
+| `pitch` | Expression(数学表达式) | ✅ | — | — | The pitch of the sound, between 0.5 and 2.0. Supports expressions. |
+| `volume` | Expression(数学表达式) | ✅ | — | — | The volume of the sound. Supports expressions. |
+| `category` | String | — | `MASTER` | — | The sound category (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/SoundCategory.html) to play the sound in. |
 
 ## 📝 Source Notes
 

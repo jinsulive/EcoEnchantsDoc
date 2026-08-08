@@ -10,7 +10,7 @@ outline: deep
 
 # is_gliding <Badge type="info" text="libreforge" />
 
-> Requires a player to be gliding with an elytra
+> 需要玩家正使用鞘翅滑翔。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsGliding.kt`）。
 
-- **源码描述**: Passes when the entity is gliding with an elytra.
+- **源码描述**: 当实体正使用鞘翅滑翔时通过。
 - **所属分类**: `player`
 
 ## 配置示例

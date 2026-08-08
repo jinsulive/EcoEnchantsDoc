@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `on_tamed_mob_kills` | Boolean | — | `false` | — | If telekinesis will also work for tamed mob kills \| Source: If true, telekinesis also applies when a tamed mob kills an entity. |
+| `on_tamed_mob_kills` | Boolean | — | `false` | — | If true, telekinesis also applies when a tamed mob kills an entity. |
 
 ## 📝 Source Notes
 

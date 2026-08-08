@@ -10,7 +10,7 @@ outline: deep
 
 # keep_inventory <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Gives the player keep inventory. This will not make them keep their XP! Use keep_level as well if you want players to keep both items and XP.
+> 给予玩家保留背包的效果。这不会保留他们的经验值！如果希望同时保留物品和经验值，请同时使用 keep_level。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKeepInventory.kt`）。
 
-- **源码描述**: Prevents the player from dropping their inventory on death.
+- **源码描述**: 防止玩家死亡时掉落背包物品。
 - **所属分类**: `player`, `inventory`
 
 ## 配置示例

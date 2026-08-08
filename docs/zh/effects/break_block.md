@@ -10,7 +10,7 @@ outline: deep
 
 # break_block <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Breaks a block instantly
+> 立即破坏一个方块。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `prevent_trigger` | Boolean | — | `false` | — | If the mine_block trigger should not be called from this \| Source: If true, breaking this block will not fire further libreforge triggers. |
+| `prevent_trigger` | Boolean | — | `false` | — | 是否不从此效果触发 mine_block 触发器。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBreakBlock.kt`）。
 
-- **源码描述**: Breaks the triggering block as if the player mined it.
+- **源码描述**: 像玩家挖掘一样破坏触发方块。
 - **所属分类**: `world`
 - **需要触发器数据**: `PLAYER`
 

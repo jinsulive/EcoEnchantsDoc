@@ -10,7 +10,7 @@ outline: deep
 
 # underwater_mining_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies underwater mining speed
+> 倍率化水下挖掘速度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for underwater mining speed \| Source: The multiplier to apply to underwater mining speed. Supports expressions. Example: `1 + %level% * 0.02` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 水下挖掘速度倍率。支持表达式。示例：`1 + %level% * 0.02` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectUnderwaterMiningSpeedMultiplier.kt`）。
 
-- **源码描述**: Multiplies the player's mining speed while submerged underwater.
+- **源码描述**: 玩家浸没在水中时，倍率化其挖掘速度。
 - **所属分类**: `world`, `player`, `attribute`
 
 ## 配置示例

@@ -10,7 +10,7 @@ outline: deep
 
 # give_battlepass_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Give battlepass experience points
+> 给予战斗通行证经验值。
 
 > **需要依赖：** EcoBattlepass
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of xp to give |
-| `battlepass` | The battlepass ID |
+| `amount` | 要给予的经验值数量。 |
+| `battlepass` | 战斗通行证 ID。 |
 
 ## 配置示例
 

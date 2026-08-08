@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and compare. Example: `%player_gamemode%` |
-| `value` | String | ✅ | — | — | The value it must equal \| Source: The exact string the resolved placeholder must equal. |
+| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and compare. Example: `%player_gamemode%` |
+| `value` | String | ✅ | — | — | The exact string the resolved placeholder must equal. |
 | `ignore_case` | Boolean | — | `false` | — | Whether the equality check should be case-insensitive. |
 
 ## 📝 Source Notes

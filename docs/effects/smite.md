@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal \| Source: The amount of damage the lightning strike deals to the victim. Supports expressions. Example: `%level% * 2` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage the lightning strike deals to the victim. Supports expressions. Example: `%level% * 2` |
 | `silent` | Custom | — | — | — | If the lightning should be silent |
 
 ## 📝 Source Notes

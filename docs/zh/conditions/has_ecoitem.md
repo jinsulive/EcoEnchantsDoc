@@ -10,7 +10,7 @@ outline: deep
 
 # has_ecoitem <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain EcoItem active
+> 需要玩家激活某个 EcoItem。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `item` | The item ID |
+| `item` | 物品 ID。 |
 
 ## 配置示例
 

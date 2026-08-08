@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of luck to add \| Source: The amount of luck to add. Supports expressions. Example: `%level% * 0.5` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of luck to add. Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

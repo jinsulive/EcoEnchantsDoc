@@ -10,7 +10,7 @@ outline: deep
 
 # leave_land <Badge type="info" text="libreforge" /> 
 
-> Triggered when leaving a Town
+> 当离开城镇时触发。
 
 ## 基本信息
 

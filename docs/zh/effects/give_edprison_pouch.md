@@ -10,7 +10,7 @@ outline: deep
 
 # give_edprison_pouch <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives the player an EdPrison pouch.
+> 给予玩家一个 EdPrison 袋囊。
 
 > **需要依赖：** EdPrison
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `type` | The ID of the pouch type |
-| `unlocked` | Whether the pouch is unlocked |
+| `type` | 袋囊类型 ID。 |
+| `unlocked` | 袋囊是否已解锁。 |
 
 ## 配置示例
 

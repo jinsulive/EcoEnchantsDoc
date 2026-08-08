@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effect` | Potion Effect | ✅ | — | — | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) \| Source: The potion effect to apply to entities in the cloud. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level to give \| Source: The amplifier level of the potion effect. Supports expressions. Example: `1 + %level% / 10` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration of the effect (in ticks) \| Source: How long the cloud and its applied effect last, in ticks. Supports expressions. Example: `20 * %level%` |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect to apply to entities in the cloud. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The amplifier level of the potion effect. Supports expressions. Example: `1 + %level% / 10` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How long the cloud and its applied effect last, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

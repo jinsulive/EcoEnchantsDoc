@@ -11,7 +11,7 @@ outline: deep
 
 # claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
 
-> Triggered when claiming an area
+> 当认领区域时触发。
 
 ## 基本信息
 

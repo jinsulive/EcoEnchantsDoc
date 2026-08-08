@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_drop <Badge type="info" text="libreforge" />
 
-> Move the location to the drop location
+> 将位置移动到掉落物的位置。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToDrop.kt`）。
 
-- **源码描述**: Sets the location to the drop's position from the trigger event.
+- **源码描述**: 将位置设置为触发事件中掉落物的位置。
 - **所属分类**: `location`, `entity`
 
 ## 配置示例

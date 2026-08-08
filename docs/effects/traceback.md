@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `seconds` | Expression(数学表达式) | ✅ | — | — | The seconds to go back (between 1 and 30) \| Source: How many seconds into the past to teleport the player (clamped to 1–30). Supports expressions. Example: `1 + %level% / 10` |
+| `seconds` | Expression(数学表达式) | ✅ | — | — | How many seconds into the past to teleport the player (clamped to 1–30). Supports expressions. Example: `1 + %level% / 10` |
 
 ## 📝 Source Notes
 

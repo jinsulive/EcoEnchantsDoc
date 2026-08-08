@@ -10,7 +10,7 @@ outline: deep
 
 # remove_reforge <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Removes the reforge from the item
+> 移除物品的重铸属性。
 
 > **需要依赖：** Reforges
 

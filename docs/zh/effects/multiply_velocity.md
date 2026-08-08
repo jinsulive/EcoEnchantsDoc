@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_velocity <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Multiplies a players velocity
+> 倍率化玩家的速度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The factor to multiply all velocity components by (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 速度倍率（例如 2 = 两倍速度）。支持表达式。示例：`1 + %level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyVelocity.kt`）。
 
-- **源码描述**: Multiplies the player's current velocity vector by the specified factor.
+- **源码描述**: 以指定系数倍率化玩家当前的速度向量。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`
 

@@ -11,7 +11,7 @@ outline: deep
 
 # disband_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
 
-> Triggered when disbanding a Town
+> 当解散城镇时触发。
 
 ## 基本信息
 

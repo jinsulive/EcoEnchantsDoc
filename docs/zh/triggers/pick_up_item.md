@@ -10,7 +10,7 @@ outline: deep
 
 # pick_up_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when picking up an item
+> 当拾取物品时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `pick_up_item` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The amount of items |
+| 值 | 物品数量 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerPickUpItem.kt`）。
 
-- **源码描述**: Fires when an entity picks up an item from the ground.
+- **源码描述**: 当实体从地面拾取物品时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `ITEM`, `VALUE`
-- **值**: The stack size of the picked-up item.
+- **值**: 被拾取物品的堆叠数量。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The amount of items |
+| `%trigger_value%` | 物品数量 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

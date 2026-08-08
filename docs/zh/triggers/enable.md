@@ -10,7 +10,7 @@ outline: deep
 
 # enable <Badge type="info" text="libreforge" /> 
 
-> Triggered when an item / enchant / etc enables
+> 当物品/附魔等启用时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEnable.kt`）。
 
-- **源码描述**: Fires when a holder is activated for the dispatcher, such as when an item is equipped.
+- **源码描述**: 当触发者的持有器激活时触发，例如装备物品。
 - **所属分类**: `meta`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`
 

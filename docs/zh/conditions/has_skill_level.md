@@ -10,7 +10,7 @@ outline: deep
 
 # has_skill_level <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain skill level
+> 需要玩家拥有一定的技能等级。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `skill` | The skill ID |
-| `level` | The minimum level |
+| `skill` | 技能 ID。 |
+| `level` | 最小等级。 |
 
 ## 配置示例
 

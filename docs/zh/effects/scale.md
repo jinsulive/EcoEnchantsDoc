@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for scale \| Source: The scale multiplier to apply to the entity's size. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 体型缩放倍率。支持表达式。示例：`1 + %level% * 0.05` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectScale.kt`）。
 
-- **源码描述**: Scales the entity's size by a given multiplier.
+- **源码描述**: 以指定倍率缩放实体的体型。
 - **所属分类**: `entity`, `attribute`
 
 ## 配置示例

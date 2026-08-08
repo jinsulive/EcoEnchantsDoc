@@ -11,7 +11,7 @@ outline: deep
 
 # lands_bank_deposit <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
 
-> Triggered when depositing into the Lands bank
+> 当向领地银行存入金钱时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `lands_bank_deposit` |
 | 所属模块 | libreforge |
 | 分类 | 外部集成（External Integration） |
-| 值 | The value deposited (alt-value: new balance) |
+| 值 | 存入的金额（替代值：新余额） |
 | 需要 | Lands |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The value deposited (alt-value: new balance) |
+| `%trigger_value%` | 存入的金额（替代值：新余额） |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

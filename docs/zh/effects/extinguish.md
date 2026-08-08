@@ -10,7 +10,7 @@ outline: deep
 
 # extinguish <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Extinguish the player
+> 扑灭玩家身上的火焰。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectExtinguish.kt`）。
 
-- **源码描述**: Immediately extinguishes any fire on the player.
+- **源码描述**: 立即扑灭玩家身上的火焰。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

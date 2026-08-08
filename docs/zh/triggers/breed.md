@@ -10,7 +10,7 @@ outline: deep
 
 # breed <Badge type="info" text="libreforge" /> 
 
-> Triggered when breeding entities together
+> 当实体进行繁殖时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `breed` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The experience received |
+| 值 | 获得的经验值 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBreed.kt`）。
 
-- **源码描述**: Fires when two entities are bred.
+- **源码描述**: 当两个实体进行繁殖时触发。
 - **所属分类**: `entity`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The experience dropped from breeding.
+- **值**: 繁殖获得的经验值。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The experience received |
+| `%trigger_value%` | 获得的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

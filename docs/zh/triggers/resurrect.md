@@ -10,7 +10,7 @@ outline: deep
 
 # resurrect <Badge type="info" text="libreforge" /> 
 
-> Triggered when a Totem activates
+> 当图腾激活时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerResurrect.kt`）。
 
-- **源码描述**: Fires when the player is resurrected by a totem of undying.
+- **源码描述**: 当玩家被不死图腾复活时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`
 

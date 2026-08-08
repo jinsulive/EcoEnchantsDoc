@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `key` | String | ✅ | — | — | The data key \| Source: The item data key to check for. |
+| `key` | String | ✅ | — | — | The item data key to check for. |
 
 ## 📝 Source Notes
 

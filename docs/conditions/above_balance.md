@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `balance` | Expression(数学表达式) | ✅ | — | — | The minimum amount of money \| Source: The minimum economy balance required. Example: `%level% * 500` |
+| `balance` | Expression(数学表达式) | ✅ | — | — | The minimum economy balance required. Example: `%level% * 500` |
 
 ## 📝 Source Notes
 

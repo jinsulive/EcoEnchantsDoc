@@ -10,7 +10,7 @@ outline: deep
 
 # click_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when right-clicking on a block
+> 当右键点击方块时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerClickBlock.kt`）。
 
-- **源码描述**: Fires when the player clicks on a block.
+- **源码描述**: 当玩家点击方块时触发。
 - **所属分类**: `interaction`
 - **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`
 

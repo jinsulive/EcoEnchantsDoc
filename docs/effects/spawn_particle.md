@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `particle` | Any/Custom | ✅ | — | — | The particle to spawn (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) \| Source: The particle to spawn, as an eco particle string. Example: `flame` |
-| `amount` | Expression(数学表达式) | — | `1` | — | The amount of particles to spawn \| Source: The number of particles to spawn. Supports expressions. |
+| `particle` | Any/Custom | ✅ | — | — | The particle to spawn, as an eco particle string. Example: `flame` |
+| `amount` | Expression(数学表达式) | — | `1` | — | The number of particles to spawn. Supports expressions. |
 
 ## 📝 Source Notes
 

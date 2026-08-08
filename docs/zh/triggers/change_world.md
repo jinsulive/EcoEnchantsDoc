@@ -10,7 +10,7 @@ outline: deep
 
 # change_world <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing world
+> 当进入不同世界时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerChangeWorld.kt`）。
 
-- **源码描述**: Fires when the player moves to a different world.
+- **源码描述**: 当玩家进入不同的世界时触发。
 - **所属分类**: `movement`, `world`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `VELOCITY`, `ITEM`, `TEXT`
 

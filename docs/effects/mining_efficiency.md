@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The extra mining efficiency \| Source: The flat amount of mining efficiency to add. Supports expressions. Example: `%level% * 0.1` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The flat amount of mining efficiency to add. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # disable <Badge type="info" text="libreforge" /> 
 
-> Triggered when an item / enchant / etc disables
+> 当物品/附魔等停用时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDisable.kt`）。
 
-- **源码描述**: Fires when a holder is deactivated for the dispatcher, such as when an item is unequipped.
+- **源码描述**: 当触发者的持有器停用时触发，例如卸下物品。
 - **所属分类**: `meta`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`
 

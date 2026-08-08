@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `command` | String List | ✅ | — | — | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) \| Source: The command or list of commands to run as the player. Use %player% and %victim% as placeholders. Example: `me does a flip!, kill %victim%` |
-| `as_op` | Boolean | — | `false` | — | If the command should be ran as op \| Source: Whether to temporarily grant the player operator permissions while running the commands. |
+| `command` | String List | ✅ | — | — | The command or list of commands to run as the player. Use %player% and %victim% as placeholders. Example: `me does a flip!, kill %victim%` |
+| `as_op` | Boolean | — | `false` | — | Whether to temporarily grant the player operator permissions while running the commands. |
 
 ## 📝 Source Notes
 

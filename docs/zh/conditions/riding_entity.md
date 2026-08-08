@@ -10,7 +10,7 @@ outline: deep
 
 # riding_entity <Badge type="info" text="libreforge" />
 
-> Requires a player to be riding a certain entity
+> 需要玩家骑乘某个实体。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `entities` | Entity List | ✅ | — | — | A list of entities \| Source: The list of entity types the player must be riding. |
+| `entities` | Entity List | ✅ | — | — | 玩家必须骑乘的实体类型列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionRidingEntity.kt`）。
 
-- **源码描述**: Passes when the entity is riding one of the specified entity types.
+- **源码描述**: 当实体骑乘指定实体类型之一时通过。
 - **所属分类**: `entity`
 
 ## 配置示例

@@ -10,7 +10,7 @@ outline: deep
 
 # spawn_mobs <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Spawns mobs to help you
+> 生成生物来帮助你。
 
 ## 基本信息
 
@@ -25,17 +25,17 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of mobs to spawn \| Source: The number of mobs to spawn. Supports expressions. Example: `1 + %level% / 5` |
-| `ticks_to_live` | Expression(数学表达式) | ✅ | — | — | The amount of ticks the mobs should live for \| Source: How many ticks the mobs will live before being removed. Supports expressions. Example: `20 * %level%` |
-| `health` | Expression(数学表达式) | — | `20` | — | The mob health \| Source: The max health (and starting health) to set on each spawned mob. Supports expressions. Example: `20 + %level% * 5` |
-| `range` | Expression(数学表达式) | ✅ | — | — | The range around the location for mobs to spawn \| Source: The radius around the trigger location in which mobs can spawn. Supports expressions. Example: `5 + %level% * 0.5` |
-| `entity` | Entity | ✅ | — | — | The mob to spawn, takes a lookup string \| Source: The entity type to spawn. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要生成的生物数量。支持表达式。示例：`1 + %level% / 5` |
+| `ticks_to_live` | Expression(数学表达式) | ✅ | — | — | 生物的存活游戏刻数。支持表达式。示例：`20 * %level%` |
+| `health` | Expression(数学表达式) | — | `20` | — | 生成生物的生命值。支持表达式。示例：`20 + %level% * 5` |
+| `range` | Expression(数学表达式) | ✅ | — | — | 生物生成位置周围的范围。支持表达式。示例：`5 + %level% * 0.5` |
+| `entity` | Entity | ✅ | — | — | 要生成的生物（接受查找字符串）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnMobs.kt`）。
 
-- **源码描述**: Spawns multiple mobs near the trigger location that target the victim.
+- **源码描述**: 在触发位置附近生成多个以受害者为目标的生物。
 - **所属分类**: `entity`
 - **需要触发器数据**: `PLAYER`, `LOCATION`
 

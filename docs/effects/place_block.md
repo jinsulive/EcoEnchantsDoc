@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `block` | Block | ✅ | — | — | The block to place (eco block ID) \| Source: The block to place at the trigger location. |
-| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the original block is restored \| Source: How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. Example: `20 * %level%` |
+| `block` | Block | ✅ | — | — | The block to place at the trigger location. |
+| `duration` | Expression(数学表达式) | — | — | — | How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `level` | Expression(数学表达式) | ✅ | — | — | The piercing level, i.e. the amount of entities that the projectile should go through \| Source: The number of extra piercing levels to add to the arrow. Supports expressions. Example: `1 + %level% / 20` |
+| `level` | Expression(数学表达式) | ✅ | — | — | The number of extra piercing levels to add to the arrow. Supports expressions. Example: `1 + %level% / 20` |
 
 ## 📝 Source Notes
 

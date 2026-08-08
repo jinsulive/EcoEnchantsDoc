@@ -10,7 +10,7 @@ outline: deep
 
 # give_skill_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives experience points for a certain skill
+> 为特定技能获得经验值。
 
 > **需要依赖：** EcoSkills
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of xp to give |
-| `skill` | The skill to give the xp for |
+| `amount` | 要给予的经验值数量。 |
+| `skill` | 要给予经验值的技能。 |
 
 ## 配置示例
 

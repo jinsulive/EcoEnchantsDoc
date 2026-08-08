@@ -10,7 +10,7 @@ outline: deep
 
 # has_boss_bar_visible <Badge type="info" text="libreforge" />
 
-> Requires a player to have the TAB boss bar shown to them
+> 需要 TAB Boss 血条显示给玩家。
 
 ## 基本信息
 

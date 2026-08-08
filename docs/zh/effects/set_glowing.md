@@ -10,7 +10,7 @@ outline: deep
 
 # set_glowing <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sets an entity's glowing state, optionally reverting it after a duration
+> 设置实体的发光状态，可选在一段时间后恢复。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `glowing` | Boolean | — | `true` | — | (Optional) Whether to enable glowing, defaults to true \| Source: Whether to enable or disable the glowing effect. |
-| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the glowing state is reverted \| Source: How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
+| `glowing` | Boolean | — | `true` | — | （可选）是否启用发光，默认为 true。 |
+| `duration` | Expression(数学表达式) | — | — | — | （可选）发光状态恢复前的游戏刻数。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetGlowing.kt`）。
 
-- **源码描述**: Makes the target entity glow, optionally reverting after a duration.
+- **源码描述**: 使目标实体发光，可选在一段时间后恢复。
 - **所属分类**: `visual`
 - **需要触发器数据**: `VICTIM`
 

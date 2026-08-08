@@ -10,7 +10,7 @@ outline: deep
 
 # silence <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Silences an entity so it cannot make sounds for a duration
+> 使实体沉默，在一段时间内无法发出声音。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The duration in ticks to silence the entity \| Source: How long to silence the entity, in ticks. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | 使实体沉默的时长（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSilence.kt`）。
 
-- **源码描述**: Silences the victim entity for a duration, preventing it from making sounds.
+- **源码描述**: 使受害者实体在一段时间内沉默，无法发出声音。
 - **所属分类**: `entity`
 - **需要触发器数据**: `VICTIM`
 

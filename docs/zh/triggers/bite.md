@@ -10,7 +10,7 @@ outline: deep
 
 # bite <Badge type="info" text="libreforge" /> 
 
-> Triggered when a fish bites on your rod
+> 当鱼咬住你的鱼钩时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBite.kt`）。
 
-- **源码描述**: Fires when a fish bites the player's hook.
+- **源码描述**: 当有鱼咬住玩家的鱼钩时触发。
 - **所属分类**: `fishing`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`
 

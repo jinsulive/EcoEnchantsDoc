@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `item` | Item List | ✅ | — | — | The item to give \| Source: The item or list of items to give to the player. |
-| `items` | Item List | ✅ | — | — | You can also specify a list of items \| Source: The item or list of items to give to the player. |
-| `slot` | String | — | — | — | The slot to give in, can be any numeric slot, hand, or 'any' \| Source: The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. Example: `mainhand` |
+| `item` | Item List | ✅ | — | — | The item or list of items to give to the player. |
+| `items` | Item List | ✅ | — | — | The item or list of items to give to the player. |
+| `slot` | String | — | — | — | The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. Example: `mainhand` |
 
 ## 📝 Source Notes
 

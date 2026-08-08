@@ -10,7 +10,7 @@ outline: deep
 
 # set_custom_model_data <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Set the item's custom model data
+> 设置物品的自定义模型数据。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `model` | Expression(数学表达式) | ✅ | — | — | The custom model data ID \| Source: The custom model data integer to apply to the item. Supports expressions. |
+| `model` | Expression(数学表达式) | ✅ | — | — | 自定义模型数据 ID。支持表达式。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetCustomModelData.kt`）。
 
-- **源码描述**: Sets the custom model data value on the triggering item.
+- **源码描述**: 设置触发物品的自定义模型数据值。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `ITEM`
 

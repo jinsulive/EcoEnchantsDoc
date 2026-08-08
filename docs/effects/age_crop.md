@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `age` | Expression(数学表达式) | — | `1` | — | The amount to age by \| Source: The number of growth stages to advance. Supports expressions. Example: `1 + %level%` |
+| `age` | Expression(数学表达式) | — | `1` | — | The number of growth stages to advance. Supports expressions. Example: `1 + %level%` |
 
 ## 📝 Source Notes
 

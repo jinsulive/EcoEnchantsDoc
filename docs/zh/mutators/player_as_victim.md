@@ -10,7 +10,7 @@ outline: deep
 
 # player_as_victim <Badge type="info" text="libreforge" />
 
-> Marks the player as the victim, useful to have negative effects
+> 将玩家标记为受害者，便于施加负面效果。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorPlayerAsVictim.kt`）。
 
-- **源码描述**: Sets the victim to be the triggering player.
+- **源码描述**: 将受害者设置为触发此效果的玩家。
 - **所属分类**: `player`, `victim`
 
 ## 配置示例

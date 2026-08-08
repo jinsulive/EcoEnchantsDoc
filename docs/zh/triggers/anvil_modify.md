@@ -11,7 +11,7 @@ outline: deep
 
 # anvil_modify <Badge type="info" text="libreforge" /> <Badge type="warning" text="Purpur" />
 
-> Triggered when a player takes a modified item from an anvil
+> 当玩家从铁砧取回已修改的物品时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `anvil_modify` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The experience cost |
+| 值 | 消耗的经验值 |
 | 需要 | Purpur |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The experience cost |
+| `%trigger_value%` | 消耗的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

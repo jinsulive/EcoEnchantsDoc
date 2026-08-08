@@ -11,7 +11,7 @@ outline: deep
 
 # enter_region <Badge type="info" text="libreforge" /> <Badge type="warning" text="WorldGuard" />
 
-> Triggered when entering a region
+> 当进入区域时触发。
 
 ## 基本信息
 

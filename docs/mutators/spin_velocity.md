@@ -24,7 +24,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to spin around, in degrees \| Source: The angle in degrees to rotate the velocity around the Y axis. Example: `%level% * 5` |
+| `angle` | Expression(数学表达式) | ✅ | — | — | The angle in degrees to rotate the velocity around the Y axis. Example: `%level% * 5` |
 
 ## 📝 Source Notes
 

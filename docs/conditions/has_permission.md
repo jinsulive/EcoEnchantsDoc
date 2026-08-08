@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `permission` | String | ✅ | — | — | The required permission \| Source: The permission node to check. Example: `myplugin.vip.access` |
+| `permission` | String | ✅ | — | — | The permission node to check. Example: `myplugin.vip.access` |
 
 ## 📝 Source Notes
 

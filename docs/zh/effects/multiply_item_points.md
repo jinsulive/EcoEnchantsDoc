@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_item_points <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Multiply item points (check the points wiki page if you don't know what these are)
+> 倍率化物品点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The point to multiply \| Source: The item point type to multiply. |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The multiplier to apply to the item's point value. Supports expressions. Example: `1 + %level% * 0.1` |
+| `type` | String | ✅ | — | — | 要倍率化的物品点数类型。 |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 倍率。支持表达式。示例：`1 + %level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyItemPoints.kt`）。
 
-- **源码描述**: Multiplies a point value stored on the found item by the specified amount.
+- **源码描述**: 以指定数值倍率化掉落物品上存储的点数值。
 - **所属分类**: `economy`, `points`
 
 ## 配置示例

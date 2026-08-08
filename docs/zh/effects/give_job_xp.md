@@ -10,7 +10,7 @@ outline: deep
 
 # give_job_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives experience points for a certain job
+> 为特定职业获得经验值。
 
 > **需要依赖：** EcoJobs
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of xp to give |
-| `job` | The job to give the xp for |
+| `amount` | 要给予的经验值数量。 |
+| `job` | 要给予经验值的职业。 |
 
 ## 配置示例
 

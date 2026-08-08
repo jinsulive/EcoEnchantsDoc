@@ -10,7 +10,7 @@ outline: deep
 
 # uninscribe_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Removes or decreases the level of a scroll inscribed on an item
+> 移除或降低物品上刻铭的卷轴等级。
 
 > **需要依赖：** EcoScrolls
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `scroll` | The scroll ID to remove |
-| `type` | (Optional) Use "remove" to remove the scroll entirely, "decrease" reduces level by 1 (removes at level 0). Defaults to "remove" |
+| `scroll` | 要移除的卷轴 ID。 |
+| `type` | （可选）使用 "remove" 完全移除卷轴，"decrease" 将等级降低 1（等级为 0 时移除）。默认为 "remove"。 |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # animation <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Plays an animation
+> 播放动画。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `animation` | String | ✅ | — | `spin_item` | The ID of the animation \| Source: The animation to play. |
-| `animation_args` | Custom | — | — | — | Arguments for the animation |
+| `animation` | String | ✅ | — | `spin_item` | 要播放的动画 ID。 |
+| `animation_args` | Custom | — | — | — | 动画参数。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAnimation.kt`）。
 
-- **源码描述**: Plays a named animation at the trigger location.
+- **源码描述**: 在触发位置播放指定的动画。
 - **所属分类**: `visual`
 - **需要触发器数据**: `LOCATION`
 - **继承子配置**: 是（此效果继承子配置，详见对应子配置页）

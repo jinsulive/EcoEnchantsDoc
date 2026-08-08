@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `trigger` | String | ✅ | — | — | The custom trigger ID: use in other effects like custom_id (i.e. custom_example here) \| Source: The ID of the custom trigger to dispatch. |
-| `value` | Expression(数学表达式) | — | `0` | — | The value to pass to the trigger, e.g. for EcoPets levelling. \| Source: An optional value to pass to the dispatched trigger. Supports expressions. |
+| `trigger` | String | ✅ | — | — | The ID of the custom trigger to dispatch (i.e. custom_example here). |
+| `value` | Expression(数学表达式) | — | `0` | — | An optional value to pass to the dispatched trigger. Supports expressions. |
 
 ## 📝 Source Notes
 

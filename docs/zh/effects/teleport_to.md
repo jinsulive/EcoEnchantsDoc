@@ -10,7 +10,7 @@ outline: deep
 
 # teleport_to <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Teleport a player to a specific location
+> 将玩家传送到特定位置。
 
 ## 基本信息
 
@@ -25,16 +25,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `world` | String | ✅ | — | — | The world name \| Source: The name of the world to teleport to. Example: `world_nether` |
-| `x` | Expression(数学表达式) | ✅ | — | — | The x-coordinate \| Source: The X coordinate to teleport to. Supports expressions. Example: `100` |
-| `y` | Expression(数学表达式) | ✅ | — | — | The y-coordinate \| Source: The Y coordinate to teleport to. Supports expressions. Example: `64` |
-| `z` | Expression(数学表达式) | ✅ | — | — | The z-coordinate \| Source: The Z coordinate to teleport to. Supports expressions. Example: `-200` |
+| `world` | String | ✅ | — | — | 要传送到的世界名称。示例：`world_nether` |
+| `x` | Expression(数学表达式) | ✅ | — | — | X 坐标。支持表达式。示例：`100` |
+| `y` | Expression(数学表达式) | ✅ | — | — | Y 坐标。支持表达式。示例：`64` |
+| `z` | Expression(数学表达式) | ✅ | — | — | Z 坐标。支持表达式。示例：`-200` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTeleportTo.kt`）。
 
-- **源码描述**: Teleports the player to a specific coordinate in a named world.
+- **源码描述**: 将玩家传送到指定世界中的特定坐标。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`
 

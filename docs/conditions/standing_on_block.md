@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `block` | Block | ✅ | — | — | The block type \| Source: The block type (material name) the player must be standing on. |
+| `block` | Block | ✅ | — | — | The block type (material name) the player must be standing on. |
 
 ## 📝 Source Notes
 

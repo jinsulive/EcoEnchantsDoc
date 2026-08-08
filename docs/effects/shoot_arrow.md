@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `inherit_velocity` | Boolean | — | `false` | — | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) \| Source: Whether the arrow should inherit the player's current velocity. |
-| `no_source` | Boolean | — | `false` | — | If the player should not be marked as the source, leaving this option out defaults to false \| Source: Whether the arrow should have no shooter, preventing attribution to the player. |
-| `launch-at-location` | Boolean | — | `false` | — | If the arrow should be launched at the location of the trigger rather than the player \| Source: Whether the arrow should be teleported to the trigger location after launch. |
-| `allow_pickup` | Boolean | — | `false` | — | If the arrow should be able to be picked up by players \| Source: Whether the arrow can be picked up by players. |
+| `inherit_velocity` | Boolean | — | `false` | — | Whether the arrow should inherit the player's current velocity (ie if you want to make a tripleshot effect). |
+| `no_source` | Boolean | — | `false` | — | Whether the arrow should have no shooter, preventing attribution to the player. |
+| `launch-at-location` | Boolean | — | `false` | — | Whether the arrow should be teleported to the trigger location after launch. |
+| `allow_pickup` | Boolean | — | `false` | — | Whether the arrow can be picked up by players. |
 
 ## 📝 Source Notes
 

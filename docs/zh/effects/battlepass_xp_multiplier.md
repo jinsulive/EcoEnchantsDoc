@@ -10,7 +10,7 @@ outline: deep
 
 # battlepass_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies incoming battlepass xp gain
+> 倍率化战斗通行证获得的经验值。
 
 > **需要依赖：** EcoBattlepass
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The xp multiplier |
-| `battlepasses` | The list of battlepasses to apply to |
+| `multiplier` | 经验值倍率。 |
+| `battlepasses` | 要应用的战斗通行证列表。 |
 
 ## 配置示例
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The damage multiplier to apply. Supports expressions. Example: `1.2 + %level% * 0.02` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The damage multiplier to apply. Supports expressions. Example: `1.2 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

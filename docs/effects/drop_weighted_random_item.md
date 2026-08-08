@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `items` | Dynamic Config | ✅ | — | — | The list of items to choose from (with weight) \| Source: A list of weighted item groups. Each entry has a weight and an items list. |
+| `items` | Dynamic Config | ✅ | — | — | A list of weighted item groups. Each entry has a weight and an items list. |
 
 ## 📝 Source Notes
 

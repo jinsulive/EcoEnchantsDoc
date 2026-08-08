@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of food to give/take (allows negative values) \| Source: The number of food points to add to the player's hunger bar. Supports expressions. Example: `%level%` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of food points to add to the player's hunger bar (allows negative values). Supports expressions. Example: `%level%` |
 
 ## 📝 Source Notes
 

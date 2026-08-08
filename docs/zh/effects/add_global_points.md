@@ -10,7 +10,7 @@ outline: deep
 
 # add_global_points <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Add / subtract global points (check the points wiki page if you don't know what these are)
+> 增加/扣除全局点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The global point type to add to. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to add/subtract \| Source: The amount of global points to add. Supports expressions. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要增加/扣除的全局点数类型。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要增加/扣除的全局点数数量。支持表达式。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddGlobalPoints.kt`）。
 
-- **源码描述**: Permanently increases a global point counter while the holder is active.
+- **源码描述**: 持有器激活期间，永久增加全局点数计数。
 - **所属分类**: `economy`, `points`
 
 ## 配置示例

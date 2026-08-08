@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of the trigger value to heal \| Source: The fraction of damage dealt that is converted into healing. Supports expressions. Example: `0.1 + %level% * 0.01` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of damage dealt that is converted into healing. Supports expressions. Example: `0.1 + %level% * 0.01` |
 
 ## 📝 Source Notes
 

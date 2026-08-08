@@ -11,7 +11,7 @@ outline: deep
 
 # lands_spawn_teleport <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
 
-> Triggered when teleporting to Lands spawn
+> 当传送到领地出生点时触发。
 
 ## 基本信息
 

@@ -10,7 +10,7 @@ outline: deep
 
 # brew <Badge type="info" text="libreforge" /> 
 
-> Triggered when brewing a potion in a brewing stand
+> 当在酿造台酿造药水时触发。
 
 ## 基本信息
 
@@ -25,10 +25,10 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBrew.kt`）。
 
-- **源码描述**: Fires when the player brews potions in a brewing stand.
+- **源码描述**: 当玩家在酿造台酿造药水时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The number of potions brewed.
+- **值**: 酿造的药水数量。
 
 ## 配置示例
 

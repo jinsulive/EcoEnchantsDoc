@@ -10,7 +10,7 @@ outline: deep
 
 # in_edprison_gang <Badge type="info" text="libreforge" />
 
-> Requires the player to be in a EdPrison gang.
+> 需要玩家加入 EdPrison 帮派。
 
 ## 基本信息
 

@@ -10,7 +10,7 @@ outline: deep
 
 # total_damage_multiplier <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Multiplies all incoming or outgoing damage from any damage trigger
+> 倍率化任意伤害触发器的所有进出伤害。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The value to multiply the event's damage by. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 倍率（用于乘以事件伤害的值）。支持表达式。示例：`1 + %level% * 0.05` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTotalDamageMultiplier.kt`）。
 
-- **源码描述**: Multiplies the total damage of the triggering damage event by a given amount.
+- **源码描述**: 以指定数值倍率化触发伤害事件的总伤害。
 - **所属分类**: `combat`
 - **需要触发器数据**: `EVENT`
 

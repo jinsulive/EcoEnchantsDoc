@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies incoming EdPrison economy.
+> 倍率化获得的 EdPrison 经济。
 
 > **需要依赖：** EdPrison
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The xp multiplier |
-| `economies` | The economy types to multiply |
+| `multiplier` | 经验值倍率。 |
+| `economies` | 要倍率化的经济类型。 |
 
 ## 配置示例
 

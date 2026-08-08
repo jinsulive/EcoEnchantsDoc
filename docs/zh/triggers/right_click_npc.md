@@ -11,7 +11,7 @@ outline: deep
 
 # right_click_npc <Badge type="info" text="libreforge" /> <Badge type="warning" text="Citizens / FancyNpcs" />
 
-> Triggered when right-clicking an NPC
+> 当右键点击 NPC 时触发。
 
 ## 基本信息
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `reach` | Expression(数学表达式) | ✅ | — | — | The extra block reach \| Source: The number of blocks to add to the interaction range. Supports expressions. Example: `%level% * 0.5` |
+| `reach` | Expression(数学表达式) | ✅ | — | — | The number of blocks to add to the interaction range. Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | `all`, `hotbar`, `main` | The section to sort: all, hotbar, or main \| Source: Which section of the inventory to sort: all, hotbar, or main. |
+| `type` | String | ✅ | — | `all`, `hotbar`, `main` | Which section of the inventory to sort: all, hotbar, or main. |
 
 ## 📝 Source Notes
 

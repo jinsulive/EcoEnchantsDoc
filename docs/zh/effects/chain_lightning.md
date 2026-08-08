@@ -10,7 +10,7 @@ outline: deep
 
 # chain_lightning <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Strikes chain lightning that jumps between nearby entities
+> 释放连锁闪电，在附近的实体间跳跃。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `jumps` | Expression(数学表达式) | ✅ | — | — | The number of times the lightning jumps \| Source: The number of entities the lightning can chain to. Supports expressions. Example: `3 + %level%` |
-| `range` | Expression(数学表达式) | ✅ | — | — | The range in blocks to look for the next target \| Source: The maximum distance between chain targets. Supports expressions. Example: `5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each entity hit \| Source: The damage dealt to each entity struck. Supports expressions. Example: `%level% * 1.5` |
+| `jumps` | Expression(数学表达式) | ✅ | — | — | 闪电跳跃的次数。支持表达式。示例：`3 + %level%` |
+| `range` | Expression(数学表达式) | ✅ | — | — | 寻找下一个目标的半径范围（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | 对每个被击中的实体造成的伤害。支持表达式。示例：`%level% * 1.5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectChainLightning.kt`）。
 
-- **源码描述**: Strikes lightning that chains to nearby entities, dealing damage at each jump.
+- **源码描述**: 释放连锁闪电，在附近实体间跳跃并对每次跳跃造成伤害。
 - **所属分类**: `combat`, `visual`
 - **需要触发器数据**: `VICTIM`, `LOCATION`
 

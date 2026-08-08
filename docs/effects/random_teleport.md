@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum distance in blocks from the player \| Source: The maximum distance from the player's current position to teleport. Supports expressions. Example: `10 + %level%` |
-| `min_radius` | Expression(数学表达式) | — | `0` | — | (Optional) The minimum distance in blocks from the player \| Source: The minimum distance from the player's current position to teleport. Supports expressions. Example: `%level% * 0.1` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum distance from the player's current position to teleport. Supports expressions. Example: `10 + %level%` |
+| `min_radius` | Expression(数学表达式) | — | `0` | — | The minimum distance from the player's current position to teleport. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

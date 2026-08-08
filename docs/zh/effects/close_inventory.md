@@ -10,7 +10,7 @@ outline: deep
 
 # close_inventory <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Closes the player's inventory
+> 关闭玩家的背包。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCloseInventory.kt`）。
 
-- **源码描述**: Closes any open inventory GUI for the player.
+- **源码描述**: 关闭玩家打开的任意背包 GUI。
 - **所属分类**: `inventory`, `player`
 - **需要触发器数据**: `PLAYER`
 

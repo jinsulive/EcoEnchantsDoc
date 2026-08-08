@@ -10,7 +10,7 @@ outline: deep
 
 # is_flying <Badge type="info" text="libreforge" />
 
-> Requires a player to be flying
+> 需要玩家正在飞行。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsFlying.kt`）。
 
-- **源码描述**: Passes when the player is flying.
+- **源码描述**: 当玩家正在飞行时通过。
 - **所属分类**: `player`
 
 ## 配置示例

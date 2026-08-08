@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `item` | Item | ✅ | — | — | The item to give \| Source: The item to drop. Accepts eco item lookup strings. |
+| `item` | Item | ✅ | — | — | The item to drop. Accepts eco item lookup strings. |
 | `add_to_drops` | Boolean | — | `false` | — | If true and the trigger has a drop event, adds the item to that event's drop list instead of spawning it directly. |
 
 ## 📝 Source Notes

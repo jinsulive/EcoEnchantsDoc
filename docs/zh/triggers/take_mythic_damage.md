@@ -11,7 +11,7 @@ outline: deep
 
 # take_mythic_damage <Badge type="info" text="libreforge" /> <Badge type="warning" text="MythicMobs" />
 
-> Triggered when taking MythicMobs damage
+> 当受到 MythicMobs 伤害时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `take_mythic_damage` |
 | 所属模块 | libreforge |
 | 分类 | 外部集成（External Integration） |
-| 值 | The damage taken |
+| 值 | 受到的伤害 |
 | 需要 | MythicMobs |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The damage taken |
+| `%trigger_value%` | 受到的伤害 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

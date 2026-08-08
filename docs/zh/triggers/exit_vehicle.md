@@ -10,7 +10,7 @@ outline: deep
 
 # exit_vehicle <Badge type="info" text="libreforge" /> 
 
-> Triggered when exiting a vehicle
+> 当离开载具时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerExitVehicle.kt`）。
 
-- **源码描述**: Fires when the player exits a vehicle.
+- **源码描述**: 当玩家离开载具时触发。
 - **所属分类**: `interaction`, `movement`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`
 

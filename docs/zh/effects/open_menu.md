@@ -10,7 +10,7 @@ outline: deep
 
 # open_menu <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Opens an EcoMenus menu.
+> 打开 EcoMenus 菜单。
 
 > **需要依赖：** EcoMenus
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `menu` | The menu to open, configured in /menus/ folder |
+| `menu` | 要打开的菜单，在 /menus/ 文件夹中配置。 |
 
 ## 配置示例
 

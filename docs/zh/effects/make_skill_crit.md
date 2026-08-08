@@ -10,7 +10,7 @@ outline: deep
 
 # make_skill_crit <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Deal a crit hit
+> 造成一次暴击。
 
 > **需要依赖：** EcoSkills
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | Multiplies attack damage as a crit |
+| `multiplier` | 将攻击伤害以暴击形式倍率化。 |
 
 ## 配置示例
 

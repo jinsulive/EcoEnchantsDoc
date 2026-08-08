@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `entity` | Entity | ✅ | — | — | The mob to spawn, takes a lookup string \| Source: The entity type to spawn at the trigger location. |
+| `entity` | Entity | ✅ | — | — | The entity type to spawn at the trigger location. |
 
 ## 📝 Source Notes
 

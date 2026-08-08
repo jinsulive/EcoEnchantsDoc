@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The points type to read from the held item. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points to equal \| Source: The exact number of points the item must have. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The points type to read from the held item. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The exact number of points the item must have. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

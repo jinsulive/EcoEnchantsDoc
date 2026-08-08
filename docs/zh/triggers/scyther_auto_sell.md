@@ -11,7 +11,7 @@ outline: deep
 
 # scyther_auto_sell <Badge type="info" text="libreforge" /> <Badge type="warning" text="Scyther" />
 
-> Triggered when autoselling crops with a scyther hoe
+> 当使用镰刀锄自动出售作物时触发。
 
 ## 基本信息
 

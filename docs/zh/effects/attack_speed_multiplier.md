@@ -10,7 +10,7 @@ outline: deep
 
 # attack_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies attack speed
+> 倍率化攻击速度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for the attack speed \| Source: The attack speed multiplier. 1.5 = 50% faster. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 攻击速度倍率。1.5 = 快 50%。支持表达式。示例：`1 + %level% * 0.05` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAttackSpeedMultiplier.kt`）。
 
-- **源码描述**: Multiplies the player's attack speed while the holder is active.
+- **源码描述**: 持有器激活期间，倍率化玩家的攻击速度。
 - **所属分类**: `combat`, `player`, `attribute`
 
 ## 配置示例

@@ -11,7 +11,7 @@ outline: deep
 
 # inscribe <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoScrolls" />
 
-> Triggered when inscribing a scroll
+> 当刻铭卷轴时触发。
 
 ## 基本信息
 

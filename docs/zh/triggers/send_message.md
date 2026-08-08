@@ -10,7 +10,7 @@ outline: deep
 
 # send_message <Badge type="info" text="libreforge" /> 
 
-> Triggered when sending a message
+> 当发送消息时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSendMessage.kt`）。
 
-- **源码描述**: Fires when the player sends a chat message.
+- **源码描述**: 当玩家发送聊天消息时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `TEXT`
 

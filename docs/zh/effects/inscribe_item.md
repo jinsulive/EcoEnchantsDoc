@@ -10,7 +10,7 @@ outline: deep
 
 # inscribe_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Inscribes an item with a scroll
+> 用卷轴为物品刻铭文。
 
 > **需要依赖：** EcoScrolls
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `scroll` | The scroll ID |
+| `scroll` | 卷轴 ID。 |
 
 ## 配置示例
 

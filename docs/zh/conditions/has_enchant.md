@@ -10,7 +10,7 @@ outline: deep
 
 # has_enchant <Badge type="info" text="libreforge" />
 
-> Multiple enchants and/or slots are supported:
+> 支持多个附魔和/或栏位：
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `enchant` | Enchantment List | ✅ | — | — | The enchant ID \| Source: The enchantment(s) to require, optionally with a level or range (e.g. sharpness:3-5). Example: `sharpness:3-5, unbreaking:2` |
-| `slot` | String List | ✅ | — | — | The slot \| Source: The equipment slot(s) to check for the enchantment. Example: `mainhand, 9` |
+| `enchant` | Enchantment List | ✅ | — | — | 要检查的附魔 ID（可带等级或范围，例如 sharpness:3-5）。示例：`sharpness:3-5, unbreaking:2` |
+| `slot` | String List | ✅ | — | — | 要检查附魔的装备栏位。示例：`mainhand, 9` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasEnchant.kt`）。
 
-- **源码描述**: Passes when the entity has an item with the specified enchantment in the specified slot.
+- **源码描述**: 当实体在指定栏位持有带指定附魔的物品时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

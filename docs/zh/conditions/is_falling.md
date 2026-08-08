@@ -10,7 +10,7 @@ outline: deep
 
 # is_falling <Badge type="info" text="libreforge" />
 
-> Requires a player to be falling
+> 需要玩家正在下落。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsFalling.kt`）。
 
-- **源码描述**: Passes when the entity has a significant downward velocity, indicating it is falling.
+- **源码描述**: 当实体具有明显的向下速度（表示正在下落）时通过。
 - **所属分类**: `player`
 
 ## 配置示例

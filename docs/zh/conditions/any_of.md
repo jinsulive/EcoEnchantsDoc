@@ -10,7 +10,7 @@ outline: deep
 
 # any_of <Badge type="info" text="libreforge" />
 
-> Requires any of a certain list of conditions to be matched
+> 需要满足指定条件列表中的任意一个。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions — passes when any one is met. |
+| `conditions` | Any/Custom | ✅ | — | — | 条件列表——满足任意一个即通过。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAnyOf.kt`）。
 
-- **源码描述**: Passes when at least one of the listed conditions is met.
+- **源码描述**: 当至少满足列表中一个条件时通过。
 - **所属分类**: `meta`
 
 ## 配置示例

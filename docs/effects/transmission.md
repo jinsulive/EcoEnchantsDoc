@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The distance to teleport \| Source: The maximum distance to teleport the player forward. Supports expressions. Example: `10 + %level%` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum distance to teleport the player forward. Supports expressions. Example: `10 + %level%` |
 
 ## 📝 Source Notes
 

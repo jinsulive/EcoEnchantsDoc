@@ -10,7 +10,7 @@ outline: deep
 
 # broadcast <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Send a message to everyone online
+> 向所有在线玩家发送消息。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `message` | String List | ✅ | — | — | The message to send \| Source: The message(s) to broadcast to all players. Example: `&aWelcome to the server, %player%!` |
+| `message` | String List | ✅ | — | — | 要向所有玩家广播的消息。示例：`&aWelcome to the server, %player%!` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBroadcast.kt`）。
 
-- **源码描述**: Broadcasts one or more messages to all online players.
+- **源码描述**: 向所有在线玩家广播一条或多条消息。
 - **所属分类**: `chat`
 
 ## 配置示例

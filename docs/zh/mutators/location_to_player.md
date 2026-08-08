@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_player <Badge type="info" text="libreforge" />
 
-> Move the location to the player's location
+> 将位置移动到玩家的位置。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToPlayer.kt`）。
 
-- **源码描述**: Sets the location to the player's current position.
+- **源码描述**: 将位置设置为玩家当前位置。
 - **所属分类**: `location`, `player`
 
 ## 配置示例

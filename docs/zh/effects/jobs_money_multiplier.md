@@ -10,7 +10,7 @@ outline: deep
 
 # jobs_money_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies money gain from jobs
+> 倍率化职业获得的金钱。
 
 > **需要依赖：** Jobs Reborn
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The money multiplier |
-| `jobs` | The list of jobs to multiply money for. If removed, it will multiply all jobs. |
+| `multiplier` | 金钱倍率。 |
+| `jobs` | 要倍率化金钱的职业列表。移除后将对所有职业生效。 |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # set_points <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Set points (check the points wiki page if you don't know what these are)
+> 设置点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The point to set \| Source: The point type to set. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to set it to \| Source: The value to set the player's point counter to. Supports expressions. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要设置的点数类型。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要设置成的数值。支持表达式。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetPoints.kt`）。
 
-- **源码描述**: Sets a player's point counter to a specific value.
+- **源码描述**: 将玩家的点数计数设置为指定值。
 - **所属分类**: `economy`, `points`
 - **需要触发器数据**: `PLAYER`
 

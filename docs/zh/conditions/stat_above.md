@@ -10,7 +10,7 @@ outline: deep
 
 # stat_above <Badge type="info" text="libreforge" />
 
-> Requires a player to have at least a certain stat level
+> 需要玩家的属性等级至少达到一定等级。
 
 ## 基本信息
 

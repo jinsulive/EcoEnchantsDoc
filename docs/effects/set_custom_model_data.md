@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `model` | Expression(数学表达式) | ✅ | — | — | The custom model data ID \| Source: The custom model data integer to apply to the item. Supports expressions. |
+| `model` | Expression(数学表达式) | ✅ | — | — | The custom model data integer to apply to the item. Supports expressions. |
 
 ## 📝 Source Notes
 

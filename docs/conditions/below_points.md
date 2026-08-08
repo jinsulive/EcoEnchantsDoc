@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The maximum amount of points \| Source: The points threshold; the player must be below this amount. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The points type identifier. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The points threshold; the player must be below this amount. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

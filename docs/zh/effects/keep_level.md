@@ -10,7 +10,7 @@ outline: deep
 
 # keep_level <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Makes the player keep their XP level on death
+> 使玩家死亡后保留经验等级。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKeepLevel.kt`）。
 
-- **源码描述**: Prevents the player from losing their XP levels on death.
+- **源码描述**: 防止玩家死亡时丢失经验等级。
 - **所属分类**: `economy`, `player`
 
 ## 配置示例

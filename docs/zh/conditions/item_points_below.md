@@ -10,7 +10,7 @@ outline: deep
 
 # item_points_below <Badge type="info" text="libreforge" />
 
-> Requires an item to have below a certain amount of points (check the points wiki page if you don't know what these are)
+> 需要物品拥有低于一定数量的点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The points type to read from the held item. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The maximum amount of points \| Source: The maximum number of points the item may have. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 点数类型（从手持物品读取）。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 最大点数数量（物品允许拥有的点数）。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemPointsBelow.kt`）。
 
-- **源码描述**: Passes when the held item's points of a given type are at or below the specified amount.
+- **源码描述**: 当手持物品指定类型的点数低于或等于指定数量时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

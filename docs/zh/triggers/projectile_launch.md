@@ -10,7 +10,7 @@ outline: deep
 
 # projectile_launch <Badge type="info" text="libreforge" /> 
 
-> Triggered when launching a projectile (arrow, trident, splash potion, egg, snowball)
+> 当发射弹射物（箭、三叉戟、喷溅药水、鸡蛋、雪球）时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerProjectileLaunch.kt`）。
 
-- **源码描述**: Fires when the player launches a projectile.
+- **源码描述**: 当玩家发射弹射物时触发。
 - **所属分类**: `combat`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `PROJECTILE`, `VELOCITY`
 

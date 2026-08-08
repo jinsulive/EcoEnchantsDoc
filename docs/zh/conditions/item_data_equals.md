@@ -10,7 +10,7 @@ outline: deep
 
 # item_data_equals <Badge type="info" text="libreforge" />
 
-> Requires an item to have a certain data value
+> 需要物品拥有某个数据值。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | The data key \| Source: The custom item data key to read from the item. |
-| `value` | String | ✅ | — | — | The data value \| Source: The value that the data key must equal. |
+| `key` | String | ✅ | — | — | 要从物品读取的自定义数据键。 |
+| `value` | String | ✅ | — | — | 该数据键必须等于的值。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemDataEquals.kt`）。
 
-- **源码描述**: Passes when the held item's custom data value for a given key equals the specified value.
+- **源码描述**: 当手持物品指定键的自定义数据值等于指定值时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

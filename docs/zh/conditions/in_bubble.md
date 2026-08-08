@@ -10,7 +10,7 @@ outline: deep
 
 # in_bubble <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a bubble column
+> 需要玩家位于气泡柱中。
 
 ## 基本信息
 

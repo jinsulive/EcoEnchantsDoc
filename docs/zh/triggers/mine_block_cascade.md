@@ -10,7 +10,7 @@ outline: deep
 
 # mine_block_cascade <Badge type="info" text="libreforge" /> 
 
-> Triggered for each block broken in a cascade (sugar cane, bamboo, cactus, kelp, vines, chorus plant/flower)
+> 当连锁破坏方块时，每破坏一个方块触发一次（甘蔗、竹子、仙人掌、海带、藤蔓、紫颂植物/花）。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerMineBlockCascade.kt`）。
 
-- **源码描述**: Fires for each block broken in a cascading plant break, such as sugar cane, bamboo, kelp, or chorus.
+- **源码描述**: 在连锁破坏植物（如甘蔗、竹子、海带、紫颂植物）时，每破坏一个方块触发一次。
 - **所属分类**: `world`
 - **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`
 

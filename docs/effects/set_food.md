@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The food level to set \| Source: The food level to set (0–20). Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The food level to set (0–20). Supports expressions. |
 
 ## 📝 Source Notes
 

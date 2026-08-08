@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for gravity \| Source: The gravity multiplier to apply. Supports expressions. Example: `1 - %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 重力倍率。支持表达式。示例：`1 - %level% * 0.05` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGravityMultiplier.kt`）。
 
-- **源码描述**: Multiplies the player's gravity, making them fall faster or slower.
+- **源码描述**: 倍率化玩家的重力，使其下落更快或更慢。
 - **所属分类**: `movement`, `player`, `attribute`
 
 ## 配置示例

@@ -10,7 +10,7 @@ outline: deep
 
 # give_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives a player an item
+> 给予玩家物品。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item List | ✅ | — | — | The item to give \| Source: The item or list of items to give to the player. |
-| `items` | Item List | ✅ | — | — | You can also specify a list of items \| Source: The item or list of items to give to the player. |
-| `slot` | String | — | — | — | The slot to give in, can be any numeric slot, hand, or 'any' \| Source: The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. Example: `mainhand` |
+| `item` | Item List | ✅ | — | — | 要给予玩家的物品或物品列表。 |
+| `items` | Item List | ✅ | — | — | 你也可以指定一个物品列表。 |
+| `slot` | String | — | — | — | 给予物品的背包栏位，可以是任意数字栏位、hand 或 'any'。省略时物品会通过念力传送到玩家背包。示例：`mainhand` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveItem.kt`）。
 
-- **源码描述**: Gives the player one or more items, optionally placing them into a specific inventory slot.
+- **源码描述**: 给予玩家一个或多个物品，可选放入指定背包栏位。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`
 

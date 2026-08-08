@@ -11,7 +11,7 @@ outline: deep
 
 # grind_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Purpur" />
 
-> Triggered when a player grinds an item in the grindstone
+> 当玩家在砂轮上打磨物品时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `grind_item` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The experience gained |
+| 值 | 获得的经验值 |
 | 需要 | Purpur |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The experience gained |
+| `%trigger_value%` | 获得的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

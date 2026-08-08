@@ -11,7 +11,7 @@ outline: deep
 
 # complete_collection <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoCollections" />
 
-> Triggered when completing a collection
+> 当完成收藏时触发。
 
 ## 基本信息
 

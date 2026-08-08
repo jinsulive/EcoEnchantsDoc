@@ -10,7 +10,7 @@ outline: deep
 
 # below_global_points <Badge type="info" text="libreforge" />
 
-> Requires the server to have a below an amount of points
+> 需要服务器的点数低于一定数量。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The global points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The maximum amount of points \| Source: The global points threshold; the value must be below this amount. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 点数类型（全局点数类型标识）。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 最大点数数量（全局点数阈值，必须低于此值）。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowGlobalPoints.kt`）。
 
-- **源码描述**: Passes when the global points of the given type are below the specified amount.
+- **源码描述**: 当指定类型的全局点数低于指定数量时通过。
 - **所属分类**: `economy`
 
 ## 配置示例

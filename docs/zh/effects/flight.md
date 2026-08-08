@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFlight.kt`）。
 
-- **源码描述**: Grants the player the ability to fly while the holder is active.
+- **源码描述**: 持有器激活期间，赋予玩家飞行能力。
 - **所属分类**: `movement`, `player`
 
 ## 配置示例

@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `value` | String | ✅ | — | — | The value of the price \| Source: The amount to deduct from the player. Supports expressions and placeholders. Example: `%level% * 10` |
-| `type` | String | ✅ | — | — | The price type \| Source: The price type identifier (e.g. coins, xp, xpl, item). Example: `coins` |
+| `value` | String | ✅ | — | — | The amount to deduct from the player. Supports expressions and placeholders. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The price type identifier (e.g. coins, xp, xpl, item). Example: `coins` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # open_ender_chest <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Opens the player's ender chest
+> 打开玩家的末影箱。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectOpenEnderChest.kt`）。
 
-- **源码描述**: Opens the player's ender chest inventory.
+- **源码描述**: 打开玩家的末影箱背包。
 - **所属分类**: `player`, `inventory`
 - **需要触发器数据**: `PLAYER`
 

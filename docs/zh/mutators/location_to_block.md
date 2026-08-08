@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_block <Badge type="info" text="libreforge" />
 
-> Move the location to the block's location
+> 将位置移动到方块所在的位置。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToBlock.kt`）。
 
-- **源码描述**: Sets the block parameter to use the block's location.
+- **源码描述**: 将方块参数设置为该方块的位置。
 - **所属分类**: `location`, `block`
 
 ## 配置示例

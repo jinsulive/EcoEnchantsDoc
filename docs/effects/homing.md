@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The distance to hone in from \| Source: The maximum range at which the arrow will lock on to a target. Supports expressions. Example: `10 + %level%` |
-| `targets` | Entity List | — | `[]` | — | The whitelist of entities to target \| Source: A list of entity types the arrow will home in on. Leave empty to target all entities. |
+| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum range at which the arrow will lock on to a target. Supports expressions. Example: `10 + %level%` |
+| `targets` | Entity List | — | `[]` | — | A list of entity types the arrow will home in on. Leave empty to target all entities. |
 
 ## 📝 Source Notes
 

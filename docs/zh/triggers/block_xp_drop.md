@@ -25,10 +25,10 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBlockXpDrop.kt`）。
 
-- **源码描述**: Fires when a block broken by the player drops experience.
+- **源码描述**: 当玩家破坏的方块掉落经验时触发。
 - **所属分类**: `world`
 - **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `VALUE`
-- **值**: The amount of XP dropped.
+- **值**: 掉落的经验值数量。
 
 ## 配置示例
 

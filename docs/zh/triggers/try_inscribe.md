@@ -11,7 +11,7 @@ outline: deep
 
 # try_inscribe <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoScrolls" />
 
-> Triggered when attempting to inscribe a scroll
+> 当尝试刻铭卷轴时触发。
 
 ## 基本信息
 

@@ -10,7 +10,7 @@ outline: deep
 
 # send_minimessage <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sends the player a minimessage message, supports clickable components, etc.
+> 向玩家发送 MiniMessage 消息，支持可点击组件等。
 
 > **需要依赖：** Paper
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `message` | The message to send |
-| `action_bar` | If the message should go to the action bar instead of chat |
+| `message` | 要发送的消息。 |
+| `action_bar` | 消息是否显示在快捷栏上方（action bar）而非聊天栏。 |
 
 ## 配置示例
 

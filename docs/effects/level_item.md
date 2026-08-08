@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `id` | String | ✅ | — | — | The level ID \| Source: The ID of the level type to grant XP for. Example: `mining` |
-| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of xp to gain \| Source: The amount of XP to grant to the item. Supports expressions. Example: `%level% * 10` |
+| `id` | String | ✅ | — | — | The ID of the level type to grant XP for. Example: `mining` |
+| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of XP to grant to the item. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

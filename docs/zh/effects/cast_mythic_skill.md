@@ -10,7 +10,7 @@ outline: deep
 
 # cast_mythic_skill <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Casts a MythicMobs skill on the target.
+> 对目标施放 MythicMobs 技能。
 
 > **需要依赖：** MythicMobs
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `skill` | The ID of the skill to cast |
-| `victim_to_player` | For passive skill, set it to true. |
+| `skill` | 要施放的技能 ID。 |
+| `victim_to_player` | 被动技能请设为 true。 |
 
 ## 配置示例
 

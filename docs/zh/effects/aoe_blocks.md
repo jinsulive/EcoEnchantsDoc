@@ -10,7 +10,7 @@ outline: deep
 
 # aoe_blocks <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Runs effects for all blocks within an area of effect (the list of shapes is found in the aoe page)
+> 对效果区域（AOE）内的所有方块运行效果（形状列表见 aoe 页面）。
 
 ## 基本信息
 
@@ -25,18 +25,18 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for each block \| Source: The effects to run on each block within the AOE. |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area \| Source: The AOE shape to use. |
-| `radius` | Custom | — | — | — | The radius of the cone |
-| `distance` | Custom | — | — | — | The length of the beam |
-| `pierce_blocks` | Custom | — | — | — | If the beam should pass through blocks |
-| `pierce_entities` | Custom | — | — | — | If the beam should pass through entities |
+| `effects` | Effect List | ✅ | — | — | 对范围内每个方块运行的效果。 |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | 范围效果区域的形状。 |
+| `radius` | Custom | — | — | — | 圆锥的半径。 |
+| `distance` | Custom | — | — | — | 光束的长度。 |
+| `pierce_blocks` | Custom | — | — | — | 光束是否穿过方块。 |
+| `pierce_entities` | Custom | — | — | — | 光束是否穿过实体。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAOEBlocks.kt`）。
 
-- **源码描述**: Runs a set of effects on all non-air blocks within an AOE shape.
+- **源码描述**: 在指定 AOE 形状内，对所有非空气方块运行一组效果。
 - **所属分类**: `meta`
 - **继承子配置**: 是（此效果继承子配置，详见对应子配置页）
 

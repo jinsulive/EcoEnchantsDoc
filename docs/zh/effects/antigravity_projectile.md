@@ -10,7 +10,7 @@ outline: deep
 
 # antigravity_projectile <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Projectiles are immune from gravity, allowing them to fly in a straight line until they hit something.
+> 弹射物不受重力影响，可以沿直线飞行直到击中目标。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAntigravityProjectile.kt`）。
 
-- **源码描述**: Makes all projectiles the player fires travel in a straight line, unaffected by gravity.
+- **源码描述**: 使玩家发射的所有弹射物沿直线飞行，不受重力影响。
 - **所属分类**: `combat`
 
 ## 配置示例

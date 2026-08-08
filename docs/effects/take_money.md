@@ -27,7 +27,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to take \| Source: The amount of money to remove from the player. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to remove from the player. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

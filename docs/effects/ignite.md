@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal per fire tick \| Source: The amount of damage dealt per fire tick. Supports expressions. Example: `%level%` |
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The amount of time the victim should be on fire for \| Source: The number of fire ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | The amount of damage dealt per fire tick. Supports expressions. Example: `%level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | The number of fire ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

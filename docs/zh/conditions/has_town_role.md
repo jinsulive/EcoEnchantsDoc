@@ -10,7 +10,7 @@ outline: deep
 
 # has_town_role <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain role in a town
+> 需要玩家在城镇中拥有某个角色。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `roles` | The ID of the role |
+| `roles` | 角色 ID。 |
 
 ## 配置示例
 

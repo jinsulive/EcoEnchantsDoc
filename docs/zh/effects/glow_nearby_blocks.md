@@ -10,7 +10,7 @@ outline: deep
 
 # glow_nearby_blocks <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Make nearby blocks of a certain type glow a certain color
+> 使附近指定类型的方块以指定颜色发光。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius around the trigger location to search for matching blocks. Supports expressions. Example: `5 + %level% * 0.5` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | How long to show the glow effect for, in ticks \| Source: How long in ticks the blocks should glow. Supports expressions. Example: `20 * %level%` |
-| `colors` | Any/Custom | ✅ | — | — | Add as many blocks as you want, the color is from ChatColor javadocs \| Source: A subsection mapping block material names to ChatColor names (e.g. DIAMOND_ORE: AQUA). |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 搜索匹配方块的半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 发光效果的持续时长（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `colors` | Any/Custom | ✅ | — | — | 按需添加任意数量的方块，颜色取自 ChatColor 文档。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGlowNearbyBlocks.kt`）。
 
-- **源码描述**: Makes nearby blocks glow with configurable colors for a set duration.
+- **源码描述**: 在指定时长内使附近的方块以可配置的颜色发光。
 - **所属分类**: `visual`, `world`
 - **需要触发器数据**: `LOCATION`
 

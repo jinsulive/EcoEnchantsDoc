@@ -10,7 +10,7 @@ outline: deep
 
 # clear_inventory <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Clears a section of the player's inventory
+> 清空玩家背包的某一区域。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | `all`, `hotbar`, `main`, `armor` | The section to clear: all, hotbar, main, or armor \| Source: Which section of the inventory to clear. |
+| `type` | String | ✅ | — | `all`, `hotbar`, `main`, `armor` | 要清空的背包区域：all、hotbar、main 或 armor。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectClearInventory.kt`）。
 
-- **源码描述**: Clears a section of the player's inventory.
+- **源码描述**: 清空玩家背包的某一区域。
 - **所属分类**: `inventory`, `player`
 - **需要触发器数据**: `PLAYER`
 

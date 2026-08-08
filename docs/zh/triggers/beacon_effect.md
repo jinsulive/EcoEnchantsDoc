@@ -11,7 +11,7 @@ outline: deep
 
 # beacon_effect <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when a player gains effects from a beacon
+> 当玩家获得信标效果时触发。
 
 ## 基本信息
 

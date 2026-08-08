@@ -10,7 +10,7 @@ outline: deep
 
 # target_player <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Makes the victim target the player (requires the victim to be a monster)
+> 使受害者以玩家为目标（需要受害者是怪物）。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTargetPlayer.kt`）。
 
-- **源码描述**: Forces the victim monster to target the player.
+- **源码描述**: 强制受害者怪物以玩家为目标。
 - **所属分类**: `meta`, `entity`
 - **需要触发器数据**: `PLAYER`, `VICTIM`
 

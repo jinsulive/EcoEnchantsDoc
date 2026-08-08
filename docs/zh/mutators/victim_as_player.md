@@ -10,7 +10,7 @@ outline: deep
 
 # victim_as_player <Badge type="info" text="libreforge" />
 
-> Set the player to be the victim - useful to give the victim items, etc. Only works when the victim is a player.
+> 将玩家设置为受害者——便于给予受害者物品等。仅当受害者是玩家时生效。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorVictimAsPlayer.kt`）。
 
-- **源码描述**: Sets the player to be the current victim.
+- **源码描述**: 将玩家设置为当前的受害者。
 - **所属分类**: `player`, `victim`
 
 ## 配置示例

@@ -11,7 +11,7 @@ outline: deep
 
 # gain_mcmmo_xp <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
 
-> Triggered when gaining McMMO xp
+> 当获得 McMMO 经验值时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `gain_mcmmo_xp` |
 | 所属模块 | libreforge |
 | 分类 | 外部集成（External Integration） |
-| 值 | The xp gained |
+| 值 | 获得的经验值 |
 | 需要 | McMMO |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The xp gained |
+| `%trigger_value%` | 获得的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

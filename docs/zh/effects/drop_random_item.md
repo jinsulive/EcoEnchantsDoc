@@ -10,7 +10,7 @@ outline: deep
 
 # drop_random_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Drops a random item at a location
+> 在指定位置随机掉落一个物品。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` | Item List | ✅ | — | — | The list of items to choose from \| Source: The pool of items to choose from. One is picked at random per trigger. |
+| `items` | Item List | ✅ | — | — | 可供选择的物品列表。每次触发随机选取一个。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropRandomItem.kt`）。
 
-- **源码描述**: Drops one randomly chosen item from a list at the trigger location.
+- **源码描述**: 在触发位置从列表中随机掉落一个物品。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `LOCATION`
 

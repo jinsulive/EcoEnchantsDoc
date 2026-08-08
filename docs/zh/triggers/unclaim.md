@@ -11,7 +11,7 @@ outline: deep
 
 # unclaim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
 
-> Triggered when unclaiming an area
+> 当取消认领区域时触发。
 
 ## 基本信息
 

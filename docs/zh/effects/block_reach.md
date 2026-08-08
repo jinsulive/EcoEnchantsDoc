@@ -10,7 +10,7 @@ outline: deep
 
 # block_reach <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Adds reach for interacting with blocks
+> 增加与方块交互的距离。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `reach` | Expression(数学表达式) | ✅ | — | — | The extra block reach \| Source: The number of blocks to add to the interaction range. Supports expressions. Example: `%level% * 0.5` |
+| `reach` | Expression(数学表达式) | ✅ | — | — | 额外方块交互距离。支持表达式。示例：`%level% * 0.5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBlockReach.kt`）。
 
-- **源码描述**: Increases the player's block interaction range while the holder is active.
+- **源码描述**: 持有器激活期间，增加玩家与方块的交互距离。
 - **所属分类**: `player`, `attribute`
 
 ## 配置示例

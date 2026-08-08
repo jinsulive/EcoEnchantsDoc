@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `duration` | Expression(数学表达式) | ✅ | — | — | The amount of ticks to strip AI for \| Source: How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

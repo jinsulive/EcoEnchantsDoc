@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for sneaking speed \| Source: The multiplier applied to sneaking speed. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier applied to sneaking speed. Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

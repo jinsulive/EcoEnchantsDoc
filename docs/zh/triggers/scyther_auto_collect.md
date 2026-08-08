@@ -11,7 +11,7 @@ outline: deep
 
 # scyther_auto_collect <Badge type="info" text="libreforge" /> <Badge type="warning" text="Scyther" />
 
-> Triggered when autocollecting crops with a scyther hoe
+> 当使用镰刀锄自动收获作物时触发。
 
 ## 基本信息
 

@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for movement speed \| Source: The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

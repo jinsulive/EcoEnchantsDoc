@@ -10,7 +10,7 @@ outline: deep
 
 # wearing_helmet <Badge type="info" text="libreforge" />
 
-> Requires a player to have an item as their helmet
+> 需要玩家在头盔栏位装备物品。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` | Custom | — | — | — | The list of allowed items |
+| `items` | Custom | — | — | — | 允许的物品列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionWearingHelmet.kt`）。
 
-- **源码描述**: Passes when the entity is wearing the specified helmet.
+- **源码描述**: 当实体戴着指定的头盔时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

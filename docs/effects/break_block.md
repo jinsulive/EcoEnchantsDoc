@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `prevent_trigger` | Boolean | — | `false` | — | If the mine_block trigger should not be called from this \| Source: If true, breaking this block will not fire further libreforge triggers. |
+| `prevent_trigger` | Boolean | — | `false` | — | If true, breaking this block will not fire further libreforge triggers. |
 
 ## 📝 Source Notes
 

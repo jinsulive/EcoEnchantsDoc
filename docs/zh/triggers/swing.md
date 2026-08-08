@@ -11,7 +11,7 @@ outline: deep
 
 # swing <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when swinging an item, hand or weapon
+> 当挥动物品、手或武器时触发。
 
 ## 基本信息
 

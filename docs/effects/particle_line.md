@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `particle` | String | ✅ | — | — | The particle to spawn (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) \| Source: The particle type to spawn along the line. Example: `flame` |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of particles to spawn on each point \| Source: The number of particles to spawn at each point along the line. Supports expressions. |
-| `spacing` | Expression(数学表达式) | ✅ | — | — | The spacing between each particle in the line \| Source: The distance between each particle point along the line. Supports expressions. |
+| `particle` | String | ✅ | — | — | The particle type to spawn along the line. Example: `flame` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of particles to spawn at each point along the line. Supports expressions. |
+| `spacing` | Expression(数学表达式) | ✅ | — | — | The distance between each particle point along the line. Supports expressions. |
 
 ## 📝 Source Notes
 

@@ -24,8 +24,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to spin around, in degrees \| Source: The angle in degrees to rotate around the Y axis. Example: `%level% * 10` |
-| `distance` | Expression(数学表达式) | ✅ | — | — | The distance from the current location, in the direction the location is facing \| Source: The distance from the current location to offset in the rotated direction. Example: `1 + %level% * 0.1` |
+| `angle` | Expression(数学表达式) | ✅ | — | — | The angle in degrees to rotate around the Y axis. Example: `%level% * 10` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | The distance from the current location to offset in the rotated direction. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

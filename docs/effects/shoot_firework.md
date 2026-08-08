@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `inherit_velocity` | Boolean | — | `false` | — | If velocity should be inherited from the trigger \| Source: Whether the firework should inherit the player's current velocity. |
-| `no_source` | Boolean | — | `false` | — | If the player should not be marked as the source, leaving this option out defaults to false \| Source: Whether the firework should have no shooter, preventing attribution to the player. |
-| `launch-at-location` | Boolean | — | `false` | — | If the firework should be launched at the location of the trigger rather than the player \| Source: Whether the firework should be teleported to the trigger location after launch. |
-| `power` | Integer | — | `0` | — | The power of the firework, which affects how far it flies before exploding. (0-255, 0 is instant explosion) \| Source: The flight duration power of the firework (0-255). |
-| `effects` | Dynamic Config | — | — | — | You can specify multiply effects for the firework. \| Source: List of firework effect subsections defining the firework's appearance. |
+| `inherit_velocity` | Boolean | — | `false` | — | Whether the firework should inherit the player's current velocity from the trigger. |
+| `no_source` | Boolean | — | `false` | — | Whether the firework should have no shooter, preventing attribution to the player. |
+| `launch-at-location` | Boolean | — | `false` | — | Whether the firework should be teleported to the trigger location after launch. |
+| `power` | Integer | — | `0` | — | The flight duration power of the firework (0-255). |
+| `effects` | Dynamic Config | — | — | — | List of firework effect subsections defining the firework's appearance. |
 
 ## 📝 Source Notes
 

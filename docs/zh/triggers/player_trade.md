@@ -11,7 +11,7 @@ outline: deep
 
 # player_trade <Badge type="info" text="libreforge" /> <Badge type="warning" text="AxTrade" />
 
-> Triggered when trading with a player (player = initiator, victim = recipricant)
+> 当与玩家交易时触发（玩家 = 发起者，受害者 = 接受者）。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `player_trade` |
 | 所属模块 | libreforge |
 | 分类 | 外部集成（External Integration） |
-| 值 | The total amount of items traded (alt-value: currency traded) |
+| 值 | 交易的总物品数量（替代值：交易的货币量） |
 | 需要 | AxTrade |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The total amount of items traded (alt-value: currency traded) |
+| `%trigger_value%` | 交易的总物品数量（替代值：交易的货币量） |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

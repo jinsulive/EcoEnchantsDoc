@@ -10,7 +10,7 @@ outline: deep
 
 # death <Badge type="info" text="libreforge" /> 
 
-> Triggered on death from any sources
+> 当因任何原因死亡时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDeath.kt`）。
 
-- **源码描述**: Fires when the player dies.
+- **源码描述**: 当玩家死亡时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`
 

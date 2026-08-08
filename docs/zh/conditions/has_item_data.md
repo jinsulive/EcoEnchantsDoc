@@ -10,7 +10,7 @@ outline: deep
 
 # has_item_data <Badge type="info" text="libreforge" />
 
-> Requires an item to have a certain data value present on it
+> 需要物品上存在某个数据值。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | The data key \| Source: The item data key to check for. |
+| `key` | String | ✅ | — | — | 要检查的物品数据键。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasItemData.kt`）。
 
-- **源码描述**: Passes when the held item has the specified custom item data key set.
+- **源码描述**: 当手持物品设置了指定的自定义物品数据键时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

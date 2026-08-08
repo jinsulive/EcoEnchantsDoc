@@ -10,7 +10,7 @@ outline: deep
 
 # lose_potion_effect <Badge type="info" text="libreforge" /> 
 
-> Triggered when losing a potion effect
+> 当失去药水效果时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerLosePotionEffect.kt`）。
 
-- **源码描述**: Fires when an entity loses a potion effect.
+- **源码描述**: 当实体失去药水效果时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`
 

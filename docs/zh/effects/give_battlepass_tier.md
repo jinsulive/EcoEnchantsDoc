@@ -10,7 +10,7 @@ outline: deep
 
 # give_battlepass_tier <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Give battlepass tiers to the player.
+> 给予玩家战斗通行证等级。
 
 > **需要依赖：** EcoBattlepass
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of tiers to give |
-| `battlepass` | The battlepass ID |
+| `amount` | 要给予的等级数量。 |
+| `battlepass` | 战斗通行证 ID。 |
 
 ## 配置示例
 

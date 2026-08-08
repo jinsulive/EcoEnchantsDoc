@@ -10,7 +10,7 @@ outline: deep
 
 # give_battlepass_task_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives experience points for a task in a quest, excluding multipliers.
+> 为任务中的任务目标获得经验值（不含倍率）。
 
 > **需要依赖：** EcoBattlepass
 
@@ -27,10 +27,10 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of xp to give |
-| `task` | The task ID |
-| `quest` | The quest ID |
-| `battlepass` | The battlepass ID |
+| `amount` | 要给予的经验值数量。 |
+| `task` | 任务目标 ID。 |
+| `quest` | 任务 ID。 |
+| `battlepass` | 战斗通行证 ID。 |
 
 ## 配置示例
 

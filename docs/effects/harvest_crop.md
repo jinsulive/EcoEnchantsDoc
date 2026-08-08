@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `only_fully_grown` | Boolean | ✅ | — | — | Whether to only harvest fully grown crops \| Source: Whether the crop must be fully grown before it is harvested. |
+| `only_fully_grown` | Boolean | ✅ | — | — | Whether the crop must be fully grown before it is harvested. |
 
 ## 📝 Source Notes
 

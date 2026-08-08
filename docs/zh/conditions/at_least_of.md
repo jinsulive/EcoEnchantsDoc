@@ -10,7 +10,7 @@ outline: deep
 
 # at_least_of <Badge type="info" text="libreforge" />
 
-> Requires at least a certain mount of a certain list of conditions to be met
+> 需要至少满足指定条件列表中的一定数量。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions to evaluate. |
-| `amount` | Integer | ✅ | — | — | The amount of conditions \| Source: The minimum number of conditions that must pass. |
+| `conditions` | Any/Custom | ✅ | — | — | 要判断的条件列表。 |
+| `amount` | Integer | ✅ | — | — | 必须满足的条件数量。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAtLeastOf.kt`）。
 
-- **源码描述**: Passes when at least the specified number of the listed conditions are met.
+- **源码描述**: 当至少满足列表中指定数量的条件时通过。
 - **所属分类**: `meta`
 
 ## 配置示例

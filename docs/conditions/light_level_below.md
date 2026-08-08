@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `level` | Integer | ✅ | — | — | The level \| Source: The maximum light level (0–15) allowed at the location. |
+| `level` | Integer | ✅ | — | — | The maximum light level (0–15) allowed at the location. |
 
 ## 📝 Source Notes
 

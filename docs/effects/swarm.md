@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to swarm from \| Source: The radius to search for monsters that will target the victim. Supports expressions. Example: `10 + %level%` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to search for monsters that will target the victim. Supports expressions. Example: `10 + %level%` |
 | `entities` | Custom | — | — | — | (Optional) The list of entities to anger |
 
 ## 📝 Source Notes

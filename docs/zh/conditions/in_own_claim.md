@@ -10,7 +10,7 @@ outline: deep
 
 # in_own_claim <Badge type="info" text="libreforge" />
 
-> Requires the player to be in their own claim
+> 需要玩家位于自己的领地上。
 
 ## 基本信息
 

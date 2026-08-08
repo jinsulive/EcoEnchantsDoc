@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to pull entities from \| Source: The radius within which entities will be pulled toward the vortex. Supports expressions. Example: `5 + %level% * 0.5` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration in ticks to pull entities \| Source: How many ticks to pull entities before dealing damage. Supports expressions. Example: `20 * %level%` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to all affected entities at the end \| Source: The damage dealt to all affected entities at the end of the vortex. Supports expressions. Example: `%level% * 2` |
-| `pull_strength` | Expression(数学表达式) | — | `0.3` | — | (Optional) The strength of the pull each tick, defaults to 0.3 \| Source: How strongly entities are pulled per tick. Supports expressions. Example: `0.1 + %level% * 0.02` |
-| `whitelist` | Entity List | — | `` | — | (Optional) A list of entity types to pull, if not specified all entities will be pulled \| Source: A list of entity types to exclusively target. If omitted, all entities are targeted. |
-| `blacklist` | Entity List | — | `` | — | (Optional) A list of entity types to ignore, if not specified no entities will be ignored \| Source: A list of entity types to exclude from the vortex. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius within which entities will be pulled toward the vortex. Supports expressions. Example: `5 + %level% * 0.5` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How many ticks to pull entities before dealing damage. Supports expressions. Example: `20 * %level%` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to all affected entities at the end of the vortex. Supports expressions. Example: `%level% * 2` |
+| `pull_strength` | Expression(数学表达式) | — | `0.3` | — | How strongly entities are pulled per tick. Supports expressions. Example: `0.1 + %level% * 0.02` |
+| `whitelist` | Entity List | — | `` | — | A list of entity types to exclusively target. If omitted, all entities are targeted. |
+| `blacklist` | Entity List | — | `` | — | A list of entity types to exclude from the vortex. |
 
 ## 📝 Source Notes
 

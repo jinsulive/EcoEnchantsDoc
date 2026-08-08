@@ -11,7 +11,7 @@ outline: deep
 
 # claim_battlepass_reward <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoBattlepass" />
 
-> Triggered when claiming a battlepass reward
+> 当领取战斗通行证奖励时触发。
 
 ## 基本信息
 

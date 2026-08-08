@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions to evaluate. |
-| `amount` | Integer | ✅ | — | — | The amount of conditions \| Source: The minimum number of conditions that must pass. |
+| `conditions` | Any/Custom | ✅ | — | — | List of conditions to evaluate. |
+| `amount` | Integer | ✅ | — | — | The minimum number of conditions that must pass. |
 
 ## 📝 Source Notes
 

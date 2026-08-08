@@ -11,7 +11,7 @@ outline: deep
 
 # regen_magic <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoSkills" />
 
-> Triggered when regenerating magic
+> 当恢复魔力时触发。
 
 ## 基本信息
 

@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `world` | String | ✅ | — | — | The world name \| Source: The name of the world to teleport to. Example: `world_nether` |
-| `x` | Expression(数学表达式) | ✅ | — | — | The x-coordinate \| Source: The X coordinate to teleport to. Supports expressions. Example: `100` |
-| `y` | Expression(数学表达式) | ✅ | — | — | The y-coordinate \| Source: The Y coordinate to teleport to. Supports expressions. Example: `64` |
-| `z` | Expression(数学表达式) | ✅ | — | — | The z-coordinate \| Source: The Z coordinate to teleport to. Supports expressions. Example: `-200` |
+| `world` | String | ✅ | — | — | The name of the world to teleport to. Example: `world_nether` |
+| `x` | Expression(数学表达式) | ✅ | — | — | The X coordinate to teleport to. Supports expressions. Example: `100` |
+| `y` | Expression(数学表达式) | ✅ | — | — | The Y coordinate to teleport to. Supports expressions. Example: `64` |
+| `z` | Expression(数学表达式) | ✅ | — | — | The Z coordinate to teleport to. Supports expressions. Example: `-200` |
 
 ## 📝 Source Notes
 

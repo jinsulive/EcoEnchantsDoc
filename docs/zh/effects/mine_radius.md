@@ -10,7 +10,7 @@ outline: deep
 
 # mine_radius <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Mines a square radius around a block
+> 挖掘方块周围的方形范围。
 
 ## 基本信息
 
@@ -25,18 +25,18 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius around the center block: 1 = 3x3x3, 2 = 5x5x5, etc \| Source: The radius of blocks to break around the triggered block. Supports expressions. Example: `2 + %level% / 20` |
-| `blacklisted_blocks` | Block List | — | `[]` | — | The blocks to not mine \| Source: A list of blocks that should never be broken by this effect. |
-| `check_hardness` | Boolean | — | `true` | — | If only blocks with the same (or lower) hardness than the mined block can be broken \| Source: Whether blocks harder than the triggered block should be skipped. |
-| `disable_on_sneak` | Boolean | — | `false` | — | If the effect shouldn't activate while sneaking \| Source: Whether the effect should be disabled while the player is sneaking. |
-| `whitelist` | Block List | — | `[]` | — | The only blocks allowed to mine - Remove if you don't want this \| Source: A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
-| `prevent_trigger` | Boolean | — | `false` | — | Optional, if the mine_block trigger should not be called from this \| Source: Whether breaking these blocks should prevent triggering further effects. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 中心方块周围的破坏半径：1 = 3x3x3，2 = 5x5x5，以此类推。支持表达式。示例：`2 + %level% / 20` |
+| `blacklisted_blocks` | Block List | — | `[]` | — | 永远不会被此效果破坏的方块列表。 |
+| `check_hardness` | Boolean | — | `true` | — | 是否仅破坏硬度不大于所挖掘方块的方块。 |
+| `disable_on_sneak` | Boolean | — | `false` | — | 潜行时是否禁用此效果。 |
+| `whitelist` | Block List | — | `[]` | — | 允许被挖掘的方块列表（不需要可移除）。省略时所有方块都可被破坏。 |
+| `prevent_trigger` | Boolean | — | `false` | — | 可选，是否不从此效果触发 mine_block 触发器。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMineRadius.kt`）。
 
-- **源码描述**: Mines all blocks in a cube radius around the triggered block.
+- **源码描述**: 挖掘触发方块周围立方体半径内的所有方块。
 - **所属分类**: `world`
 - **需要触发器数据**: `PLAYER`
 

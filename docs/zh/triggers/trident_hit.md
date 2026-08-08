@@ -10,7 +10,7 @@ outline: deep
 
 # trident_hit <Badge type="info" text="libreforge" /> 
 
-> Triggered when hitting a block or an entity with a thrown trident
+> 当投掷的三叉戟击中方块或实体时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerTridentHit.kt`）。
 
-- **源码描述**: Fires when the player's thrown trident hits a block or entity.
+- **源码描述**: 当玩家投掷的三叉戟命中方块或实体时触发。
 - **所属分类**: `combat`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `BLOCK`, `EVENT`, `LOCATION`, `PROJECTILE`, `VELOCITY`
 

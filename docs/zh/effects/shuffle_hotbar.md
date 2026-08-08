@@ -10,7 +10,7 @@ outline: deep
 
 # shuffle_hotbar <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Shuffle your victim's hotbar
+> 打乱受害者的快捷栏。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShuffleHotbar.kt`）。
 
-- **源码描述**: Randomly shuffles the items in the victim's hotbar.
+- **源码描述**: 随机打乱受害者快捷栏中的物品。
 - **所属分类**: `inventory`, `player`
 - **需要触发器数据**: `VICTIM`
 

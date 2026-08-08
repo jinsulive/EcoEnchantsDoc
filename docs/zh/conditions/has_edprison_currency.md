@@ -10,7 +10,7 @@ outline: deep
 
 # has_edprison_currency <Badge type="info" text="libreforge" />
 
-> Requires the player to have a certain amount of EdPrison currency.
+> 需要玩家拥有一定数量的 EdPrison 货币。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `type` | The currency type |
-| `amount` | The amnount of currency required |
+| `type` | 货币类型。 |
+| `amount` | 所需货币数量（原文如此，应为 amount）。 |
 
 ## 配置示例
 

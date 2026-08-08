@@ -10,7 +10,7 @@ outline: deep
 
 # remove_dispatcher <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Removes the dispatcher entity from the world. Only works on non-player entities.
+> 将触发者实体从世界中移除。仅对非玩家实体生效。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveDispatcher.kt`）。
 
-- **源码描述**: Removes (despawns) the dispatcher entity. Has no effect if the dispatcher is a player.
+- **源码描述**: 移除（消除）触发者实体。若触发者为玩家则无效。
 - **所属分类**: `combat`, `entity`
 
 ## 配置示例

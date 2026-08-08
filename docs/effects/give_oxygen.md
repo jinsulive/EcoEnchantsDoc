@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of oxygen to give (supports negative values) \| Source: The number of air ticks to add to the player's remaining air. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of air ticks to add to the player's remaining air. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

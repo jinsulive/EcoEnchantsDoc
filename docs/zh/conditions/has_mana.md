@@ -10,7 +10,7 @@ outline: deep
 
 # has_mana <Badge type="info" text="libreforge" />
 
-> Requires a player to have amount of mana
+> 需要玩家拥有一定数量的魔力。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of mana |
+| `amount` | 魔力数量。 |
 
 ## 配置示例
 

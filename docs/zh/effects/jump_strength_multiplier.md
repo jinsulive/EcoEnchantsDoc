@@ -10,7 +10,7 @@ outline: deep
 
 # jump_strength_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies jump strength
+> 倍率化跳跃力度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for jump strength \| Source: The jump strength multiplier to apply. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 跳跃力度倍率。支持表达式。示例：`1 + %level% * 0.05` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectJumpStrengthMultiplier.kt`）。
 
-- **源码描述**: Multiplies the player's jump strength, making them jump higher or lower.
+- **源码描述**: 倍率化玩家的跳跃力度，使其跳得更高或更低。
 - **所属分类**: `movement`, `player`, `attribute`
 
 ## 配置示例

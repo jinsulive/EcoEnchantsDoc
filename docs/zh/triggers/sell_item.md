@@ -10,7 +10,7 @@ outline: deep
 
 # sell_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when selling an item in a shop
+> 当在商店出售物品时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `sell_item` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The price |
+| 值 | 价格 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSellItem.kt`）。
 
-- **源码描述**: Fires when the player sells an item to a shop.
+- **源码描述**: 当玩家向商店出售物品时触发。
 - **所属分类**: `economy`
 - **需要触发器数据**: `PLAYER`, `ITEM`, `VALUE`
-- **值**: The total sell value of the items.
+- **值**: 物品的总出售价值。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The price |
+| `%trigger_value%` | 价格 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

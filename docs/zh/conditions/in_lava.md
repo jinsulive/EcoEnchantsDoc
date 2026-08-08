@@ -10,7 +10,7 @@ outline: deep
 
 # in_lava <Badge type="info" text="libreforge" />
 
-> Requires a player to be in lava
+> 需要玩家位于熔岩中。
 
 ## 基本信息
 

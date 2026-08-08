@@ -10,7 +10,7 @@ outline: deep
 
 # magic_regen_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies magic regeneration
+> 倍率化魔力恢复。
 
 > **需要依赖：** EcoSkills
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The regen multiplier |
-| `types` | The list of magic types to multiply xp for. If removed, it will multiply all types. |
+| `multiplier` | 魔力恢复倍率。 |
+| `types` | 要倍率化经验值的魔力类型列表。移除后将对所有类型生效。 |
 
 ## 配置示例
 

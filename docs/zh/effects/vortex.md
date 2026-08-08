@@ -10,7 +10,7 @@ outline: deep
 
 # vortex <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Pulls nearby entities toward a location over a duration, then damages them
+> 在一段时间内将附近的实体拉向指定位置，然后对其造成伤害。
 
 ## 基本信息
 
@@ -25,18 +25,18 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to pull entities from \| Source: The radius within which entities will be pulled toward the vortex. Supports expressions. Example: `5 + %level% * 0.5` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration in ticks to pull entities \| Source: How many ticks to pull entities before dealing damage. Supports expressions. Example: `20 * %level%` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to all affected entities at the end \| Source: The damage dealt to all affected entities at the end of the vortex. Supports expressions. Example: `%level% * 2` |
-| `pull_strength` | Expression(数学表达式) | — | `0.3` | — | (Optional) The strength of the pull each tick, defaults to 0.3 \| Source: How strongly entities are pulled per tick. Supports expressions. Example: `0.1 + %level% * 0.02` |
-| `whitelist` | Entity List | — | `` | — | (Optional) A list of entity types to pull, if not specified all entities will be pulled \| Source: A list of entity types to exclusively target. If omitted, all entities are targeted. |
-| `blacklist` | Entity List | — | `` | — | (Optional) A list of entity types to ignore, if not specified no entities will be ignored \| Source: A list of entity types to exclude from the vortex. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 吸引实体的半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 吸引实体的持续游戏刻数。支持表达式。示例：`20 * %level%` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | 最终对所有受影响实体造成的伤害。支持表达式。示例：`%level% * 2` |
+| `pull_strength` | Expression(数学表达式) | — | `0.3` | — | （可选）每游戏刻的牵引力度，默认为 0.3。支持表达式。示例：`0.1 + %level% * 0.02` |
+| `whitelist` | Entity List | — | `` | — | （可选）要牵引的实体类型列表。未指定时牵引所有实体。 |
+| `blacklist` | Entity List | — | `` | — | （可选）要忽略的实体类型列表。未指定时忽略所有实体。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVortex.kt`）。
 
-- **源码描述**: Pulls nearby entities toward the trigger location for a duration, then deals damage to all affected entities.
+- **源码描述**: 在一段时间内将附近的实体拉向触发位置，然后对所有受影响的实体造成伤害。
 - **所属分类**: `movement`, `combat`
 - **需要触发器数据**: `PLAYER`
 

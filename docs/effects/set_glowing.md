@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `glowing` | Boolean | — | `true` | — | (Optional) Whether to enable glowing, defaults to true \| Source: Whether to enable or disable the glowing effect. |
-| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the glowing state is reverted \| Source: How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
+| `glowing` | Boolean | — | `true` | — | Whether to enable or disable the glowing effect. |
+| `duration` | Expression(数学表达式) | — | — | — | How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

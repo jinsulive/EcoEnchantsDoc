@@ -10,7 +10,7 @@ outline: deep
 
 # smelt <Badge type="info" text="libreforge" /> 
 
-> Triggered when smelting an item in a furnace
+> 当在熔炉中烧炼物品时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `smelt` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The amount of items smelted |
+| 值 | 烧炼的物品数量 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSmelt.kt`）。
 
-- **源码描述**: Fires when the player smelts an item in a furnace.
+- **源码描述**: 当玩家在熔炉中烧炼物品时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The number of items produced.
+- **值**: 产出的物品数量。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The amount of items smelted |
+| `%trigger_value%` | 烧炼的物品数量 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

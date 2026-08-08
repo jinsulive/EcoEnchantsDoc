@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `from_slot` | String | ✅ | — | — | The source inventory slot index \| Source: The slot to copy the item from, e.g. mainhand or offhand. Example: `mainhand` |
-| `to_slot` | String | ✅ | — | — | The destination inventory slot index \| Source: The slot to copy the item into. Example: `offhand` |
+| `from_slot` | String | ✅ | — | — | The slot to copy the item from, e.g. mainhand or offhand. Example: `mainhand` |
+| `to_slot` | String | ✅ | — | — | The slot to copy the item into. Example: `offhand` |
 
 ## 📝 Source Notes
 

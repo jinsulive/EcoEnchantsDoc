@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to add, e.g. sharpness. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level of the enchant \| Source: The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
+| `enchant` | Enchantment | ✅ | — | — | The enchantment to add, e.g. sharpness. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
 
 ## 📝 Source Notes
 

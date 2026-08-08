@@ -10,7 +10,7 @@ outline: deep
 
 # lifesteal <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Heals the player for a portion of the trigger's value (e.g. damage dealt)
+> 按触发器数值（例如造成的伤害）的一部分治疗玩家。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of the trigger value to heal \| Source: The fraction of damage dealt that is converted into healing. Supports expressions. Example: `0.1 + %level% * 0.01` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 转化为治疗量的伤害比例。支持表达式。示例：`0.1 + %level% * 0.01` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectLifesteal.kt`）。
 
-- **源码描述**: Heals the player for a portion of the damage dealt to the victim.
+- **源码描述**: 按照对受害者造成伤害的一部分来治疗玩家。
 - **所属分类**: `combat`, `player`
 - **需要触发器数据**: `PLAYER`
 

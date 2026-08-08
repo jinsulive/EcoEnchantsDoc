@@ -10,7 +10,7 @@ outline: deep
 
 # give_mob_coins <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Give the player mob coins
+> 给予玩家怪物硬币。
 
 > **需要依赖：** UltimateMobCoins
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of mob coins to give |
+| `amount` | 要给予的怪物硬币数量。 |
 
 ## 配置示例
 

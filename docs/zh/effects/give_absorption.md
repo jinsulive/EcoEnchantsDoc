@@ -10,7 +10,7 @@ outline: deep
 
 # give_absorption <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Adds absorption points to the player
+> 为玩家添加伤害吸收点数。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of absorption points to add \| Source: The number of absorption hearts to add. Supports expressions. Example: `%level%` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要添加的伤害吸收点数。支持表达式。示例：`%level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveAbsorption.kt`）。
 
-- **源码描述**: Grants the player additional absorption hearts, expanding the max absorption cap if needed.
+- **源码描述**: 为玩家增加伤害吸收爱心，必要时扩展最大吸收上限。
 - **所属分类**: `player`, `attribute`
 - **需要触发器数据**: `PLAYER`
 

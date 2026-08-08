@@ -10,7 +10,7 @@ outline: deep
 
 # mcmmo_ability_on_cooldown <Badge type="info" text="libreforge" />
 
-> Requires an McMMO ability to be on cooldown
+> 需要某个 McMMO 技能处于冷却中。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `abilities` | The ID of the ability |
+| `abilities` | 技能 ID。 |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # give_food <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives the player food
+> 给予玩家食物值。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of food to give/take (allows negative values) \| Source: The number of food points to add to the player's hunger bar. Supports expressions. Example: `%level%` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予/扣除的食物值（允许负数）。支持表达式。示例：`%level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveFood.kt`）。
 
-- **源码描述**: Restores a set amount of food level to the player, capped at 20.
+- **源码描述**: 为玩家恢复指定数量的食物值，上限为 20。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # has_pet <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain pet
+> 需要玩家拥有某个宠物。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `pet` | The pet ID |
+| `pet` | 宠物 ID。 |
 
 ## 配置示例
 

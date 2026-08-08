@@ -10,7 +10,7 @@ outline: deep
 
 # collection_unlocked <Badge type="info" text="libreforge" />
 
-> Requires the player to have unlocked a collection (EcoCollections)
+> 需要玩家解锁某个收藏（EcoCollections）。
 
 ## 基本信息
 

@@ -10,7 +10,7 @@ outline: deep
 
 # give_skill_xp_naturally <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives naturally-gained experience points for a certain skill. This will send a message to a player and will include multipliers.
+> 为特定技能获得自然获取的经验值。这会向玩家发送消息并包含倍率。
 
 > **需要依赖：** EcoSkills
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of xp to give |
-| `skill` | The skill to give the xp for |
+| `amount` | 要给予的经验值数量。 |
+| `skill` | 要给予经验值的技能。 |
 
 ## 配置示例
 

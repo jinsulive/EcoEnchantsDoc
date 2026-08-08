@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The saturation level to set \| Source: The saturation level to set for the player. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The saturation level to set for the player. Supports expressions. |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # mob_coins_drop_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies the mobcoins dropped
+> 倍率化掉落的怪物硬币数量。
 
 > **需要依赖：** UltimateMobCoins
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The drop multiplier |
+| `multiplier` | 掉落倍率。 |
 
 ## 配置示例
 

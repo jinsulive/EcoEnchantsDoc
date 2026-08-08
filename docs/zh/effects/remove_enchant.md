@@ -10,7 +10,7 @@ outline: deep
 
 # remove_enchant <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Removes an enchant from the item
+> 从物品上移除附魔。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to remove from the item. |
+| `enchant` | Enchantment | ✅ | — | — | 要从物品上移除的附魔 ID。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveEnchant.kt`）。
 
-- **源码描述**: Removes a specific enchantment from the triggering item.
+- **源码描述**: 从触发物品上移除指定附魔。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `ITEM`
 

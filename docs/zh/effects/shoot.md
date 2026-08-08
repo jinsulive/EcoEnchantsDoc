@@ -25,17 +25,17 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `inherit_velocity` | Boolean | — | `false` | — | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) \| Source: Whether the projectile should inherit the player's current velocity. |
-| `no_source` | Boolean | — | `false` | — | If the player should not be marked as the source, leaving this option out defaults to false \| Source: Whether the projectile should have no shooter, preventing attribution to the player. |
-| `projectile` | Entity | ✅ | — | — | The name of the projectile \| Source: The entity type to launch as a projectile, e.g. ARROW or SNOWBALL. |
-| `launch-at-location` | Boolean | — | `false` | — | If the projectile should be launched at the location of the trigger rather than the player \| Source: Whether the projectile should be teleported to the trigger location after launch. |
-| `allow_pickup` | Boolean | — | `false` | — | If the arrow should be able to be picked up by players \| Source: Whether the projectile can be picked up by players (applies to arrows). |
+| `inherit_velocity` | Boolean | — | `false` | — | 弹射物是否继承触发时的速度（例如制作三连射效果）。 |
+| `no_source` | Boolean | — | `false` | — | 是否不将玩家标记为来源（省略时默认为 false）。 |
+| `projectile` | Entity | ✅ | — | — | 弹射物名称（作为弹射物发射的实体类型，例如 ARROW 或 SNOWBALL）。 |
+| `launch-at-location` | Boolean | — | `false` | — | 弹射物是否在触发位置而非玩家位置发射。 |
+| `allow_pickup` | Boolean | — | `false` | — | 弹射物是否可被玩家拾取（适用于箭）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShoot.kt`）。
 
-- **源码描述**: Launches a projectile of the specified entity type from the player.
+- **源码描述**: 从玩家处发射指定实体类型的弹射物。
 - **所属分类**: `combat`
 - **需要触发器数据**: `PLAYER`
 - **继承子配置**: 是（此效果继承子配置，详见对应子配置页）

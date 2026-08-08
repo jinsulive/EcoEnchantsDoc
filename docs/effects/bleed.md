@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal on each bleed tick \| Source: The damage dealt per interval. Supports expressions. Example: `%level% * 0.5` |
-| `interval` | Expression(数学表达式) | ✅ | — | — | The delay between bleed ticks \| Source: The number of ticks between each damage application. Supports expressions. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of bleed ticks \| Source: The number of times damage is dealt. Supports expressions. Example: `3 + %level%` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt per interval on each bleed tick. Supports expressions. Example: `%level% * 0.5` |
+| `interval` | Expression(数学表达式) | ✅ | — | — | The number of ticks between each damage application. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of times damage is dealt. Supports expressions. Example: `3 + %level%` |
 
 ## 📝 Source Notes
 

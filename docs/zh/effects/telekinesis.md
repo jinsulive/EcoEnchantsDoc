@@ -10,7 +10,7 @@ outline: deep
 
 # telekinesis <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Teleports all drops to the player's inventory
+> 将所有掉落物传送到玩家背包。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `on_tamed_mob_kills` | Boolean | — | `false` | — | If telekinesis will also work for tamed mob kills \| Source: If true, telekinesis also applies when a tamed mob kills an entity. |
+| `on_tamed_mob_kills` | Boolean | — | `false` | — | 被驯服的生物击杀实体时是否也生效念力传送。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTelekinesis.kt`）。
 
-- **源码描述**: Automatically sends all drops and XP from blocks, entities, and fishing directly to the player's inventory.
+- **源码描述**: 自动将方块、实体和钓鱼产生的所有掉落物与经验值直接送入玩家背包。
 - **所属分类**: `inventory`
 
 ## 配置示例

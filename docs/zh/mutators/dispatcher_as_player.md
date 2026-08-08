@@ -10,7 +10,7 @@ outline: deep
 
 # dispatcher_as_player <Badge type="info" text="libreforge" />
 
-> Set the player to be whoever dispatched (triggered) the effect.
+> 将玩家设置为触发此效果的触发者。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorDispatcherAsPlayer.kt`）。
 
-- **源码描述**: Sets the player to the current dispatcher.
+- **源码描述**: 将玩家设置为当前的触发者。
 - **所属分类**: `player`, `meta`
 
 ## 配置示例

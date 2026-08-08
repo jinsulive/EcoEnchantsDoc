@@ -11,7 +11,7 @@ outline: deep
 
 # collect_envoy <Badge type="info" text="libreforge" /> <Badge type="warning" text="AxEnvoy" />
 
-> Triggered when collecting an envoy crate
+> 当收集使者宝箱时触发。
 
 ## 基本信息
 

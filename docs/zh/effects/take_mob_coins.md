@@ -10,7 +10,7 @@ outline: deep
 
 # take_mob_coins <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Take mob coins from the player
+> 从玩家处收取怪物硬币。
 
 > **需要依赖：** UltimateMobCoins
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of mob coins to take |
+| `amount` | 要收取的怪物硬币数量。 |
 
 ## 配置示例
 

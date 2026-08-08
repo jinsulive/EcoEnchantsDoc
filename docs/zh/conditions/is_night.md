@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsNight.kt`）。
 
-- **源码描述**: Passes when it is nighttime in the dispatcher's world.
+- **源码描述**: 当触发者所在世界处于夜晚时通过。
 - **所属分类**: `world`
 
 ## 配置示例

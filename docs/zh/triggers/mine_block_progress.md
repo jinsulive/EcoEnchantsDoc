@@ -10,7 +10,7 @@ outline: deep
 
 # mine_block_progress <Badge type="info" text="libreforge" /> 
 
-> Triggered when damaging a block
+> 当对方块造成伤害时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerMineBlockProgress.kt`）。
 
-- **源码描述**: Fires each time the player deals a hit of damage to a block while mining.
+- **源码描述**: 玩家挖掘时每次对方块造成一次伤害命中触发一次。
 - **所属分类**: `world`
 - **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`
 

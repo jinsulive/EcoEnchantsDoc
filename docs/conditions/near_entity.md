@@ -28,9 +28,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `entities` | Entity List | ✅ | — | — | The list of entities \| Source: The list of entity types to look for nearby. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius \| Source: The radius in blocks to search for nearby entities. Example: `5 + %level% * 0.5` |
-| `amount` | Integer | — | `1` | — | (Optional) The minimum amount of listed entities \| Source: The minimum number of matching entities required (defaults to 1). |
+| `entities` | Entity List | ✅ | — | — | The list of entity types to look for nearby. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to search for nearby entities. Example: `5 + %level% * 0.5` |
+| `amount` | Integer | — | `1` | — | The minimum number of matching entities required (defaults to 1). |
 
 ## 📝 Source Notes
 

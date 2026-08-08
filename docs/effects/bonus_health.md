@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `health` | Expression(数学表达式) | ✅ | — | — | The amount of health to give, one heart is 2 HP \| Source: The amount of bonus max health to add. Supports expressions. Example: `%level% * 2` |
+| `health` | Expression(数学表达式) | ✅ | — | — | The amount of bonus max health to add (one heart is 2 HP). Supports expressions. Example: `%level% * 2` |
 
 ## 📝 Source Notes
 

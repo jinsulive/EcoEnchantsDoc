@@ -10,7 +10,7 @@ outline: deep
 
 # in_world <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a certain world
+> 需要玩家位于某个世界中。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `world` | String | ✅ | — | — | The world name \| Source: The name of the world to check against. |
+| `world` | String | ✅ | — | — | 要检查的世界名称。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInWorld.kt`）。
 
-- **源码描述**: Passes when the dispatcher is located in the specified world.
+- **源码描述**: 当触发者位于指定世界时通过。
 - **所属分类**: `world`
 
 ## 配置示例

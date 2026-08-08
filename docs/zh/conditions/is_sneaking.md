@@ -10,7 +10,7 @@ outline: deep
 
 # is_sneaking <Badge type="info" text="libreforge" />
 
-> Requires a player to be sneaking
+> 需要玩家正在潜行。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsSneaking.kt`）。
 
-- **源码描述**: Passes when the player is sneaking.
+- **源码描述**: 当玩家正在潜行时通过。
 - **所属分类**: `player`
 
 ## 配置示例

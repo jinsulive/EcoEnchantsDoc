@@ -10,7 +10,7 @@ outline: deep
 
 # drill <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Mine blocks behind the initial mined block
+> 挖掘初始方块后方的方块。
 
 ## 基本信息
 
@@ -25,18 +25,18 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of blocks to mine \| Source: The number of blocks to break in a line. Supports expressions. Example: `3 + %level%` |
-| `blacklisted_blocks` | Block List | — | — | — | The blocks to not mine \| Source: These block types will never be broken by the drill. |
-| `check_hardness` | Boolean | ✅ | — | — | If only blocks with the same (or lower) hardness than the mined block can be broken \| Source: If true, only blocks with hardness ≤ the trigger block are broken. |
-| `disable_on_sneak` | Boolean | — | `false` | — | If the effect shouldn't activate while sneaking \| Source: If true, the drill effect is disabled while the player is sneaking. |
-| `whitelist` | Block List | — | — | — | The only blocks allowed to mine \| Source: Only these block types will be broken by the drill. |
-| `prevent_trigger` | Boolean | — | `false` | — | If true, breaking additional blocks will not fire further libreforge triggers. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要挖掘的方块数量。支持表达式。示例：`3 + %level%` |
+| `blacklisted_blocks` | Block List | — | — | — | 不会因钻探而破坏的方块类型。 |
+| `check_hardness` | Boolean | ✅ | — | — | 是否仅破坏硬度不大于所挖掘方块的方块。 |
+| `disable_on_sneak` | Boolean | — | `false` | — | 潜行时是否禁用钻探效果。 |
+| `whitelist` | Block List | — | — | — | 允许被钻探破坏的方块类型。 |
+| `prevent_trigger` | Boolean | — | `false` | — | 为 true 时，破坏额外方块不会触发进一步的 libreforge 触发器。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDrill.kt`）。
 
-- **源码描述**: Breaks a line of blocks in front of the player in their look direction.
+- **源码描述**: 沿玩家视线方向，破坏前方一条线上的方块。
 - **所属分类**: `world`
 - **需要触发器数据**: `PLAYER`
 

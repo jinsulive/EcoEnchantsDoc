@@ -11,7 +11,7 @@ outline: deep
 
 # mcmmo_ability_deactivate <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
 
-> Triggered when an McMMO ability is deactivated
+> 当 McMMO 技能被停用时触发。
 
 ## 基本信息
 

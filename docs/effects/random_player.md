@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for the player \| Source: The list of effects to run on the randomly selected player. |
+| `effects` | Effect List | ✅ | — | — | The list of effects to run on the randomly selected player. |
 
 ## 📝 Source Notes
 

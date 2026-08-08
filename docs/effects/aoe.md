@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for each entity \| Source: The effects to run on each entity within the AOE. |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area (see above) \| Source: The AOE shape to use. |
+| `effects` | Effect List | ✅ | — | — | The effects to run on each entity within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use (see above). |
 | `radius` | Custom | — | — | — | The radius of the cone (see above) |
 | `angle` | Custom | — | — | — | The angle of the cone (see above) |
 

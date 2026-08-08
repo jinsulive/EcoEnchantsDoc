@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply temporarily. |
-| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration, in ticks \| Source: How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
+| `effects` | Effect List | ✅ | — | — | The effects to apply temporarily in the holder. |
+| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

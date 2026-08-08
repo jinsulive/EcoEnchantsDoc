@@ -25,10 +25,10 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerShear.kt`）。
 
-- **源码描述**: Fires when the player shears an entity or a block.
+- **源码描述**: 当玩家剪羊毛或修剪方块时触发。
 - **所属分类**: `interaction`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The number of items dropped.
+- **值**: 掉落的物品数量。
 
 ## 配置示例
 

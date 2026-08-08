@@ -10,7 +10,7 @@ outline: deep
 
 # cancel_event <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Cancel the event that fired the trigger
+> 取消触发触发器的事件。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCancelEvent.kt`）。
 
-- **源码描述**: Cancels the triggering event.
+- **源码描述**: 取消触发的事件。
 - **所属分类**: `meta`
 - **需要触发器数据**: `EVENT`
 

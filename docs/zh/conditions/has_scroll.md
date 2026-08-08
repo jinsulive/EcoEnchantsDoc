@@ -10,7 +10,7 @@ outline: deep
 
 # has_scroll <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain scroll active
+> 需要玩家激活某个卷轴。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `scroll` | The scroll |
+| `scroll` | 卷轴。 |
 
 ## 配置示例
 

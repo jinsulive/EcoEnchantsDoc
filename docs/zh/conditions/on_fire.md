@@ -10,7 +10,7 @@ outline: deep
 
 # on_fire <Badge type="info" text="libreforge" />
 
-> Requires a player to be on fire
+> 需要玩家着火。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionOnFire.kt`）。
 
-- **源码描述**: Passes when the entity is currently on fire.
+- **源码描述**: 当实体当前着火时通过。
 - **所属分类**: `player`, `combat`
 
 ## 配置示例

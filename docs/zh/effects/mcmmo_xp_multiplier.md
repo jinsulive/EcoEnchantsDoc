@@ -10,7 +10,7 @@ outline: deep
 
 # mcmmo_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies mcMMO skill xp gain
+> 倍率化 mcMMO 技能经验值获取。
 
 > **需要依赖：** McMMO
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The experience multiplier |
-| `skills` | The list of skills to multiply xp for. If removed, it will multiply all skills. |
+| `multiplier` | 经验值倍率。 |
+| `skills` | 要倍率化经验值的技能列表。移除后将对所有技能生效。 |
 
 ## 配置示例
 

@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `key` | String | ✅ | — | — | The data key \| Source: The custom item data key to read from the item. |
-| `value` | String | ✅ | — | — | The data value \| Source: The value that the data key must equal. |
+| `key` | String | ✅ | — | — | The custom item data key to read from the item. |
+| `value` | String | ✅ | — | — | The value that the data key must equal. |
 
 ## 📝 Source Notes
 

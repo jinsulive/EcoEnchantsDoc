@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `id` | Custom | — | — | — | The level ID |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level \| Source: The exact level the item must have. Example: `5 + %level%` |
+| `level` | Expression(数学表达式) | ✅ | — | — | The exact level the item must have. Example: `5 + %level%` |
 | `name` | String | ✅ | — | — | The name of the level type to check on the held item. |
 
 ## 📝 Source Notes

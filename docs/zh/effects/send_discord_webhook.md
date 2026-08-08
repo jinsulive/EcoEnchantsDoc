@@ -10,7 +10,7 @@ outline: deep
 
 # send_discord_webhook <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Send a message to a Discord webhook
+> 向 Discord webhook 发送消息。
 
 ## 基本信息
 
@@ -25,18 +25,18 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `webhook_url` | String | ✅ | — | — | The webhook URL to send to \| Source: The Discord webhook URL to send the message to. Example: `https:         )         require(             ` |
-| `text` | Custom | — | — | — | The message content |
-| `username` | Custom | — | — | — | (Optional) Override the webhook username |
-| `avatar_url` | Custom | — | — | — | (Optional) Override the webhook avatar |
-| `tts` | Boolean | — | `false` | — | (Optional) Send as text-to-speech \| Source: Whether to send the message as text-to-speech. |
-| `embeds` | Any/Custom | — | — | — | (Optional) List of embeds to include \| Source: A list of embed objects to include in the webhook message. |
+| `webhook_url` | String | ✅ | — | — | 要发送到的 Discord webhook URL。示例：`https:         )         require(             ` |
+| `text` | Custom | — | — | — | 消息内容。 |
+| `username` | Custom | — | — | — | （可选）覆盖 webhook 用户名。 |
+| `avatar_url` | Custom | — | — | — | （可选）覆盖 webhook 头像。 |
+| `tts` | Boolean | — | `false` | — | （可选）是否以文本转语音的方式发送消息。 |
+| `embeds` | Any/Custom | — | — | — | （可选）要包含在 webhook 消息中的嵌入对象列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSendDiscordWebhook.kt`）。
 
-- **源码描述**: Sends a message to a Discord channel via a webhook URL.
+- **源码描述**: 通过 webhook URL 向 Discord 频道发送消息。
 - **所属分类**: `chat`
 
 ## 配置示例

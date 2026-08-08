@@ -10,7 +10,7 @@ outline: deep
 
 # pull_in <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Pull the victim towards the player
+> 将受害者拉向玩家。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The strength of the pull force applied to the victim. Supports expressions. Example: `1 + %level% * 0.1` |
+| `velocity` | Expression(数学表达式) | ✅ | — | — | 被拉向玩家的速度（速度向量的大小）。支持表达式。示例：`1 + %level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPullIn.kt`）。
 
-- **源码描述**: Pulls the victim toward the player with a specified velocity.
+- **源码描述**: 以指定速度将受害者拉向玩家。
 - **所属分类**: `movement`, `combat`
 - **需要触发器数据**: `PLAYER`, `VICTIM`
 

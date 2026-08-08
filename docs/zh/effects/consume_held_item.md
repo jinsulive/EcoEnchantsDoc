@@ -10,7 +10,7 @@ outline: deep
 
 # consume_held_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Consume items held in the player's main hand
+> 消耗玩家主手持有的物品。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of items to remove (i.e. 1 apple, 2 apples, etc) \| Source: The number of items to remove from the main hand. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要移除的物品数量（如 1 个苹果、2 个苹果等）。支持表达式。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectConsumeHeldItem.kt`）。
 
-- **源码描述**: Removes a number of items from the player's main hand.
+- **源码描述**: 从玩家主手移除指定数量的物品。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`
 

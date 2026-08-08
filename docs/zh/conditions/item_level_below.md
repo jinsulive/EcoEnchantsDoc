@@ -10,7 +10,7 @@ outline: deep
 
 # item_level_below <Badge type="info" text="libreforge" />
 
-> Requires an item to be below a certain level
+> 需要物品等级低于一定等级。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | The level ID \| Source: The ID of the level type to check on the held item. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The maximum level \| Source: The maximum level the item must be below. Example: `5 + %level%` |
+| `id` | String | ✅ | — | — | 要检查的等级类型 ID。 |
+| `level` | Expression(数学表达式) | ✅ | — | — | 最大等级（物品必须低于的等级）。示例：`5 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemLevelBelow.kt`）。
 
-- **源码描述**: Passes when the held item's level for a given level type is below the specified value.
+- **源码描述**: 当手持物品指定等级类型的等级低于指定值时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

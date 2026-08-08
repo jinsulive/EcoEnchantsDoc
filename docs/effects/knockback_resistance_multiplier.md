@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for knockback resistance \| Source: The knockback resistance multiplier to apply. Supports expressions. Example: `%level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The knockback resistance multiplier to apply. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `points` | Expression(数学表达式) | ✅ | — | — | The amount of points of armor to give \| Source: The number of armor points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.5` |
+| `points` | Expression(数学表达式) | ✅ | — | — | The number of armor points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of items to remove (i.e. 1 apple, 2 apples, etc) \| Source: The number of items to remove from the main hand. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of items to remove from the main hand (i.e. 1 apple, 2 apples, etc). Supports expressions. |
 
 ## 📝 Source Notes
 

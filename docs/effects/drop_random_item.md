@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `items` | Item List | ✅ | — | — | The list of items to choose from \| Source: The pool of items to choose from. One is picked at random per trigger. |
+| `items` | Item List | ✅ | — | — | The pool of items to choose from. One is picked at random per trigger. |
 
 ## 📝 Source Notes
 

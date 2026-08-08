@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `slot` | String List | ✅ | — | — | The slot \| Source: The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. Example: `mainhand, 9` |
+| `slot` | String List | ✅ | — | — | The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. Example: `mainhand, 9` |
 
 ## 📝 Source Notes
 

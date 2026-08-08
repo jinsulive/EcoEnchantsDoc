@@ -10,7 +10,7 @@ outline: deep
 
 # jump <Badge type="info" text="libreforge" /> 
 
-> Triggered when Jumping (pressing space)
+> 当跳跃（按空格键）时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerJump.kt`）。
 
-- **源码描述**: Fires when the player jumps.
+- **源码描述**: 当玩家跳跃时触发。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `VELOCITY`
 

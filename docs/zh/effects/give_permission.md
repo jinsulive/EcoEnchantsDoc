@@ -10,7 +10,7 @@ outline: deep
 
 # give_permission <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Gives a permission while active
+> 激活期间给予权限。
 
 > **需要依赖：** Vault
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `permission` | The permission to give |
+| `permission` | 要给予的权限。 |
 
 ## 配置示例
 

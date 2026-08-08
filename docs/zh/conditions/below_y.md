@@ -10,7 +10,7 @@ outline: deep
 
 # below_y <Badge type="info" text="libreforge" />
 
-> Requires a player to be below a certain y level
+> 需要玩家的 Y 坐标低于某一高度。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `y` | Expression(数学表达式) | ✅ | — | — | The Y coordinate threshold; the entity must be below this value. |
+| `y` | Expression(数学表达式) | ✅ | — | — | Y 坐标阈值；实体必须低于此值。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowY.kt`）。
 
-- **源码描述**: Passes when the entity's Y coordinate is below the specified value.
+- **源码描述**: 当实体的 Y 坐标低于指定值时通过。
 - **所属分类**: `world`
 
 ## 配置示例

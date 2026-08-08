@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to affect entities \| Source: The radius around the player to search for targets. Supports expressions. Example: `5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each nearby entity \| Source: The amount of damage dealt to each nearby entity. Supports expressions. Example: `%level% * 2` |
-| `heal_multiplier` | Expression(数学表达式) | — | `1.0` | — | (Optional) Multiplier applied to total healing, defaults to 1.0 \| Source: A multiplier applied to the total damage dealt before it is converted to healing. Example: `0.5 + %level% * 0.02` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius around the player to search for targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage dealt to each nearby entity. Supports expressions. Example: `%level% * 2` |
+| `heal_multiplier` | Expression(数学表达式) | — | `1.0` | — | A multiplier applied to the total damage dealt before it is converted to healing. Example: `0.5 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

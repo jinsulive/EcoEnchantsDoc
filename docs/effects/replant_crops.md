@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `consume_seeds` | Boolean | ✅ | — | — | If seeds should be used when replanting crops \| Source: Whether seeds should be taken from the player's inventory when replanting. |
-| `only_fully_grown` | Boolean | ✅ | — | — | If only fully grown crops should be replanted \| Source: Whether to only replant crops that are fully grown. |
+| `consume_seeds` | Boolean | ✅ | — | — | Whether seeds should be taken from the player's inventory when replanting. |
+| `only_fully_grown` | Boolean | ✅ | — | — | Whether to only replant crops that are fully grown. |
 
 ## 📝 Source Notes
 

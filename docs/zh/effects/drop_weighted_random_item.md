@@ -10,7 +10,7 @@ outline: deep
 
 # drop_weighted_random_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Drops a random item at a location, with weighting for different items
+> 在指定位置随机掉落一个物品，不同物品有不同权重。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` | Dynamic Config | ✅ | — | — | The list of items to choose from (with weight) \| Source: A list of weighted item groups. Each entry has a weight and an items list. |
+| `items` | Dynamic Config | ✅ | — | — | 带权重的物品选择列表。每个条目包含权重和物品列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropWeightedRandomItem.kt`）。
 
-- **源码描述**: Drops one item chosen from a weighted list at the trigger location.
+- **源码描述**: 在触发位置从加权列表中掉落一个物品。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `LOCATION`
 

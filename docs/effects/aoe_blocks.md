@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for each block \| Source: The effects to run on each block within the AOE. |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area \| Source: The AOE shape to use. |
+| `effects` | Effect List | ✅ | — | — | The effects to run on each block within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use. |
 | `radius` | Custom | — | — | — | The radius of the cone |
 | `distance` | Custom | — | — | — | The length of the beam |
 | `pierce_blocks` | Custom | — | — | — | If the beam should pass through blocks |

@@ -10,7 +10,7 @@ outline: deep
 
 # placeholder_greater_than <Badge type="info" text="libreforge" />
 
-> Requires a placeholder to be greater than or equal to a certain value
+> 需要占位符大于或等于某个值。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and evaluate as a number. Example: `%player_level%` |
-| `value` | Expression(数学表达式) | ✅ | — | — | The value it must be >= to \| Source: The minimum numeric threshold the placeholder must meet or exceed. Example: `5 + %level%` |
+| `placeholder` | String | ✅ | — | — | 占位符（含 % 符号）。示例：`%player_level%` |
+| `value` | Expression(数学表达式) | ✅ | — | — | 它必须 ≥ 的值。示例：`5 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPlaceholderGreaterThan.kt`）。
 
-- **源码描述**: Passes when the resolved placeholder value is numerically greater than or equal to the specified value.
+- **源码描述**: 当解析后的占位符值在数值上大于或等于指定值时通过。
 - **所属分类**: `meta`
 
 ## 配置示例

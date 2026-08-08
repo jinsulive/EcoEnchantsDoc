@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The point to set \| Source: The global point type to set. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to set it to \| Source: The value to set the global point counter to. Supports expressions. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The global point type to set. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The value to set the global point counter to. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

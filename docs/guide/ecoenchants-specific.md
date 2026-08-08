@@ -170,7 +170,150 @@ For custom enchants made in config, specify the slot for any target by adding an
 |---------|-------------|-------|
 | `enchant_<type>` | Triggered when enchanting an item with a certain type of enchantment (e.g. `enchant_normal`) | `value: The xp cost` |
 
-📝 **Editor's Note:** EcoEnchants does not have plugin-exclusive effects, conditions, or mutators — it uses the shared libreforge `/effects/` library. The only EcoEnchants-specific addition to the effect system is the `enchant_<type>` trigger.
+📝 **Editor's Note:** EcoEnchants does not have plugin-exclusive conditions or mutators — it uses the shared libreforge libraries. It **does** ship one exclusive effect (`apply_random_enchant`) and one exclusive trigger (`enchant_<type>`), documented below.
+
+## Source-Level Config Details
+
+The following details come straight from the EcoEnchants source code and are not covered by the official wiki.
+
+### Plugin Dependencies (`dependencies`)
+
+An enchantment can declare a list of plugin names it depends on:
+
+```yaml
+dependencies:
+  - EcoSkills
+  - MMOCore
+```
+
+If any listed plugin is **not installed**, the enchantment fails to load (`MissingDependencyException`). During a live reload you will be prompted to install the missing plugins; pre-loaded enchantments are silently skipped.
+
+> Source: `enchant/impl/LibreforgeEcoEnchant.kt:26-34` (dependency check in `init`), `enchant/EcoEnchants.kt:70-72, 89-91`.
+
+### Enchantments Without an `effects` Key Are Not Loaded
+
+A config file in `/enchants/` is completely ignored if it has no `effects` key:
+
+```kotlin
+if (!config.has("effects")) {
+    return
+}
+```
+
+This means a config with only display/rarity/obtaining options is not registered as an enchantment. You can use this to keep "disabled" or work-in-progress enchantments in the folder without them taking effect.
+
+> Source: `enchant/EcoEnchants.kt:59-61` and `78-80` (`acceptPreloadConfig` / `acceptConfig`).
+
+### Automatic `%<id>_name%` Placeholder
+
+Every registered enchantment automatically registers the placeholder `%<id>_name%`, which returns the formatted display name of the enchantment:
+
+```kotlin
+PlayerlessPlaceholder(plugin, "${id}_name") {
+    this.getFormattedName(0, false)
+}.register()
+```
+
+For an enchantment with the ID `razor`, the placeholder is `%razor_name%`.
+
+> Source: `enchant/impl/EcoEnchantBase.kt:103-105`.
+
+### Automatic `ecoenchants.fromtable.<id>` Permission
+
+Every enchantment automatically registers a Bukkit permission node `ecoenchants.fromtable.<id>` (default `true`), plus a wildcard parent `ecoenchants.fromtable.*`. The permission controls whether the player can obtain the enchantment from an enchanting table.
+
+> Source: `enchant/impl/EcoEnchantBase.kt:108-131`, checked at `mechanics/EnchantingTableSupport.kt:89`.
+
+### `conflicts` Supports the `all` / `everything` Wildcard
+
+Listing `all` or `everything` (case-insensitive) in the `conflicts` list makes the enchantment conflict with **every** other enchantment:
+
+```yaml
+conflicts:
+  - all
+```
+
+Additionally, conflict matching is **two-way** and case-insensitive, and the `required` list is also matched case-insensitively.
+
+> Source: `enchant/impl/EcoEnchantBase.kt:50-53` (`conflictsWithEverything`), `147-155`.
+
+### How Enchantments Decide if They Can Be Applied
+
+`canEnchantItem` (used by the enchanting table, anvil, and `apply_random_enchant`) requires **all** of the following:
+
+- The number of enchantments of the same **type** on the item is below that type's `limit` (from `types.yml`);
+- No enchantment on the item **conflicts** (two-way, including the `all`/`everything` wildcard);
+- All enchantments in `required` are already present;
+- The total enchant count is below `anvil.enchant-limit` in `config.yml`;
+- The item is an enchanted book, or it matches one of the enchantment's `targets`.
+
+> Source: `enchant/EcoEnchantLike.kt:58-89`.
+
+### `enchant_<type>` Triggers Fire 2 Ticks After the Enchant
+
+The `enchant_<type>` trigger does not fire instantly on `EnchantItemEvent` — it schedules the check **2 ticks later** (`runLater(..., 2)`) to let the vanilla enchanting logic finish. The `value` parameter is the XP level cost and `text` is the enchantment type ID.
+
+> Source: `libreforge/TriggerEnchantType.kt:42-59`.
+
+### EcoEnchants-Exclusive Effect: `apply_random_enchant`
+
+EcoEnchants ships one exclusive effect: `apply_random_enchant`. It applies a random enchantment to the triggering item:
+
+```yaml
+- id: apply_random_enchant
+  args:
+    types: []          # Optional: only these enchantment types
+    rarities: []       # Optional: only these rarities
+    enchants: []       # Optional: only these enchantment IDs
+    allow_unsafe: false # If true, ignores target/conflict/level-cap restrictions
+```
+
+If `types`, `rarities` and `enchants` are all empty, any enchantment can be chosen; with `allow_unsafe: false` only enchantments the item can normally receive are selected. A random level between 1 and the enchantment's `max-level` is applied (a stored enchant for enchanted books).
+
+> Source: `libreforge/EffectApplyRandomEnchant.kt:15-88`.
+
+### How `%level%` Is Injected
+
+`%level%` works in effects, conditions, and description placeholders because EcoEnchants registers a **holder placeholder provider** for `EcoEnchantLevel` that exposes the enchantment level as a `level` named value:
+
+```kotlin
+registerHolderPlaceholderProvider<EcoEnchantLevel> { it, _ ->
+    listOf(NamedValue("level", it.level))
+}
+```
+
+Every enchant level is a libreforge *holder*; when an effect or condition tied to that holder runs, `%level%` evaluates to its enchantment level. In enchantment descriptions, `level` is also injected directly into the `placeholders` expressions (`EcoEnchantLike.getRawDescription`).
+
+> Source: `EcoEnchantsPlugin.kt:84-88`, `enchant/EcoEnchantLike.kt:111-118`.
+
+### Vanilla Enchantments Are Configurable Too
+
+Vanilla enchantments can be customized in `vanillaenchants.yml` — each entry sets a custom `max-level` and `conflicts`:
+
+```yaml
+sharpness:
+  max-level: 10
+  conflicts: [ ]
+```
+
+> Source: `enchant/VanillaEnchantments.kt:7-15`.
+
+### Fine-Grained Discoverability & GUI Visibility
+
+Besides the boolean `discoverable`, you can restrict individual discovery methods with a map — missing sub-keys default to `true`, and a plain `false` disables all methods:
+
+```yaml
+discoverable:
+  chests: true
+  fishing: true
+  mob-drops: true
+  raids: true
+hide-from-enchantgui: false
+```
+
+`hide-from-enchantgui: true` hides the enchantment from the `/enchants` GUI.
+
+> Source: `enchant/impl/EcoEnchantBase.kt:89-99`.
 
 ## Plugin Config Highlights
 

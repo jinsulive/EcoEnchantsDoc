@@ -10,7 +10,7 @@ outline: deep
 
 # kick <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Kicks the player
+> 将玩家踢出服务器。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `message` | String | ✅ | — | — | The message to send \| Source: The kick screen message shown to the player. Example: `&cYou have been kicked, %player%.` |
+| `message` | String | ✅ | — | — | 要发送的踢出提示消息。示例：`&cYou have been kicked, %player%.` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKick.kt`）。
 
-- **源码描述**: Kicks the player from the server with a specified message.
+- **源码描述**: 以指定消息将玩家踢出服务器。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

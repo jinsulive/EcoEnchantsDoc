@@ -10,7 +10,7 @@ outline: deep
 
 # is_swimming <Badge type="info" text="libreforge" />
 
-> Requires a player to be swimming
+> 需要玩家正在游泳。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsSwimming.kt`）。
 
-- **源码描述**: Passes when the entity is actively in the swimming animation.
+- **源码描述**: 当实体正处于游泳动画中时通过。
 - **所属分类**: `player`
 
 ## 配置示例

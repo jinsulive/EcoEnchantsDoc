@@ -10,7 +10,7 @@ outline: deep
 
 # strip_ai <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Strips a mob's AI temporarily
+> 临时移除生物的 AI。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `duration` | Expression(数学表达式) | ✅ | — | — | The amount of ticks to strip AI for \| Source: How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 移除 AI 的游戏刻数。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectStripAI.kt`）。
 
-- **源码描述**: Temporarily removes the AI from the victim entity, stopping it from acting.
+- **源码描述**: 临时移除受害者实体的 AI，使其停止行动。
 - **所属分类**: `entity`
 - **需要触发器数据**: `VICTIM`
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The factor to multiply all velocity components by (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The factor to multiply all velocity components by (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # give_oxygen <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Give a player oxygen
+> 给予玩家氧气。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of oxygen to give (supports negative values) \| Source: The number of air ticks to add to the player's remaining air. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予的氧气量（支持负数）。支持表达式。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveOxygen.kt`）。
 
-- **源码描述**: Restores a set number of air ticks (oxygen) to the player's air supply.
+- **源码描述**: 为玩家的氧气储备恢复指定数量的空气游戏刻。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

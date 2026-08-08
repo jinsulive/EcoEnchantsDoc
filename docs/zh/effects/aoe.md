@@ -10,7 +10,7 @@ outline: deep
 
 # aoe <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Runs effects for all entities within an area of effect (aoe)
+> 对效果区域（AOE）内的所有实体运行效果。
 
 ## 基本信息
 
@@ -25,16 +25,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The effects to run for each entity \| Source: The effects to run on each entity within the AOE. |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area (see above) \| Source: The AOE shape to use. |
-| `radius` | Custom | — | — | — | The radius of the cone (see above) |
-| `angle` | Custom | — | — | — | The angle of the cone (see above) |
+| `effects` | Effect List | ✅ | — | — | 对范围内每个实体运行的效果。 |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | 范围效果区域的形状（见上文）。 |
+| `radius` | Custom | — | — | — | 圆锥的半径（见上文）。 |
+| `angle` | Custom | — | — | — | 圆锥的角度（见上文）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAOE.kt`）。
 
-- **源码描述**: Runs a set of effects on all nearby entities within an AOE shape.
+- **源码描述**: 在指定 AOE 形状内，对所有附近的实体运行一组效果。
 - **所属分类**: `meta`
 - **继承子配置**: 是（此效果继承子配置，详见对应子配置页）
 

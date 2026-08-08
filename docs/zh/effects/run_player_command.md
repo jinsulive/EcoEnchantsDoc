@@ -10,7 +10,7 @@ outline: deep
 
 # run_player_command <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Runs a command as a player
+> 以玩家身份运行命令。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `command` | String List | ✅ | — | — | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) \| Source: The command or list of commands to run as the player. Use %player% and %victim% as placeholders. Example: `me does a flip!, kill %victim%` |
-| `as_op` | Boolean | — | `false` | — | If the command should be ran as op \| Source: Whether to temporarily grant the player operator permissions while running the commands. |
+| `command` | String List | ✅ | — | — | 支持 %player% 和 %victim% 占位符（仅当该效果存在玩家受害者时才使用 victim）。以玩家身份运行命令。示例：`me does a flip!, kill %victim%` |
+| `as_op` | Boolean | — | `false` | — | 是否以 OP 权限运行命令。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRunPlayerCommand.kt`）。
 
-- **源码描述**: Runs one or more commands as the player when triggered.
+- **源码描述**: 触发时以玩家身份运行一条或多条命令。
 - **所属分类**: `chat`
 - **需要触发器数据**: `PLAYER`
 

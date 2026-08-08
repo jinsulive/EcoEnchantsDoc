@@ -10,7 +10,7 @@ outline: deep
 
 # add_holder_in_radius <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives a custom holder temporarily for a given period of time. A holder is anything with effects and conditions, in plugins typically a Talisman, Armor Set, etc. You can create custom holders temporarily and give them on a trigger, for example to give permanent effects for a period of time to people around you.
+> 在指定时间段内临时给予一个自定义持有器。持有器是带有效果和条件的任意事物，插件中通常是护身符、盔甲套装等。你可以临时创建自定义持有器并在触发器上给予，例如在一段时间内给予周围玩家永久效果。
 
 ## 基本信息
 
@@ -25,17 +25,17 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply temporarily to nearby entities. |
-| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration, in ticks \| Source: How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
-| `apply-to-self` | Boolean | — | `false` | — | If the player should also get the holder \| Source: Whether to also apply the effects to the dispatcher. |
+| `effects` | Effect List | ✅ | — | — | 临时应用于附近实体的效果。 |
+| `conditions` | Condition List | — | — | — | 持有器激活所需的条件。 |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 效果作用半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
+| `apply-to-self` | Boolean | — | `false` | — | 玩家是否也获得该持有器效果。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddHolderInRadius.kt`）。
 
-- **源码描述**: Temporarily applies a set of effects and conditions to all nearby entities within a radius.
+- **源码描述**: 在指定半径内，临时向所有附近的实体应用一组效果和条件。
 - **所属分类**: `meta`
 
 ## 配置示例

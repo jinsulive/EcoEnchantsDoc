@@ -10,7 +10,7 @@ outline: deep
 
 # below_health_percent <Badge type="info" text="libreforge" />
 
-> Requires a player to be below a certain % of their max health
+> 需要玩家的生命值低于其最大生命值的某一百分比。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent` | Expression(数学表达式) | ✅ | — | — | The maximum percentage \| Source: The maximum health percentage (0–100). Example: `25 + %level% * 0.5` |
+| `percent` | Expression(数学表达式) | ✅ | — | — | 最大百分比（生命值百分比 0–100）。示例：`25 + %level% * 0.5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowHealthPercent.kt`）。
 
-- **源码描述**: Passes when the entity's health is at or below the given percentage of its maximum.
+- **源码描述**: 当实体的生命值低于或等于其最大生命值的指定百分比时通过。
 - **所属分类**: `combat`
 
 ## 配置示例

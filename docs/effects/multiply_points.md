@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The point to multiply \| Source: The player point type to multiply. |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The amount to multiply it by \| Source: The multiplier to apply to the player's point value. Supports expressions. Example: `1 + %level% * 0.1` |
+| `type` | String | ✅ | — | — | The player point type to multiply. |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier to apply to the player's point value. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

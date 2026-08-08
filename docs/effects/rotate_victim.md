@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to rotate / spin (in degrees) \| Source: The number of degrees to add to the victim's current yaw. Supports expressions. Example: `%level% * 10` |
+| `angle` | Expression(数学表达式) | ✅ | — | — | The number of degrees to add to the victim's current yaw. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

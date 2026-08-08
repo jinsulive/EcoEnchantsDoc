@@ -10,7 +10,7 @@ outline: deep
 
 # time_bomb <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Plants a timed explosion on an entity that detonates after a fuse duration
+> 在实体上安装定时爆炸，在引信时间后引爆。
 
 ## 基本信息
 
@@ -25,16 +25,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `fuse` | Expression(数学表达式) | ✅ | — | — | The delay in ticks before the explosion \| Source: How many ticks before the explosion occurs. Supports expressions. Example: `20 * %level%` |
-| `power` | Expression(数学表达式) | ✅ | — | — | The explosion power \| Source: The power of the explosion. Vanilla TNT is 4. Supports expressions. |
-| `break_blocks` | Boolean | — | `false` | — | (Optional) Whether the explosion breaks blocks, defaults to false \| Source: Whether the explosion breaks blocks. |
-| `glow` | Boolean | — | `true` | — | (Optional) Whether the entity glows while the fuse is active, defaults to true \| Source: Whether the victim glows while waiting for the explosion. |
+| `fuse` | Expression(数学表达式) | ✅ | — | — | 爆炸前的延迟游戏刻数。支持表达式。示例：`20 * %level%` |
+| `power` | Expression(数学表达式) | ✅ | — | — | 爆炸威力。原版 TNT 为 4。支持表达式。 |
+| `break_blocks` | Boolean | — | `false` | — | （可选）爆炸是否破坏方块，默认为 false。 |
+| `glow` | Boolean | — | `true` | — | （可选）引信燃烧期间实体是否发光，默认为 true。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTimeBomb.kt`）。
 
-- **源码描述**: Marks the victim to explode after a fuse delay, with an optional glow effect while the timer counts down.
+- **源码描述**: 标记受害者，在引信延迟后爆炸，倒计时期间可选发光效果。
 - **所属分类**: `combat`, `world`
 - **需要触发器数据**: `VICTIM`
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to remove from the item. |
+| `enchant` | Enchantment | ✅ | — | — | The enchantment to remove from the item. |
 
 ## 📝 Source Notes
 

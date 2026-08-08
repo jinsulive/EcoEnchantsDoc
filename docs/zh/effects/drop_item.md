@@ -10,7 +10,7 @@ outline: deep
 
 # drop_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Drops an item at a location
+> 在指定位置掉落物品。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item | ✅ | — | — | The item to give \| Source: The item to drop. Accepts eco item lookup strings. |
-| `add_to_drops` | Boolean | — | `false` | — | If true and the trigger has a drop event, adds the item to that event's drop list instead of spawning it directly. |
+| `item` | Item | ✅ | — | — | 要掉落的物品。接受 eco 物品查找字符串。 |
+| `add_to_drops` | Boolean | — | `false` | — | 为 true 且触发器带有掉落事件时，将物品加入该事件的掉落列表而非直接生成。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropItem.kt`）。
 
-- **源码描述**: Drops an item at the trigger location.
+- **源码描述**: 在触发位置掉落一个物品。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `LOCATION`
 

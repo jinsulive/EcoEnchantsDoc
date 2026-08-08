@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of absorption points to add \| Source: The number of absorption hearts to add. Supports expressions. Example: `%level%` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of absorption hearts to add. Supports expressions. Example: `%level%` |
 
 ## 📝 Source Notes
 

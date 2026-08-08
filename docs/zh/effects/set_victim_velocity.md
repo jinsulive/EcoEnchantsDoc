@@ -10,7 +10,7 @@ outline: deep
 
 # set_victim_velocity <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sets the victim's velocity
+> 设置受害者的速度。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `x` | Expression(数学表达式) | ✅ | — | — | The x velocity \| Source: The X component of the velocity vector. Supports expressions. Example: `0` |
-| `y` | Expression(数学表达式) | ✅ | — | — | The y velocity \| Source: The Y component of the velocity vector. Supports expressions. Example: `1.5` |
-| `z` | Expression(数学表达式) | ✅ | — | — | The z velocity \| Source: The Z component of the velocity vector. Supports expressions. Example: `0` |
+| `x` | Expression(数学表达式) | ✅ | — | — | X 轴速度分量。支持表达式。示例：`0` |
+| `y` | Expression(数学表达式) | ✅ | — | — | Y 轴速度分量。支持表达式。示例：`1.5` |
+| `z` | Expression(数学表达式) | ✅ | — | — | Z 轴速度分量。支持表达式。示例：`0` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetVictimVelocity.kt`）。
 
-- **源码描述**: Sets the victim entity's velocity to the specified x, y, z components.
+- **源码描述**: 将受害者实体的速度设置为指定的 x、y、z 分量。
 - **所属分类**: `movement`, `combat`
 - **需要触发器数据**: `VICTIM`
 

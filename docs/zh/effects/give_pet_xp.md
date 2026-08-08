@@ -10,7 +10,7 @@ outline: deep
 
 # give_pet_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives experience points for a certain pet
+> 为特定宠物获得经验值。
 
 > **需要依赖：** EcoPets
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of xp to give |
-| `pet` | The pet to give the xp for |
+| `amount` | 要给予的经验值数量。 |
+| `pet` | 要给予经验值的宠物。 |
 
 ## 配置示例
 

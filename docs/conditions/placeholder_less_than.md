@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and evaluate as a number. Example: `%player_level%` |
-| `value` | Expression(数学表达式) | ✅ | — | — | The value it must be less than \| Source: The numeric threshold the placeholder must be strictly below. Example: `5 + %level%` |
+| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and evaluate as a number. Example: `%player_level%` |
+| `value` | Expression(数学表达式) | ✅ | — | — | The numeric threshold the placeholder must be strictly below. Example: `5 + %level%` |
 
 ## 📝 Source Notes
 

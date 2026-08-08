@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `type` | The magic type to multiply |
-| `multiplier` | The amount to multiply it by |
+| `type` | 要倍率化的魔力类型。 |
+| `multiplier` | 要乘以的数值。 |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # quest_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies quest xp gain
+> 倍率化任务经验值获取。
 
 > **需要依赖：** EcoQuests
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The experience multiplier |
-| `quests` | The list of quests to multiply xp for. If removed, it will multiply all quests. |
+| `multiplier` | 经验值倍率。 |
+| `quests` | 要倍率化经验值的任务列表。移除后将对所有任务生效。 |
 
 ## 配置示例
 

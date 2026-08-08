@@ -10,7 +10,7 @@ outline: deep
 
 # is_submerged <Badge type="info" text="libreforge" />
 
-> Requires a player to be fully submerged in liquid
+> 需要玩家完全浸没在液体中。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsSubmerged.kt`）。
 
-- **源码描述**: Passes when the entity is fully submerged in a liquid.
+- **源码描述**: 当实体完全浸没在液体中时通过。
 - **所属分类**: `player`
 
 ## 配置示例

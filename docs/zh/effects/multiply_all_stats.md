@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_all_stats <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies all stats by a specific value
+> 将所有属性乘以指定值。
 
 > **需要依赖：** EcoSkills
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The amount to multiply the stats by |
+| `multiplier` | 属性要乘以的数值。 |
 
 ## 配置示例
 

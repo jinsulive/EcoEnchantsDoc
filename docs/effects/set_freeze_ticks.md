@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The ticks to set (How long the victim has been in snow) \| Source: The number of freeze ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | The number of freeze ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

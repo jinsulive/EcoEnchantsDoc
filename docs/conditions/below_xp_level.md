@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `level` | Expression(数学表达式) | ✅ | — | — | The maximum XP level \| Source: The XP level threshold; the player must be below this value. Example: `10 + %level%` |
+| `level` | Expression(数学表达式) | ✅ | — | — | The XP level threshold; the player must be below this value. Example: `10 + %level%` |
 
 ## 📝 Source Notes
 

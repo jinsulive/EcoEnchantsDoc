@@ -10,7 +10,7 @@ outline: deep
 
 # piercing <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Makes projectiles pass through other entities (collaterals), like the Piercing enchantment.
+> 使弹射物穿过其他实体（穿透），类似于穿透附魔。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Expression(数学表达式) | ✅ | — | — | The piercing level, i.e. the amount of entities that the projectile should go through \| Source: The number of extra piercing levels to add to the arrow. Supports expressions. Example: `1 + %level% / 20` |
+| `level` | Expression(数学表达式) | ✅ | — | — | 穿透等级，即弹射物可穿过的实体数量。支持表达式。示例：`1 + %level% / 20` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPiercing.kt`）。
 
-- **源码描述**: Adds extra piercing levels to an arrow projectile, allowing it to pass through additional entities.
+- **源码描述**: 为箭矢弹射物添加额外穿透等级，使其能穿过更多实体。
 - **所属分类**: `combat`
 - **需要触发器数据**: `PROJECTILE`
 

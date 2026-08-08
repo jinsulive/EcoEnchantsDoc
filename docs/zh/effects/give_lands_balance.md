@@ -10,7 +10,7 @@ outline: deep
 
 # give_lands_balance <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Give money to a Land's bank balance
+> 将金钱存入领地银行余额。
 
 > **需要依赖：** Lands
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount to give, use negative values to take |
-| `only_trusted` | If only trusted players can use this effect |
+| `amount` | 要给予的数量，负数表示收取。 |
+| `only_trusted` | 是否仅受信任的玩家可以使用此效果。 |
 
 ## 配置示例
 

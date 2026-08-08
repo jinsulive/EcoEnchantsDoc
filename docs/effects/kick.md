@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `message` | String | ✅ | — | — | The message to send \| Source: The kick screen message shown to the player. Example: `&cYou have been kicked, %player%.` |
+| `message` | String | ✅ | — | — | The kick screen message shown to the player. Example: `&cYou have been kicked, %player%.` |
 
 ## 📝 Source Notes
 

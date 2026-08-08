@@ -10,7 +10,7 @@ outline: deep
 
 # teleport_to_ground <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Teleports to the ground
+> 传送到地面。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTeleportToGround.kt`）。
 
-- **源码描述**: Teleports the player straight down to the first solid ground beneath them.
+- **源码描述**: 将玩家正下方传送到第一个实心地面。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # villager_trade_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies the cost of villager trades
+> 倍率化村民交易的花费。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The multiplier for villager trade costs |
+| `multiplier` | Custom | — | — | — | 村民交易价格倍率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVillagerTradeMultiplier.kt`）。
 
-- **源码描述**: Multiplies the ingredient costs of villager trades when the player opens a merchant.
+- **源码描述**: 玩家打开村民交易界面时，倍率化交易的物品花费。
 - **所属分类**: `economy`
 
 ## 配置示例

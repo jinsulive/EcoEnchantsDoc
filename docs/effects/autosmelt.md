@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `drop_xp` | Boolean | ✅ | — | — | If the furnace xp should be dropped \| Source: Whether to drop smelting XP alongside the smelted item. |
+| `drop_xp` | Boolean | ✅ | — | — | Whether to drop smelting XP alongside the smelted item. |
 
 ## 📝 Source Notes
 

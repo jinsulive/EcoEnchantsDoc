@@ -10,7 +10,7 @@ outline: deep
 
 # remove_boss_bar <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Removes a boss bar
+> 移除 Boss 血条。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | The ID of the boss bar to remove \| Source: The unique ID of the boss bar to remove. Supports placeholders. Example: `boss_%player_name%` |
+| `id` | String | ✅ | — | — | 要移除的 Boss 血条 ID。支持占位符。示例：`boss_%player_name%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveBossBar.kt`）。
 
-- **源码描述**: Removes a currently displayed boss bar by its ID.
+- **源码描述**: 按 ID 移除当前显示的 Boss 血条。
 - **所属分类**: `visual`
 
 ## 配置示例

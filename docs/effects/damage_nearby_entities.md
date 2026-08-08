@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal \| Source: The amount of damage to deal to each entity. Supports expressions. Example: `%level% * 2` |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to scan for entities \| Source: The radius to damage entities within. Supports expressions. Example: `5 + %level% * 0.5` |
-| `entities` | Entity List | — | — | — | The whitelist of entities to damage \| Source: If specified, only these entity types will be damaged. |
-| `damage_as_player` | Boolean | ✅ | — | — | If the player should be marked as the damager \| Source: Whether the player is attributed as the source of damage. |
-| `damage_self` | Boolean | — | `true` | — | If the effect can damage the player \| Source: Whether the player can damage themselves with this effect. |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal to each entity. Supports expressions. Example: `%level% * 2` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to damage entities within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `entities` | Entity List | — | — | — | If specified, only these entity types will be damaged. |
+| `damage_as_player` | Boolean | ✅ | — | — | Whether the player is attributed as the source of damage. |
+| `damage_self` | Boolean | — | `true` | — | Whether the player can damage themselves with this effect. |
 
 ## 📝 Source Notes
 

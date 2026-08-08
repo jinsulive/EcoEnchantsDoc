@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_victim <Badge type="info" text="libreforge" />
 
-> Move the location to the victim's location
+> 将位置移动到受害者的位置。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToVictim.kt`）。
 
-- **源码描述**: Sets the location to the victim's current position.
+- **源码描述**: 将位置设置为受害者的当前位置。
 - **所属分类**: `location`, `victim`
 
 ## 配置示例

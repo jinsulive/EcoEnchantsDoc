@@ -10,7 +10,7 @@ outline: deep
 
 # lands_balance_below <Badge type="info" text="libreforge" />
 
-> Requires the Land's bank balance to be below a value
+> 需要领地银行余额低于某个值。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The maximum balance |
+| `amount` | 最大余额。 |
 
 ## 配置示例
 

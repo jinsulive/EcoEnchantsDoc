@@ -10,7 +10,7 @@ outline: deep
 
 # give_collection_count <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives a player count toward a collection
+> 为玩家的收藏进度增加计数。
 
 > **需要依赖：** EcoCollections
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `amount` | The amount of count to give |
-| `collection` | The collection ID |
+| `amount` | 要给予的计数数量。 |
+| `collection` | 收藏 ID。 |
 
 ## 配置示例
 

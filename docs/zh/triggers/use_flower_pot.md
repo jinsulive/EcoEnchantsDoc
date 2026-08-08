@@ -11,7 +11,7 @@ outline: deep
 
 # use_flower_pot <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when a player inserts or extracts a plant from a flower pot
+> 当玩家向花盆中放入或取出植物时触发。
 
 ## 基本信息
 

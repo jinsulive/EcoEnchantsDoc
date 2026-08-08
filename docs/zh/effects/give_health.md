@@ -10,7 +10,7 @@ outline: deep
 
 # give_health <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gives the player health
+> 给予玩家生命值。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of health to give/take (allows negative values) \| Source: The amount of health points to restore. Supports expressions. Example: `%level% * 2` |
-| `trigger_heal` | Boolean | — | `false` | — | Whether to trigger the heal event ("heal" trigger) \| Source: If true, fires an EntityRegainHealthEvent and respects cancellation (e.g. for Mending). Defaults to false. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予/扣除的生命值（允许负数）。支持表达式。示例：`%level% * 2` |
+| `trigger_heal` | Boolean | — | `false` | — | 是否触发治疗事件（"heal" 触发器）。为 true 时触发 EntityRegainHealthEvent 并尊重其取消（例如用于经验修补）。默认为 false。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveHealth.kt`）。
 
-- **源码描述**: Heals the player by the specified amount, capped at their maximum health.
+- **源码描述**: 按指定数量治疗玩家，上限为其最大生命值。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

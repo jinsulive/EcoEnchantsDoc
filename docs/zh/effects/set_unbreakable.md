@@ -10,7 +10,7 @@ outline: deep
 
 # set_unbreakable <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Sets the unbreakable tag on an item
+> 在物品上设置不可破坏标签。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `value` | Boolean | — | `true` | — | True = apply unbreakable, False = remove unbreakable \| Source: Whether to make the item unbreakable (true) or breakable (false). |
-| `slot` | String | — | `holder` | — | The slot to apply unbreakable (defaults to "holder") \| Source: The equipment slot to target: holder, mainhand, offhand, helmet, chestplate, leggings, or boots. Example: `mainhand` |
-| `persist_on_disable` | Boolean | — | `true` | — | If the unbreakable tag should persist when unequipped or effect deactivated \| Source: Whether the unbreakable state should remain when the effect is removed. |
+| `value` | Boolean | — | `true` | — | True = 应用不可破坏，False = 移除不可破坏。 |
+| `slot` | String | — | `holder` | — | 应用不可破坏的栏位（默认为 "holder"）。 |
+| `persist_on_disable` | Boolean | — | `true` | — | 卸下装备或效果停用时是否保留不可破坏标签。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetUnbreakable.kt`）。
 
-- **源码描述**: Makes an item in a specific slot unbreakable while the effect is active.
+- **源码描述**: 效果激活期间，使指定栏位中的物品不可破坏。
 - **所属分类**: `inventory`
 
 ## 配置示例

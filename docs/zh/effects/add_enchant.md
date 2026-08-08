@@ -10,7 +10,7 @@ outline: deep
 
 # add_enchant <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Adds an enchant to the item
+> 为物品添加附魔。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to add, e.g. sharpness. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level of the enchant \| Source: The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
+| `enchant` | Enchantment | ✅ | — | — | 要添加的附魔 ID（例如 sharpness）。 |
+| `level` | Expression(数学表达式) | ✅ | — | — | 要添加的附魔等级。支持表达式。示例：`%level% + 1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddEnchant.kt`）。
 
-- **源码描述**: Adds an enchantment to the triggering item.
+- **源码描述**: 为触发物品添加附魔。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `ITEM`
 

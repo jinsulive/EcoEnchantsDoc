@@ -11,7 +11,7 @@ outline: deep
 
 # harvest_custom_crop <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
 
-> Triggered when harvesting a custom crop
+> 当收获自定义作物时触发。
 
 ## 基本信息
 

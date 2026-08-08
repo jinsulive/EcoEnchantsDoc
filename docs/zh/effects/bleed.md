@@ -10,7 +10,7 @@ outline: deep
 
 # bleed <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Makes your victim bleed, damaging them repeatedly
+> 使受害者流血，反复受到伤害。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal on each bleed tick \| Source: The damage dealt per interval. Supports expressions. Example: `%level% * 0.5` |
-| `interval` | Expression(数学表达式) | ✅ | — | — | The delay between bleed ticks \| Source: The number of ticks between each damage application. Supports expressions. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of bleed ticks \| Source: The number of times damage is dealt. Supports expressions. Example: `3 + %level%` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | 每次流血结算造成的伤害。支持表达式。示例：`%level% * 0.5` |
+| `interval` | Expression(数学表达式) | ✅ | — | — | 每次伤害结算之间的间隔游戏刻数。支持表达式。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 流血结算次数。支持表达式。示例：`3 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBleed.kt`）。
 
-- **源码描述**: Deals damage to the victim repeatedly over a set number of ticks.
+- **源码描述**: 在指定数量的游戏刻内，反复对受害者造成伤害。
 - **所属分类**: `combat`
 - **需要触发器数据**: `VICTIM`
 

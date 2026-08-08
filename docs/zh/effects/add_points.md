@@ -10,7 +10,7 @@ outline: deep
 
 # add_points <Badge type="info" text="libreforge" /> <Badge type="info" text="永久型" />
 
-> Add / subtract points (check the points wiki page if you don't know what these are)
+> 增加/扣除点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The player point type to add to. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to add/subtract \| Source: The amount of points to add. Supports expressions. Example: `%level% * 5` |
+| `type` | String | ✅ | — | — | 要增加/扣除的玩家点数类型。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要增加/扣除的点数数量。支持表达式。示例：`%level% * 5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddPoints.kt`）。
 
-- **源码描述**: Permanently increases a player's point counter while the holder is active.
+- **源码描述**: 持有器激活期间，永久增加玩家的点数计数。
 - **所属分类**: `economy`, `points`
 
 ## 配置示例

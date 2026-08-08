@@ -10,7 +10,7 @@ outline: deep
 
 # set_saturation <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sets the player's saturation
+> 设置玩家的饱和值。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The saturation level to set \| Source: The saturation level to set for the player. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要设置的饱和值。支持表达式。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetSaturation.kt`）。
 
-- **源码描述**: Sets the player's food saturation to a specific value.
+- **源码描述**: 将玩家的食物饱和值设置为指定值。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`
 

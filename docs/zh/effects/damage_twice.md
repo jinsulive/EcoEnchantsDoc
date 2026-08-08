@@ -10,7 +10,7 @@ outline: deep
 
 # damage_twice <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Deals an extra hit to the victim
+> 对受害者造成一次额外攻击。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageTwice.kt`）。
 
-- **源码描述**: Causes the victim to take the triggering hit's damage a second time.
+- **源码描述**: 使受害者第二次承受触发攻击的伤害。
 - **所属分类**: `combat`
 - **需要触发器数据**: `VICTIM`, `EVENT`
 

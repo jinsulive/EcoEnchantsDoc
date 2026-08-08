@@ -10,7 +10,7 @@ outline: deep
 
 # set_battlepass_tier <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Set the player's battlepass tier
+> 设置玩家的战斗通行证等级。
 
 > **需要依赖：** EcoBattlepass
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `tier` | The tier to set |
-| `battlepass` | The battlepass ID |
+| `tier` | 要设置的等级。 |
+| `battlepass` | 战斗通行证 ID。 |
 
 ## 配置示例
 

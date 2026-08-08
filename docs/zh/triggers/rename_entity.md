@@ -11,7 +11,7 @@ outline: deep
 
 # rename_entity <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when a player renames an entity using a name tag
+> 当玩家使用命名牌重命名实体时触发。
 
 ## 基本信息
 

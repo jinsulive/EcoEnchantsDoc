@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of saturation to give/take (allows negative values) \| Source: The amount of saturation points to add. Supports expressions. Example: `%level%` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of saturation points to add (allows negative values). Supports expressions. Example: `%level%` |
 
 ## 📝 Source Notes
 

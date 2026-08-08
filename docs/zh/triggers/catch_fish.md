@@ -10,7 +10,7 @@ outline: deep
 
 # catch_fish <Badge type="info" text="libreforge" /> 
 
-> Triggered when catching a fish
+> 当钓到鱼时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `catch_fish` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The experience dropped |
+| 值 | 掉落的经验值 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerCatchFish.kt`）。
 
-- **源码描述**: Fires when the player successfully catches a fish.
+- **源码描述**: 当玩家成功钓到鱼时触发。
 - **所属分类**: `fishing`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The amount of XP dropped.
+- **值**: 掉落的经验值数量。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The experience dropped |
+| `%trigger_value%` | 掉落的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

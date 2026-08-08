@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `value` | String | ✅ | — | — | The value of the price \| Source: The amount to deduct from the player. Supports expressions and placeholders. Example: `%level% * 10` |
-| `type` | String | ✅ | — | — | The price type \| Source: The price type identifier (e.g. coins, xp, xpl, item). Example: `coins` |
+| `value` | String | ✅ | — | — | 价格的值（要从玩家处扣除的金额）。支持表达式和占位符。示例：`%level% * 10` |
+| `type` | String | ✅ | — | — | 价格类型标识（例如 coins、xp、xpl、item）。示例：`coins` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPayPrice.kt`）。
 
-- **源码描述**: Deducts a price of the specified type from the player.
+- **源码描述**: 从玩家处扣除指定类型的价格。
 - **所属分类**: `economy`
 - **需要触发器数据**: `PLAYER`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # update_edprison_pickaxe <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Updates the player's EdPrison pickaxe
+> 更新玩家的 EdPrison 镐。
 
 > **需要依赖：** EdPrison
 

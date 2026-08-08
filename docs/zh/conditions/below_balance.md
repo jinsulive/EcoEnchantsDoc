@@ -10,7 +10,7 @@ outline: deep
 
 # below_balance <Badge type="info" text="libreforge" />
 
-> Requires a player to have below a certain amount of money
+> 需要玩家的金钱低于一定数量。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `balance` | Expression(数学表达式) | ✅ | — | — | The maximum amount of money \| Source: The balance threshold; the player must be below this amount. Example: `%level% * 500` |
+| `balance` | Expression(数学表达式) | ✅ | — | — | 最大金钱数量（余额阈值，玩家必须低于此金额）。示例：`%level% * 500` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowBalance.kt`）。
 
-- **源码描述**: Passes when the player's economy balance is below the specified amount.
+- **源码描述**: 当玩家的经济余额低于指定数量时通过。
 - **所属分类**: `economy`
 
 ## 配置示例

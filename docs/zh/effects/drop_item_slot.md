@@ -10,7 +10,7 @@ outline: deep
 
 # drop_item_slot <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Drops items from the player's inventory
+> 从玩家背包中掉落物品。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `slot` | String | ✅ | — | — | The slot to drop, can be any numeric slot, hand, or 'any' \| Source: The inventory slot to drop items from, e.g. mainhand or slot_0. Example: `mainhand` |
-| `amount` | Expression(数学表达式) | — | — | — | The amount of items to drop, defaults to full stack \| Source: How many items to drop. If omitted, drops the entire stack. |
+| `slot` | String | ✅ | — | — | 掉落物品的背包栏位，可以是任意数字栏位、hand 或 'any'。 |
+| `amount` | Expression(数学表达式) | — | — | — | 要掉落的物品数量，默认掉落整组。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropItemSlot.kt`）。
 
-- **源码描述**: Drops items from a specific inventory slot.
+- **源码描述**: 从指定背包栏位掉落物品。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`
 

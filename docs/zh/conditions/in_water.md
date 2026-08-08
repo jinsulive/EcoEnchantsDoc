@@ -10,7 +10,7 @@ outline: deep
 
 # in_water <Badge type="info" text="libreforge" />
 
-> Requires a player to be in water
+> 需要玩家位于水中。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInWater.kt`）。
 
-- **源码描述**: Passes when the entity is in contact with water.
+- **源码描述**: 当实体接触到水时通过。
 - **所属分类**: `player`, `world`
 
 ## 配置示例

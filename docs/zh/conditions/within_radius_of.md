@@ -10,7 +10,7 @@ outline: deep
 
 # within_radius_of <Badge type="info" text="libreforge" />
 
-> Requires a player to be within a certain radius of a location
+> 需要玩家位于指定位置的指定半径内。
 
 ## 基本信息
 
@@ -28,16 +28,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `x` | Expression(数学表达式) | ✅ | — | — | The x coordinate \| Source: The X coordinate of the target location. |
-| `y` | Expression(数学表达式) | ✅ | — | — | The y coordinate \| Source: The Y coordinate of the target location. |
-| `z` | Expression(数学表达式) | ✅ | — | — | The z coordinate \| Source: The Z coordinate of the target location. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius \| Source: The maximum distance from the target location. Example: `15 + %level% * 0.5` |
+| `x` | Expression(数学表达式) | ✅ | — | — | 目标位置的 X 坐标。 |
+| `y` | Expression(数学表达式) | ✅ | — | — | 目标位置的 Y 坐标。 |
+| `z` | Expression(数学表达式) | ✅ | — | — | 目标位置的 Z 坐标。 |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 半径（距目标位置的最大距离）。示例：`15 + %level% * 0.5` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionWithinRadiusOf.kt`）。
 
-- **源码描述**: Passes when the entity is within the specified radius of a given coordinate.
+- **源码描述**: 当实体位于给定坐标的指定半径内时通过。
 - **所属分类**: `world`
 
 ## 配置示例

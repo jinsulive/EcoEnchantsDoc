@@ -10,7 +10,7 @@ outline: deep
 
 # points_equal <Badge type="info" text="libreforge" />
 
-> Requires a player to have a exactly a certain amount of points (check the points wiki page if you don't know what these are)
+> 需要玩家恰好拥有一定数量的点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The points type identifier to check. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points \| Source: The exact points amount the player must have. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要检查的点数类型标识。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 点数数量（玩家必须拥有的精确点数）。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPointsEqual.kt`）。
 
-- **源码描述**: Passes when the player's points of the specified type exactly equal the given amount.
+- **源码描述**: 当玩家指定类型的点数恰好等于给定数量时通过。
 - **所属分类**: `economy`
 
 ## 配置示例

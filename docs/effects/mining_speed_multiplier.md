@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for mining speed \| Source: The mining speed multiplier to apply (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.02` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The mining speed multiplier to apply (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

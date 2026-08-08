@@ -10,7 +10,7 @@ outline: deep
 
 # is_wearing_set <Badge type="info" text="libreforge" />
 
-> Requires a player to be wearing a certain EcoArmor set
+> 需要玩家穿着某套 EcoArmor。
 
 ## 基本信息
 
@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `set` | The EcoArmor set ID |
-| `advanced` | (Optional) Require the set to be advanced (or not advanced) |
+| `set` | EcoArmor 套装 ID。 |
+| `advanced` | （可选）要求套装已进阶（或未进阶）。 |
 
 ## 配置示例
 

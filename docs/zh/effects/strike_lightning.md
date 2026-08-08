@@ -10,7 +10,7 @@ outline: deep
 
 # strike_lightning <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Strikes lightning at a point
+> 在指定位置释放闪电。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | — | `1` | — | The amount of lightning strikes \| Source: The number of lightning strikes. Supports expressions. Example: `1 + %level% / 10` |
+| `amount` | Expression(数学表达式) | — | `1` | — | 闪电打击次数。支持表达式。示例：`1 + %level% / 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectStrikeLightning.kt`）。
 
-- **源码描述**: Strikes lightning at the trigger location.
+- **源码描述**: 在触发位置释放闪电。
 - **所属分类**: `combat`, `world`
 - **需要触发器数据**: `LOCATION`
 

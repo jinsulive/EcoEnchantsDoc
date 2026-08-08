@@ -10,7 +10,7 @@ outline: deep
 
 # give_global_points <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Add / subtract global points (check the points wiki page if you don't know what these are)
+> 增加/扣除全局点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The global point type to add to. |
-| `amount` | Expression(数学表达式) | — | `0` | — | The amount to add/subtract \| Source: The amount of global points to add. Supports expressions. Defaults to 0. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要增加/扣除的全局点数类型。 |
+| `amount` | Expression(数学表达式) | — | `0` | — | 要增加/扣除的全局点数数量。支持表达式。默认为 0。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveGlobalPoints.kt`）。
 
-- **源码描述**: Adds points to a global (server-wide) point counter when triggered.
+- **源码描述**: 触发时向全局（服务器级）点数计数添加点数。
 - **所属分类**: `economy`, `points`
 
 ## 配置示例

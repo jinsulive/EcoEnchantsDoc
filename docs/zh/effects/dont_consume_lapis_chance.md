@@ -10,7 +10,7 @@ outline: deep
 
 # dont_consume_lapis_chance <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Prevents consuming lapis when enchanting items
+> 附魔物品时不消耗青金石。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `chance` | Custom | — | — | — | The chance to not consume lapis |
+| `chance` | Custom | — | — | — | 不消耗青金石的概率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDontConsumeLapisChance.kt`）。
 
-- **源码描述**: Gives a percentage chance for the enchanting table to not consume lapis lazuli.
+- **源码描述**: 赋予附魔台不消耗青金石的一定百分比概率。
 - **所属分类**: `inventory`
 
 ## 配置示例

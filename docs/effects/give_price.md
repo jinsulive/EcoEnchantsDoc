@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `value` | Expression(数学表达式) | ✅ | — | — | The value of the price \| Source: The amount to give, as an expression string (may reference placeholders). Example: `%level% * 100` |
-| `type` | String | ✅ | — | — | The price type \| Source: The eco price type identifier (e.g. coins, xp, points:mytype). Example: `points:mytype` |
+| `value` | Expression(数学表达式) | ✅ | — | — | The amount to give, as an expression string (may reference placeholders). Example: `%level% * 100` |
+| `type` | String | ✅ | — | — | The eco price type identifier (e.g. coins, xp, points:mytype). Example: `points:mytype` |
 
 ## 📝 Source Notes
 

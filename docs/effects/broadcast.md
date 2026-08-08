@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `message` | String List | ✅ | — | — | The message to send \| Source: The message(s) to broadcast to all players. Example: `&aWelcome to the server, %player%!` |
+| `message` | String List | ✅ | — | — | The message(s) to broadcast to all players. Example: `&aWelcome to the server, %player%!` |
 
 ## 📝 Source Notes
 

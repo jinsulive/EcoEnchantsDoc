@@ -10,7 +10,7 @@ outline: deep
 
 # sort_inventory <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sorts a section of the player's inventory alphabetically by item type
+> 按物品类型字母顺序对玩家背包的某一区域进行排序。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | `all`, `hotbar`, `main` | The section to sort: all, hotbar, or main \| Source: Which section of the inventory to sort: all, hotbar, or main. |
+| `type` | String | ✅ | — | `all`, `hotbar`, `main` | 要排序的背包区域：all、hotbar 或 main。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSortInventory.kt`）。
 
-- **源码描述**: Sorts items in the player's inventory by material name and stack size.
+- **源码描述**: 按材料名和堆叠数量排序玩家背包中的物品。
 - **所属分类**: `inventory`, `player`
 - **需要触发器数据**: `PLAYER`
 

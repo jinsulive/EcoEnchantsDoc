@@ -10,7 +10,7 @@ outline: deep
 
 # level_up_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when levelling up an item
+> 当物品升级时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `level_up_item` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The new item level |
+| 值 | 物品的新等级 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerLevelUpItem.kt`）。
 
-- **源码描述**: Fires when a libreforge item levels up.
+- **源码描述**: 当 libreforge 物品升级时触发。
 - **所属分类**: `player`
 - **需要触发器数据**: `PLAYER`, `ITEM`, `TEXT`, `VALUE`
-- **值**: The new level of the item.
+- **值**: 物品的新等级。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The new item level |
+| `%trigger_value%` | 物品的新等级 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

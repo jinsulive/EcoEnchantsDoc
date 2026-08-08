@@ -11,7 +11,7 @@ outline: deep
 
 # pyro_catch_fish <Badge type="info" text="libreforge" /> <Badge type="warning" text="PyroFishingPro" />
 
-> Triggered when catching a fish
+> 当钓到鱼时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `pyro_catch_fish` |
 | 所属模块 | libreforge |
 | 分类 | 外部集成（External Integration） |
-| 值 | The fish number |
+| 值 | 鱼的编号 |
 | 需要 | PyroFishingPro |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The fish number |
+| `%trigger_value%` | 鱼的编号 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

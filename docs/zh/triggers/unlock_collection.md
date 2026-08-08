@@ -11,7 +11,7 @@ outline: deep
 
 # unlock_collection <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoCollections" />
 
-> Triggered when unlocking a collection
+> 当解锁收藏时触发。
 
 ## 基本信息
 

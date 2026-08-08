@@ -10,7 +10,7 @@ outline: deep
 
 # has_reforge <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain reforge active
+> 需要玩家激活某个重铸属性。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `reforge` | The reforge ID |
+| `reforge` | 重铸 ID。 |
 
 ## 配置示例
 

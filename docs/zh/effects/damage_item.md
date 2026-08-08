@@ -10,7 +10,7 @@ outline: deep
 
 # damage_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Damages the item
+> 损耗物品的耐久。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Custom | — | — | — | The durability to damage |
+| `damage` | Custom | — | — | — | 要损耗的耐久值。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageItem.kt`）。
 
-- **源码描述**: Applies durability damage to the triggering item.
+- **源码描述**: 对触发物品造成耐久损耗。
 - **所属分类**: `inventory`
 
 ## 配置示例

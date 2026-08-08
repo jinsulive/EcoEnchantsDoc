@@ -10,7 +10,7 @@ outline: deep
 
 # frost_nova <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Freezes and slows nearby entities in a radius
+> 冻结并减速半径内的附近实体。
 
 ## 基本信息
 
@@ -25,16 +25,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks \| Source: The radius around the trigger location in which entities are frozen. Supports expressions. Example: `5 + %level% * 0.5` |
-| `freeze_ticks` | Expression(数学表达式) | ✅ | — | — | The number of ticks to freeze entities \| Source: How many ticks the affected entities are frozen for. Supports expressions. Example: `20 * %level%` |
-| `slow_duration` | Expression(数学表达式) | — | `0` | — | The duration in ticks to apply slowness \| Source: Duration in ticks of the slowness effect applied alongside freezing. Defaults to 0 (no slowness). Example: `20 * %level%` |
-| `slow_amplifier` | Expression(数学表达式) | — | `0` | — | The amplifier of the slowness effect \| Source: Amplifier level of the slowness effect (0 = Slowness I). Defaults to 0. Example: `%level% / 10` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 冻结实体范围内的半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
+| `freeze_ticks` | Expression(数学表达式) | ✅ | — | — | 冻结实体的游戏刻数。支持表达式。示例：`20 * %level%` |
+| `slow_duration` | Expression(数学表达式) | — | `0` | — | 施加缓慢效果的时长（以游戏刻为单位）。默认为 0（无缓慢效果）。示例：`20 * %level%` |
+| `slow_amplifier` | Expression(数学表达式) | — | `0` | — | 缓慢效果等级（0 = 缓慢 I）。默认为 0。示例：`%level% / 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFrostNova.kt`）。
 
-- **源码描述**: Freezes all nearby entities within a radius, optionally also applying a slowness effect.
+- **源码描述**: 冻结半径内的所有附近实体，可选同时施加缓慢效果。
 - **所属分类**: `combat`
 - **需要触发器数据**: `LOCATION`
 

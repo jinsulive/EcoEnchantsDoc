@@ -10,7 +10,7 @@ outline: deep
 
 # has_item <Badge type="info" text="libreforge" />
 
-> Requires a player to have an item in their inventory
+> 需要玩家背包中有某个物品。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` | Custom | — | — | — | The list of allowed items |
+| `items` | Custom | — | — | — | 允许的物品列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasItem.kt`）。
 
-- **源码描述**: Passes when the player has the specified item in their inventory.
+- **源码描述**: 当玩家背包中有指定物品时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

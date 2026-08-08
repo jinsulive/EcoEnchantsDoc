@@ -10,7 +10,7 @@ outline: deep
 
 # xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies incoming xp gain
+> 倍率化获得的经验值。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The xp multiplier |
+| `multiplier` | Custom | — | — | — | 经验值倍率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectXpMultiplier.kt`）。
 
-- **源码描述**: Multiplies the amount of XP the player gains from natural sources and telekinesis drops.
+- **源码描述**: 倍率化玩家从自然来源和念力掉落中获得的经验值。
 - **所属分类**: `economy`
 
 ## 配置示例

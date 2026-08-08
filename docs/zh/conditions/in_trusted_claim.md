@@ -10,7 +10,7 @@ outline: deep
 
 # in_trusted_claim <Badge type="info" text="libreforge" />
 
-> Requires the player to be in a claim they're trusted in
+> 需要玩家位于受信任的领地上。
 
 ## 基本信息
 

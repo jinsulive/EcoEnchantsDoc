@@ -10,7 +10,7 @@ outline: deep
 
 # set_item_data <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Set item data
+> 设置物品数据。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | The key to set \| Source: The custom data key to set on the item. Example: `custom_id` |
-| `value` | String | ✅ | — | — | The value to set it to \| Source: The value to store under the given key. Example: `epic_sword_tier_3` |
+| `key` | String | ✅ | — | — | 要设置的物品数据键。示例：`custom_id` |
+| `value` | String | ✅ | — | — | 要设置成的值。示例：`epic_sword_tier_3` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetItemData.kt`）。
 
-- **源码描述**: Sets a custom data key on the trigger item to a given value.
+- **源码描述**: 将触发物品上的自定义数据键设置为指定值。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `ITEM`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # entity_death <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity dies
+> 当实体死亡时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntityDeath.kt`）。
 
-- **源码描述**: Fires when any living entity dies.
+- **源码描述**: 当任意生物实体死亡时触发。
 - **所属分类**: `entity`
 - **需要触发器数据**: `VICTIM`, `LOCATION`
 

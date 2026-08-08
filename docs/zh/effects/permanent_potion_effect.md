@@ -10,7 +10,7 @@ outline: deep
 
 # permanent_potion_effect <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Gives a permanent potion effect
+> 给予永久药水效果。
 
 ## 基本信息
 
@@ -25,16 +25,16 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Any/Custom | ✅ | — | — | The effect to give |
-| `level` | Custom | — | — | — | The effect level to give |
-| `particles` | Custom | — | — | — | (Optional) If the effect should show particles |
-| `icon` | Custom | — | — | — | (Optional) If the effect should show the icon in the top corner |
+| `effect` | Any/Custom | ✅ | — | — | 要给予的效果。 |
+| `level` | Custom | — | — | — | 要给予的效果等级。 |
+| `particles` | Custom | — | — | — | （可选）效果是否显示粒子。 |
+| `icon` | Custom | — | — | — | （可选）效果是否在屏幕右上角显示图标。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPermanentPotionEffect.kt`）。
 
-- **源码描述**: Permanently applies a potion effect to the player for as long as the holder is active, surviving respawns.
+- **源码描述**: 持有器激活期间，永久对玩家施加药水效果，死亡重生后依然生效。
 - **所属分类**: `potion`, `player`
 
 ## 配置示例

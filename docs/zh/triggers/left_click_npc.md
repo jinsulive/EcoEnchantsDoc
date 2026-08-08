@@ -11,7 +11,7 @@ outline: deep
 
 # left_click_npc <Badge type="info" text="libreforge" /> <Badge type="warning" text="Citizens / FancyNpcs" />
 
-> Triggered when left-clicking an NPC
+> 当左键点击 NPC 时触发。
 
 ## 基本信息
 

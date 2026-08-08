@@ -10,7 +10,7 @@ outline: deep
 
 # send_title <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Send a title/subtitle to the player
+> 向玩家发送主标题/副标题。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `title` | String | ✅ | — | — | The title \| Source: The main title text to display. Supports placeholders. Example: `Level Up!` |
-| `subtitle` | String | ✅ | — | — | The subtitle \| Source: The subtitle text to display below the title. Supports placeholders. Example: `You reached level %player_level%!` |
+| `title` | String | ✅ | — | — | 主标题文本。支持占位符。示例：`Level Up!` |
+| `subtitle` | String | ✅ | — | — | 副标题文本。支持占位符。示例：`You reached level %player_level%!` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSendTitle.kt`）。
 
-- **源码描述**: Sends a title and subtitle to the player's screen.
+- **源码描述**: 在玩家屏幕上发送主标题和副标题。
 - **所属分类**: `visual`, `chat`
 - **需要触发器数据**: `PLAYER`
 

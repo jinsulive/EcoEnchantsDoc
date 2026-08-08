@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The speed at which the victim is knocked away from the player. Supports expressions. Example: `1 + %level% * 0.1` |
+| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which the victim is knocked away from the player. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

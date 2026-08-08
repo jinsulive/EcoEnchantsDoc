@@ -11,7 +11,7 @@ outline: deep
 
 # villager_trade <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when trading with a villager
+> 当与村民交易时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `villager_trade` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The experience the villager gains |
+| 值 | 村民获得的经验值 |
 | 需要 | Paper |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The experience the villager gains |
+| `%trigger_value%` | 村民获得的经验值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

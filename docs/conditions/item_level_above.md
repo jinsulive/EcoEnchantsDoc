@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `id` | String | ✅ | — | — | The level ID \| Source: The ID of the level type to check on the held item. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The minimum level \| Source: The minimum level the item must exceed. Example: `5 + %level%` |
+| `id` | String | ✅ | — | — | The ID of the level type to check on the held item. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The minimum level the item must exceed. Example: `5 + %level%` |
 
 ## 📝 Source Notes
 

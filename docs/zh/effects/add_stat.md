@@ -10,7 +10,7 @@ outline: deep
 
 # add_stat <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Adds a value to a specific stat
+> 为特定属性添加数值。
 
 > **需要依赖：** EcoSkills / AuraSkills
 
@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `stat` | The name of the stat |
-| `amount` | The amount to add (or subtract, allows negative values) |
+| `stat` | 属性名称。 |
+| `amount` | 要添加（或扣除）的数量（允许负数）。 |
 
 ## 配置示例
 

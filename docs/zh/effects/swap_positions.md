@@ -10,7 +10,7 @@ outline: deep
 
 # swap_positions <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Swaps the positions of the player and the victim
+> 交换玩家与受害者的位置。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSwapPositions.kt`）。
 
-- **源码描述**: Swaps the positions of the player and the victim instantly.
+- **源码描述**: 瞬间交换玩家与受害者的位置。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`, `VICTIM`
 

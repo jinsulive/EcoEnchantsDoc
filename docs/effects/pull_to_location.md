@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The strength of the pull force applied to the player. Supports expressions. Example: `1 + %level% * 0.1` |
+| `velocity` | Expression(数学表达式) | ✅ | — | — | The strength of the pull force applied to the player. Supports expressions. Example: `1 + %level% * 0.1` |
 | `jump` | Expression(数学表达式) | — | `0` | — | An upward boost added to the pull vector. Supports expressions. |
 
 ## 📝 Source Notes

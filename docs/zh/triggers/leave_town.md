@@ -11,7 +11,7 @@ outline: deep
 
 # leave_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
 
-> Triggered when leaving a Town
+> 当离开城镇时触发。
 
 ## 基本信息
 

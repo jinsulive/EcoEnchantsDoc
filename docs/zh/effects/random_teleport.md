@@ -10,7 +10,7 @@ outline: deep
 
 # random_teleport <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Teleports the player to a random location within a radius
+> 将玩家传送到半径内的随机位置。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum distance in blocks from the player \| Source: The maximum distance from the player's current position to teleport. Supports expressions. Example: `10 + %level%` |
-| `min_radius` | Expression(数学表达式) | — | `0` | — | (Optional) The minimum distance in blocks from the player \| Source: The minimum distance from the player's current position to teleport. Supports expressions. Example: `%level% * 0.1` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 距离玩家当前位置的最大传送距离（以方块为单位）。支持表达式。示例：`10 + %level%` |
+| `min_radius` | Expression(数学表达式) | — | `0` | — | （可选）距离玩家当前位置的最小传送距离（以方块为单位）。支持表达式。示例：`%level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRandomTeleport.kt`）。
 
-- **源码描述**: Teleports the player to a random location within a radius, landing on the highest safe block.
+- **源码描述**: 将玩家传送到半径内的随机位置，并落在最高的安全方块上。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`
 

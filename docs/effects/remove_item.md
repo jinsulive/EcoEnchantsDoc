@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `item` | Item | ✅ | — | — | The item to remove \| Source: The item to remove from the player's inventory, including its stack size. |
+| `item` | Item | ✅ | — | — | The item to remove from the player's inventory, including its stack size. |
 
 ## 📝 Source Notes
 

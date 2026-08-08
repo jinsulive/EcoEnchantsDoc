@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `block` | Block | ✅ | — | — | The block to set to \| Source: The block type to place at the trigger location. |
+| `block` | Block | ✅ | — | — | The block type to place at the trigger location. |
 
 ## 📝 Source Notes
 

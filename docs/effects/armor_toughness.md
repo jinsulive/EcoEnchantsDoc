@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `points` | Expression(数学表达式) | ✅ | — | — | The amount of armor toughness points to give \| Source: The number of armor toughness points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.25` |
+| `points` | Expression(数学表达式) | ✅ | — | — | The number of armor toughness points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.25` |
 
 ## 📝 Source Notes
 

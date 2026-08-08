@@ -11,7 +11,7 @@ outline: deep
 
 # change_town_role <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
 
-> Triggered when changing town role
+> 当城镇角色变化时触发。
 
 ## 基本信息
 

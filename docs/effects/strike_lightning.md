@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | — | `1` | — | The amount of lightning strikes \| Source: The number of lightning strikes. Supports expressions. Example: `1 + %level% / 10` |
+| `amount` | Expression(数学表达式) | — | `1` | — | The number of lightning strikes. Supports expressions. Example: `1 + %level% / 10` |
 
 ## 📝 Source Notes
 

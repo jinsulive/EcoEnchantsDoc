@@ -10,7 +10,7 @@ outline: deep
 
 # transmission <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Teleport a player forward in the direction they're facing (Like AotE)
+> 将玩家朝其面向的方向向前传送（类似 AotE）。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The distance to teleport \| Source: The maximum distance to teleport the player forward. Supports expressions. Example: `10 + %level%` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | 向前传送的距离。支持表达式。示例：`10 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTransmission.kt`）。
 
-- **源码描述**: Teleports the player forward by a given distance, stopping at the first solid block in the path.
+- **源码描述**: 将玩家向前传送指定距离，遇到路径上的第一个实心方块时停止。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`
 

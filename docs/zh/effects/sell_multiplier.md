@@ -10,7 +10,7 @@ outline: deep
 
 # sell_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies money gained from selling items
+> 倍率化出售物品获得的金钱。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The sell multiplier |
+| `multiplier` | Custom | — | — | — | 出售倍率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSellMultiplier.kt`）。
 
-- **源码描述**: Multiplies the sell price of items when the player sells through a shop.
+- **源码描述**: 玩家通过商店出售物品时，倍率化出售价格。
 - **所属分类**: `economy`
 
 ## 配置示例

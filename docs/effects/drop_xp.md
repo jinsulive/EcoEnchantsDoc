@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of xp to drop \| Source: The amount of experience to drop. Supports expressions. Example: `10 + %level% * 5` |
+| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of experience to drop. Supports expressions. Example: `10 + %level% * 5` |
 
 ## 📝 Source Notes
 

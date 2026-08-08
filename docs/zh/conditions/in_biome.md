@@ -10,7 +10,7 @@ outline: deep
 
 # in_biome <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a specific biome
+> 需要玩家位于特定的生物群系中。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `biomes` | String List | ✅ | — | — | A list of biomes \| Source: The list of biome names to check against. |
+| `biomes` | String List | ✅ | — | — | 要检查的生物群系名称列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInBiome.kt`）。
 
-- **源码描述**: Passes when the player is located in one of the specified biomes.
+- **源码描述**: 当玩家位于指定的生物群系之一时通过。
 - **所属分类**: `world`
 
 ## 配置示例

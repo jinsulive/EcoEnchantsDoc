@@ -10,7 +10,7 @@ outline: deep
 
 # in_block <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a block
+> 需要玩家位于方块中。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block material name to check (e.g. WATER). |
+| `block` | Block | ✅ | — | — | 要检查的方块材料名（例如 WATER）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInBlock.kt`）。
 
-- **源码描述**: Passes when the entity's head or feet are inside the specified block type.
+- **源码描述**: 当实体的头部或脚部位于指定方块类型内时通过。
 - **所属分类**: `world`
 
 ## 配置示例

@@ -10,7 +10,7 @@ outline: deep
 
 # has_permission <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain permission
+> 需要玩家拥有某个权限。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `permission` | String | ✅ | — | — | The required permission \| Source: The permission node to check. Example: `myplugin.vip.access` |
+| `permission` | String | ✅ | — | — | 需要的权限节点。示例：`myplugin.vip.access` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasPermission.kt`）。
 
-- **源码描述**: Passes when the player has the specified permission node.
+- **源码描述**: 当玩家拥有指定权限节点时通过。
 - **所属分类**: `permission`
 
 ## 配置示例

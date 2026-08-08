@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The duration in ticks to stun the entity \| Source: How many ticks to stun the victim for. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | How many ticks to stun the victim for. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

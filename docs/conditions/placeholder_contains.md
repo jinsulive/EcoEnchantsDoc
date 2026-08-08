@@ -28,9 +28,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and check. Example: `%player_name%` |
-| `value` | String | — | `` | — | The value the placeholder should contain \| Source: The substring to search for within the resolved placeholder. |
-| `ignore_case` | Boolean | — | `false` | — | If the case should be ignored (optional) \| Source: Whether the substring match should be case-insensitive. |
+| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and check. Example: `%player_name%` |
+| `value` | String | — | `` | — | The substring to search for within the resolved placeholder. |
+| `ignore_case` | Boolean | — | `false` | — | Whether the substring match should be case-insensitive. |
 
 ## 📝 Source Notes
 

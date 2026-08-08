@@ -10,7 +10,7 @@ outline: deep
 
 # item_points_equal <Badge type="info" text="libreforge" />
 
-> Requires an item to have exactly a certain amount of points (check the points wiki page if you don't know what these are)
+> 需要物品恰好拥有一定数量的点数（不了解可查看点数百科页面）。
 
 ## 基本信息
 
@@ -28,14 +28,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The type of point \| Source: The points type to read from the held item. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points to equal \| Source: The exact number of points the item must have. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | 点数类型（从手持物品读取）。 |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 要等于的点数数量（物品必须拥有的精确点数）。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemPointsEqual.kt`）。
 
-- **源码描述**: Passes when the held item's points of a given type exactly equal the specified amount.
+- **源码描述**: 当手持物品指定类型的点数恰好等于指定数量时通过。
 - **所属分类**: `inventory`
 
 ## 配置示例

@@ -10,7 +10,7 @@ outline: deep
 
 # has_active_job <Badge type="info" text="libreforge" />
 
-> Requires a player to have a job active
+> 需要玩家激活某个职业。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `job` | The job ID |
+| `job` | 职业 ID。 |
 
 ## 配置示例
 

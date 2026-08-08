@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `value` | Expression(数学表达式) | ✅ | — | — | The value of the price \| Source: The amount or expression for the price value. Example: `%level% * 100` |
-| `type` | String | ✅ | — | — | The price type \| Source: The price type identifier (e.g. coins, xpl). Example: `coins` |
+| `value` | Expression(数学表达式) | ✅ | — | — | The amount or expression for the price value. Example: `%level% * 100` |
+| `type` | String | ✅ | — | — | The price type identifier (e.g. coins, xpl). Example: `coins` |
 
 ## 📝 Source Notes
 

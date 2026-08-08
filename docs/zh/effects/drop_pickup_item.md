@@ -10,7 +10,7 @@ outline: deep
 
 # drop_pickup_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Drops an item that runs a chain on pickup
+> 掉落一个拾取时运行效果链的物品。
 
 > **需要依赖：** Paper
 
@@ -27,10 +27,10 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `item` | The item texture, cannot actually be picked up |
-| `glow-color` | The glow color |
-| `run-type` | The run type, see 'configuring an effect' |
-| `effects` | The effects to run on pickup |
+| `item` | 物品贴图，实际上无法被拾取。 |
+| `glow-color` | 发光颜色。 |
+| `run-type` | 运行类型，参见"配置效果"。 |
+| `effects` | 拾取时运行的效果。 |
 
 ## 配置示例
 

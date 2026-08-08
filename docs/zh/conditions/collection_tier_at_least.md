@@ -10,7 +10,7 @@ outline: deep
 
 # collection_tier_at_least <Badge type="info" text="libreforge" />
 
-> Requires the player to have reached at least a certain tier in a collection (EcoCollections)
+> 需要玩家在收藏中达到至少一定等级（EcoCollections）。
 
 ## 基本信息
 

@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions — passes when any one is met. |
+| `conditions` | Any/Custom | ✅ | — | — | List of conditions — passes when any one is met. |
 
 ## 📝 Source Notes
 

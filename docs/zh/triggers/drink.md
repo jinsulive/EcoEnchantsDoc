@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDrink.kt`）。
 
-- **源码描述**: Fires when the player drinks a potion, honey bottle, milk bucket or stew.
+- **源码描述**: 当玩家饮用药水、蜂蜜瓶、牛奶桶或汤时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `ITEM`
 

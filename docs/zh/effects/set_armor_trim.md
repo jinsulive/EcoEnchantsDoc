@@ -10,7 +10,7 @@ outline: deep
 
 # set_armor_trim <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sets item armor trim
+> 设置物品的盔甲纹饰。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `pattern` | String | ✅ | — | — | The pattern \| Source: The trim pattern to apply, e.g. 'sentry' or 'dune'. Example: `sentry` |
-| `material` | String | ✅ | — | — | The material \| Source: The trim material to apply, e.g. 'gold' or 'diamond'. Example: `diamond` |
+| `pattern` | String | ✅ | — | — | 纹样图案（例如 'sentry' 或 'dune'）。示例：`sentry` |
+| `material` | String | ✅ | — | — | 纹样材料（例如 'gold' 或 'diamond'）。示例：`diamond` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetArmorTrim.kt`）。
 
-- **源码描述**: Applies an armor trim with the specified pattern and material to the triggering item.
+- **源码描述**: 以指定纹样和材料，为触发物品应用盔甲纹饰。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `ITEM`
 

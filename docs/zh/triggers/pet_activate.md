@@ -11,7 +11,7 @@ outline: deep
 
 # pet_activate <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoPets" />
 
-> Triggered when activating a pet
+> 当激活宠物时触发。
 
 ## 基本信息
 

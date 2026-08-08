@@ -11,7 +11,7 @@ outline: deep
 
 # compost_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when a player uses a composter
+> 当玩家使用堆肥桶时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `compost_item` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | 1 (alt-value: 1 if the composter level increases) |
+| 值 | 1（替代值：堆肥桶等级提升时为 1） |
 | 需要 | Paper |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | 1 (alt-value: 1 if the composter level increases) |
+| `%trigger_value%` | 1（替代值：堆肥桶等级提升时为 1） |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

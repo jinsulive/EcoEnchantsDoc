@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The global point type to add to. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to add/subtract \| Source: The amount of global points to add. Supports expressions. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The global point type to add to. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of global points to add. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

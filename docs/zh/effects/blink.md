@@ -10,7 +10,7 @@ outline: deep
 
 # blink <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Teleports the player forward in the direction they are looking, stopping at solid blocks
+> 将玩家朝其注视方向向前传送，遇到实心方块时停止。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum number of blocks to teleport forward \| Source: The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | 向前传送的最大方块数。支持表达式。示例：`5 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBlink.kt`）。
 
-- **源码描述**: Teleports the player forward in their look direction, stopping at solid blocks.
+- **源码描述**: 沿玩家的视线方向向前传送，碰到实心方块时停止。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`
 

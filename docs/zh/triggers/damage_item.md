@@ -10,7 +10,7 @@ outline: deep
 
 # damage_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when damaging an item
+> 当对物品造成损耗时触发。
 
 ## 基本信息
 
@@ -19,16 +19,16 @@ outline: deep
 | 类型 ID | `damage_item` |
 | 所属模块 | libreforge |
 | 分类 | 内置（Internal） |
-| 值 | The damage |
+| 值 | 伤害值 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDamageItem.kt`）。
 
-- **源码描述**: Fires when the player's held item takes durability damage.
+- **源码描述**: 当玩家手持物品受到耐久损耗时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The amount of durability damage applied.
+- **值**: 造成的耐久损耗值。
 
 ## 配置示例
 
@@ -41,7 +41,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The damage |
+| `%trigger_value%` | 伤害值 |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

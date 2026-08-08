@@ -10,7 +10,7 @@ outline: deep
 
 # elytra_boost_save_chance <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Prevents consuming fireworks when boosting with an elytra
+> 使用鞘翅飞行加速时不消耗烟花。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `chance` | The chance to not consume a firework |
+| `chance` | 不消耗烟花的概率。 |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # add_stat_temporarily <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Adds a value to a specific stat
+> 为特定属性添加数值。
 
 > **需要依赖：** EcoSkills
 
@@ -27,9 +27,9 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `stat` | The name of the stat |
-| `amount` | The amount to add (or subtract, allows negative values) |
-| `duration` | The duration (in ticks) |
+| `stat` | 属性名称。 |
+| `amount` | 要添加（或扣除）的数量（允许负数）。 |
+| `duration` | 持续时间（以游戏刻为单位）。 |
 
 ## 配置示例
 

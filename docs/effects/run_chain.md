@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `run-type` | String | — | — | `normal`, `cycle`, `random` | Optional, sets how the chain is ran, see the 'configuring an effect' page \| Source: The chain executor type to use when running the chain. |
-| `chain` | String | ✅ | — | — | The ID of the chain to run \| Source: The ID of the chain to execute. |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor type to use when running the chain. |
+| `chain` | String | ✅ | — | — | The ID of the chain to execute. |
 | `chain_args` | Any/Custom | — | — | — | A subsection of key-value pairs to expose as placeholders within the chain. |
 
 ## 📝 Source Notes

@@ -10,7 +10,7 @@ outline: deep
 
 # gain_task_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Gains experience points for a task in a quest, including multipliers.
+> 为任务中的任务目标获得经验值（包含倍率）。
 
 > **需要依赖：** EcoQuests
 
@@ -27,9 +27,9 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `quest` | The quest ID |
-| `task` | The task ID |
-| `xp` | The amount of xp to gain |
+| `quest` | 任务 ID。 |
+| `task` | 任务目标 ID。 |
+| `xp` | 要获得的经验值数量。 |
 
 ## 配置示例
 

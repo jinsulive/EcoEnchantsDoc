@@ -11,7 +11,7 @@ outline: deep
 
 # pet_deactivate <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoPets" />
 
-> Triggered when deactivating a pet
+> 当停用宠物时触发。
 
 ## 基本信息
 

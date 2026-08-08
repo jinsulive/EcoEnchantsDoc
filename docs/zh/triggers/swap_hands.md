@@ -10,7 +10,7 @@ outline: deep
 
 # swap_hands <Badge type="info" text="libreforge" /> 
 
-> Triggered when swapping items in hands (F by default)
+> 当交换主手副手物品（默认按 F 键）时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSwapHands.kt`）。
 
-- **源码描述**: Fires when the player swaps items between main hand and off-hand.
+- **源码描述**: 当玩家在主手和副手之间交换物品时触发。
 - **所属分类**: `interaction`
 - **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`
 

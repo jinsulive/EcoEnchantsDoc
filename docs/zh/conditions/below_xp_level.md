@@ -10,7 +10,7 @@ outline: deep
 
 # below_xp_level <Badge type="info" text="libreforge" />
 
-> Requires a player to be below a certain XP level
+> 需要玩家的经验等级低于某一等级。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Expression(数学表达式) | ✅ | — | — | The maximum XP level \| Source: The XP level threshold; the player must be below this value. Example: `10 + %level%` |
+| `level` | Expression(数学表达式) | ✅ | — | — | 最大经验等级（经验等级阈值，玩家必须低于此值）。示例：`10 + %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowXPLevel.kt`）。
 
-- **源码描述**: Passes when the player's XP level is below the specified level.
+- **源码描述**: 当玩家的经验等级低于指定等级时通过。
 - **所属分类**: `economy`
 
 ## 配置示例

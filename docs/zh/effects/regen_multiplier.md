@@ -10,7 +10,7 @@ outline: deep
 
 # regen_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies regen speed
+> 倍率化生命恢复速度。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The multiplier for regeneration speed |
-| `reason` | Custom | — | — | — | Optional: The types of regen to multiply, list is here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityRegainHealthEvent.RegainReason.html |
+| `multiplier` | Custom | — | — | — | 生命恢复速度倍率。 |
+| `reason` | Custom | — | — | — | 可选：要倍率化的恢复类型，列表参见：https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityRegainHealthEvent.RegainReason.html |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRegenMultiplier.kt`）。
 
-- **源码描述**: Multiplies the amount of health regenerated.
+- **源码描述**: 倍率化生命值恢复量。
 - **所属分类**: `player`, `combat`
 
 ## 配置示例

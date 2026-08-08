@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The damage multiplier applied on a critical hit. Supports expressions. Example: `1.5 + %level% * 0.05` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The damage multiplier applied on a critical hit. Supports expressions. Example: `1.5 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

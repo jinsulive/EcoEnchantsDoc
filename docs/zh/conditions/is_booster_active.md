@@ -10,7 +10,7 @@ outline: deep
 
 # is_booster_active <Badge type="info" text="libreforge" />
 
-> Requires a certain booster to be active on the server
+> 需要服务器上激活某个增益道具。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `booster` | The Booster ID |
+| `booster` | 增益道具 ID。 |
 
 ## 配置示例
 

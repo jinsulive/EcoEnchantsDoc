@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to add (or subtract) \| Source: The amount of extra damage to add. Supports expressions. Example: `%victim_max_health% * 0.1` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of extra damage to add (or subtract). Supports expressions. Example: `%victim_max_health% * 0.1` |
 
 ## 📝 Source Notes
 

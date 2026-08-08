@@ -10,7 +10,7 @@ outline: deep
 
 # set_freeze_ticks <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Sets the victims freeze ticks (frost / powdered snow effect)
+> 设置受害者的冻结游戏刻数（霜冻/细雪效果）。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The ticks to set (How long the victim has been in snow) \| Source: The number of freeze ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | 要设置的冻结游戏刻数（受害者在雪中停留的时长）。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetFreezeTicks.kt`）。
 
-- **源码描述**: Sets the victim's freeze ticks, controlling how frozen they appear and whether they take freeze damage.
+- **源码描述**: 设置受害者的冻结游戏刻数，控制其冻结表现及是否受到冻结伤害。
 - **所属分类**: `player`
 - **需要触发器数据**: `VICTIM`
 

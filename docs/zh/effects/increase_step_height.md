@@ -10,7 +10,7 @@ outline: deep
 
 # increase_step_height <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Increases the amount of blocks you can walk over without jumping
+> 增加无需跳跃即可走上的方块高度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `height` | Expression(数学表达式) | ✅ | — | — | The extra step height \| Source: The number of extra blocks the player can step up automatically. Supports expressions. Example: `0.5 + %level% * 0.1` |
+| `height` | Expression(数学表达式) | ✅ | — | — | 额外可自动跨越的台阶高度（以方块为单位）。支持表达式。示例：`0.5 + %level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectIncreaseStepHeight.kt`）。
 
-- **源码描述**: Increases the player's step height, allowing them to walk up taller blocks without jumping.
+- **源码描述**: 增加玩家的步高，使其无需跳跃即可走上更高的方块。
 - **所属分类**: `movement`, `player`, `attribute`
 
 ## 配置示例

@@ -10,7 +10,7 @@ outline: deep
 
 # remove_item_data <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Remove item data
+> 移除物品数据。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | The key to remove \| Source: The key of the custom item data entry to remove. Example: `custom_id` |
+| `key` | String | ✅ | — | — | 要移除的物品数据键。示例：`custom_id` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveItemData.kt`）。
 
-- **源码描述**: Removes a custom persistent data entry from the triggering item by its key.
+- **源码描述**: 按键名从触发物品上移除自定义持久数据项。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `ITEM`
 

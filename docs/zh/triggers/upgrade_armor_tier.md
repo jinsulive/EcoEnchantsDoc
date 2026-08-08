@@ -11,7 +11,7 @@ outline: deep
 
 # upgrade_armor_tier <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoArmor" />
 
-> Triggered when a player upgrades an armor tier
+> 当玩家升级盔甲等级时触发。
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ outline: deep
 | 类型 ID | `upgrade_armor_tier` |
 | 所属模块 | libreforge |
 | 分类 | Eco 插件（EcoPlugin） |
-| 值 | The tier ID |
+| 值 | 等级 ID |
 | 需要 | EcoArmor |
 
 ## 配置示例
@@ -34,7 +34,7 @@ triggers:
 
 | 占位符 | 值 |
 |--------|-----|
-| `%trigger_value%` | The tier ID |
+| `%trigger_value%` | 等级 ID |
 | `%alt_trigger_value%` | 触发器传递的替代值（如有） |
 
 ## 关联页面

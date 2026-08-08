@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_stat_temporarily <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Multiplies a stat by a specific value
+> 将特定属性乘以指定值。
 
 > **需要依赖：** EcoSkills
 
@@ -27,9 +27,9 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `stat` | The name of the stat |
-| `multiplier` | The amount to multiply the stat by |
-| `duration` | The duration (in ticks) |
+| `stat` | 属性名称。 |
+| `multiplier` | 属性要乘以的数值。 |
+| `duration` | 持续时间（以游戏刻为单位）。 |
 
 ## 配置示例
 

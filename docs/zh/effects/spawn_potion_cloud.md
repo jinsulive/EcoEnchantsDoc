@@ -10,7 +10,7 @@ outline: deep
 
 # spawn_potion_cloud <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Spawns a potion cloud
+> 生成药水云。
 
 ## 基本信息
 
@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect | ✅ | — | — | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) \| Source: The potion effect to apply to entities in the cloud. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level to give \| Source: The amplifier level of the potion effect. Supports expressions. Example: `1 + %level% / 10` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | The duration of the effect (in ticks) \| Source: How long the cloud and its applied effect last, in ticks. Supports expressions. Example: `20 * %level%` |
+| `effect` | Potion Effect | ✅ | — | — | 云中实体获得的药水效果。 |
+| `level` | Expression(数学表达式) | ✅ | — | — | 要给予的等级。支持表达式。示例：`1 + %level% / 10` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | 效果的持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnPotionCloud.kt`）。
 
-- **源码描述**: Spawns a lingering potion cloud at the trigger location that applies a potion effect.
+- **源码描述**: 在触发位置生成施加药水效果的滞留药水云。
 - **所属分类**: `potion`, `visual`
 - **需要触发器数据**: `LOCATION`
 

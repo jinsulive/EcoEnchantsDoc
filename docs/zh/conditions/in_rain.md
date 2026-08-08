@@ -10,7 +10,7 @@ outline: deep
 
 # in_rain <Badge type="info" text="libreforge" />
 
-> Requires a player to be in rain
+> 需要玩家处于雨中。
 
 ## 基本信息
 

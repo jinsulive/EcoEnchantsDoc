@@ -10,7 +10,7 @@ outline: deep
 
 # mob_coins_chance_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies the chance of mobcoins being dropped
+> 倍率化怪物硬币掉落概率。
 
 > **需要依赖：** UltimateMobCoins
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The mobcoins multiplier |
+| `multiplier` | 怪物硬币倍率。 |
 
 ## 配置示例
 

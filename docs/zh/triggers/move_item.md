@@ -25,10 +25,10 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerMoveItem.kt`）。
 
-- **源码描述**: Fires when a player clicks an item in an inventory.
+- **源码描述**: 当玩家在背包中点击物品时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `ITEM`, `VALUE`, `EVENT`
-- **值**: The stack size of the clicked item.
+- **值**: 被点击物品的堆叠数量。
 
 ## 配置示例
 

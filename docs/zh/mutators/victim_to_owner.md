@@ -10,7 +10,7 @@ outline: deep
 
 # victim_to_owner <Badge type="info" text="libreforge" />
 
-> If the victim is a tamed animal, set the victim to be the owner of the animal
+> 如果受害者是被驯服的动物，则将受害者设置为该动物的主人。
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorVictimToOwner.kt`）。
 
-- **源码描述**: Sets the victim to the tamed entity's owner.
+- **源码描述**: 将受害者设置为被驯服实体的主人。
 - **所属分类**: `victim`
 
 ## 配置示例

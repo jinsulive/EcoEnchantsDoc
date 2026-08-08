@@ -10,7 +10,7 @@ outline: deep
 
 # name_entity <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Set the display name of an entity
+> 设置实体的显示名称。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `name` | String | ✅ | — | — | The name to set \| Source: The custom name to display above the entity. Supports placeholders. Example: `%player_name%'s Wolf` |
+| `name` | String | ✅ | — | — | 要设置的名称。支持占位符。示例：`%player_name%'s Wolf` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectNameEntity.kt`）。
 
-- **源码描述**: Sets the custom name of the victim entity and makes it always visible.
+- **源码描述**: 设置受害者实体的自定义名称并使其始终可见。
 - **所属分类**: `entity`
 - **需要触发器数据**: `VICTIM`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # add_durability <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Increase the max durability of an item
+> 增加物品的最大耐久度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `durability` | Expression(数学表达式) | ✅ | — | — | The durability to add (or subtract) \| Source: The amount of maximum durability to add. Supports expressions. Example: `50 + %level% * 10` |
+| `durability` | Expression(数学表达式) | ✅ | — | — | 要添加（或扣除）的耐久值。支持表达式。示例：`50 + %level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddDurability.kt`）。
 
-- **源码描述**: Increases the maximum durability of the triggering item.
+- **源码描述**: 提升触发物品的最大耐久度。
 - **所属分类**: `inventory`
 
 ## 配置示例

@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `pattern` | String | ✅ | — | — | The pattern \| Source: The trim pattern to apply, e.g. 'sentry' or 'dune'. Example: `sentry` |
-| `material` | String | ✅ | — | — | The material \| Source: The trim material to apply, e.g. 'gold' or 'diamond'. Example: `diamond` |
+| `pattern` | String | ✅ | — | — | The trim pattern to apply, e.g. 'sentry' or 'dune'. Example: `sentry` |
+| `material` | String | ✅ | — | — | The trim material to apply, e.g. 'gold' or 'diamond'. Example: `diamond` |
 
 ## 📝 Source Notes
 

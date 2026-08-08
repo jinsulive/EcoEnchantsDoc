@@ -10,7 +10,7 @@ outline: deep
 
 # alt_click <Badge type="info" text="libreforge" /> 
 
-> Triggered when using Right Click on most items, Left Click on those that have a default right click functionality
+> 当对大多数物品使用右键、对具有默认右键功能的物品使用左键时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerAltClick.kt`）。
 
-- **源码描述**: Fires when the player right-clicks with an item in hand, or left-clicks with a bow, rod, or trident.
+- **源码描述**: 当玩家手持物品右键，或使用弓、钓鱼竿、三叉戟左键时触发。
 - **所属分类**: `interaction`
 - **需要触发器数据**: `PLAYER`, `VICTIM`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`
 

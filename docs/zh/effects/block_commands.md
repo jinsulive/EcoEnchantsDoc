@@ -10,7 +10,7 @@ outline: deep
 
 # block_commands <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Prevents the execution of certain commands
+> 阻止某些命令的执行。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `messages` | String List | — | — | — | The messages to send if a player tries to run the commands \| Source: Messages to send to the player when a blocked command is attempted. Example: `&cYou can't use that command right now!, &7Complete your quest first.` |
-| `commands` | String List | ✅ | — | — | The list of commands to block \| Source: The list of command names to block (without the leading slash). |
+| `messages` | String List | — | — | — | 玩家尝试运行被阻止命令时发送的消息。示例：`&cYou can't use that command right now!, &7Complete your quest first.` |
+| `commands` | String List | ✅ | — | — | 要阻止的命令名列表（不含开头的斜杠）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBlockCommands.kt`）。
 
-- **源码描述**: Prevents the player from using specific commands while the holder is active.
+- **源码描述**: 持有器激活期间，阻止玩家使用特定命令。
 - **所属分类**: `player`, `chat`
 
 ## 配置示例

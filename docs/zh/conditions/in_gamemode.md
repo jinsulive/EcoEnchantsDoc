@@ -10,7 +10,7 @@ outline: deep
 
 # in_gamemode <Badge type="info" text="libreforge" />
 
-> Requires a player to be in specified gamemode
+> 需要玩家处于指定的游戏模式。
 
 ## 基本信息
 
@@ -28,13 +28,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `gamemode` | String | ✅ | — | — | The gamemode name (e.g. SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR). |
+| `gamemode` | String | ✅ | — | — | 游戏模式名称（例如 SURVIVAL、CREATIVE、ADVENTURE、SPECTATOR）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInGamemode.kt`）。
 
-- **源码描述**: Passes when the player is in the specified gamemode.
+- **源码描述**: 当玩家处于指定游戏模式时通过。
 - **所属分类**: `player`
 
 ## 配置示例

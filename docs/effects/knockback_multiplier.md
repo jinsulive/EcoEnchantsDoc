@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for attack knockback \| Source: The knockback multiplier to apply. Supports expressions. Example: `1 + %level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The knockback multiplier to apply. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

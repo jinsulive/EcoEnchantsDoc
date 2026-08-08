@@ -10,7 +10,7 @@ outline: deep
 
 # swarm <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Makes nearby monsters in a certain radius attack the victim
+> 使一定半径内的附近怪物攻击受害者。
 
 ## 基本信息
 
@@ -25,14 +25,14 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to swarm from \| Source: The radius to search for monsters that will target the victim. Supports expressions. Example: `10 + %level%` |
-| `entities` | Custom | — | — | — | (Optional) The list of entities to anger |
+| `radius` | Expression(数学表达式) | ✅ | — | — | 聚集怪物的搜索半径。支持表达式。示例：`10 + %level%` |
+| `entities` | Custom | — | — | — | （可选）被激怒的实体列表。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSwarm.kt`）。
 
-- **源码描述**: Causes all nearby monsters within a radius to target the victim.
+- **源码描述**: 使半径内的所有附近怪物以受害者为目标。
 - **所属分类**: `combat`, `entity`
 - **需要触发器数据**: `VICTIM`
 

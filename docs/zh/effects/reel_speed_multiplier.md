@@ -10,7 +10,7 @@ outline: deep
 
 # reel_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies the speed at which you pull in entities and drops with fishing rods
+> 倍率化用钓鱼竿收回实体和掉落物的速度。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The multiplier |
+| `multiplier` | Custom | — | — | — | 倍率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectReelSpeedMultiplier.kt`）。
 
-- **源码描述**: Multiplies the speed at which caught fish or entities are reeled in.
+- **源码描述**: 倍率化收杆时收回鱼或实体的速度。
 - **所属分类**: `player`
 
 ## 配置示例

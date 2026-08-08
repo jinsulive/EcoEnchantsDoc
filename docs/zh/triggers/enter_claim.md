@@ -11,7 +11,7 @@ outline: deep
 
 # enter_claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims" />
 
-> Triggered when entering a claimed area
+> 当进入已认领区域时触发。
 
 ## 基本信息
 

@@ -10,7 +10,7 @@ outline: deep
 
 # mining_efficiency <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Adds mining efficiency (mining speed when using the correct tool)
+> 增加挖掘效率（使用正确工具时的挖掘速度）。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The extra mining efficiency \| Source: The flat amount of mining efficiency to add. Supports expressions. Example: `%level% * 0.1` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | 额外挖掘效率加成值。支持表达式。示例：`%level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMiningEfficiency.kt`）。
 
-- **源码描述**: Increases the player's mining efficiency attribute while the holder is active.
+- **源码描述**: 持有器激活期间，增加玩家的挖掘效率属性。
 - **所属分类**: `world`, `player`, `attribute`
 
 ## 配置示例

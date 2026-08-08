@@ -10,7 +10,7 @@ outline: deep
 
 # brew_ingredient <Badge type="info" text="libreforge" /> 
 
-> Same as brew, but passes the ingredient as the item
+> 与酿造相同，但将原料作为物品传递。
 
 ## 基本信息
 
@@ -25,10 +25,10 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBrewIngredient.kt`）。
 
-- **源码描述**: Fires when an ingredient finishes brewing in a brewing stand.
+- **源码描述**: 当酿造台的原料完成酿造时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
-- **值**: The number of potions brewed.
+- **值**: 酿造的药水数量。
 
 ## 配置示例
 

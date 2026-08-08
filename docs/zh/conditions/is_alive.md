@@ -10,7 +10,7 @@ outline: deep
 
 # is_alive <Badge type="info" text="libreforge" />
 
-> Requires the player to be alive
+> 需要玩家存活。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsAlive.kt`）。
 
-- **源码描述**: Passes when the entity is alive.
+- **源码描述**: 当实体存活时通过。
 - **所属分类**: `entity`
 
 ## 配置示例

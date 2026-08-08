@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `key` | String | ✅ | — | — | The key to set \| Source: The custom data key to set on the item. Example: `custom_id` |
-| `value` | String | ✅ | — | — | The value to set it to \| Source: The value to store under the given key. Example: `epic_sword_tier_3` |
+| `key` | String | ✅ | — | — | The custom data key to set on the item. Example: `custom_id` |
+| `value` | String | ✅ | — | — | The value to store under the given key. Example: `epic_sword_tier_3` |
 
 ## 📝 Source Notes
 

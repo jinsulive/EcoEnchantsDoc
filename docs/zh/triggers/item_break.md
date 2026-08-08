@@ -10,7 +10,7 @@ outline: deep
 
 # item_break <Badge type="info" text="libreforge" /> 
 
-> Triggered when breaking any item in your inventory (durability)
+> 当背包中的任意物品损坏（耐久耗尽）时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerItemBreak.kt`）。
 
-- **源码描述**: Fires when the player's item breaks from durability loss.
+- **源码描述**: 当玩家的物品因耐久耗尽而损坏时触发。
 - **所属分类**: `inventory`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`
 

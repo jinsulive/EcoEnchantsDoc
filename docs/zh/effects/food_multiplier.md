@@ -10,7 +10,7 @@ outline: deep
 
 # food_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies food gain from eating
+> 倍率化进食获得的食物值。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | The multiplier for food gained by eating |
+| `multiplier` | Custom | — | — | — | 进食获得的食物值倍率。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFoodMultiplier.kt`）。
 
-- **源码描述**: Multiplies the amount of food level gained when the player eats.
+- **源码描述**: 倍率化玩家进食时获得的食物值。
 - **所属分类**: `player`
 
 ## 配置示例

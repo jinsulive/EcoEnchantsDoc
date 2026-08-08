@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerStartSwimming.kt`）。
 
-- **源码描述**: Fires when a player starts swimming.
+- **源码描述**: 当玩家开始游泳时触发。
 - **所属分类**: `movement`
 - **需要触发器数据**: `PLAYER`, `LOCATION`
 

@@ -10,7 +10,7 @@ outline: deep
 
 # explosion_knockback_resistance_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies explosion resistance
+> 倍率化爆炸抗性。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for explosion knockback resistance \| Source: The value to add to the explosion knockback resistance attribute. Supports expressions. Example: `%level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | 爆炸击退抗性加成值。支持表达式。示例：`%level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectExplosionKnockbackResistanceMultiplier.kt`）。
 
-- **源码描述**: Adds a flat value to the player's explosion knockback resistance attribute.
+- **源码描述**: 向玩家的爆炸击退抗性属性添加一个固定值。
 - **所属分类**: `combat`, `player`, `attribute`
 
 ## 配置示例

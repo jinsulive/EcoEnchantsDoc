@@ -10,7 +10,7 @@ outline: deep
 
 # change_biome <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing biome
+> 当进入不同生物群系时触发。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerChangeBiome.kt`）。
 
-- **源码描述**: Fires when the player moves into a different biome.
+- **源码描述**: 当玩家进入不同的生物群系时触发。
 - **所属分类**: `world`, `movement`
 - **需要触发器数据**: `PLAYER`, `LOCATION`, `TEXT`
 

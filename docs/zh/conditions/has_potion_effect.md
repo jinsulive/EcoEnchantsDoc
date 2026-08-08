@@ -10,7 +10,7 @@ outline: deep
 
 # has_potion_effect <Badge type="info" text="libreforge" />
 
-> Requires a player to have a potion effect active
+> 需要玩家拥有某个激活的药水效果。
 
 ## 基本信息
 
@@ -28,15 +28,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect List | ✅ | — | — | The potion effect \| Source: The potion effect(s) to check for. Example: `speed, strength` |
-| `effects` | Potion Effect List | ✅ | — | — | You can also specify a list of potion effects \| Source: The potion effect(s) to check for. Example: `speed, strength` |
-| `level` | Integer | — | `1` | — | The minimum amplifier level required (1-based). |
+| `effect` | Potion Effect List | ✅ | — | — | 要检查的药水效果。示例：`speed, strength` |
+| `effects` | Potion Effect List | ✅ | — | — | 你也可以指定一个药水效果列表。示例：`speed, strength` |
+| `level` | Integer | — | `1` | — | 所需的最小效果等级（从 1 开始）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasPotionEffect.kt`）。
 
-- **源码描述**: Passes when the entity has the specified potion effect active.
+- **源码描述**: 当实体拥有指定的激活药水效果时通过。
 - **所属分类**: `player`
 
 ## 配置示例

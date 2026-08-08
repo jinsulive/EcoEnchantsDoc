@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum number of blocks to teleport forward \| Source: The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
 
 ## 📝 Source Notes
 

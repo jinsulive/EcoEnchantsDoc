@@ -25,13 +25,13 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius around the center block: 1 = 3x3x1, 2 = 5x5x1, etc \| Source: The radius of blocks to break in the flat layer. Supports expressions. Example: `3 + %level% / 20` |
-| `blacklisted_blocks` | Block List | — | `[]` | — | The blocks to not mine \| Source: A list of blocks that should never be broken by this effect. |
-| `check_hardness` | Boolean | — | `true` | — | If only blocks with the same (or lower) hardness than the mined block can be broken \| Source: Whether blocks harder than the triggered block should be skipped. |
-| `disable_on_sneak` | Boolean | — | `false` | — | If the effect shouldn't activate while sneaking \| Source: Whether the effect should be disabled while the player is sneaking. |
-| `whitelist` | Block List | — | `[]` | — | The only blocks allowed to mine - Remove if you don't want this \| Source: A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
-| `no_corners` | Boolean | — | `false` | — | If the corners shouldn't be broken (plus-sign shape) \| Source: Whether corner blocks at the edge of the radius should be excluded. |
-| `prevent_trigger` | Boolean | — | `false` | — | Optional, if the mine_block trigger should not be called from this \| Source: Whether breaking these blocks should prevent triggering further effects. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius of blocks to break in the flat layer. Supports expressions. Example: `3 + %level% / 20` |
+| `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that should never be broken by this effect. |
+| `check_hardness` | Boolean | — | `true` | — | Whether blocks harder than the triggered block should be skipped. |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether the effect should be disabled while the player is sneaking. |
+| `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
+| `no_corners` | Boolean | — | `false` | — | Whether corner blocks at the edge of the radius should be excluded (plus-sign shape). |
+| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
 
 ## 📝 Source Notes
 

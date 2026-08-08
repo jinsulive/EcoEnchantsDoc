@@ -11,7 +11,7 @@ outline: deep
 
 # join_land <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
 
-> Triggered when joining a Land
+> 当加入领地时触发。
 
 ## 基本信息
 

@@ -11,7 +11,7 @@ outline: deep
 
 # elytra_boost <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
 
-> Triggered when a player boosts an elytra
+> 当玩家使用鞘翅加速时触发。
 
 ## 基本信息
 

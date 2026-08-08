@@ -10,7 +10,7 @@ outline: deep
 
 # mob_coins_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
 
-> Multiplies mob coin drops
+> 倍率化怪物硬币掉落。
 
 > **需要依赖：** Flare Mobcoins
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `multiplier` | The multiplier |
+| `multiplier` | 倍率。 |
 
 ## 配置示例
 

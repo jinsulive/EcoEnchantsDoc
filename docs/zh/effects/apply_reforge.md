@@ -10,7 +10,7 @@ outline: deep
 
 # apply_reforge <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Applies a reforge to an item
+> 为物品应用一个重铸属性。
 
 > **需要依赖：** Reforges
 
@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 说明 |
 |--------|------|
-| `reforge` | The reforge ID |
+| `reforge` | 重铸 ID。 |
 
 ## 配置示例
 

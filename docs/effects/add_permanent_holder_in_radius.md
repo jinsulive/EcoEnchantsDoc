@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply to nearby entities. |
-| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
-| `apply-to-self` | Boolean | — | `false` | — | If the player should also get the holder \| Source: Whether to also apply the effects to the holder owner. |
+| `effects` | Effect List | ✅ | — | — | The effects to apply to nearby entities in the holder. |
+| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `apply-to-self` | Boolean | — | `false` | — | Whether to also apply the effects to the holder owner. |
 
 ## 📝 Source Notes
 

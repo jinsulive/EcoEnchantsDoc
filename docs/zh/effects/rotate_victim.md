@@ -10,7 +10,7 @@ outline: deep
 
 # rotate_victim <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Spin the victim around
+> 旋转受害者。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to rotate / spin (in degrees) \| Source: The number of degrees to add to the victim's current yaw. Supports expressions. Example: `%level% * 10` |
+| `angle` | Expression(数学表达式) | ✅ | — | — | 旋转角度（以度为单位）。支持表达式。示例：`%level% * 10` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRotateVictim.kt`）。
 
-- **源码描述**: Rotates the victim's yaw by a specified angle.
+- **源码描述**: 按指定角度旋转受害者的偏航角。
 - **所属分类**: `movement`, `combat`
 - **需要触发器数据**: `VICTIM`
 

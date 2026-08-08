@@ -10,7 +10,7 @@ outline: deep
 
 # knock_away <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Knock the victim away from the player
+> 将受害者从玩家处击飞。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The speed at which the victim is knocked away from the player. Supports expressions. Example: `1 + %level% * 0.1` |
+| `velocity` | Expression(数学表达式) | ✅ | — | — | 受害者被击退的速度（速度向量的大小）。支持表达式。示例：`1 + %level% * 0.1` |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKnockAway.kt`）。
 
-- **源码描述**: Launches the victim away from the player with a specified velocity.
+- **源码描述**: 以指定速度将受害者从玩家处击飞。
 - **所属分类**: `combat`, `movement`
 - **需要触发器数据**: `PLAYER`, `VICTIM`
 

@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `height` | Expression(数学表达式) | ✅ | — | — | The extra step height \| Source: The number of extra blocks the player can step up automatically. Supports expressions. Example: `0.5 + %level% * 0.1` |
+| `height` | Expression(数学表达式) | ✅ | — | — | The number of extra blocks the player can step up automatically. Supports expressions. Example: `0.5 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # on_ground <Badge type="info" text="libreforge" />
 
-> Requires a player to be on the ground
+> 需要玩家站在地面上。
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ outline: deep
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionOnGround.kt`）。
 
-- **源码描述**: Passes when the entity is standing on solid ground.
+- **源码描述**: 当实体站在实心地面上时通过。
 - **所属分类**: `player`
 
 ## 配置示例

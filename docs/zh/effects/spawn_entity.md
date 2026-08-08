@@ -10,7 +10,7 @@ outline: deep
 
 # spawn_entity <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> Spawns an entity
+> 生成实体。
 
 ## 基本信息
 
@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `entity` | Entity | ✅ | — | — | The mob to spawn, takes a lookup string \| Source: The entity type to spawn at the trigger location. |
+| `entity` | Entity | ✅ | — | — | 要生成的生物（接受查找字符串）。 |
 
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnEntity.kt`）。
 
-- **源码描述**: Spawns an entity at the trigger location.
+- **源码描述**: 在触发位置生成一个实体。
 - **所属分类**: `entity`
 - **需要触发器数据**: `LOCATION`
 
