@@ -25,10 +25,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `text` | The text in the hologram |
-| `duration` | The duration (in ticks) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `text` | String List | ✅ | — | — | The text in the hologram \| Source: The lines of text to show on the hologram. Supports placeholders. Example: `&6%player%, &7Level %level%` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How long to show the hologram, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCreateHologram.kt`).
+
+- **Source Description**: Creates a temporary hologram at the trigger location.
+- **Categories**: `visual`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

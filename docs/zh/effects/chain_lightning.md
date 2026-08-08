@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `jumps` | The number of times the lightning jumps |
-| `range` | The range in blocks to look for the next target |
-| `damage` | The damage dealt to each entity hit |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `jumps` | Expression(数学表达式) | ✅ | — | — | The number of times the lightning jumps \| Source: The number of entities the lightning can chain to. Supports expressions. Example: `3 + %level%` |
+| `range` | Expression(数学表达式) | ✅ | — | — | The range in blocks to look for the next target \| Source: The maximum distance between chain targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each entity hit \| Source: The damage dealt to each entity struck. Supports expressions. Example: `%level% * 1.5` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectChainLightning.kt`）。
+
+- **源码描述**: Strikes lightning that chains to nearby entities, dealing damage at each jump.
+- **所属分类**: `combat`, `visual`
+- **需要触发器数据**: `VICTIM`, `LOCATION`
 
 ## 配置示例
 

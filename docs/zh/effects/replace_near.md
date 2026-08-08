@@ -23,17 +23,25 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `radius` | The horizontal radius to replace |
-| `radius_y` | The vertical radius to replace |
-| `replace_to` | The block to replace to |
-| `duration` | (Optional) The duration to replace for before returning back to the original state |
-| `whitelist` | (Optional) A list of blocks to replace |
-| `blacklist` | (Optional) A list of blocks to not replace |
-| `exposed_only` | (Optional) If only blocks with air above them should be replaced |
-| `source_only` | (Optional) If only source blocks should be replaced (for liquids) |
-| `disable_on_sneak` | If the effect should not activate while sneaking |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The horizontal radius to replace \| Source: The horizontal radius to search for blocks. Supports expressions. Example: `3 + %level% * 0.3` |
+| `radius_y` | Expression(数学表达式) | ✅ | — | — | The vertical radius to replace \| Source: The vertical radius to search for blocks. Supports expressions. Example: `2 + %level% * 0.2` |
+| `replace_to` | Block | ✅ | — | — | The block to replace to \| Source: The block type to replace matching blocks with. |
+| `duration` | Expression(数学表达式) | — | — | — | (Optional) The duration to replace for before returning back to the original state \| Source: How long (in ticks) before the replaced blocks revert to their original type. Supports expressions. Example: `20 * %level%` |
+| `whitelist` | Block List | — | — | — | (Optional) A list of blocks to replace \| Source: A list of block types that are allowed to be replaced. If omitted, all non-air blocks are eligible. |
+| `blacklist` | Block List | — | — | — | (Optional) A list of blocks to not replace \| Source: A list of block types that should never be replaced. |
+| `exposed_only` | Boolean | — | `false` | — | (Optional) If only blocks with air above them should be replaced \| Source: Whether to only replace blocks that have air directly above them. |
+| `source_only` | Boolean | — | `false` | — | (Optional) If only source blocks should be replaced (for liquids) \| Source: Whether to only replace source liquid blocks (level 0). |
+| `disable_on_sneak` | Boolean | — | `false` | — | If the effect should not activate while sneaking \| Source: Whether to skip replacement when the player is sneaking. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectReplaceNear.kt`）。
+
+- **源码描述**: Replaces blocks of one type with another within a specified radius around the trigger location.
+- **所属分类**: `world`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

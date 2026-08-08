@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `type` | The section to clear: all, hotbar, main, or armor |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `type` | String | ✅ | — | `all`, `hotbar`, `main`, `armor` | The section to clear: all, hotbar, main, or armor \| Source: Which section of the inventory to clear. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectClearInventory.kt`）。
+
+- **源码描述**: Clears a section of the player's inventory.
+- **所属分类**: `inventory`, `player`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

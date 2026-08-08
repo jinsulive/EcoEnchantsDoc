@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `velocity` | The speed at which to be pulled (magnitude of the velocity vector) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The strength of the pull force applied to the victim. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPullIn.kt`).
+
+- **Source Description**: Pulls the victim toward the player with a specified velocity.
+- **Categories**: `movement`, `combat`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`
 
 ## Configuration Example
 

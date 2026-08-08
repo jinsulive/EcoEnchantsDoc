@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `value` | The value of the price |
-| `type` | The price type |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `value` | String | ✅ | — | — | The value of the price \| Source: The amount to deduct from the player. Supports expressions and placeholders. Example: `%level% * 10` |
+| `type` | String | ✅ | — | — | The price type \| Source: The price type identifier (e.g. coins, xp, xpl, item). Example: `coins` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPayPrice.kt`).
+
+- **Source Description**: Deducts a price of the specified type from the player.
+- **Categories**: `economy`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

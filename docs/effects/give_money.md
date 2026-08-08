@@ -25,9 +25,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of money to give |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to give \| Source: The amount of money to deposit into the player's balance. Supports expressions. Example: `%level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveMoney.kt`).
+
+- **Source Description**: Deposits money into the player's economy balance when triggered.
+- **Categories**: `economy`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

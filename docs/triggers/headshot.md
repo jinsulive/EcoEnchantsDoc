@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The damage dealt |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerHeadshot.kt`).
+
+- **Source Description**: Fires when the player hits an entity in the head with a projectile.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `PROJECTILE`, `VELOCITY`, `VALUE`
+- **Value**: The damage dealt.
+
 ## Configuration Example
 
 ```yaml

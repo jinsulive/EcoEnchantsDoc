@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `velocity` | The speed at which to be pulled (magnitude of the velocity vector) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The strength of the pull force applied to the victim. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPullIn.kt`）。
+
+- **源码描述**: Pulls the victim toward the player with a specified velocity.
+- **所属分类**: `movement`, `combat`
+- **需要触发器数据**: `PLAYER`, `VICTIM`
 
 ## 配置示例
 

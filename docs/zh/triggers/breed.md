@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The experience received |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBreed.kt`）。
+
+- **源码描述**: Fires when two entities are bred.
+- **所属分类**: `entity`
+- **需要触发器数据**: `PLAYER`, `VICTIM`, `LOCATION`, `ITEM`, `VALUE`
+- **值**: The experience dropped from breeding.
+
 ## 配置示例
 
 ```yaml

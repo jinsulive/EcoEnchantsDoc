@@ -20,6 +20,13 @@ outline: deep
 | 所属模块 | libreforge |
 | 分类 | 位置（Location） |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToDrop.kt`）。
+
+- **源码描述**: Sets the location to the drop's position from the trigger event.
+- **所属分类**: `location`, `entity`
+
 ## 配置示例
 
 ```yaml

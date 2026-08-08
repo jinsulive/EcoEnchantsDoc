@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `chance` | The chance to not consume lapis |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `chance` | Custom | — | — | — | The chance to not consume lapis |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDontConsumeLapisChance.kt`).
+
+- **Source Description**: Gives a percentage chance for the enchanting table to not consume lapis lazuli.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

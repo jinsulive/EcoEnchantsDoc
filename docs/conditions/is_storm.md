@@ -24,6 +24,13 @@ outline: deep
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsStorm.kt`).
+
+- **Source Description**: Passes when the world is experiencing a storm.
+- **Categories**: `world`
+
 ## Configuration Example
 
 ```yaml

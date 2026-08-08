@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `damage` | The durability to repair |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `damage` | Expression(数学表达式) | ✅ | — | — | The durability to repair \| Source: The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRepairItem.kt`).
+
+- **Source Description**: Repairs the triggering item by a specified amount of durability.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

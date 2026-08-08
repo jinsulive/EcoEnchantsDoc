@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `radius` | The radius to swarm from |
-| `entities` | (Optional) The list of entities to anger |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to swarm from \| Source: The radius to search for monsters that will target the victim. Supports expressions. Example: `10 + %level%` |
+| `entities` | Custom | — | — | — | (Optional) The list of entities to anger |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSwarm.kt`).
+
+- **Source Description**: Causes all nearby monsters within a radius to target the victim.
+- **Categories**: `combat`, `entity`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

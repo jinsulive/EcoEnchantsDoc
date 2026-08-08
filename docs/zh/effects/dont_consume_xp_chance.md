@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `chance` | The chance to not consume xp |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `chance` | Custom | — | — | — | The chance to not consume xp |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDontConsumeXpChance.kt`）。
+
+- **源码描述**: Gives a percentage chance for the enchanting table to not consume experience levels.
+- **所属分类**: `economy`
 
 ## 配置示例
 

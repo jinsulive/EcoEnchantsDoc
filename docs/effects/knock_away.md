@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `velocity` | The speed at which to be pulled (magnitude of the velocity vector) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The speed at which the victim is knocked away from the player. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKnockAway.kt`).
+
+- **Source Description**: Launches the victim away from the player with a specified velocity.
+- **Categories**: `combat`, `movement`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`
 
 ## Configuration Example
 

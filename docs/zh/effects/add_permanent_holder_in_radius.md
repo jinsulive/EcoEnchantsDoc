@@ -23,12 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effects` | The effects to apply in the temporary holder |
-| `conditions` | The conditions for the holder |
-| `radius` | The radius, in blocks |
-| `apply-to-self` | If the player should also get the holder |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply to nearby entities. |
+| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `apply-to-self` | Boolean | — | `false` | — | If the player should also get the holder \| Source: Whether to also apply the effects to the holder owner. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddPermanentHolderInRadius.kt`）。
+
+- **源码描述**: Permanently applies a set of effects and conditions to all nearby entities within a radius while the holder is active.
+- **所属分类**: `meta`
 
 ## 配置示例
 

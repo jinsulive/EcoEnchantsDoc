@@ -22,11 +22,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `add_x` | The amount to add to x |
-| `add_y` | The amount to add to y |
-| `add-z` | The amount to add to z |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `add_x` | Expression(数学表达式) | ✅ | — | — | The amount to add to x \| Source: The amount to add to the X coordinate. Example: `0.5` |
+| `add_y` | Expression(数学表达式) | ✅ | — | — | The amount to add to y \| Source: The amount to add to the Y coordinate. Example: `1.0` |
+| `add-z` | Expression(数学表达式) | ✅ | — | — | The amount to add to z \| Source: The amount to add to the Z coordinate. Example: `-0.5` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorTranslateLocation.kt`）。
+
+- **源码描述**: Offsets the location by the given amounts along each axis.
+- **所属分类**: `location`
 
 ## 配置示例
 

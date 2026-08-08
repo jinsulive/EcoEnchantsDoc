@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `radius` | The maximum distance in blocks from the player |
-| `min_radius` | (Optional) The minimum distance in blocks from the player |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum distance in blocks from the player \| Source: The maximum distance from the player's current position to teleport. Supports expressions. Example: `10 + %level%` |
+| `min_radius` | Expression(数学表达式) | — | `0` | — | (Optional) The minimum distance in blocks from the player \| Source: The minimum distance from the player's current position to teleport. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRandomTeleport.kt`).
+
+- **Source Description**: Teleports the player to a random location within a radius, landing on the highest safe block.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

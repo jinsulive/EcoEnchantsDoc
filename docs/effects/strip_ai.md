@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `duration` | The amount of ticks to strip AI for |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `duration` | Expression(数学表达式) | ✅ | — | — | The amount of ticks to strip AI for \| Source: How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectStripAI.kt`).
+
+- **Source Description**: Temporarily removes the AI from the victim entity, stopping it from acting.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

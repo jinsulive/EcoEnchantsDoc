@@ -20,6 +20,13 @@ outline: deep
 | 所属模块 | libreforge |
 | 分类 | 旋转（Rotation） |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToProjectile.kt`）。
+
+- **源码描述**: Sets the location to the projectile's current position.
+- **所属分类**: `location`, `entity`
+
 ## 配置示例
 
 ```yaml

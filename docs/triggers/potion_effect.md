@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerPotionEffect.kt`).
+
+- **Source Description**: Fires when an entity receives a potion effect.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `TEXT`
+
 ## Configuration Example
 
 ```yaml

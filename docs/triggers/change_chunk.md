@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerChangeChunk.kt`).
+
+- **Source Description**: Fires when the player or a living entity moves into a different chunk.
+- **Categories**: `world`, `movement`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `VELOCITY`, `ITEM`
+
 ## Configuration Example
 
 ```yaml

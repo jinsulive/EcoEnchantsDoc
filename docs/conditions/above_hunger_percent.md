@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `percent` | The minimum percent |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `percent` | Expression(数学表达式) | ✅ | — | — | The minimum percent \| Source: The minimum hunger percentage (0–100). Example: `50 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAboveHungerPercent.kt`).
+
+- **Source Description**: Passes when the player's hunger level is at or above the given percentage.
+- **Categories**: `player`
 
 ## Configuration Example
 

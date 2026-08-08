@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for hunger loss, smaller means slower loss |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Custom | — | — | — | The multiplier for hunger loss, smaller means slower loss |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectHungerMultiplier.kt`).
+
+- **Source Description**: Multiplies the rate at which the player loses hunger.
+- **Categories**: `player`
 
 ## Configuration Example
 

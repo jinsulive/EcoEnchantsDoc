@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `block` | The block to place (eco block ID) |
-| `duration` | (Optional) Ticks before the original block is restored |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `block` | Block | ✅ | — | — | The block to place (eco block ID) \| Source: The block to place at the trigger location. |
+| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the original block is restored \| Source: How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPlaceBlock.kt`).
+
+- **Source Description**: Places a block at the trigger location, optionally reverting it after a duration.
+- **Categories**: `world`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

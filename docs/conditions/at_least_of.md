@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `conditions` | The list of conditions |
-| `amount` | The amount of conditions |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions to evaluate. |
+| `amount` | Integer | ✅ | — | — | The amount of conditions \| Source: The minimum number of conditions that must pass. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAtLeastOf.kt`).
+
+- **Source Description**: Passes when at least the specified number of the listed conditions are met.
+- **Categories**: `meta`
 
 ## Configuration Example
 

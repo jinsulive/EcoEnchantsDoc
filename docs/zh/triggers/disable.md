@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | 1 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDisable.kt`）。
+
+- **源码描述**: Fires when a holder is deactivated for the dispatcher, such as when an item is unequipped.
+- **所属分类**: `meta`
+- **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`
+
 ## 配置示例
 
 ```yaml

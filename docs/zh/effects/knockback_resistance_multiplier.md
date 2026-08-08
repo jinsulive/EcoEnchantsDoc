@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | The multiplier for knockback resistance |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for knockback resistance \| Source: The knockback resistance multiplier to apply. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKnockbackResistanceMultiplier.kt`）。
+
+- **源码描述**: Multiplies the player's knockback resistance, reducing how far they are pushed when hit.
+- **所属分类**: `combat`, `player`, `attribute`
 
 ## 配置示例
 

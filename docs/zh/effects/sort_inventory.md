@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `type` | The section to sort: all, hotbar, or main |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `type` | String | ✅ | — | `all`, `hotbar`, `main` | The section to sort: all, hotbar, or main \| Source: Which section of the inventory to sort: all, hotbar, or main. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSortInventory.kt`）。
+
+- **源码描述**: Sorts items in the player's inventory by material name and stack size.
+- **所属分类**: `inventory`, `player`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

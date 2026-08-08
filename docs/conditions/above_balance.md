@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `balance` | The minimum amount of money |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `balance` | Expression(数学表达式) | ✅ | — | — | The minimum amount of money \| Source: The minimum economy balance required. Example: `%level% * 500` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAboveBalance.kt`).
+
+- **Source Description**: Passes when the player's economy balance is at or above the minimum.
+- **Categories**: `economy`
 
 ## Configuration Example
 

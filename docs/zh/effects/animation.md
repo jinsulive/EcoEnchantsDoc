@@ -23,10 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `animation` | The ID of the animation |
-| `animation_args` | Arguments for the animation |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `animation` | String | ✅ | — | `spin_item` | The ID of the animation \| Source: The animation to play. |
+| `animation_args` | Custom | — | — | — | Arguments for the animation |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAnimation.kt`）。
+
+- **源码描述**: Plays a named animation at the trigger location.
+- **所属分类**: `visual`
+- **需要触发器数据**: `LOCATION`
+- **继承子配置**: 是（此效果继承子配置，详见对应子配置页）
 
 ## 配置示例
 

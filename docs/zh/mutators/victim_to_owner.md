@@ -20,6 +20,13 @@ outline: deep
 | 所属模块 | libreforge |
 | 分类 | 目标/玩家（Victim/Player） |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorVictimToOwner.kt`）。
+
+- **源码描述**: Sets the victim to the tamed entity's owner.
+- **所属分类**: `victim`
+
 ## 配置示例
 
 ```yaml

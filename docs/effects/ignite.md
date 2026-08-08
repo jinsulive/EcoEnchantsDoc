@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `damage_per_tick` | The amount of damage to deal per fire tick |
-| `ticks` | The amount of time the victim should be on fire for |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal per fire tick \| Source: The amount of damage dealt per fire tick. Supports expressions. Example: `%level%` |
+| `ticks` | Expression(数学表达式) | ✅ | — | — | The amount of time the victim should be on fire for \| Source: The number of fire ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectIgnite.kt`).
+
+- **Source Description**: Sets the victim on fire for a specified number of ticks with custom damage per tick.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `VICTIM`, `PLAYER`
 
 ## Configuration Example
 

@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The amount of items smelted |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSmelt.kt`）。
+
+- **源码描述**: Fires when the player smelts an item in a furnace.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
+- **值**: The number of items produced.
+
 ## 配置示例
 
 ```yaml

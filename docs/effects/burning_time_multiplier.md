@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for burning time |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for burning time \| Source: The burning time multiplier. Values below 1 reduce burn duration. Supports expressions. Example: `1 - %level% * 0.05` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBurningTimeMultiplier.kt`).
+
+- **Source Description**: Multiplies the duration the player burns when on fire while the holder is active.
+- **Categories**: `combat`, `player`, `attribute`
 
 ## Configuration Example
 

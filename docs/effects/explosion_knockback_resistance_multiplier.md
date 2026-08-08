@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for explosion knockback resistance |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for explosion knockback resistance \| Source: The value to add to the explosion knockback resistance attribute. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectExplosionKnockbackResistanceMultiplier.kt`).
+
+- **Source Description**: Adds a flat value to the player's explosion knockback resistance attribute.
+- **Categories**: `combat`, `player`, `attribute`
 
 ## Configuration Example
 

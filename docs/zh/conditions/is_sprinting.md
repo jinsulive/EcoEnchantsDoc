@@ -24,6 +24,13 @@ outline: deep
 每个条件都支持可选的 `inverse` 参数，用于取反条件。
 :::
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsSprinting.kt`）。
+
+- **源码描述**: Passes when the player is sprinting.
+- **所属分类**: `player`
+
 ## 配置示例
 
 ```yaml

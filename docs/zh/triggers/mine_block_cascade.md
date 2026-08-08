@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | 1 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerMineBlockCascade.kt`）。
+
+- **源码描述**: Fires for each block broken in a cascading plant break, such as sugar cane, bamboo, kelp, or chorus.
+- **所属分类**: `world`
+- **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`
+
 ## 配置示例
 
 ```yaml

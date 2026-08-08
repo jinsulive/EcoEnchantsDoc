@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The food level to set |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The food level to set \| Source: The food level to set (0–20). Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetFood.kt`).
+
+- **Source Description**: Sets the player's food level to a specified value.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

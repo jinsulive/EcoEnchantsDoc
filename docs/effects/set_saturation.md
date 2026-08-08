@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The saturation level to set |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The saturation level to set \| Source: The saturation level to set for the player. Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetSaturation.kt`).
+
+- **Source Description**: Sets the player's food saturation to a specific value.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

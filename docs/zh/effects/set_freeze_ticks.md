@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `ticks` | The ticks to set (How long the victim has been in snow) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `ticks` | Expression(数学表达式) | ✅ | — | — | The ticks to set (How long the victim has been in snow) \| Source: The number of freeze ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetFreezeTicks.kt`）。
+
+- **源码描述**: Sets the victim's freeze ticks, controlling how frozen they appear and whether they take freeze damage.
+- **所属分类**: `player`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

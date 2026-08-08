@@ -21,6 +21,13 @@ outline: deep
 | Category | Item |
 | Effect Type | Permanent |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKeepLevel.kt`).
+
+- **Source Description**: Prevents the player from losing their XP levels on death.
+- **Categories**: `economy`, `player`
+
 ## Configuration Example
 
 ```yaml

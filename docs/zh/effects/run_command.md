@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `command` | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `command` | String List | ✅ | — | — | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) \| Source: The command or list of commands to run as console. Use %player% and %victim% as placeholders. Example: `say %player% used an ability!, effect give %player% speed 5 1` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRunCommand.kt`）。
+
+- **源码描述**: Runs one or more commands as the console when triggered.
+- **所属分类**: `chat`
 
 ## 配置示例
 

@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The new item level |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerLevelUpItem.kt`).
+
+- **Source Description**: Fires when a libreforge item levels up.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`, `ITEM`, `TEXT`, `VALUE`
+- **Value**: The new level of the item.
+
 ## Configuration Example
 
 ```yaml

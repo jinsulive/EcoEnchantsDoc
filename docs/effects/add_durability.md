@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `durability` | The durability to add (or subtract) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `durability` | Expression(数学表达式) | ✅ | — | — | The durability to add (or subtract) \| Source: The amount of maximum durability to add. Supports expressions. Example: `50 + %level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddDurability.kt`).
+
+- **Source Description**: Increases the maximum durability of the triggering item.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

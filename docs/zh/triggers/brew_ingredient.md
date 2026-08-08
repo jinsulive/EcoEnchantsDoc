@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | 1 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBrewIngredient.kt`）。
+
+- **源码描述**: Fires when an ingredient finishes brewing in a brewing stand.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
+- **值**: The number of potions brewed.
+
 ## 配置示例
 
 ```yaml

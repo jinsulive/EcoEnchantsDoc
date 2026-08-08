@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The damage taken |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntityDamageByEntity.kt`).
+
+- **Source Description**: Fires when an entity is damaged by another entity.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `VICTIM`, `LOCATION`, `VALUE`
+- **Value**: The damage dealt.
+
 ## Configuration Example
 
 ```yaml

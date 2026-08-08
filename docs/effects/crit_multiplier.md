@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The damage multiplier applied on a critical hit. Supports expressions. Example: `1.5 + %level% * 0.05` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCritMultiplier.kt`).
+
+- **Source Description**: Multiplies damage when the player lands a critical hit (falling attack).
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`
 
 ## Configuration Example
 

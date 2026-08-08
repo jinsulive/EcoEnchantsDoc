@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The amount of items dropped |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBlockItemDrop.kt`).
+
+- **Source Description**: Fires when a block broken by the player drops its items.
+- **Categories**: `world`
+- **Requires Trigger Data**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The total number of items dropped.
+
 ## Configuration Example
 
 ```yaml

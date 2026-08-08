@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The amount of items smelted |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSmelt.kt`).
+
+- **Source Description**: Fires when the player smelts an item in a furnace.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The number of items produced.
+
 ## Configuration Example
 
 ```yaml

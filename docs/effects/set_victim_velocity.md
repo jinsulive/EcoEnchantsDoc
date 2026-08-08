@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `x` | The x velocity |
-| `y` | The y velocity |
-| `z` | The z velocity |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `x` | Expression(数学表达式) | ✅ | — | — | The x velocity \| Source: The X component of the velocity vector. Supports expressions. Example: `0` |
+| `y` | Expression(数学表达式) | ✅ | — | — | The y velocity \| Source: The Y component of the velocity vector. Supports expressions. Example: `1.5` |
+| `z` | Expression(数学表达式) | ✅ | — | — | The z velocity \| Source: The Z component of the velocity vector. Supports expressions. Example: `0` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetVictimVelocity.kt`).
+
+- **Source Description**: Sets the victim entity's velocity to the specified x, y, z components.
+- **Categories**: `movement`, `combat`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

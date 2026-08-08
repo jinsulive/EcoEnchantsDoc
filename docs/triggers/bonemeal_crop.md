@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBoneMealCrop.kt`).
+
+- **Source Description**: Fires when the player uses bone meal to fertilize a crop.
+- **Categories**: `world`, `interaction`
+- **Requires Trigger Data**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`
+
 ## Configuration Example
 
 ```yaml

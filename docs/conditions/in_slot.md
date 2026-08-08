@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `slot` | The slot |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `slot` | String List | ✅ | — | — | The slot \| Source: The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. Example: `mainhand, 9` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInSlot.kt`).
+
+- **Source Description**: Passes when the active item holder is in one of the specified equipment slots.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `reach` | The extra entity reach |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `reach` | Expression(数学表达式) | ✅ | — | — | The extra entity reach \| Source: The number of blocks to add to the entity interaction range. Supports expressions. Example: `%level% * 0.5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectEntityReach.kt`).
+
+- **Source Description**: Increases the player's entity interaction range while the holder is active.
+- **Categories**: `player`, `attribute`
 
 ## Configuration Example
 

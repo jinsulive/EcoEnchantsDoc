@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of items to remove (i.e. 1 apple, 2 apples, etc) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of items to remove (i.e. 1 apple, 2 apples, etc) \| Source: The number of items to remove from the main hand. Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectConsumeHeldItem.kt`).
+
+- **Source Description**: Removes a number of items from the player's main hand.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

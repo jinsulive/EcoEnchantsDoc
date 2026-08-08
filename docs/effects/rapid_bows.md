@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `percent_faster` | The percentage less tension to require |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `percent_faster` | Expression(数学表达式) | ✅ | — | — | The percentage less tension to require \| Source: How many percent faster the bow charges. Supports expressions. Example: `10 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRapidBows.kt`).
+
+- **Source Description**: Allows the player to fire bows faster by a given percentage, as a permanent passive effect.
+- **Categories**: `combat`
 
 ## Configuration Example
 

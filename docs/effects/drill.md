@@ -23,13 +23,22 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of blocks to mine |
-| `blacklisted_blocks` | The blocks to not mine |
-| `check_hardness` | If only blocks with the same (or lower) hardness than the mined block can be broken |
-| `disable_on_sneak` | If the effect shouldn't activate while sneaking |
-| `whitelist` | The only blocks allowed to mine |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of blocks to mine \| Source: The number of blocks to break in a line. Supports expressions. Example: `3 + %level%` |
+| `blacklisted_blocks` | Block List | — | — | — | The blocks to not mine \| Source: These block types will never be broken by the drill. |
+| `check_hardness` | Boolean | ✅ | — | — | If only blocks with the same (or lower) hardness than the mined block can be broken \| Source: If true, only blocks with hardness ≤ the trigger block are broken. |
+| `disable_on_sneak` | Boolean | — | `false` | — | If the effect shouldn't activate while sneaking \| Source: If true, the drill effect is disabled while the player is sneaking. |
+| `whitelist` | Block List | — | — | — | The only blocks allowed to mine \| Source: Only these block types will be broken by the drill. |
+| `prevent_trigger` | Boolean | — | `false` | — | If true, breaking additional blocks will not fire further libreforge triggers. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDrill.kt`).
+
+- **Source Description**: Breaks a line of blocks in front of the player in their look direction.
+- **Categories**: `world`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

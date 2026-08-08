@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `from_slot` | The source inventory slot index |
-| `to_slot` | The destination inventory slot index |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `from_slot` | String | ✅ | — | — | The source inventory slot index \| Source: The slot to copy the item from, e.g. mainhand or offhand. Example: `mainhand` |
+| `to_slot` | String | ✅ | — | — | The destination inventory slot index \| Source: The slot to copy the item into. Example: `offhand` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCopyItem.kt`).
+
+- **Source Description**: Copies the item from one inventory slot into another slot.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

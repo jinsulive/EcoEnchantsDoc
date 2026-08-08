@@ -26,11 +26,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `entities` | The list of entities |
-| `radius` | The radius |
-| `amount` | (Optional) The minimum amount of listed entities |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `entities` | Entity List | ✅ | — | — | The list of entities \| Source: The list of entity types to look for nearby. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius \| Source: The radius in blocks to search for nearby entities. Example: `5 + %level% * 0.5` |
+| `amount` | Integer | — | `1` | — | (Optional) The minimum amount of listed entities \| Source: The minimum number of matching entities required (defaults to 1). |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionNearEntity.kt`）。
+
+- **源码描述**: Passes when the specified number of matching entities are within the given radius.
+- **所属分类**: `entity`
 
 ## 配置示例
 

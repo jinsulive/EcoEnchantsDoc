@@ -20,6 +20,13 @@ outline: deep
 | 所属模块 | libreforge |
 | 分类 | 位置（Location） |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorBlockToLocation.kt`）。
+
+- **源码描述**: Sets the location parameter to derive the block at that position.
+- **所属分类**: `location`, `block`
+
 ## 配置示例
 
 ```yaml

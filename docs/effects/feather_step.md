@@ -21,6 +21,13 @@ outline: deep
 | Category | Utility |
 | Effect Type | Permanent |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFeatherStep.kt`).
+
+- **Source Description**: Prevents the player trampling crops.
+- **Categories**: `movement`, `player`
+
 ## Configuration Example
 
 ```yaml

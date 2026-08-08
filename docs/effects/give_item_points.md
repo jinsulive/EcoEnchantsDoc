@@ -23,10 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The point to add/subtract |
-| `amount` | The amount to add/subtract |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The point to add/subtract \| Source: The item point type to add to. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount to add/subtract \| Source: The amount of points to add to the item. Supports expressions. Example: `%level% * 5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveItemPoints.kt`).
+
+- **Source Description**: Adds points to a specific point type on the triggering item.
+- **Categories**: `economy`, `points`
 
 ## Configuration Example
 

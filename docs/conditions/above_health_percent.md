@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `percent` | The minimum percent |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `percent` | Expression(数学表达式) | ✅ | — | — | The minimum percent \| Source: The minimum health percentage (0–100). Example: `50 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAboveHealthPercent.kt`).
+
+- **Source Description**: Passes when the entity's health is at or above the given percentage of its maximum.
+- **Categories**: `combat`
 
 ## Configuration Example
 

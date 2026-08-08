@@ -23,10 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The point to multiply |
-| `multiplier` | The amount to multiply it by |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The point to multiply \| Source: The global point type to multiply. |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The amount to multiply it by \| Source: The multiplier to apply to the global point counter. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyGlobalPoints.kt`).
+
+- **Source Description**: Multiplies a global point counter by the specified amount.
+- **Categories**: `economy`, `points`
 
 ## Configuration Example
 

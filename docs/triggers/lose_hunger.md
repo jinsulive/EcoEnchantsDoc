@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The hunger lost |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerLoseHunger.kt`).
+
+- **Source Description**: Fires when the player's food level decreases.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `VALUE`
+- **Value**: The amount of food level lost.
+
 ## Configuration Example
 
 ```yaml

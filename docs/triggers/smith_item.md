@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSmithItem.kt`).
+
+- **Source Description**: Fires when the player smiths an item at a smithing table.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`, `ITEM`
+
 ## Configuration Example
 
 ```yaml

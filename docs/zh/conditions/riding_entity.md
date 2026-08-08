@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `entities` | A list of entities |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `entities` | Entity List | ✅ | — | — | A list of entities \| Source: The list of entity types the player must be riding. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionRidingEntity.kt`）。
+
+- **源码描述**: Passes when the entity is riding one of the specified entity types.
+- **所属分类**: `entity`
 
 ## 配置示例
 

@@ -26,10 +26,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `enchant` | The enchant ID |
-| `slot` | The slot |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `enchant` | Enchantment List | ✅ | — | — | The enchant ID \| Source: The enchantment(s) to require, optionally with a level or range (e.g. sharpness:3-5). Example: `sharpness:3-5, unbreaking:2` |
+| `slot` | String List | ✅ | — | — | The slot \| Source: The equipment slot(s) to check for the enchantment. Example: `mainhand, 9` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasEnchant.kt`）。
+
+- **源码描述**: Passes when the entity has an item with the specified enchantment in the specified slot.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

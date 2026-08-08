@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `glowing` | (Optional) Whether to enable glowing, defaults to true |
-| `duration` | (Optional) Ticks before the glowing state is reverted |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `glowing` | Boolean | — | `true` | — | (Optional) Whether to enable glowing, defaults to true \| Source: Whether to enable or disable the glowing effect. |
+| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the glowing state is reverted \| Source: How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetGlowing.kt`).
+
+- **Source Description**: Makes the target entity glow, optionally reverting after a duration.
+- **Categories**: `visual`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

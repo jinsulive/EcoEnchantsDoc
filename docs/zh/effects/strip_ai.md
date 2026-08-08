@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `duration` | The amount of ticks to strip AI for |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `duration` | Expression(数学表达式) | ✅ | — | — | The amount of ticks to strip AI for \| Source: How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectStripAI.kt`）。
+
+- **源码描述**: Temporarily removes the AI from the victim entity, stopping it from acting.
+- **所属分类**: `entity`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of xp to give |
-| `apply_mending` | PAPER ONLY - If mending should be applied from the xp |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of xp to give \| Source: The amount of experience points to give the player. Supports expressions. Example: `%level% * 10` |
+| `apply_mending` | Boolean | — | `true` | — | PAPER ONLY - If mending should be applied from the xp \| Source: Whether to apply Mending repair before adding XP to the bar (Paper only). Defaults to true. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveXp.kt`).
+
+- **Source Description**: Gives the player experience points when triggered, with optional Mending repair support.
+- **Categories**: `economy`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

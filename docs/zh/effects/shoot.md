@@ -23,13 +23,22 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `inherit_velocity` | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) |
-| `no_source` | If the player should not be marked as the source, leaving this option out defaults to false |
-| `projectile` | The name of the projectile |
-| `launch-at-location` | If the projectile should be launched at the location of the trigger rather than the player |
-| `allow_pickup` | If the arrow should be able to be picked up by players |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `inherit_velocity` | Boolean | — | `false` | — | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) \| Source: Whether the projectile should inherit the player's current velocity. |
+| `no_source` | Boolean | — | `false` | — | If the player should not be marked as the source, leaving this option out defaults to false \| Source: Whether the projectile should have no shooter, preventing attribution to the player. |
+| `projectile` | Entity | ✅ | — | — | The name of the projectile \| Source: The entity type to launch as a projectile, e.g. ARROW or SNOWBALL. |
+| `launch-at-location` | Boolean | — | `false` | — | If the projectile should be launched at the location of the trigger rather than the player \| Source: Whether the projectile should be teleported to the trigger location after launch. |
+| `allow_pickup` | Boolean | — | `false` | — | If the arrow should be able to be picked up by players \| Source: Whether the projectile can be picked up by players (applies to arrows). |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShoot.kt`）。
+
+- **源码描述**: Launches a projectile of the specified entity type from the player.
+- **所属分类**: `combat`
+- **需要触发器数据**: `PLAYER`
+- **继承子配置**: 是（此效果继承子配置，详见对应子配置页）
 
 ## 配置示例
 

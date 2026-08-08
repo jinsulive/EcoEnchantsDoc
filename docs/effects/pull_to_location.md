@@ -23,9 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `velocity` | The speed at which to be pulled (magnitude of the velocity vector) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which to be pulled (magnitude of the velocity vector) \| Source: The strength of the pull force applied to the player. Supports expressions. Example: `1 + %level% * 0.1` |
+| `jump` | Expression(数学表达式) | — | `0` | — | An upward boost added to the pull vector. Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPullToLocation.kt`).
+
+- **Source Description**: Pulls the player toward the trigger location with a specified velocity.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`
 
 ## Configuration Example
 

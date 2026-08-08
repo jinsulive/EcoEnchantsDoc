@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The price multiplier |
-| `whitelist` | The only items allowed to be sold, if this is not present all items can be sold |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | — | `1.0` | — | The price multiplier \| Source: A multiplier applied to the sell price of each item. Supports expressions. Example: `1 + %level% * 0.05` |
+| `whitelist` | Item List | — | — | — | The only items allowed to be sold, if this is not present all items can be sold \| Source: A list of item types that are allowed to be sold. If omitted, all sellable items are sold. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSellItems.kt`).
+
+- **Source Description**: Sells sellable items from the drop trigger.
+- **Categories**: `economy`, `inventory`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

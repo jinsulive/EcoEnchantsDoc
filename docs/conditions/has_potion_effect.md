@@ -26,10 +26,18 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effect` | The potion effect |
-| `effects` | You can also specify a list of potion effects |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effect` | Potion Effect List | ✅ | — | — | The potion effect \| Source: The potion effect(s) to check for. Example: `speed, strength` |
+| `effects` | Potion Effect List | ✅ | — | — | You can also specify a list of potion effects \| Source: The potion effect(s) to check for. Example: `speed, strength` |
+| `level` | Integer | — | `1` | — | The minimum amplifier level required (1-based). |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasPotionEffect.kt`).
+
+- **Source Description**: Passes when the entity has the specified potion effect active.
+- **Categories**: `player`
 
 ## Configuration Example
 

@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `items` | The list of allowed items |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `items` | Custom | — | — | — | The list of allowed items |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionWearingHelmet.kt`）。
+
+- **源码描述**: Passes when the entity is wearing the specified helmet.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

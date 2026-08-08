@@ -20,6 +20,13 @@ outline: deep
 | Module | libreforge |
 | Category | Victim/Player |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorDispatcherAsVictim.kt`).
+
+- **Source Description**: Sets the victim to the current dispatcher.
+- **Categories**: `victim`, `meta`
+
 ## Configuration Example
 
 ```yaml

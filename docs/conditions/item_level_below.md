@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `id` | The level ID |
-| `level` | The maximum level |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `id` | String | ✅ | — | — | The level ID \| Source: The ID of the level type to check on the held item. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The maximum level \| Source: The maximum level the item must be below. Example: `5 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemLevelBelow.kt`).
+
+- **Source Description**: Passes when the held item's level for a given level type is below the specified value.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `block` | The block type |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `block` | Block | ✅ | — | — | The block type \| Source: The block type (material name) the player must be standing on. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionStandingOnBlock.kt`).
+
+- **Source Description**: Passes when the player is standing on or inside the specified block type.
+- **Categories**: `world`
 
 ## Configuration Example
 

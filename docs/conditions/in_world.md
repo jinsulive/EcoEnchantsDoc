@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `world` | The world name |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `world` | String | ✅ | — | — | The world name \| Source: The name of the world to check against. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInWorld.kt`).
+
+- **Source Description**: Passes when the dispatcher is located in the specified world.
+- **Categories**: `world`
 
 ## Configuration Example
 

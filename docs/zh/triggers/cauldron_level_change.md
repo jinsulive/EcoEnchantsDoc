@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The new cauldron level |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerCauldronLevelChange.kt`）。
+
+- **源码描述**: Fires when the player changes the water level of a cauldron.
+- **所属分类**: `interaction`
+- **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `VALUE`
+- **值**: The new water level of the cauldron after the change.
+
 ## 配置示例
 
 ```yaml

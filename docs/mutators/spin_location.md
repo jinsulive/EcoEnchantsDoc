@@ -22,10 +22,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `angle` | The angle to spin around, in degrees |
-| `distance` | The distance from the current location, in the direction the location is facing |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to spin around, in degrees \| Source: The angle in degrees to rotate around the Y axis. Example: `%level% * 10` |
+| `distance` | Expression(数学表达式) | ✅ | — | — | The distance from the current location, in the direction the location is facing \| Source: The distance from the current location to offset in the rotated direction. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorSpinLocation.kt`).
+
+- **Source Description**: Offsets the location by a distance in a direction rotated from the current facing direction.
+- **Categories**: `location`
 
 ## Configuration Example
 

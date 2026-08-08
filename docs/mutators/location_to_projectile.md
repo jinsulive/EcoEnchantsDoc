@@ -20,6 +20,13 @@ outline: deep
 | Module | libreforge |
 | Category | Rotation |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToProjectile.kt`).
+
+- **Source Description**: Sets the location to the projectile's current position.
+- **Categories**: `location`, `entity`
+
 ## Configuration Example
 
 ```yaml

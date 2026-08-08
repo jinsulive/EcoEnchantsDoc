@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `damage` | The damage to deal |
-| `silent` | If the lightning should be silent |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal \| Source: The amount of damage the lightning strike deals to the victim. Supports expressions. Example: `%level% * 2` |
+| `silent` | Custom | — | — | — | If the lightning should be silent |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSmite.kt`).
+
+- **Source Description**: Strikes the victim with lightning, dealing a configurable amount of damage.
+- **Categories**: `combat`, `world`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

@@ -23,14 +23,21 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `webhook_url` | The webhook URL to send to |
-| `text` | The message content |
-| `username` | (Optional) Override the webhook username |
-| `avatar_url` | (Optional) Override the webhook avatar |
-| `tts` | (Optional) Send as text-to-speech |
-| `embeds` | (Optional) List of embeds to include |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `webhook_url` | String | ✅ | — | — | The webhook URL to send to \| Source: The Discord webhook URL to send the message to. Example: `https:         )         require(             ` |
+| `text` | Custom | — | — | — | The message content |
+| `username` | Custom | — | — | — | (Optional) Override the webhook username |
+| `avatar_url` | Custom | — | — | — | (Optional) Override the webhook avatar |
+| `tts` | Boolean | — | `false` | — | (Optional) Send as text-to-speech \| Source: Whether to send the message as text-to-speech. |
+| `embeds` | Any/Custom | — | — | — | (Optional) List of embeds to include \| Source: A list of embed objects to include in the webhook message. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSendDiscordWebhook.kt`）。
+
+- **源码描述**: Sends a message to a Discord channel via a webhook URL.
+- **所属分类**: `chat`
 
 ## 配置示例
 

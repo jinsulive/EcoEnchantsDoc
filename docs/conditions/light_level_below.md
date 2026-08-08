@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `level` | The level |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `level` | Integer | ✅ | — | — | The level \| Source: The maximum light level (0–15) allowed at the location. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionLightLevelBelow.kt`).
+
+- **Source Description**: Passes when the light level at the dispatcher's location is at or below the specified value.
+- **Categories**: `world`
 
 ## Configuration Example
 

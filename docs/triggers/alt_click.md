@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerAltClick.kt`).
+
+- **Source Description**: Fires when the player right-clicks with an item in hand, or left-clicks with a bow, rod, or trident.
+- **Categories**: `interaction`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`
+
 ## Configuration Example
 
 ```yaml

@@ -26,11 +26,18 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `entities` | The list of entities |
-| `radius` | The radius |
-| `amount` | (Optional) The minimum amount of listed entities |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `entities` | Entity List | ✅ | — | — | The list of entities \| Source: The list of entity types to look for nearby. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius \| Source: The radius in blocks to search for nearby entities. Example: `5 + %level% * 0.5` |
+| `amount` | Integer | — | `1` | — | (Optional) The minimum amount of listed entities \| Source: The minimum number of matching entities required (defaults to 1). |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionNearEntity.kt`).
+
+- **Source Description**: Passes when the specified number of matching entities are within the given radius.
+- **Categories**: `entity`
 
 ## Configuration Example
 

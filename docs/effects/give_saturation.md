@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of saturation to give/take (allows negative values) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of saturation to give/take (allows negative values) \| Source: The amount of saturation points to add. Supports expressions. Example: `%level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveSaturation.kt`).
+
+- **Source Description**: Restores a set amount of saturation to the player, capped at 20.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

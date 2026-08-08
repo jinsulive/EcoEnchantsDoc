@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `damage` | The amount of damage to deal |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `damage` | Custom | — | — | — | The amount of damage to deal |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageOffhand.kt`）。
+
+- **源码描述**: Applies durability damage to the item in the victim's off hand.
+- **所属分类**: `combat`, `inventory`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

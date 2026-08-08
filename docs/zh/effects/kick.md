@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `message` | The message to send |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `message` | String | ✅ | — | — | The message to send \| Source: The kick screen message shown to the player. Example: `&cYou have been kicked, %player%.` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKick.kt`）。
+
+- **源码描述**: Kicks the player from the server with a specified message.
+- **所属分类**: `player`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `drop_xp` | If the furnace xp should be dropped |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `drop_xp` | Boolean | ✅ | — | — | If the furnace xp should be dropped \| Source: Whether to drop smelting XP alongside the smelted item. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAutosmelt.kt`).
+
+- **Source Description**: Automatically smelts blocks as they are mined, converting drops to their furnace output.
+- **Categories**: `world`, `inventory`
 
 ## Configuration Example
 

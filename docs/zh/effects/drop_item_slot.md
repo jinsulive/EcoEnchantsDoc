@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `slot` | The slot to drop, can be any numeric slot, hand, or 'any' |
-| `amount` | The amount of items to drop, defaults to full stack |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `slot` | String | ✅ | — | — | The slot to drop, can be any numeric slot, hand, or 'any' \| Source: The inventory slot to drop items from, e.g. mainhand or slot_0. Example: `mainhand` |
+| `amount` | Expression(数学表达式) | — | — | — | The amount of items to drop, defaults to full stack \| Source: How many items to drop. If omitted, drops the entire stack. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropItemSlot.kt`）。
+
+- **源码描述**: Drops items from a specific inventory slot.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

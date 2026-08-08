@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `id` | The ID of the boss bar to remove |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `id` | String | ✅ | — | — | The ID of the boss bar to remove \| Source: The unique ID of the boss bar to remove. Supports placeholders. Example: `boss_%player_name%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveBossBar.kt`）。
+
+- **源码描述**: Removes a currently displayed boss bar by its ID.
+- **所属分类**: `visual`
 
 ## 配置示例
 

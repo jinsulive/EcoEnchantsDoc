@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The damage dealt |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerHeadshot.kt`）。
+
+- **源码描述**: Fires when the player hits an entity in the head with a projectile.
+- **所属分类**: `combat`
+- **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `PROJECTILE`, `VELOCITY`, `VALUE`
+- **值**: The damage dealt.
+
 ## 配置示例
 
 ```yaml

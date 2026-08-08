@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The amount of items crafted |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerCraft.kt`).
+
+- **Source Description**: Fires when the player crafts an item.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The number of items crafted.
+
 ## Configuration Example
 
 ```yaml

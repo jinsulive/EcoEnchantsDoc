@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `permission` | The required permission |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `permission` | String | ✅ | — | — | The required permission \| Source: The permission node to check. Example: `myplugin.vip.access` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasPermission.kt`).
+
+- **Source Description**: Passes when the player has the specified permission node.
+- **Categories**: `permission`
 
 ## Configuration Example
 

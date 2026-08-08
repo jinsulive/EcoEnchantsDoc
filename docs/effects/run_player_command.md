@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `command` | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) |
-| `as_op` | If the command should be ran as op |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `command` | String List | ✅ | — | — | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) \| Source: The command or list of commands to run as the player. Use %player% and %victim% as placeholders. Example: `me does a flip!, kill %victim%` |
+| `as_op` | Boolean | — | `false` | — | If the command should be ran as op \| Source: Whether to temporarily grant the player operator permissions while running the commands. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRunPlayerCommand.kt`).
+
+- **Source Description**: Runs one or more commands as the player when triggered.
+- **Categories**: `chat`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

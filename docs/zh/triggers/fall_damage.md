@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The damage taken |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerFallDamage.kt`）。
+
+- **源码描述**: Fires when an entity takes fall damage.
+- **所属分类**: `combat`, `movement`
+- **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `VALUE`
+- **值**: The fall damage taken.
+
 ## 配置示例
 
 ```yaml

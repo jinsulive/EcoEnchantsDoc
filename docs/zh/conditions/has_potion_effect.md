@@ -26,10 +26,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effect` | The potion effect |
-| `effects` | You can also specify a list of potion effects |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effect` | Potion Effect List | ✅ | — | — | The potion effect \| Source: The potion effect(s) to check for. Example: `speed, strength` |
+| `effects` | Potion Effect List | ✅ | — | — | You can also specify a list of potion effects \| Source: The potion effect(s) to check for. Example: `speed, strength` |
+| `level` | Integer | — | `1` | — | The minimum amplifier level required (1-based). |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasPotionEffect.kt`）。
+
+- **源码描述**: Passes when the entity has the specified potion effect active.
+- **所属分类**: `player`
 
 ## 配置示例
 

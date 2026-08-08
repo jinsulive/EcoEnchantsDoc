@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `advancement` | The advancement ID |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `advancement` | String | ✅ | — | — | The advancement ID \| Source: The namespaced key of the advancement (e.g. minecraft:story/mine_stone). Example: `minecraft:story/mine_stone` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasCompletedAdvancement.kt`).
+
+- **Source Description**: Passes when the player has completed the specified advancement.
+- **Categories**: `player`
 
 ## Configuration Example
 

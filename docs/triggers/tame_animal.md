@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerTameAnimal.kt`).
+
+- **Source Description**: Fires when the player tames an animal.
+- **Categories**: `interaction`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `ITEM`
+
 ## Configuration Example
 
 ```yaml

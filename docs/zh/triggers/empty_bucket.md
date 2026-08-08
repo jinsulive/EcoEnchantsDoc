@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | 1 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEmptyBucket.kt`）。
+
+- **源码描述**: Fires when the player empties a bucket.
+- **所属分类**: `interaction`
+- **需要触发器数据**: `PLAYER`, `EVENT`
+
 ## 配置示例
 
 ```yaml

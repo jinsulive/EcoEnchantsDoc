@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `item` | The item to give |
-| `items` | You can also specify a list of items |
-| `slot` | The slot to give in, can be any numeric slot, hand, or 'any' |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `item` | Item List | ✅ | — | — | The item to give \| Source: The item or list of items to give to the player. |
+| `items` | Item List | ✅ | — | — | You can also specify a list of items \| Source: The item or list of items to give to the player. |
+| `slot` | String | — | — | — | The slot to give in, can be any numeric slot, hand, or 'any' \| Source: The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. Example: `mainhand` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveItem.kt`).
+
+- **Source Description**: Gives the player one or more items, optionally placing them into a specific inventory slot.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

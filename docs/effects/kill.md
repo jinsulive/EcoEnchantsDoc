@@ -21,6 +21,14 @@ outline: deep
 | Category | Combat |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKill.kt`).
+
+- **Source Description**: Instantly kills the victim entity.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `VICTIM`
+
 ## Configuration Example
 
 ```yaml

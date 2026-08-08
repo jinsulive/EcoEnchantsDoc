@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `name` | The name to set |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `name` | String | ✅ | — | — | The name to set \| Source: The custom name to display above the entity. Supports placeholders. Example: `%player_name%'s Wolf` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectNameEntity.kt`）。
+
+- **源码描述**: Sets the custom name of the victim entity and makes it always visible.
+- **所属分类**: `entity`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

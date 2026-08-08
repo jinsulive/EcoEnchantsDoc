@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `only_fully_grown` | Whether to only harvest fully grown crops |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `only_fully_grown` | Boolean | ✅ | — | — | Whether to only harvest fully grown crops \| Source: Whether the crop must be fully grown before it is harvested. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectHarvestCrop.kt`）。
+
+- **源码描述**: Harvests the triggered crop block and resets its growth to zero.
+- **所属分类**: `world`
+- **需要触发器数据**: `BLOCK`
 
 ## 配置示例
 

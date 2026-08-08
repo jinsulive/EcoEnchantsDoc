@@ -23,9 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `item` | The item to give |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `item` | Item | ✅ | — | — | The item to give \| Source: The item to drop. Accepts eco item lookup strings. |
+| `add_to_drops` | Boolean | — | `false` | — | If true and the trigger has a drop event, adds the item to that event's drop list instead of spawning it directly. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropItem.kt`).
+
+- **Source Description**: Drops an item at the trigger location.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

@@ -23,13 +23,21 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `power` | The power of the explosion |
-| `amount` | The amount of explosions |
-| `create_fire` | If the explosion should create fire |
-| `break_blocks` | If the explosion should break blocks |
-| `player_as_damager` | If the player should be the source of the explosion |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `power` | Expression(数学表达式) | ✅ | — | — | The power of the explosion \| Source: The explosion power. Vanilla TNT is 4. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of explosions \| Source: The number of explosions to create (one per tick). Supports expressions. |
+| `create_fire` | Boolean | — | `true` | — | If the explosion should create fire \| Source: Whether the explosion creates fire. |
+| `break_blocks` | Boolean | — | `true` | — | If the explosion should break blocks \| Source: Whether the explosion breaks blocks. |
+| `player_as_damager` | Boolean | — | `false` | — | If the player should be the source of the explosion \| Source: If true, the player is attributed as the source of explosion damage. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCreateExplosion.kt`).
+
+- **Source Description**: Creates one or more explosions at the trigger location.
+- **Categories**: `world`, `combat`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

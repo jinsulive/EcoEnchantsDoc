@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The xp cost |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEnchantItem.kt`）。
+
+- **源码描述**: Fires when the player enchants an item at an enchanting table.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **值**: The XP level cost of the enchantment.
+
 ## 配置示例
 
 ```yaml

@@ -23,14 +23,22 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effects` | The effects to run for each block |
-| `shape` | The shape of the AOE area |
-| `radius` | The radius of the cone |
-| `distance` | The length of the beam |
-| `pierce_blocks` | If the beam should pass through blocks |
-| `pierce_entities` | If the beam should pass through entities |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effects` | Effect List | ✅ | — | — | The effects to run for each block \| Source: The effects to run on each block within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area \| Source: The AOE shape to use. |
+| `radius` | Custom | — | — | — | The radius of the cone |
+| `distance` | Custom | — | — | — | The length of the beam |
+| `pierce_blocks` | Custom | — | — | — | If the beam should pass through blocks |
+| `pierce_entities` | Custom | — | — | — | If the beam should pass through entities |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAOEBlocks.kt`）。
+
+- **源码描述**: Runs a set of effects on all non-air blocks within an AOE shape.
+- **所属分类**: `meta`
+- **继承子配置**: 是（此效果继承子配置，详见对应子配置页）
 
 ## 配置示例
 

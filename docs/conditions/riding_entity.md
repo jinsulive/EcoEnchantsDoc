@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `entities` | A list of entities |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `entities` | Entity List | ✅ | — | — | A list of entities \| Source: The list of entity types the player must be riding. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionRidingEntity.kt`).
+
+- **Source Description**: Passes when the entity is riding one of the specified entity types.
+- **Categories**: `entity`
 
 ## Configuration Example
 

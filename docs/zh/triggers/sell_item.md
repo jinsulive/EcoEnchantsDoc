@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The price |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerSellItem.kt`）。
+
+- **源码描述**: Fires when the player sells an item to a shop.
+- **所属分类**: `economy`
+- **需要触发器数据**: `PLAYER`, `ITEM`, `VALUE`
+- **值**: The total sell value of the items.
+
 ## 配置示例
 
 ```yaml

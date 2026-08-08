@@ -23,12 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effect` | The effect to give |
-| `level` | The effect level to give |
-| `particles` | (Optional) If the effect should show particles |
-| `icon` | (Optional) If the effect should show the icon in the top corner |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effect` | Any/Custom | ✅ | — | — | The effect to give |
+| `level` | Custom | — | — | — | The effect level to give |
+| `particles` | Custom | — | — | — | (Optional) If the effect should show particles |
+| `icon` | Custom | — | — | — | (Optional) If the effect should show the icon in the top corner |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPermanentPotionEffect.kt`).
+
+- **Source Description**: Permanently applies a potion effect to the player for as long as the holder is active, surviving respawns.
+- **Categories**: `potion`, `player`
 
 ## Configuration Example
 

@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to run for each player |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to run for each player \| Source: The effects to run on every online player. |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor to use. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAllPlayers.kt`).
+
+- **Source Description**: Runs a set of effects on every online player.
+- **Categories**: `meta`
 
 ## Configuration Example
 

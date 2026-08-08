@@ -23,11 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `value` | True = apply unbreakable, False = remove unbreakable |
-| `slot` | The slot to apply unbreakable (defaults to "holder") |
-| `persist_on_disable` | If the unbreakable tag should persist when unequipped or effect deactivated |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `value` | Boolean | — | `true` | — | True = apply unbreakable, False = remove unbreakable \| Source: Whether to make the item unbreakable (true) or breakable (false). |
+| `slot` | String | — | `holder` | — | The slot to apply unbreakable (defaults to "holder") \| Source: The equipment slot to target: holder, mainhand, offhand, helmet, chestplate, leggings, or boots. Example: `mainhand` |
+| `persist_on_disable` | Boolean | — | `true` | — | If the unbreakable tag should persist when unequipped or effect deactivated \| Source: Whether the unbreakable state should remain when the effect is removed. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetUnbreakable.kt`）。
+
+- **源码描述**: Makes an item in a specific slot unbreakable while the effect is active.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

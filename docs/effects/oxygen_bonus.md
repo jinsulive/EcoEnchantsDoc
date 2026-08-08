@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of oxygen bonus to add |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of oxygen bonus to add \| Source: The flat amount of oxygen bonus to add. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectOxygenBonus.kt`).
+
+- **Source Description**: Permanently adds bonus oxygen (air bubbles) to the player while the holder is active.
+- **Categories**: `player`, `attribute`
 
 ## Configuration Example
 

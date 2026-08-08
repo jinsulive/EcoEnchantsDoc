@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `world` | The world name |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `world` | String | ✅ | — | — | The world name \| Source: The name of the world to check against. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInWorld.kt`）。
+
+- **源码描述**: Passes when the dispatcher is located in the specified world.
+- **所属分类**: `world`
 
 ## 配置示例
 

@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `enchant` | The ID of the enchant |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to remove from the item. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveEnchant.kt`).
+
+- **Source Description**: Removes a specific enchantment from the triggering item.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `ITEM`
 
 ## Configuration Example
 

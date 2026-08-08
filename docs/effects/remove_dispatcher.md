@@ -21,6 +21,13 @@ outline: deep
 | Category | Utility |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveDispatcher.kt`).
+
+- **Source Description**: Removes (despawns) the dispatcher entity. Has no effect if the dispatcher is a player.
+- **Categories**: `combat`, `entity`
+
 ## Configuration Example
 
 ```yaml

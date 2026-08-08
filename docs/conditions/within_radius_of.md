@@ -26,12 +26,19 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `x` | The x coordinate |
-| `y` | The y coordinate |
-| `z` | The z coordinate |
-| `radius` | The radius |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `x` | Expression(数学表达式) | ✅ | — | — | The x coordinate \| Source: The X coordinate of the target location. |
+| `y` | Expression(数学表达式) | ✅ | — | — | The y coordinate \| Source: The Y coordinate of the target location. |
+| `z` | Expression(数学表达式) | ✅ | — | — | The z coordinate \| Source: The Z coordinate of the target location. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius \| Source: The maximum distance from the target location. Example: `15 + %level% * 0.5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionWithinRadiusOf.kt`).
+
+- **Source Description**: Passes when the entity is within the specified radius of a given coordinate.
+- **Categories**: `world`
 
 ## Configuration Example
 

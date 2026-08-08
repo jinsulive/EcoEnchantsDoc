@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `slot` | The slot |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `slot` | String List | ✅ | — | — | The slot \| Source: The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. Example: `mainhand, 9` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInSlot.kt`）。
+
+- **源码描述**: Passes when the active item holder is in one of the specified equipment slots.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

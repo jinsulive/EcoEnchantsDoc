@@ -21,6 +21,13 @@ outline: deep
 | 分类 | 工具（Utility） |
 | 效果类型 | 触发型 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveDispatcher.kt`）。
+
+- **源码描述**: Removes (despawns) the dispatcher entity. Has no effect if the dispatcher is a player.
+- **所属分类**: `combat`, `entity`
+
 ## 配置示例
 
 ```yaml

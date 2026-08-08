@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `radius` | The radius in blocks to affect entities |
-| `damage` | The damage dealt to each nearby entity |
-| `heal_multiplier` | (Optional) Multiplier applied to total healing, defaults to 1.0 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to affect entities \| Source: The radius around the player to search for targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each nearby entity \| Source: The amount of damage dealt to each nearby entity. Supports expressions. Example: `%level% * 2` |
+| `heal_multiplier` | Expression(数学表达式) | — | `1.0` | — | (Optional) Multiplier applied to total healing, defaults to 1.0 \| Source: A multiplier applied to the total damage dealt before it is converted to healing. Example: `0.5 + %level% * 0.02` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSoulRip.kt`）。
+
+- **源码描述**: Damages nearby enemies within a radius and heals the player based on the damage dealt.
+- **所属分类**: `combat`, `player`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

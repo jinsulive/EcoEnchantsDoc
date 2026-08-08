@@ -26,10 +26,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `type` | The type of point |
-| `amount` | The minimum amount of points |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `type` | String | ✅ | — | — | The type of point \| Source: The points type identifier. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The minimum amount of points \| Source: The minimum number of points required. Example: `%level% * 10` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAbovePoints.kt`）。
+
+- **源码描述**: Passes when the player's points of the given type are at or above the minimum.
+- **所属分类**: `economy`
 
 ## 配置示例
 

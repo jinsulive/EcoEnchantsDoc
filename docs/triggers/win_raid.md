@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The level of bad omen |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerWinRaid.kt`).
+
+- **Source Description**: Fires when the player wins a raid.
+- **Categories**: `combat`, `world`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`, `VALUE`
+- **Value**: The bad omen level of the raid, plus one.
+
 ## Configuration Example
 
 ```yaml

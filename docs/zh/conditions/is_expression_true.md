@@ -24,6 +24,19 @@ outline: deep
 每个条件都支持可选的 `inverse` 参数，用于取反条件。
 :::
 
+## 参数说明
+
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `expression` | Expression(数学表达式) | ✅ | — | — | A mathematical expression or placeholder that must evaluate to 1 for the condition to pass. Example: `%player_level% >= 10` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsExpressionTrue.kt`）。
+
+- **源码描述**: Passes when the given mathematical expression evaluates to 1.
+- **所属分类**: `meta`
+
 ## 配置示例
 
 ```yaml

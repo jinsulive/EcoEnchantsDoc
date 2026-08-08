@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `enchant` | The ID of the enchant |
-| `level` | The level of the enchant |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to add, e.g. sharpness. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The level of the enchant \| Source: The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddEnchant.kt`).
+
+- **Source Description**: Adds an enchantment to the triggering item.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `ITEM`
 
 ## Configuration Example
 

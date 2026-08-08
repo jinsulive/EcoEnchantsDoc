@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for movement speed |
-| `duration` | The duration (in ticks) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for movement speed \| Source: The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVictimSpeedMultiplier.kt`).
+
+- **Source Description**: Temporarily multiplies the victim's movement speed for a given duration.
+- **Categories**: `movement`, `combat`, `attribute`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

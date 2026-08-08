@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `points` | The amount of armor toughness points to give |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `points` | Expression(数学表达式) | ✅ | — | — | The amount of armor toughness points to give \| Source: The number of armor toughness points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.25` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectArmorToughness.kt`).
+
+- **Source Description**: Permanently increases or decreases the player's armor toughness attribute while the holder is active.
+- **Categories**: `combat`, `player`, `attribute`
 
 ## Configuration Example
 

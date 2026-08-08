@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The type of point |
-| `amount` | The amount of points |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The type of point \| Source: The points type identifier to check. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points \| Source: The exact points amount the player must have. Example: `%level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPointsEqual.kt`).
+
+- **Source Description**: Passes when the player's points of the specified type exactly equal the given amount.
+- **Categories**: `economy`
 
 ## Configuration Example
 

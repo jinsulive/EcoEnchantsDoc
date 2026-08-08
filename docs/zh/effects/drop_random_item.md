@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `items` | The list of items to choose from |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `items` | Item List | ✅ | — | — | The list of items to choose from \| Source: The pool of items to choose from. One is picked at random per trigger. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropRandomItem.kt`）。
+
+- **源码描述**: Drops one randomly chosen item from a list at the trigger location.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

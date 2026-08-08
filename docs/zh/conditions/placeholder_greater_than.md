@@ -26,10 +26,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `placeholder` | The placeholder, including % |
-| `value` | The value it must be >= to |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and evaluate as a number. Example: `%player_level%` |
+| `value` | Expression(数学表达式) | ✅ | — | — | The value it must be >= to \| Source: The minimum numeric threshold the placeholder must meet or exceed. Example: `5 + %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPlaceholderGreaterThan.kt`）。
+
+- **源码描述**: Passes when the resolved placeholder value is numerically greater than or equal to the specified value.
+- **所属分类**: `meta`
 
 ## 配置示例
 

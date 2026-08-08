@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The amount of items dropped |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBlockItemDrop.kt`）。
+
+- **源码描述**: Fires when a block broken by the player drops its items.
+- **所属分类**: `world`
+- **需要触发器数据**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **值**: The total number of items dropped.
+
 ## 配置示例
 
 ```yaml

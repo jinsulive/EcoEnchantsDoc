@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `value` | The value of the price |
-| `type` | The price type |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `value` | Expression(数学表达式) | ✅ | — | — | The value of the price \| Source: The amount or expression for the price value. Example: `%level% * 100` |
+| `type` | String | ✅ | — | — | The price type \| Source: The price type identifier (e.g. coins, xpl). Example: `coins` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionCanAffordPrice.kt`).
+
+- **Source Description**: Passes when the player can afford the specified price.
+- **Categories**: `economy`
 
 ## Configuration Example
 

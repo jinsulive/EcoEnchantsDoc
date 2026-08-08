@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | The multiplier for villager trade costs |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Custom | — | — | — | The multiplier for villager trade costs |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVillagerTradeMultiplier.kt`）。
+
+- **源码描述**: Multiplies the ingredient costs of villager trades when the player opens a merchant.
+- **所属分类**: `economy`
 
 ## 配置示例
 

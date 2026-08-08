@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerChangeWorld.kt`).
+
+- **Source Description**: Fires when the player moves to a different world.
+- **Categories**: `movement`, `world`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `VELOCITY`, `ITEM`, `TEXT`
+
 ## Configuration Example
 
 ```yaml

@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `block` | The block to set to |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `block` | Block | ✅ | — | — | The block to set to \| Source: The block type to place at the trigger location. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetBlock.kt`）。
+
+- **源码描述**: Sets the block at the trigger location to a specified block type.
+- **所属分类**: `world`
+- **需要触发器数据**: `BLOCK`
 
 ## 配置示例
 

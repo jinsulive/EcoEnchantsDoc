@@ -23,13 +23,22 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `inherit_velocity` | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) |
-| `no_source` | If the player should not be marked as the source, leaving this option out defaults to false |
-| `projectile` | The name of the projectile |
-| `launch-at-location` | If the projectile should be launched at the location of the trigger rather than the player |
-| `allow_pickup` | If the arrow should be able to be picked up by players |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `inherit_velocity` | Boolean | — | `false` | — | If velocity should be inherited from the trigger (ie if you want to make a tripleshot effect) \| Source: Whether the projectile should inherit the player's current velocity. |
+| `no_source` | Boolean | — | `false` | — | If the player should not be marked as the source, leaving this option out defaults to false \| Source: Whether the projectile should have no shooter, preventing attribution to the player. |
+| `projectile` | Entity | ✅ | — | — | The name of the projectile \| Source: The entity type to launch as a projectile, e.g. ARROW or SNOWBALL. |
+| `launch-at-location` | Boolean | — | `false` | — | If the projectile should be launched at the location of the trigger rather than the player \| Source: Whether the projectile should be teleported to the trigger location after launch. |
+| `allow_pickup` | Boolean | — | `false` | — | If the arrow should be able to be picked up by players \| Source: Whether the projectile can be picked up by players (applies to arrows). |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShoot.kt`).
+
+- **Source Description**: Launches a projectile of the specified entity type from the player.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PLAYER`
+- **Inherits Config**: Yes — this effect inherits its sub-configuration; see the corresponding sub-config page.
 
 ## Configuration Example
 

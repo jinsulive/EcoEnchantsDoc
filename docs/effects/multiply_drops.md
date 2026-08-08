@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `on_items` | (Optional) The drops to multiply |
-| `fortune` | The level of fortune to mimic (Option 1) |
-| `multiplier` | The drop multiplier (Option 2) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `on_items` | Item List | — | `[]` | — | (Optional) The drops to multiply \| Source: A list of items to restrict drop multiplication to. Defaults to all drops. |
+| `fortune` | Expression(数学表达式) | ✅ | — | — | The level of fortune to mimic (Option 1) \| Source: Either a flat drop multiplier or a fortune level to simulate. Supports expressions. Example: `1 + %level% * 0.1` |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The drop multiplier (Option 2) \| Source: Either a flat drop multiplier or a fortune level to simulate. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyDrops.kt`).
+
+- **Source Description**: Multiplies the item drops from an event, either by a flat multiplier or by simulating a fortune level.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `EVENT`
 
 ## Configuration Example
 

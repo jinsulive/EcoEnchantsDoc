@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for jump strength |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for jump strength \| Source: The jump strength multiplier to apply. Supports expressions. Example: `1 + %level% * 0.05` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectJumpStrengthMultiplier.kt`).
+
+- **Source Description**: Multiplies the player's jump strength, making them jump higher or lower.
+- **Categories**: `movement`, `player`, `attribute`
 
 ## Configuration Example
 

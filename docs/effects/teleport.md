@@ -21,6 +21,14 @@ outline: deep
 | Category | Movement |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTeleport.kt`).
+
+- **Source Description**: Teleports the player to the trigger location, preserving their look direction.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`
+
 ## Configuration Example
 
 ```yaml

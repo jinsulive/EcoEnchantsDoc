@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `damage` | The durability to repair |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `damage` | Expression(数学表达式) | ✅ | — | — | The durability to repair \| Source: The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRepairItem.kt`）。
+
+- **源码描述**: Repairs the triggering item by a specified amount of durability.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

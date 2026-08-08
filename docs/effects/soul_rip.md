@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `radius` | The radius in blocks to affect entities |
-| `damage` | The damage dealt to each nearby entity |
-| `heal_multiplier` | (Optional) Multiplier applied to total healing, defaults to 1.0 |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to affect entities \| Source: The radius around the player to search for targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each nearby entity \| Source: The amount of damage dealt to each nearby entity. Supports expressions. Example: `%level% * 2` |
+| `heal_multiplier` | Expression(数学表达式) | — | `1.0` | — | (Optional) Multiplier applied to total healing, defaults to 1.0 \| Source: A multiplier applied to the total damage dealt before it is converted to healing. Example: `0.5 + %level% * 0.02` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSoulRip.kt`).
+
+- **Source Description**: Damages nearby enemies within a radius and heals the player based on the damage dealt.
+- **Categories**: `combat`, `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

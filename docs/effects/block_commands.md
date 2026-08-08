@@ -23,10 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `messages` | The messages to send if a player tries to run the commands |
-| `commands` | The list of commands to block |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `messages` | String List | — | — | — | The messages to send if a player tries to run the commands \| Source: Messages to send to the player when a blocked command is attempted. Example: `&cYou can't use that command right now!, &7Complete your quest first.` |
+| `commands` | String List | ✅ | — | — | The list of commands to block \| Source: The list of command names to block (without the leading slash). |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBlockCommands.kt`).
+
+- **Source Description**: Prevents the player from using specific commands while the holder is active.
+- **Categories**: `player`, `chat`
 
 ## Configuration Example
 

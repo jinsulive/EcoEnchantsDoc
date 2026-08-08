@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | The multiplier for the durability |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for the durability \| Source: The durability multiplier to apply (e.g. 2 means the item lasts twice as long). Supports expressions. Example: `1 + %level% * 0.05` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectItemDurabilityMultiplier.kt`）。
+
+- **源码描述**: Multiplies the durability loss of the held item, effectively making it more or less durable.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `EVENT`
 
 ## 配置示例
 

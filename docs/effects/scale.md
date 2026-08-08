@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for scale |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for scale \| Source: The scale multiplier to apply to the entity's size. Supports expressions. Example: `1 + %level% * 0.05` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectScale.kt`).
+
+- **Source Description**: Scales the entity's size by a given multiplier.
+- **Categories**: `entity`, `attribute`
 
 ## Configuration Example
 

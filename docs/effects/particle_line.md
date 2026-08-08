@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `particle` | The particle to spawn (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) |
-| `amount` | The amount of particles to spawn on each point |
-| `spacing` | The spacing between each particle in the line |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `particle` | String | ✅ | — | — | The particle to spawn (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) \| Source: The particle type to spawn along the line. Example: `flame` |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of particles to spawn on each point \| Source: The number of particles to spawn at each point along the line. Supports expressions. |
+| `spacing` | Expression(数学表达式) | ✅ | — | — | The spacing between each particle in the line \| Source: The distance between each particle point along the line. Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectParticleLine.kt`).
+
+- **Source Description**: Spawns a line of particles between the player's eye and the trigger location.
+- **Categories**: `visual`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`
 
 ## Configuration Example
 

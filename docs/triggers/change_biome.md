@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerChangeBiome.kt`).
+
+- **Source Description**: Fires when the player moves into a different biome.
+- **Categories**: `world`, `movement`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`, `TEXT`
+
 ## Configuration Example
 
 ```yaml

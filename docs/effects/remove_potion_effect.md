@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effect` | The effect to remove (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
-| `apply_to_player` | True to remove the effect from the player, false to remove it from the victim |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effect` | Any/Custom | ✅ | — | — | The effect to remove (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
+| `apply_to_player` | Custom | — | — | — | True to remove the effect from the player, false to remove it from the victim |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemovePotionEffect.kt`).
+
+- **Source Description**: Removes a specified potion effect from the player or victim.
+- **Categories**: `potion`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

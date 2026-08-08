@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `level` | The level |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `level` | Integer | ✅ | — | — | The level \| Source: The maximum light level (0–15) allowed at the location. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionLightLevelBelow.kt`）。
+
+- **源码描述**: Passes when the light level at the dispatcher's location is at or below the specified value.
+- **所属分类**: `world`
 
 ## 配置示例
 

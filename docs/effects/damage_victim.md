@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `damage` | The damage to deal |
-| `use-source` | If the player should be marked as the damager, will trigger melee_damage and run listeners (set to false if you don't know what this means) |
-| `true-damage` | If the damage should ignore armor, defense, etc |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal \| Source: The amount of damage to deal. Supports expressions. Example: `%level% * 2` |
+| `use-source` | Boolean | — | `false` | — | If the player should be marked as the damager, will trigger melee_damage and run listeners (set to false if you don't know what this means) \| Source: If true, the player is attributed as the damage source. |
+| `true-damage` | Boolean | — | `false` | — | If the damage should ignore armor, defense, etc \| Source: If true, damage bypasses armor and resistance effects. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageVictim.kt`).
+
+- **Source Description**: Deals damage to the victim.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

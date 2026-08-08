@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The damage taken |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerFallDamage.kt`).
+
+- **Source Description**: Fires when an entity takes fall damage.
+- **Categories**: `combat`, `movement`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `VALUE`
+- **Value**: The fall damage taken.
+
 ## Configuration Example
 
 ```yaml

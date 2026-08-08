@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `particle` | The particle to spawn (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) |
-| `amount` | The amount of particles to spawn |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `particle` | Any/Custom | ✅ | — | — | The particle to spawn (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html) \| Source: The particle to spawn, as an eco particle string. Example: `flame` |
+| `amount` | Expression(数学表达式) | — | `1` | — | The amount of particles to spawn \| Source: The number of particles to spawn. Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnParticle.kt`).
+
+- **Source Description**: Spawns particles at the trigger location.
+- **Categories**: `visual`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

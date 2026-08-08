@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | The sell multiplier |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Custom | — | — | — | The sell multiplier |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSellMultiplier.kt`）。
+
+- **源码描述**: Multiplies the sell price of items when the player sells through a shop.
+- **所属分类**: `economy`
 
 ## 配置示例
 

@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `level` | The piercing level, i.e. the amount of entities that the projectile should go through |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `level` | Expression(数学表达式) | ✅ | — | — | The piercing level, i.e. the amount of entities that the projectile should go through \| Source: The number of extra piercing levels to add to the arrow. Supports expressions. Example: `1 + %level% / 20` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPiercing.kt`).
+
+- **Source Description**: Adds extra piercing levels to an arrow projectile, allowing it to pass through additional entities.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PROJECTILE`
 
 ## Configuration Example
 

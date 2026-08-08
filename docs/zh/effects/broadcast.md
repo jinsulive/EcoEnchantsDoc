@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `message` | The message to send |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `message` | String List | ✅ | — | — | The message to send \| Source: The message(s) to broadcast to all players. Example: `&aWelcome to the server, %player%!` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBroadcast.kt`）。
+
+- **源码描述**: Broadcasts one or more messages to all online players.
+- **所属分类**: `chat`
 
 ## 配置示例
 

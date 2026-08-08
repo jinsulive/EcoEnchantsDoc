@@ -22,9 +22,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `angle` | The angle to spin around, in degrees |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to spin around, in degrees \| Source: The angle in degrees to rotate the velocity around the Y axis. Example: `%level% * 5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorSpinVelocity.kt`).
+
+- **Source Description**: Rotates the velocity vector around the Y axis by the given angle.
+- **Categories**: `meta`
 
 ## Configuration Example
 

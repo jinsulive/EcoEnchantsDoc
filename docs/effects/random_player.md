@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to run for the player |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to run for the player \| Source: The list of effects to run on the randomly selected player. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRandomPlayer.kt`).
+
+- **Source Description**: Picks a random online player and runs the specified effects targeting them.
+- **Categories**: `meta`
 
 ## Configuration Example
 

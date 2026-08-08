@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effect` | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
-| `level` | The level to give |
-| `duration` | The duration of the effect (in ticks) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effect` | Potion Effect | ✅ | — | — | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) \| Source: The potion effect to apply to entities in the cloud. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The level to give \| Source: The amplifier level of the potion effect. Supports expressions. Example: `1 + %level% / 10` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration of the effect (in ticks) \| Source: How long the cloud and its applied effect last, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnPotionCloud.kt`）。
+
+- **源码描述**: Spawns a lingering potion cloud at the trigger location that applies a potion effect.
+- **所属分类**: `potion`, `visual`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

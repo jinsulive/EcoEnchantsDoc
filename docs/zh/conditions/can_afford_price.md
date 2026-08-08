@@ -26,10 +26,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `value` | The value of the price |
-| `type` | The price type |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `value` | Expression(数学表达式) | ✅ | — | — | The value of the price \| Source: The amount or expression for the price value. Example: `%level% * 100` |
+| `type` | String | ✅ | — | — | The price type \| Source: The price type identifier (e.g. coins, xpl). Example: `coins` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionCanAffordPrice.kt`）。
+
+- **源码描述**: Passes when the player can afford the specified price.
+- **所属分类**: `economy`
 
 ## 配置示例
 

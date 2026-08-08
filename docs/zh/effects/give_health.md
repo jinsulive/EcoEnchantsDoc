@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | The amount of health to give/take (allows negative values) |
-| `trigger_heal` | Whether to trigger the heal event ("heal" trigger) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of health to give/take (allows negative values) \| Source: The amount of health points to restore. Supports expressions. Example: `%level% * 2` |
+| `trigger_heal` | Boolean | — | `false` | — | Whether to trigger the heal event ("heal" trigger) \| Source: If true, fires an EntityRegainHealthEvent and respects cancellation (e.g. for Mending). Defaults to false. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveHealth.kt`）。
+
+- **源码描述**: Heals the player by the specified amount, capped at their maximum health.
+- **所属分类**: `player`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

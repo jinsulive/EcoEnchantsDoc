@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerMineBlockCascade.kt`).
+
+- **Source Description**: Fires for each block broken in a cascading plant break, such as sugar cane, bamboo, kelp, or chorus.
+- **Categories**: `world`
+- **Requires Trigger Data**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `ITEM`
+
 ## Configuration Example
 
 ```yaml

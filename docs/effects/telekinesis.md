@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `on_tamed_mob_kills` | If telekinesis will also work for tamed mob kills |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `on_tamed_mob_kills` | Boolean | — | `false` | — | If telekinesis will also work for tamed mob kills \| Source: If true, telekinesis also applies when a tamed mob kills an entity. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTelekinesis.kt`).
+
+- **Source Description**: Automatically sends all drops and XP from blocks, entities, and fishing directly to the player's inventory.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

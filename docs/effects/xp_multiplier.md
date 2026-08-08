@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The xp multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Custom | — | — | — | The xp multiplier |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectXpMultiplier.kt`).
+
+- **Source Description**: Multiplies the amount of XP the player gains from natural sources and telekinesis drops.
+- **Categories**: `economy`
 
 ## Configuration Example
 

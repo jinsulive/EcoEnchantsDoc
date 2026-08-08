@@ -24,6 +24,19 @@ outline: deep
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
 
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `y` | Expression(数学表达式) | ✅ | — | — | The minimum Y coordinate. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAboveY.kt`).
+
+- **Source Description**: Passes when the entity's Y coordinate is at or above the specified value.
+- **Categories**: `world`
+
 ## Configuration Example
 
 ```yaml

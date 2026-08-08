@@ -23,14 +23,22 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effect` | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
-| `level` | The level to give |
-| `duration` | The duration of the effect (in ticks) |
-| `particles` | (Optional) If the effect should show particles |
-| `icon` | (Optional) If the effect should show the icon in the top corner |
-| `apply_to_player` | True to apply to the player, false to apply to the victim |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effect` | Any/Custom | ✅ | — | — | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
+| `level` | Custom | — | — | — | The level to give |
+| `duration` | Custom | — | — | — | The duration of the effect (in ticks) |
+| `particles` | Custom | — | — | — | (Optional) If the effect should show particles |
+| `icon` | Custom | — | — | — | (Optional) If the effect should show the icon in the top corner |
+| `apply_to_player` | Custom | — | — | — | True to apply to the player, false to apply to the victim |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPotionEffect.kt`).
+
+- **Source Description**: Applies a potion effect to the player or victim for a configurable duration and level.
+- **Categories**: `potion`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

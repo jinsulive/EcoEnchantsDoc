@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `radius` | The radius, in blocks |
-| `duration` | How long to show the glow effect for, in ticks |
-| `colors` | Add as many blocks as you want, the color is from ChatColor javadocs |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius around the trigger location to search for matching blocks. Supports expressions. Example: `5 + %level% * 0.5` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | How long to show the glow effect for, in ticks \| Source: How long in ticks the blocks should glow. Supports expressions. Example: `20 * %level%` |
+| `colors` | Any/Custom | ✅ | — | — | Add as many blocks as you want, the color is from ChatColor javadocs \| Source: A subsection mapping block material names to ChatColor names (e.g. DIAMOND_ORE: AQUA). |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGlowNearbyBlocks.kt`）。
+
+- **源码描述**: Makes nearby blocks glow with configurable colors for a set duration.
+- **所属分类**: `visual`, `world`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

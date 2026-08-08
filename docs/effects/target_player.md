@@ -21,6 +21,14 @@ outline: deep
 | Category | Utility |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTargetPlayer.kt`).
+
+- **Source Description**: Forces the victim monster to target the player.
+- **Categories**: `meta`, `entity`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`
+
 ## Configuration Example
 
 ```yaml

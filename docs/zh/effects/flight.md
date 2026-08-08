@@ -21,6 +21,13 @@ outline: deep
 | 分类 | 移动（Movement） |
 | 效果类型 | 永久型 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFlight.kt`）。
+
+- **源码描述**: Grants the player the ability to fly while the holder is active.
+- **所属分类**: `movement`, `player`
+
 ## 配置示例
 
 ```yaml

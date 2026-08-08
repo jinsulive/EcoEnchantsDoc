@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `id` | The ID of the boss bar to remove |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `id` | String | ✅ | — | — | The ID of the boss bar to remove \| Source: The unique ID of the boss bar to remove. Supports placeholders. Example: `boss_%player_name%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveBossBar.kt`).
+
+- **Source Description**: Removes a currently displayed boss bar by its ID.
+- **Categories**: `visual`
 
 ## Configuration Example
 

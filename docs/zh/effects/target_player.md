@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 工具（Utility） |
 | 效果类型 | 触发型 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTargetPlayer.kt`）。
+
+- **源码描述**: Forces the victim monster to target the player.
+- **所属分类**: `meta`, `entity`
+- **需要触发器数据**: `PLAYER`, `VICTIM`
+
 ## 配置示例
 
 ```yaml

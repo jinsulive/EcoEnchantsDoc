@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The experience dropped |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerCatchFish.kt`).
+
+- **Source Description**: Fires when the player successfully catches a fish.
+- **Categories**: `fishing`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The amount of XP dropped.
+
 ## Configuration Example
 
 ```yaml

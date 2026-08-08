@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `block` | The block to set to |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `block` | Block | ✅ | — | — | The block to set to \| Source: The block type to place at the trigger location. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetBlock.kt`).
+
+- **Source Description**: Sets the block at the trigger location to a specified block type.
+- **Categories**: `world`
+- **Requires Trigger Data**: `BLOCK`
 
 ## Configuration Example
 

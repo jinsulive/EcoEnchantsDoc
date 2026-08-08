@@ -20,6 +20,13 @@ outline: deep
 | Module | libreforge |
 | Category | Location |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToDrop.kt`).
+
+- **Source Description**: Sets the location to the drop's position from the trigger event.
+- **Categories**: `location`, `entity`
+
 ## Configuration Example
 
 ```yaml

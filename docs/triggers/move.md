@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The distance moved |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerMove.kt`).
+
+- **Source Description**: Fires when the player or a living entity moves to a new block.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `VELOCITY`, `ITEM`, `VALUE`
+- **Value**: The distance moved.
+
 ## Configuration Example
 
 ```yaml

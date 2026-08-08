@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `block` | The block type |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `block` | Block | ✅ | — | — | The block type \| Source: The block type (material name) the player must be standing on. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionStandingOnBlock.kt`）。
+
+- **源码描述**: Passes when the player is standing on or inside the specified block type.
+- **所属分类**: `world`
 
 ## 配置示例
 

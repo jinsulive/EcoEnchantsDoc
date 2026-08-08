@@ -23,14 +23,22 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to run for each block |
-| `shape` | The shape of the AOE area |
-| `radius` | The radius of the cone |
-| `distance` | The length of the beam |
-| `pierce_blocks` | If the beam should pass through blocks |
-| `pierce_entities` | If the beam should pass through entities |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to run for each block \| Source: The effects to run on each block within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area \| Source: The AOE shape to use. |
+| `radius` | Custom | — | — | — | The radius of the cone |
+| `distance` | Custom | — | — | — | The length of the beam |
+| `pierce_blocks` | Custom | — | — | — | If the beam should pass through blocks |
+| `pierce_entities` | Custom | — | — | — | If the beam should pass through entities |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAOEBlocks.kt`).
+
+- **Source Description**: Runs a set of effects on all non-air blocks within an AOE shape.
+- **Categories**: `meta`
+- **Inherits Config**: Yes — this effect inherits its sub-configuration; see the corresponding sub-config page.
 
 ## Configuration Example
 

@@ -23,13 +23,20 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to apply in the temporary holder |
-| `conditions` | The conditions for the holder |
-| `duration` | The duration, in ticks |
-| `radius` | The radius, in blocks |
-| `apply-to-self` | If the player should also get the holder |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply temporarily to nearby entities. |
+| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration, in ticks \| Source: How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `apply-to-self` | Boolean | — | `false` | — | If the player should also get the holder \| Source: Whether to also apply the effects to the dispatcher. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddHolderInRadius.kt`).
+
+- **Source Description**: Temporarily applies a set of effects and conditions to all nearby entities within a radius.
+- **Categories**: `meta`
 
 ## Configuration Example
 

@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The xp cost |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEnchantItem.kt`).
+
+- **Source Description**: Fires when the player enchants an item at an enchanting table.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The XP level cost of the enchantment.
+
 ## Configuration Example
 
 ```yaml

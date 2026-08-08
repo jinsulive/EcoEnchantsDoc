@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `conditions` | The list of conditions |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions — passes when any one is met. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAnyOf.kt`).
+
+- **Source Description**: Passes when at least one of the listed conditions is met.
+- **Categories**: `meta`
 
 ## Configuration Example
 

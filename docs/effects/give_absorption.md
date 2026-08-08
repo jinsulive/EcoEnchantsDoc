@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The number of absorption points to add |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The number of absorption points to add \| Source: The number of absorption hearts to add. Supports expressions. Example: `%level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveAbsorption.kt`).
+
+- **Source Description**: Grants the player additional absorption hearts, expanding the max absorption cap if needed.
+- **Categories**: `player`, `attribute`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

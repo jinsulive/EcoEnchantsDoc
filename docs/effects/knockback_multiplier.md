@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for attack knockback |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for attack knockback \| Source: The knockback multiplier to apply. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKnockbackMultiplier.kt`).
+
+- **Source Description**: Multiplies the knockback dealt by the player when attacking.
+- **Categories**: `combat`, `player`, `attribute`
 
 ## Configuration Example
 

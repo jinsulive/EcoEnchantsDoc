@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `x` | The x velocity |
-| `y` | The y velocity |
-| `z` | The z velocity |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `x` | Expression(数学表达式) | ✅ | — | — | The x velocity \| Source: The X component of the velocity vector. Supports expressions. Example: `0` |
+| `y` | Expression(数学表达式) | ✅ | — | — | The y velocity \| Source: The Y component of the velocity vector. Supports expressions. Example: `1.5` |
+| `z` | Expression(数学表达式) | ✅ | — | — | The z velocity \| Source: The Z component of the velocity vector. Supports expressions. Example: `0` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetVelocity.kt`）。
+
+- **源码描述**: Sets the player's velocity to the specified x, y, z components.
+- **所属分类**: `movement`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `health` | The amount of health to give, one heart is 2 HP |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `health` | Expression(数学表达式) | ✅ | — | — | The amount of health to give, one heart is 2 HP \| Source: The amount of bonus max health to add. Supports expressions. Example: `%level% * 2` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBonusHealth.kt`）。
+
+- **源码描述**: Permanently increases the player's max health while the holder is active.
+- **所属分类**: `player`, `attribute`
 
 ## 配置示例
 

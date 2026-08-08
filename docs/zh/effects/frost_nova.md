@@ -23,12 +23,20 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `radius` | The radius in blocks |
-| `freeze_ticks` | The number of ticks to freeze entities |
-| `slow_duration` | The duration in ticks to apply slowness |
-| `slow_amplifier` | The amplifier of the slowness effect |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks \| Source: The radius around the trigger location in which entities are frozen. Supports expressions. Example: `5 + %level% * 0.5` |
+| `freeze_ticks` | Expression(数学表达式) | ✅ | — | — | The number of ticks to freeze entities \| Source: How many ticks the affected entities are frozen for. Supports expressions. Example: `20 * %level%` |
+| `slow_duration` | Expression(数学表达式) | — | `0` | — | The duration in ticks to apply slowness \| Source: Duration in ticks of the slowness effect applied alongside freezing. Defaults to 0 (no slowness). Example: `20 * %level%` |
+| `slow_amplifier` | Expression(数学表达式) | — | `0` | — | The amplifier of the slowness effect \| Source: Amplifier level of the slowness effect (0 = Slowness I). Defaults to 0. Example: `%level% / 10` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFrostNova.kt`）。
+
+- **源码描述**: Freezes all nearby entities within a radius, optionally also applying a slowness effect.
+- **所属分类**: `combat`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

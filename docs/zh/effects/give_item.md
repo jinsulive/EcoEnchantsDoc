@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `item` | The item to give |
-| `items` | You can also specify a list of items |
-| `slot` | The slot to give in, can be any numeric slot, hand, or 'any' |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `item` | Item List | ✅ | — | — | The item to give \| Source: The item or list of items to give to the player. |
+| `items` | Item List | ✅ | — | — | You can also specify a list of items \| Source: The item or list of items to give to the player. |
+| `slot` | String | — | — | — | The slot to give in, can be any numeric slot, hand, or 'any' \| Source: The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. Example: `mainhand` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveItem.kt`）。
+
+- **源码描述**: Gives the player one or more items, optionally placing them into a specific inventory slot.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

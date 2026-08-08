@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `item` | The item to remove |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `item` | Item | ✅ | — | — | The item to remove \| Source: The item to remove from the player's inventory, including its stack size. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveItem.kt`).
+
+- **Source Description**: Removes a specified item (and its stack amount) from the player's inventory.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

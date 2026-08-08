@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effects` | The effects to apply in the temporary holder |
-| `conditions` | The conditions for the holder |
-| `duration` | The duration, in ticks |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply temporarily to the victim. |
+| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration, in ticks \| Source: How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddHolderToVictim.kt`）。
+
+- **源码描述**: Temporarily applies a set of effects and conditions to the victim for a given duration.
+- **所属分类**: `meta`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

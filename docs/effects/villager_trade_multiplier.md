@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for villager trade costs |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Custom | — | — | — | The multiplier for villager trade costs |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVillagerTradeMultiplier.kt`).
+
+- **Source Description**: Multiplies the ingredient costs of villager trades when the player opens a merchant.
+- **Categories**: `economy`
 
 ## Configuration Example
 

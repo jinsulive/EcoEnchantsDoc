@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `advancement` | The advancement ID |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `advancement` | String | ✅ | — | — | The advancement ID \| Source: The namespaced key of the advancement (e.g. minecraft:story/mine_stone). Example: `minecraft:story/mine_stone` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasCompletedAdvancement.kt`）。
+
+- **源码描述**: Passes when the player has completed the specified advancement.
+- **所属分类**: `player`
 
 ## 配置示例
 

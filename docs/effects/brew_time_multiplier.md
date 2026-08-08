@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Custom | — | — | — | The multiplier |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBrewTimeMultiplier.kt`).
+
+- **Source Description**: Multiplies the time taken to brew potions while the holder is active.
+- **Categories**: `player`
 
 ## Configuration Example
 

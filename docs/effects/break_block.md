@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `prevent_trigger` | If the mine_block trigger should not be called from this |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `prevent_trigger` | Boolean | — | `false` | — | If the mine_block trigger should not be called from this \| Source: If true, breaking this block will not fire further libreforge triggers. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBreakBlock.kt`).
+
+- **Source Description**: Breaks the triggering block as if the player mined it.
+- **Categories**: `world`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

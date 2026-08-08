@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to apply in the temporary holder |
-| `conditions` | The conditions for the holder |
-| `duration` | The duration, in ticks |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply temporarily to the victim. |
+| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration, in ticks \| Source: How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddHolderToVictim.kt`).
+
+- **Source Description**: Temporarily applies a set of effects and conditions to the victim for a given duration.
+- **Categories**: `meta`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

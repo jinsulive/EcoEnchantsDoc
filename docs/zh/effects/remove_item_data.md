@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `key` | The key to remove |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `key` | String | ✅ | — | — | The key to remove \| Source: The key of the custom item data entry to remove. Example: `custom_id` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveItemData.kt`）。
+
+- **源码描述**: Removes a custom persistent data entry from the triggering item by its key.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `ITEM`
 
 ## 配置示例
 

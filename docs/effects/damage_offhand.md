@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `damage` | The amount of damage to deal |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `damage` | Custom | — | — | — | The amount of damage to deal |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageOffhand.kt`).
+
+- **Source Description**: Applies durability damage to the item in the victim's off hand.
+- **Categories**: `combat`, `inventory`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

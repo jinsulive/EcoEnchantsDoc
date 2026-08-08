@@ -23,10 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The point to multiply |
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The point to multiply \| Source: The item point type to multiply. |
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The multiplier to apply to the item's point value. Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyItemPoints.kt`).
+
+- **Source Description**: Multiplies a point value stored on the found item by the specified amount.
+- **Categories**: `economy`, `points`
 
 ## Configuration Example
 

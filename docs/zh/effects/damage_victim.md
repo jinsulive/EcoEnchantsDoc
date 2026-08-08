@@ -23,11 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `damage` | The damage to deal |
-| `use-source` | If the player should be marked as the damager, will trigger melee_damage and run listeners (set to false if you don't know what this means) |
-| `true-damage` | If the damage should ignore armor, defense, etc |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal \| Source: The amount of damage to deal. Supports expressions. Example: `%level% * 2` |
+| `use-source` | Boolean | — | `false` | — | If the player should be marked as the damager, will trigger melee_damage and run listeners (set to false if you don't know what this means) \| Source: If true, the player is attributed as the damage source. |
+| `true-damage` | Boolean | — | `false` | — | If the damage should ignore armor, defense, etc \| Source: If true, damage bypasses armor and resistance effects. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageVictim.kt`）。
+
+- **源码描述**: Deals damage to the victim.
+- **所属分类**: `combat`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

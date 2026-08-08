@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | The multiplier for mining speed |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for mining speed \| Source: The mining speed multiplier to apply (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.02` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMiningSpeedMultiplier.kt`）。
+
+- **源码描述**: Multiplies the player's overall block-break speed while the holder is active.
+- **所属分类**: `world`, `player`, `attribute`
 
 ## 配置示例
 

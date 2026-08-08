@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `ticks` | The duration in ticks to silence the entity |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `ticks` | Expression(数学表达式) | ✅ | — | — | The duration in ticks to silence the entity \| Source: How long to silence the entity, in ticks. Supports expressions. Example: `20 * %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSilence.kt`).
+
+- **Source Description**: Silences the victim entity for a duration, preventing it from making sounds.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

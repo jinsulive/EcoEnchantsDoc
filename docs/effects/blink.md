@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `distance` | The maximum number of blocks to teleport forward |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum number of blocks to teleport forward \| Source: The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBlink.kt`).
+
+- **Source Description**: Teleports the player forward in their look direction, stopping at solid blocks.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

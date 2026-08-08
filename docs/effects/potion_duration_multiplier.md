@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Custom | — | — | — | The multiplier |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPotionDurationMultiplier.kt`).
+
+- **Source Description**: Multiplies the duration of potion effects brewed or consumed by the player.
+- **Categories**: `potion`, `player`
 
 ## Configuration Example
 

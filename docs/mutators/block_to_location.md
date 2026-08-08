@@ -20,6 +20,13 @@ outline: deep
 | Module | libreforge |
 | Category | Location |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorBlockToLocation.kt`).
+
+- **Source Description**: Sets the location parameter to derive the block at that position.
+- **Categories**: `location`, `block`
+
 ## Configuration Example
 
 ```yaml

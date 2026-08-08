@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `enchant` | The ID of the enchant |
-| `level` | The level of the enchant |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `enchant` | Enchantment | ✅ | — | — | The ID of the enchant \| Source: The enchantment to add, e.g. sharpness. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The level of the enchant \| Source: The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddEnchant.kt`）。
+
+- **源码描述**: Adds an enchantment to the triggering item.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `ITEM`
 
 ## 配置示例
 

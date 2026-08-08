@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerConsume.kt`).
+
+- **Source Description**: Fires when the player consumes a food or potion item.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`
+
 ## Configuration Example
 
 ```yaml

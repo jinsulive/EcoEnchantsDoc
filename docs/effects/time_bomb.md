@@ -23,12 +23,20 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `fuse` | The delay in ticks before the explosion |
-| `power` | The explosion power |
-| `break_blocks` | (Optional) Whether the explosion breaks blocks, defaults to false |
-| `glow` | (Optional) Whether the entity glows while the fuse is active, defaults to true |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `fuse` | Expression(数学表达式) | ✅ | — | — | The delay in ticks before the explosion \| Source: How many ticks before the explosion occurs. Supports expressions. Example: `20 * %level%` |
+| `power` | Expression(数学表达式) | ✅ | — | — | The explosion power \| Source: The power of the explosion. Vanilla TNT is 4. Supports expressions. |
+| `break_blocks` | Boolean | — | `false` | — | (Optional) Whether the explosion breaks blocks, defaults to false \| Source: Whether the explosion breaks blocks. |
+| `glow` | Boolean | — | `true` | — | (Optional) Whether the entity glows while the fuse is active, defaults to true \| Source: Whether the victim glows while waiting for the explosion. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTimeBomb.kt`).
+
+- **Source Description**: Marks the victim to explode after a fuse delay, with an optional glow effect while the timer counts down.
+- **Categories**: `combat`, `world`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

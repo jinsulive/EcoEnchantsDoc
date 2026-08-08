@@ -26,10 +26,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `placeholder` | The placeholder, including % |
-| `value` | The value it must equal |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and compare. Example: `%player_gamemode%` |
+| `value` | String | ✅ | — | — | The value it must equal \| Source: The exact string the resolved placeholder must equal. |
+| `ignore_case` | Boolean | — | `false` | — | Whether the equality check should be case-insensitive. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPlaceholderEquals.kt`）。
+
+- **源码描述**: Passes when the resolved placeholder value equals the specified string.
+- **所属分类**: `meta`
 
 ## 配置示例
 

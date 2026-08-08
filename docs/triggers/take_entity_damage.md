@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The damage taken |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerTakeEntityDamage.kt`).
+
+- **Source Description**: Fires when a player or entity takes damage from another entity.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `VALUE`
+- **Value**: The damage taken.
+
 ## Configuration Example
 
 ```yaml

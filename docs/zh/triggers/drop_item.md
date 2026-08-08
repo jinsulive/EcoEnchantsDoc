@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The amount of items |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDropItem.kt`）。
+
+- **源码描述**: Fires when the player drops an item from their inventory.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **值**: The number of items dropped.
+
 ## 配置示例
 
 ```yaml

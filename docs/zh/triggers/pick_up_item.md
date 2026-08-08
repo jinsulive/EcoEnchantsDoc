@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The amount of items |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerPickUpItem.kt`）。
+
+- **源码描述**: Fires when an entity picks up an item from the ground.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `PLAYER`, `VICTIM`, `ITEM`, `VALUE`
+- **值**: The stack size of the picked-up item.
+
 ## 配置示例
 
 ```yaml

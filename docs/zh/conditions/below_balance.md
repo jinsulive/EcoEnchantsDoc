@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `balance` | The maximum amount of money |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `balance` | Expression(数学表达式) | ✅ | — | — | The maximum amount of money \| Source: The balance threshold; the player must be below this amount. Example: `%level% * 500` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowBalance.kt`）。
+
+- **源码描述**: Passes when the player's economy balance is below the specified amount.
+- **所属分类**: `economy`
 
 ## 配置示例
 

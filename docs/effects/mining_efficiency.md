@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The extra mining efficiency |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The extra mining efficiency \| Source: The flat amount of mining efficiency to add. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMiningEfficiency.kt`).
+
+- **Source Description**: Increases the player's mining efficiency attribute while the holder is active.
+- **Categories**: `world`, `player`, `attribute`
 
 ## Configuration Example
 

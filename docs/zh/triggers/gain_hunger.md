@@ -21,6 +21,15 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | The hunger gained |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerGainHunger.kt`）。
+
+- **源码描述**: Fires when the player's food level increases.
+- **所属分类**: `player`
+- **需要触发器数据**: `PLAYER`, `EVENT`, `VALUE`
+- **值**: The amount of food level gained.
+
 ## 配置示例
 
 ```yaml

@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `entity` | The mob to spawn, takes a lookup string |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `entity` | Entity | ✅ | — | — | The mob to spawn, takes a lookup string \| Source: The entity type to spawn at the trigger location. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnEntity.kt`).
+
+- **Source Description**: Spawns an entity at the trigger location.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

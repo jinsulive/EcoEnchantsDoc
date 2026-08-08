@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `distance` | The maximum number of blocks to teleport forward |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum number of blocks to teleport forward \| Source: The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBlink.kt`）。
+
+- **源码描述**: Teleports the player forward in their look direction, stopping at solid blocks.
+- **所属分类**: `movement`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

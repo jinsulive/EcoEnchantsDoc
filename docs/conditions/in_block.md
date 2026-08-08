@@ -24,6 +24,19 @@ outline: deep
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
 
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `block` | Block | ✅ | — | — | The block material name to check (e.g. WATER). |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInBlock.kt`).
+
+- **Source Description**: Passes when the entity's head or feet are inside the specified block type.
+- **Categories**: `world`
+
 ## Configuration Example
 
 ```yaml

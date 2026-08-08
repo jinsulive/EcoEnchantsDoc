@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The damage |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDamageItem.kt`).
+
+- **Source Description**: Fires when the player's held item takes durability damage.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The amount of durability damage applied.
+
 ## Configuration Example
 
 ```yaml

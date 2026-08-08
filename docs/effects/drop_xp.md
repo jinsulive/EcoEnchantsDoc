@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `xp` | The amount of xp to drop |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of xp to drop \| Source: The amount of experience to drop. Supports expressions. Example: `10 + %level% * 5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropXp.kt`).
+
+- **Source Description**: Drops experience orbs at the trigger location.
+- **Categories**: `economy`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

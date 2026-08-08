@@ -26,10 +26,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `conditions` | The list of conditions |
-| `amount` | The amount of conditions |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions to evaluate. |
+| `amount` | Integer | ✅ | — | — | The amount of conditions \| Source: The minimum number of conditions that must pass. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAtLeastOf.kt`）。
+
+- **源码描述**: Passes when at least the specified number of the listed conditions are met.
+- **所属分类**: `meta`
 
 ## 配置示例
 

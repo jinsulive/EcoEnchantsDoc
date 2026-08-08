@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for the durability |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for the durability \| Source: The durability multiplier to apply (e.g. 2 means the item lasts twice as long). Supports expressions. Example: `1 + %level% * 0.05` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectItemDurabilityMultiplier.kt`).
+
+- **Source Description**: Multiplies the durability loss of the held item, effectively making it more or less durable.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `EVENT`
 
 ## Configuration Example
 

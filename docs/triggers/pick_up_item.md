@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The amount of items |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerPickUpItem.kt`).
+
+- **Source Description**: Fires when an entity picks up an item from the ground.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `ITEM`, `VALUE`
+- **Value**: The stack size of the picked-up item.
+
 ## Configuration Example
 
 ```yaml

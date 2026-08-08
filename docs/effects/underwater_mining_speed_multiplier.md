@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for underwater mining speed |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for underwater mining speed \| Source: The multiplier to apply to underwater mining speed. Supports expressions. Example: `1 + %level% * 0.02` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectUnderwaterMiningSpeedMultiplier.kt`).
+
+- **Source Description**: Multiplies the player's mining speed while submerged underwater.
+- **Categories**: `world`, `player`, `attribute`
 
 ## Configuration Example
 

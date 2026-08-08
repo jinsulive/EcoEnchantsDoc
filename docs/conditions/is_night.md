@@ -24,6 +24,13 @@ outline: deep
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsNight.kt`).
+
+- **Source Description**: Passes when it is nighttime in the dispatcher's world.
+- **Categories**: `world`
+
 ## Configuration Example
 
 ```yaml

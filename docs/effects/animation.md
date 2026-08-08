@@ -23,10 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `animation` | The ID of the animation |
-| `animation_args` | Arguments for the animation |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `animation` | String | ✅ | — | `spin_item` | The ID of the animation \| Source: The animation to play. |
+| `animation_args` | Custom | — | — | — | Arguments for the animation |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAnimation.kt`).
+
+- **Source Description**: Plays a named animation at the trigger location.
+- **Categories**: `visual`
+- **Requires Trigger Data**: `LOCATION`
+- **Inherits Config**: Yes — this effect inherits its sub-configuration; see the corresponding sub-config page.
 
 ## Configuration Example
 

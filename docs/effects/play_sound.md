@@ -23,12 +23,20 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `sound` | The sound to play (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html) |
-| `pitch` | The pitch of the sound (0.5 - 2) |
-| `volume` | The volume of the sound |
-| `category` | The sound category (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/SoundCategory.html) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `sound` | Sound | ✅ | — | — | The sound to play (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html) \| Source: The sound to play. Supports Minecraft sound names and resource pack sounds. |
+| `pitch` | Expression(数学表达式) | ✅ | — | — | The pitch of the sound (0.5 - 2) \| Source: The pitch of the sound, between 0.5 and 2.0. Supports expressions. |
+| `volume` | Expression(数学表达式) | ✅ | — | — | The volume of the sound \| Source: The volume of the sound. Supports expressions. |
+| `category` | String | — | `MASTER` | — | The sound category (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/SoundCategory.html) \| Source: The sound category to play the sound in. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPlaySound.kt`).
+
+- **Source Description**: Plays a sound to the triggering player at their location.
+- **Categories**: `sound`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 物品（Item） |
 | 效果类型 | 触发型 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShuffleHotbar.kt`）。
+
+- **源码描述**: Randomly shuffles the items in the victim's hotbar.
+- **所属分类**: `inventory`, `player`
+- **需要触发器数据**: `VICTIM`
+
 ## 配置示例
 
 ```yaml

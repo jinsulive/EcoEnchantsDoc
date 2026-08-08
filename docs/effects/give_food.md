@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of food to give/take (allows negative values) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of food to give/take (allows negative values) \| Source: The number of food points to add to the player's hunger bar. Supports expressions. Example: `%level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveFood.kt`).
+
+- **Source Description**: Restores a set amount of food level to the player, capped at 20.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

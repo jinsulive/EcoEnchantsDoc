@@ -23,12 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to apply in the temporary holder |
-| `conditions` | The conditions for the holder |
-| `radius` | The radius, in blocks |
-| `apply-to-self` | If the player should also get the holder |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to apply in the temporary holder \| Source: The effects to apply to nearby entities. |
+| `conditions` | Condition List | — | — | — | The conditions for the holder \| Source: The conditions the holder requires to be active. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius, in blocks \| Source: The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `apply-to-self` | Boolean | — | `false` | — | If the player should also get the holder \| Source: Whether to also apply the effects to the holder owner. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddPermanentHolderInRadius.kt`).
+
+- **Source Description**: Permanently applies a set of effects and conditions to all nearby entities within a radius while the holder is active.
+- **Categories**: `meta`
 
 ## Configuration Example
 

@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `biomes` | A list of biomes |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `biomes` | String List | ✅ | — | — | A list of biomes \| Source: The list of biome names to check against. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInBiome.kt`）。
+
+- **源码描述**: Passes when the player is located in one of the specified biomes.
+- **所属分类**: `world`
 
 ## 配置示例
 

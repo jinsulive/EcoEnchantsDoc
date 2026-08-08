@@ -21,6 +21,14 @@ outline: deep
 | Category | Item |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectOpenCrafting.kt`).
+
+- **Source Description**: Opens a virtual crafting table GUI for the player.
+- **Categories**: `player`, `inventory`
+- **Requires Trigger Data**: `PLAYER`
+
 ## Configuration Example
 
 ```yaml

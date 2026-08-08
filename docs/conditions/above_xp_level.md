@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `level` | The minimum XP level |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `level` | Expression(数学表达式) | ✅ | — | — | The minimum XP level \| Source: The minimum XP level required. Example: `10 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAboveXPLevel.kt`).
+
+- **Source Description**: Passes when the player's XP level is at or above the specified level.
+- **Categories**: `economy`
 
 ## Configuration Example
 

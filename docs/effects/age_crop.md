@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `age` | The amount to age by |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `age` | Expression(数学表达式) | — | `1` | — | The amount to age by \| Source: The number of growth stages to advance. Supports expressions. Example: `1 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAgeCrop.kt`).
+
+- **Source Description**: Advances a crop's growth by a number of stages.
+- **Categories**: `world`
+- **Requires Trigger Data**: `BLOCK`
 
 ## Configuration Example
 

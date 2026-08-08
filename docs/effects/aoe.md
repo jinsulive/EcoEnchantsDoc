@@ -23,12 +23,20 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `effects` | The effects to run for each entity |
-| `shape` | The shape of the AOE area (see above) |
-| `radius` | The radius of the cone (see above) |
-| `angle` | The angle of the cone (see above) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `effects` | Effect List | ✅ | — | — | The effects to run for each entity \| Source: The effects to run on each entity within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area (see above) \| Source: The AOE shape to use. |
+| `radius` | Custom | — | — | — | The radius of the cone (see above) |
+| `angle` | Custom | — | — | — | The angle of the cone (see above) |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAOE.kt`).
+
+- **Source Description**: Runs a set of effects on all nearby entities within an AOE shape.
+- **Categories**: `meta`
+- **Inherits Config**: Yes — this effect inherits its sub-configuration; see the corresponding sub-config page.
 
 ## Configuration Example
 

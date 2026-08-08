@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The factor to multiply all velocity components by (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectMultiplyVelocity.kt`).
+
+- **Source Description**: Multiplies the player's current velocity vector by the specified factor.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

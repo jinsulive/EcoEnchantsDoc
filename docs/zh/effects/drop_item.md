@@ -23,9 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `item` | The item to give |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `item` | Item | ✅ | — | — | The item to give \| Source: The item to drop. Accepts eco item lookup strings. |
+| `add_to_drops` | Boolean | — | `false` | — | If true and the trigger has a drop event, adds the item to that event's drop list instead of spawning it directly. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropItem.kt`）。
+
+- **源码描述**: Drops an item at the trigger location.
+- **所属分类**: `inventory`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

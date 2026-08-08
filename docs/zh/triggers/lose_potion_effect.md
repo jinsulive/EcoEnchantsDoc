@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 内置（Internal） |
 | 值 | 1 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerLosePotionEffect.kt`）。
+
+- **源码描述**: Fires when an entity loses a potion effect.
+- **所属分类**: `player`
+- **需要触发器数据**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`
+
 ## 配置示例
 
 ```yaml

@@ -21,6 +21,14 @@ outline: deep
 | Category | Movement |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSwapPositions.kt`).
+
+- **Source Description**: Swaps the positions of the player and the victim instantly.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`
+
 ## Configuration Example
 
 ```yaml

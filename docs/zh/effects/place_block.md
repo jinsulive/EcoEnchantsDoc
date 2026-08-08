@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `block` | The block to place (eco block ID) |
-| `duration` | (Optional) Ticks before the original block is restored |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `block` | Block | ✅ | — | — | The block to place (eco block ID) \| Source: The block to place at the trigger location. |
+| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the original block is restored \| Source: How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPlaceBlock.kt`）。
+
+- **源码描述**: Places a block at the trigger location, optionally reverting it after a duration.
+- **所属分类**: `world`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntitySpawn.kt`).
+
+- **Source Description**: Fires when any entity spawns in the world.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `VICTIM`, `LOCATION`
+
 ## Configuration Example
 
 ```yaml

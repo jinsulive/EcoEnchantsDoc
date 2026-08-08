@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `items` | The list of allowed items |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `items` | Custom | — | — | — | The list of allowed items |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionWearingBoots.kt`).
+
+- **Source Description**: Passes when the entity is wearing the specified boots.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

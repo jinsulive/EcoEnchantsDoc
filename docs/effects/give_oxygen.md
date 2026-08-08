@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of oxygen to give (supports negative values) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of oxygen to give (supports negative values) \| Source: The number of air ticks to add to the player's remaining air. Supports expressions. Example: `%level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGiveOxygen.kt`).
+
+- **Source Description**: Restores a set number of air ticks (oxygen) to the player's air supply.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

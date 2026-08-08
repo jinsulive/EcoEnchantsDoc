@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The victim's max health |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerKill.kt`).
+
+- **Source Description**: Fires when the player kills an entity.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The maximum health of the killed entity.
+
 ## Configuration Example
 
 ```yaml

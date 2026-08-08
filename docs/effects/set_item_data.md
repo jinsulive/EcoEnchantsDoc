@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `key` | The key to set |
-| `value` | The value to set it to |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `key` | String | ✅ | — | — | The key to set \| Source: The custom data key to set on the item. Example: `custom_id` |
+| `value` | String | ✅ | — | — | The value to set it to \| Source: The value to store under the given key. Example: `epic_sword_tier_3` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetItemData.kt`).
+
+- **Source Description**: Sets a custom data key on the trigger item to a given value.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `ITEM`
 
 ## Configuration Example
 

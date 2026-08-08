@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The section to clear: all, hotbar, main, or armor |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | `all`, `hotbar`, `main`, `armor` | The section to clear: all, hotbar, main, or armor \| Source: Which section of the inventory to clear. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectClearInventory.kt`).
+
+- **Source Description**: Clears a section of the player's inventory.
+- **Categories**: `inventory`, `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

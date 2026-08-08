@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `key` | The key to remove |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `key` | String | ✅ | — | — | The key to remove \| Source: The key of the custom item data entry to remove. Example: `custom_id` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveItemData.kt`).
+
+- **Source Description**: Removes a custom persistent data entry from the triggering item by its key.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `ITEM`
 
 ## Configuration Example
 

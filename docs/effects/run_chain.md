@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `run-type` | Optional, sets how the chain is ran, see the 'configuring an effect' page |
-| `chain` | The ID of the chain to run |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | Optional, sets how the chain is ran, see the 'configuring an effect' page \| Source: The chain executor type to use when running the chain. |
+| `chain` | String | ✅ | — | — | The ID of the chain to run \| Source: The ID of the chain to execute. |
+| `chain_args` | Any/Custom | — | — | — | A subsection of key-value pairs to expose as placeholders within the chain. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRunChain.kt`).
+
+- **Source Description**: Runs a named chain of effects defined in `plugins/libreforge/chains.yml`.
+- **Categories**: `meta`
 
 ## Configuration Example
 

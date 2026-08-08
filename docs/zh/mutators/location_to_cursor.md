@@ -22,10 +22,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `target` | The target location (either block or entity) |
-| `start` | Where to raytrace from (either player or victim) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `target` | String | ✅ | — | `block`, `entity` | The target location (either block or entity) \| Source: The entity or block to target with the raytrace. |
+| `start` | String | ✅ | — | `player`, `victim` | Where to raytrace from (either player or victim) \| Source: The entity to raytrace from. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToCursor.kt`）。
+
+- **源码描述**: Sets the location to the position of the entity or block at the player's or victim's cursor.
+- **所属分类**: `location`
 
 ## 配置示例
 

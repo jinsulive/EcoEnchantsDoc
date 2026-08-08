@@ -26,10 +26,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `id` | The level ID |
-| `level` | The level |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `id` | Custom | — | — | — | The level ID |
+| `level` | Expression(数学表达式) | ✅ | — | — | The level \| Source: The exact level the item must have. Example: `5 + %level%` |
+| `name` | String | ✅ | — | — | The name of the level type to check on the held item. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemLevelEquals.kt`）。
+
+- **源码描述**: Passes when the held item's level for a given level type equals the specified value.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

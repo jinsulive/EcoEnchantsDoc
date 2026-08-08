@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `title` | The title |
-| `subtitle` | The subtitle |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `title` | String | ✅ | — | — | The title \| Source: The main title text to display. Supports placeholders. Example: `Level Up!` |
+| `subtitle` | String | ✅ | — | — | The subtitle \| Source: The subtitle text to display below the title. Supports placeholders. Example: `You reached level %player_level%!` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSendTitle.kt`).
+
+- **Source Description**: Sends a title and subtitle to the player's screen.
+- **Categories**: `visual`, `chat`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

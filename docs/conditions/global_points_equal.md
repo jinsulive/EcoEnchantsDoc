@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The type of point |
-| `amount` | The amount of points |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The type of point \| Source: The global points type identifier. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points \| Source: The exact global points value required. Example: `%level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionGlobalPointsEqual.kt`).
+
+- **Source Description**: Passes when the global points of the given type exactly equal the specified amount.
+- **Categories**: `economy`
 
 ## Configuration Example
 

@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The amount of items |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDropItem.kt`).
+
+- **Source Description**: Fires when the player drops an item from their inventory.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The number of items dropped.
+
 ## Configuration Example
 
 ```yaml

@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `durability` | The durability to add (or subtract) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `durability` | Expression(数学表达式) | ✅ | — | — | The durability to add (or subtract) \| Source: The amount of maximum durability to add. Supports expressions. Example: `50 + %level% * 10` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddDurability.kt`）。
+
+- **源码描述**: Increases the maximum durability of the triggering item.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

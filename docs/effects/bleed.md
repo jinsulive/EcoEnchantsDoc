@@ -23,11 +23,19 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `damage` | The damage to deal on each bleed tick |
-| `interval` | The delay between bleed ticks |
-| `amount` | The amount of bleed ticks |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `damage` | Expression(数学表达式) | ✅ | — | — | The damage to deal on each bleed tick \| Source: The damage dealt per interval. Supports expressions. Example: `%level% * 0.5` |
+| `interval` | Expression(数学表达式) | ✅ | — | — | The delay between bleed ticks \| Source: The number of ticks between each damage application. Supports expressions. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of bleed ticks \| Source: The number of times damage is dealt. Supports expressions. Example: `3 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectBleed.kt`).
+
+- **Source Description**: Deals damage to the victim repeatedly over a set number of ticks.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

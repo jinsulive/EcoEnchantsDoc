@@ -21,6 +21,14 @@ outline: deep
 | Category | Utility |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTeleportToGround.kt`).
+
+- **Source Description**: Teleports the player straight down to the first solid ground beneath them.
+- **Categories**: `movement`
+- **Requires Trigger Data**: `PLAYER`
+
 ## Configuration Example
 
 ```yaml

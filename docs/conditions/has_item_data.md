@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `key` | The data key |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `key` | String | ✅ | — | — | The data key \| Source: The item data key to check for. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionHasItemData.kt`).
+
+- **Source Description**: Passes when the held item has the specified custom item data key set.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

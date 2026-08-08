@@ -23,10 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `consume_seeds` | If seeds should be used when replanting crops |
-| `only_fully_grown` | If only fully grown crops should be replanted |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `consume_seeds` | Boolean | ✅ | — | — | If seeds should be used when replanting crops \| Source: Whether seeds should be taken from the player's inventory when replanting. |
+| `only_fully_grown` | Boolean | ✅ | — | — | If only fully grown crops should be replanted \| Source: Whether to only replant crops that are fully grown. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectReplantCrops.kt`).
+
+- **Source Description**: Automatically replants harvested crops at age 0 when the player breaks them.
+- **Categories**: `world`
 
 ## Configuration Example
 

@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The new cauldron level |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerCauldronLevelChange.kt`).
+
+- **Source Description**: Fires when the player changes the water level of a cauldron.
+- **Categories**: `interaction`
+- **Requires Trigger Data**: `PLAYER`, `BLOCK`, `EVENT`, `LOCATION`, `VALUE`
+- **Value**: The new water level of the cauldron after the change.
+
 ## Configuration Example
 
 ```yaml

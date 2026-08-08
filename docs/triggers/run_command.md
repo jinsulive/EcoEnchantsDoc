@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerRunCommand.kt`).
+
+- **Source Description**: Fires when the player runs a command.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`, `TEXT`
+
 ## Configuration Example
 
 ```yaml

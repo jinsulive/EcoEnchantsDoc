@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `angle` | The angle to rotate / spin (in degrees) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `angle` | Expression(数学表达式) | ✅ | — | — | The angle to rotate / spin (in degrees) \| Source: The number of degrees to add to the player's current yaw. Supports expressions. Example: `%level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRotate.kt`).
+
+- **Source Description**: Rotates the player's yaw by a specified angle.
+- **Categories**: `movement`, `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

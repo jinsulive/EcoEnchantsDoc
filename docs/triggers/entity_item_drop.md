@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The amount of items dropped |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntityItemDrop.kt`).
+
+- **Source Description**: Fires when the player kills an entity and the entity drops items.
+- **Categories**: `entity`, `combat`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The number of items dropped.
+
 ## Configuration Example
 
 ```yaml

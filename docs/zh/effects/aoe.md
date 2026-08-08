@@ -23,12 +23,20 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effects` | The effects to run for each entity |
-| `shape` | The shape of the AOE area (see above) |
-| `radius` | The radius of the cone (see above) |
-| `angle` | The angle of the cone (see above) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effects` | Effect List | ✅ | — | — | The effects to run for each entity \| Source: The effects to run on each entity within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The shape of the AOE area (see above) \| Source: The AOE shape to use. |
+| `radius` | Custom | — | — | — | The radius of the cone (see above) |
+| `angle` | Custom | — | — | — | The angle of the cone (see above) |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAOE.kt`）。
+
+- **源码描述**: Runs a set of effects on all nearby entities within an AOE shape.
+- **所属分类**: `meta`
+- **继承子配置**: 是（此效果继承子配置，详见对应子配置页）
 
 ## 配置示例
 

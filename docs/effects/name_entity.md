@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `name` | The name to set |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `name` | String | ✅ | — | — | The name to set \| Source: The custom name to display above the entity. Supports placeholders. Example: `%player_name%'s Wolf` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectNameEntity.kt`).
+
+- **Source Description**: Sets the custom name of the victim entity and makes it always visible.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `VICTIM`
 
 ## Configuration Example
 

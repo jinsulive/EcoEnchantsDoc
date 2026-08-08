@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `distance` | The distance to hone in from |
-| `targets` | The whitelist of entities to target |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `distance` | Expression(数学表达式) | ✅ | — | — | The distance to hone in from \| Source: The maximum range at which the arrow will lock on to a target. Supports expressions. Example: `10 + %level%` |
+| `targets` | Entity List | — | `[]` | — | The whitelist of entities to target \| Source: A list of entity types the arrow will home in on. Leave empty to target all entities. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectHoming.kt`).
+
+- **Source Description**: Makes fired arrows home in on the nearest valid target within range.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `PROJECTILE`
 
 ## Configuration Example
 

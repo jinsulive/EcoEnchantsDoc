@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `command` | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `command` | String List | ✅ | — | — | Supports %player% and %victim% as placeholders (victim will only be used if there is a player as a victim for this effect) \| Source: The command or list of commands to run as console. Use %player% and %victim% as placeholders. Example: `say %player% used an ability!, effect give %player% speed 5 1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRunCommand.kt`).
+
+- **Source Description**: Runs one or more commands as the console when triggered.
+- **Categories**: `chat`
 
 ## Configuration Example
 

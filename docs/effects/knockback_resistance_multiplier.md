@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for knockback resistance |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for knockback resistance \| Source: The knockback resistance multiplier to apply. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKnockbackResistanceMultiplier.kt`).
+
+- **Source Description**: Multiplies the player's knockback resistance, reducing how far they are pushed when hit.
+- **Categories**: `combat`, `player`, `attribute`
 
 ## Configuration Example
 

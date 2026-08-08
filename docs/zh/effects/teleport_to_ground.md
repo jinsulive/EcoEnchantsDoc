@@ -21,6 +21,14 @@ outline: deep
 | 分类 | 工具（Utility） |
 | 效果类型 | 触发型 |
 
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTeleportToGround.kt`）。
+
+- **源码描述**: Teleports the player straight down to the first solid ground beneath them.
+- **所属分类**: `movement`
+- **需要触发器数据**: `PLAYER`
+
 ## 配置示例
 
 ```yaml

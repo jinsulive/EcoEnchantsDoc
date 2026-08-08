@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerDisable.kt`).
+
+- **Source Description**: Fires when a holder is deactivated for the dispatcher, such as when an item is unequipped.
+- **Categories**: `meta`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`
+
 ## Configuration Example
 
 ```yaml

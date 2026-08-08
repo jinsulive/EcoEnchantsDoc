@@ -21,6 +21,13 @@ outline: deep
 | Category | Utility |
 | Effect Type | Permanent |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAntigravityProjectile.kt`).
+
+- **Source Description**: Makes all projectiles the player fires travel in a straight line, unaffected by gravity.
+- **Categories**: `combat`
+
 ## Configuration Example
 
 ```yaml

@@ -26,9 +26,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `conditions` | The list of conditions |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `conditions` | Any/Custom | ✅ | — | — | The list of conditions \| Source: List of conditions — passes when any one is met. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionAnyOf.kt`）。
+
+- **源码描述**: Passes when at least one of the listed conditions is met.
+- **所属分类**: `meta`
 
 ## 配置示例
 

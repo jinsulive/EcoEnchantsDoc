@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `power` | The power of the firework, which affects how high it flies before exploding. (0-255, 0 is instant explosion) |
-| `effects` | You can specify multiple firework effects |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `power` | Integer | — | `0` | — | The power of the firework, which affects how high it flies before exploding. (0-255, 0 is instant explosion) \| Source: The flight duration of the firework (0–255). Defaults to 0. |
+| `effects` | Dynamic Config | — | — | — | You can specify multiple firework effects \| Source: A list of firework effect subsections, each with type, colors, fade-colors, trail, and flicker. |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFirework.kt`）。
+
+- **源码描述**: Launches a firework at the trigger location with configurable colors, shape, and effects.
+- **所属分类**: `visual`
+- **需要触发器数据**: `LOCATION`
 
 ## 配置示例
 

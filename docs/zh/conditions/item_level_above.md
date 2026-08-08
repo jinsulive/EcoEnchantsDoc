@@ -26,10 +26,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `id` | The level ID |
-| `level` | The minimum level |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `id` | String | ✅ | — | — | The level ID \| Source: The ID of the level type to check on the held item. |
+| `level` | Expression(数学表达式) | ✅ | — | — | The minimum level \| Source: The minimum level the item must exceed. Example: `5 + %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemLevelAbove.kt`）。
+
+- **源码描述**: Passes when the held item's level for a given level type is above the specified value.
+- **所属分类**: `inventory`
 
 ## 配置示例
 

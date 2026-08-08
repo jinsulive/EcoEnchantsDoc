@@ -26,12 +26,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `x` | The x coordinate |
-| `y` | The y coordinate |
-| `z` | The z coordinate |
-| `radius` | The radius |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `x` | Expression(数学表达式) | ✅ | — | — | The x coordinate \| Source: The X coordinate of the target location. |
+| `y` | Expression(数学表达式) | ✅ | — | — | The y coordinate \| Source: The Y coordinate of the target location. |
+| `z` | Expression(数学表达式) | ✅ | — | — | The z coordinate \| Source: The Z coordinate of the target location. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius \| Source: The maximum distance from the target location. Example: `15 + %level% * 0.5` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionWithinRadiusOf.kt`）。
+
+- **源码描述**: Passes when the entity is within the specified radius of a given coordinate.
+- **所属分类**: `world`
 
 ## 配置示例
 

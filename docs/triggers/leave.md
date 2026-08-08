@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerLeave.kt`).
+
+- **Source Description**: Fires when the player leaves the server.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`
+
 ## Configuration Example
 
 ```yaml

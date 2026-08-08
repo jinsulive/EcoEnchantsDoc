@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `biomes` | A list of biomes |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `biomes` | String List | ✅ | — | — | A list of biomes \| Source: The list of biome names to check against. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionInBiome.kt`).
+
+- **Source Description**: Passes when the player is located in one of the specified biomes.
+- **Categories**: `world`
 
 ## Configuration Example
 

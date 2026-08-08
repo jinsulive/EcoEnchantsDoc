@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `items` | The list of items to choose from |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `items` | Item List | ✅ | — | — | The list of items to choose from \| Source: The pool of items to choose from. One is picked at random per trigger. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropRandomItem.kt`).
+
+- **Source Description**: Drops one randomly chosen item from a list at the trigger location.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

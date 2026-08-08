@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The type of point |
-| `amount` | The minimum amount of points |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The type of point \| Source: The points type to read from the held item. |
+| `amount` | Expression(数学表达式) | ✅ | — | — | The minimum amount of points \| Source: The minimum number of points the item must have. Example: `%level% * 10` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionItemPointsAbove.kt`).
+
+- **Source Description**: Passes when the held item's points of a given type are at or above the specified amount.
+- **Categories**: `inventory`
 
 ## Configuration Example
 

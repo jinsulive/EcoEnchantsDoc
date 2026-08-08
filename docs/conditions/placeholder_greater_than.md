@@ -26,10 +26,17 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `placeholder` | The placeholder, including % |
-| `value` | The value it must be >= to |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and evaluate as a number. Example: `%player_level%` |
+| `value` | Expression(数学表达式) | ✅ | — | — | The value it must be >= to \| Source: The minimum numeric threshold the placeholder must meet or exceed. Example: `5 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPlaceholderGreaterThan.kt`).
+
+- **Source Description**: Passes when the resolved placeholder value is numerically greater than or equal to the specified value.
+- **Categories**: `meta`
 
 ## Configuration Example
 

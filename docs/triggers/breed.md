@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The experience received |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerBreed.kt`).
+
+- **Source Description**: Fires when two entities are bred.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `LOCATION`, `ITEM`, `VALUE`
+- **Value**: The experience dropped from breeding.
+
 ## Configuration Example
 
 ```yaml

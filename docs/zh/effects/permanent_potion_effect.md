@@ -23,12 +23,19 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `effect` | The effect to give |
-| `level` | The effect level to give |
-| `particles` | (Optional) If the effect should show particles |
-| `icon` | (Optional) If the effect should show the icon in the top corner |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `effect` | Any/Custom | ✅ | — | — | The effect to give |
+| `level` | Custom | — | — | — | The effect level to give |
+| `particles` | Custom | — | — | — | (Optional) If the effect should show particles |
+| `icon` | Custom | — | — | — | (Optional) If the effect should show the icon in the top corner |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectPermanentPotionEffect.kt`）。
+
+- **源码描述**: Permanently applies a potion effect to the player for as long as the holder is active, surviving respawns.
+- **所属分类**: `potion`, `player`
 
 ## 配置示例
 

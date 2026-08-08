@@ -26,10 +26,18 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `placeholder` | The placeholder, including % |
-| `value` | The value it must equal |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `placeholder` | String | ✅ | — | — | The placeholder, including % \| Source: The placeholder string to resolve and compare. Example: `%player_gamemode%` |
+| `value` | String | ✅ | — | — | The value it must equal \| Source: The exact string the resolved placeholder must equal. |
+| `ignore_case` | Boolean | — | `false` | — | Whether the equality check should be case-insensitive. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionPlaceholderEquals.kt`).
+
+- **Source Description**: Passes when the resolved placeholder value equals the specified string.
+- **Categories**: `meta`
 
 ## Configuration Example
 

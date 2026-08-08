@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `age` | The amount to age by |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `age` | Expression(数学表达式) | — | `1` | — | The amount to age by \| Source: The number of growth stages to advance. Supports expressions. Example: `1 + %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAgeCrop.kt`）。
+
+- **源码描述**: Advances a crop's growth by a number of stages.
+- **所属分类**: `world`
+- **需要触发器数据**: `BLOCK`
 
 ## 配置示例
 

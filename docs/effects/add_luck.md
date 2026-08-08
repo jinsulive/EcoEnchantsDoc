@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of luck to add |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of luck to add \| Source: The amount of luck to add. Supports expressions. Example: `%level% * 0.5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAddLuck.kt`).
+
+- **Source Description**: Permanently increases the player's luck attribute while the holder is active.
+- **Categories**: `player`, `attribute`
 
 ## Configuration Example
 

@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `only_fully_grown` | Whether to only harvest fully grown crops |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `only_fully_grown` | Boolean | ✅ | — | — | Whether to only harvest fully grown crops \| Source: Whether the crop must be fully grown before it is harvested. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectHarvestCrop.kt`).
+
+- **Source Description**: Harvests the triggered crop block and resets its growth to zero.
+- **Categories**: `world`
+- **Requires Trigger Data**: `BLOCK`
 
 ## Configuration Example
 

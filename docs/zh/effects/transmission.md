@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `distance` | The distance to teleport |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `distance` | Expression(数学表达式) | ✅ | — | — | The distance to teleport \| Source: The maximum distance to teleport the player forward. Supports expressions. Example: `10 + %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTransmission.kt`）。
+
+- **源码描述**: Teleports the player forward by a given distance, stopping at the first solid block in the path.
+- **所属分类**: `movement`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

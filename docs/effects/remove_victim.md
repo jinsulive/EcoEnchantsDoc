@@ -21,6 +21,14 @@ outline: deep
 | Category | Utility |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectRemoveVictim.kt`).
+
+- **Source Description**: Removes (despawns) the victim entity. Has no effect if the victim is a player.
+- **Categories**: `combat`, `entity`
+- **Requires Trigger Data**: `VICTIM`
+
 ## Configuration Example
 
 ```yaml

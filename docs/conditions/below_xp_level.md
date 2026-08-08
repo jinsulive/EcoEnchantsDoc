@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `level` | The maximum XP level |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `level` | Expression(数学表达式) | ✅ | — | — | The maximum XP level \| Source: The XP level threshold; the player must be below this value. Example: `10 + %level%` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowXPLevel.kt`).
+
+- **Source Description**: Passes when the player's XP level is below the specified level.
+- **Categories**: `economy`
 
 ## Configuration Example
 

@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The fraction of incoming damage to reflect |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of incoming damage to reflect \| Source: The fraction of incoming damage to reflect back at the attacker. Supports expressions. Example: `0.2 + %level% * 0.02` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectReflect.kt`).
+
+- **Source Description**: Reflects a portion of incoming damage back at the attacker.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `EVENT`
 
 ## Configuration Example
 

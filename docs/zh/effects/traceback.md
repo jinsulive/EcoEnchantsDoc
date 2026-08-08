@@ -23,9 +23,17 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `seconds` | The seconds to go back (between 1 and 30) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `seconds` | Expression(数学表达式) | ✅ | — | — | The seconds to go back (between 1 and 30) \| Source: How many seconds into the past to teleport the player (clamped to 1–30). Supports expressions. Example: `1 + %level% / 10` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectTraceback.kt`）。
+
+- **源码描述**: Teleports the player back to where they were a specified number of seconds ago.
+- **所属分类**: `movement`
+- **需要触发器数据**: `PLAYER`
 
 ## 配置示例
 

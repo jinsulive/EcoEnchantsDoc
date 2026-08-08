@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The section to sort: all, hotbar, or main |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | `all`, `hotbar`, `main` | The section to sort: all, hotbar, or main \| Source: Which section of the inventory to sort: all, hotbar, or main. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSortInventory.kt`).
+
+- **Source Description**: Sorts items in the player's inventory by material name and stack size.
+- **Categories**: `inventory`, `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

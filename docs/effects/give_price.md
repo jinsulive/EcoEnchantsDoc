@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `value` | The value of the price |
-| `type` | The price type |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `value` | Expression(数学表达式) | ✅ | — | — | The value of the price \| Source: The amount to give, as an expression string (may reference placeholders). Example: `%level% * 100` |
+| `type` | String | ✅ | — | — | The price type \| Source: The eco price type identifier (e.g. coins, xp, points:mytype). Example: `points:mytype` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectGivePrice.kt`).
+
+- **Source Description**: Gives the player a reward using the eco Price system, supporting any registered price type.
+- **Categories**: `economy`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

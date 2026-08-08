@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The fraction of the trigger value to heal |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of the trigger value to heal \| Source: The fraction of damage dealt that is converted into healing. Supports expressions. Example: `0.1 + %level% * 0.01` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectLifesteal.kt`).
+
+- **Source Description**: Heals the player for a portion of the damage dealt to the victim.
+- **Categories**: `combat`, `player`
+- **Requires Trigger Data**: `PLAYER`
 
 ## Configuration Example
 

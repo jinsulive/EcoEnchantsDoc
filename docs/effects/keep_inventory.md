@@ -21,6 +21,13 @@ outline: deep
 | Category | Item |
 | Effect Type | Permanent |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectKeepInventory.kt`).
+
+- **Source Description**: Prevents the player from dropping their inventory on death.
+- **Categories**: `player`, `inventory`
+
 ## Configuration Example
 
 ```yaml

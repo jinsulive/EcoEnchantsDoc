@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier \| Source: The damage multiplier to apply. Supports expressions. Example: `1.2 + %level% * 0.02` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDamageMultiplier.kt`).
+
+- **Source Description**: Multiplies the damage of the triggering attack.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `EVENT`
 
 ## Configuration Example
 

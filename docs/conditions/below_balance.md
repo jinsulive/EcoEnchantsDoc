@@ -26,9 +26,16 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `balance` | The maximum amount of money |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `balance` | Expression(数学表达式) | ✅ | — | — | The maximum amount of money \| Source: The balance threshold; the player must be below this amount. Example: `%level% * 500` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionBelowBalance.kt`).
+
+- **Source Description**: Passes when the player's economy balance is below the specified amount.
+- **Categories**: `economy`
 
 ## Configuration Example
 

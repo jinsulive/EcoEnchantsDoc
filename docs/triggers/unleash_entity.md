@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerUnleashEntity.kt`).
+
+- **Source Description**: Fires when the player removes a lead from a leashed entity.
+- **Categories**: `interaction`
+- **Requires Trigger Data**: `PLAYER`, `VICTIM`, `EVENT`, `LOCATION`
+
 ## Configuration Example
 
 ```yaml

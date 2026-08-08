@@ -23,9 +23,16 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | The amount of oxygen bonus to add |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of oxygen bonus to add \| Source: The flat amount of oxygen bonus to add. Supports expressions. Example: `%level% * 0.1` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectOxygenBonus.kt`）。
+
+- **源码描述**: Permanently adds bonus oxygen (air bubbles) to the player while the holder is active.
+- **所属分类**: `player`, `attribute`
 
 ## 配置示例
 

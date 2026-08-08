@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `glowing` | (Optional) Whether to enable glowing, defaults to true |
-| `duration` | (Optional) Ticks before the glowing state is reverted |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `glowing` | Boolean | — | `true` | — | (Optional) Whether to enable glowing, defaults to true \| Source: Whether to enable or disable the glowing effect. |
+| `duration` | Expression(数学表达式) | — | — | — | (Optional) Ticks before the glowing state is reverted \| Source: How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetGlowing.kt`）。
+
+- **源码描述**: Makes the target entity glow, optionally reverting after a duration.
+- **所属分类**: `visual`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

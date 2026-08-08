@@ -22,10 +22,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `target` | The target location (either block or entity) |
-| `start` | Where to raytrace from (either player or victim) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `target` | String | ✅ | — | `block`, `entity` | The target location (either block or entity) \| Source: The entity or block to target with the raytrace. |
+| `start` | String | ✅ | — | `player`, `victim` | Where to raytrace from (either player or victim) \| Source: The entity to raytrace from. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/mutators/impl/MutatorLocationToCursor.kt`).
+
+- **Source Description**: Sets the location to the position of the entity or block at the player's or victim's cursor.
+- **Categories**: `location`
 
 ## Configuration Example
 

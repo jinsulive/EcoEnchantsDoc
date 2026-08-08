@@ -23,10 +23,18 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | The multiplier for movement speed |
-| `duration` | The duration (in ticks) |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for movement speed \| Source: The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
+| `duration` | Expression(数学表达式) | ✅ | — | — | The duration (in ticks) \| Source: How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectVictimSpeedMultiplier.kt`）。
+
+- **源码描述**: Temporarily multiplies the victim's movement speed for a given duration.
+- **所属分类**: `movement`, `combat`, `attribute`
+- **需要触发器数据**: `VICTIM`
 
 ## 配置示例
 

@@ -21,6 +21,14 @@ outline: deep
 | Category | Item |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectCloseInventory.kt`).
+
+- **Source Description**: Closes any open inventory GUI for the player.
+- **Categories**: `inventory`, `player`
+- **Requires Trigger Data**: `PLAYER`
+
 ## Configuration Example
 
 ```yaml

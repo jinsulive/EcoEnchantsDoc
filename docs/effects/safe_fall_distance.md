@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `distance` | The extra distance |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `distance` | Expression(数学表达式) | ✅ | — | — | The extra distance \| Source: The number of extra blocks the player can fall safely. Supports expressions. Example: `%level% * 0.5` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSafeFallDistance.kt`).
+
+- **Source Description**: Increases the player's safe fall distance, reducing fall damage taken.
+- **Categories**: `movement`, `player`, `attribute`
 
 ## Configuration Example
 

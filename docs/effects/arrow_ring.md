@@ -23,13 +23,21 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of arrows to spawn |
-| `height` | The height at which to spawn the arrows |
-| `radius` | The radius of the ring |
-| `arrow_damage` | The amount of damage for the arrows to deal |
-| `fire_ticks` | The fire ticks for the arrows to have |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of arrows to spawn \| Source: The number of arrows in the ring. Supports expressions. Example: `8 + %level%` |
+| `height` | Expression(数学表达式) | ✅ | — | — | The height at which to spawn the arrows \| Source: The height above the location to spawn the arrows. Supports expressions. |
+| `radius` | Expression(数学表达式) | ✅ | — | — | The radius of the ring \| Source: The radius of the arrow ring. Supports expressions. Example: `3 + %level% * 0.3` |
+| `arrow_damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage for the arrows to deal \| Source: The damage each arrow deals. Supports expressions. Example: `%level% * 1.5` |
+| `fire_ticks` | Expression(数学表达式) | ✅ | — | — | The fire ticks for the arrows to have \| Source: How many ticks the arrows are on fire. Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectArrowRing.kt`).
+
+- **Source Description**: Spawns a ring of arrows falling downward at the trigger location.
+- **Categories**: `combat`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 

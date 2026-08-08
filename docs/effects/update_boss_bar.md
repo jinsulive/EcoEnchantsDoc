@@ -23,13 +23,20 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `id` | The ID of the boss bar to update |
-| `name` | (Optional) The new name of the boss bar |
-| `color` | (Optional) The new boss bar color (pink, blue, red, green, yellow, purple, white) |
-| `style` | (Optional) The new boss bar style (progress, notched_6, notched_10, notched_12, notched_20) |
-| `progress` | (Optional) The new percentage completion of the boss bar |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `id` | String | ✅ | — | — | The ID of the boss bar to update \| Source: The ID of the boss bar to update. Example: `boss_%player_name%` |
+| `name` | String | — | `` | — | (Optional) The new name of the boss bar \| Source: The new display name of the boss bar. Supports placeholders. Example: `%player_name%'s Boss` |
+| `color` | String | — | `` | — | (Optional) The new boss bar color (pink, blue, red, green, yellow, purple, white) \| Source: The new color of the boss bar (e.g. BLUE, RED). Example: `RED` |
+| `style` | String | — | `` | — | (Optional) The new boss bar style (progress, notched_6, notched_10, notched_12, notched_20) \| Source: The new overlay style of the boss bar (e.g. PROGRESS, NOTCHED_10). Example: `NOTCHED_10` |
+| `progress` | Expression(数学表达式) | — | `` | — | (Optional) The new percentage completion of the boss bar \| Source: The new progress value (0–100). Supports expressions. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectUpdateBossBar.kt`).
+
+- **Source Description**: Updates the properties of an existing boss bar created by create_boss_bar.
+- **Categories**: `visual`
 
 ## Configuration Example
 

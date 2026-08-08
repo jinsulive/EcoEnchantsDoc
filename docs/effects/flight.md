@@ -21,6 +21,13 @@ outline: deep
 | Category | Movement |
 | Effect Type | Permanent |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectFlight.kt`).
+
+- **Source Description**: Grants the player the ability to fly while the holder is active.
+- **Categories**: `movement`, `player`
+
 ## Configuration Example
 
 ```yaml

@@ -23,13 +23,21 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of mobs to spawn |
-| `ticks_to_live` | The amount of ticks the mobs should live for |
-| `health` | The mob health |
-| `range` | The range around the location for mobs to spawn |
-| `entity` | The mob to spawn, takes a lookup string |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of mobs to spawn \| Source: The number of mobs to spawn. Supports expressions. Example: `1 + %level% / 5` |
+| `ticks_to_live` | Expression(数学表达式) | ✅ | — | — | The amount of ticks the mobs should live for \| Source: How many ticks the mobs will live before being removed. Supports expressions. Example: `20 * %level%` |
+| `health` | Expression(数学表达式) | — | `20` | — | The mob health \| Source: The max health (and starting health) to set on each spawned mob. Supports expressions. Example: `20 + %level% * 5` |
+| `range` | Expression(数学表达式) | ✅ | — | — | The range around the location for mobs to spawn \| Source: The radius around the trigger location in which mobs can spawn. Supports expressions. Example: `5 + %level% * 0.5` |
+| `entity` | Entity | ✅ | — | — | The mob to spawn, takes a lookup string \| Source: The entity type to spawn. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnMobs.kt`).
+
+- **Source Description**: Spawns multiple mobs near the trigger location that target the victim.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `PLAYER`, `LOCATION`
 
 ## Configuration Example
 

@@ -21,6 +21,15 @@ outline: deep
 | Category | Internal |
 | Value | The hunger gained |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerGainHunger.kt`).
+
+- **Source Description**: Fires when the player's food level increases.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`, `EVENT`, `VALUE`
+- **Value**: The amount of food level gained.
+
 ## Configuration Example
 
 ```yaml

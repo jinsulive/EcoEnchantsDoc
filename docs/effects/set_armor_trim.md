@@ -23,10 +23,18 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `pattern` | The pattern |
-| `material` | The material |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `pattern` | String | ✅ | — | — | The pattern \| Source: The trim pattern to apply, e.g. 'sentry' or 'dune'. Example: `sentry` |
+| `material` | String | ✅ | — | — | The material \| Source: The trim material to apply, e.g. 'gold' or 'diamond'. Example: `diamond` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSetArmorTrim.kt`).
+
+- **Source Description**: Applies an armor trim with the specified pattern and material to the triggering item.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `ITEM`
 
 ## Configuration Example
 

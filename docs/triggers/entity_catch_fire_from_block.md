@@ -21,6 +21,14 @@ outline: deep
 | Category | Internal |
 | Value | 1 |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/triggers/impl/TriggerEntityCatchFireFromBlock.kt`).
+
+- **Source Description**: Fires when an entity catches fire from a block such as lava.
+- **Categories**: `entity`
+- **Requires Trigger Data**: `VICTIM`, `LOCATION`
+
 ## Configuration Example
 
 ```yaml

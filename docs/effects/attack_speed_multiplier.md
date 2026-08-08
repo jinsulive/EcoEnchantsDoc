@@ -23,9 +23,16 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier for the attack speed |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier for the attack speed \| Source: The attack speed multiplier. 1.5 = 50% faster. Supports expressions. Example: `1 + %level% * 0.05` |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectAttackSpeedMultiplier.kt`).
+
+- **Source Description**: Multiplies the player's attack speed while the holder is active.
+- **Categories**: `combat`, `player`, `attribute`
 
 ## Configuration Example
 

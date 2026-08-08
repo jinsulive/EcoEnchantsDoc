@@ -21,6 +21,14 @@ outline: deep
 | Category | Utility |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectExtinguish.kt`).
+
+- **Source Description**: Immediately extinguishes any fire on the player.
+- **Categories**: `player`
+- **Requires Trigger Data**: `PLAYER`
+
 ## Configuration Example
 
 ```yaml

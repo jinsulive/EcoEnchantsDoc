@@ -21,6 +21,14 @@ outline: deep
 | Category | Item |
 | Effect Type | Triggered |
 
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectShuffleHotbar.kt`).
+
+- **Source Description**: Randomly shuffles the items in the victim's hotbar.
+- **Categories**: `inventory`, `player`
+- **Requires Trigger Data**: `VICTIM`
+
 ## Configuration Example
 
 ```yaml

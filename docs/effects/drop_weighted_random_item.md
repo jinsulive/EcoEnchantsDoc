@@ -23,9 +23,17 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `items` | The list of items to choose from (with weight) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `items` | Dynamic Config | ✅ | — | — | The list of items to choose from (with weight) \| Source: A list of weighted item groups. Each entry has a weight and an items list. |
+
+## 📝 Source Notes
+
+> The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectDropWeightedRandomItem.kt`).
+
+- **Source Description**: Drops one item chosen from a weighted list at the trigger location.
+- **Categories**: `inventory`
+- **Requires Trigger Data**: `LOCATION`
 
 ## Configuration Example
 
