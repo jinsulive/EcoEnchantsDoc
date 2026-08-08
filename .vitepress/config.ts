@@ -8,7 +8,6 @@ export default defineConfig({
     "Complete bilingual documentation for the libreforge effect framework and EcoEnchants enchantment configuration",
   lang: "en-US",
   cleanUrls: true,
-  lastUpdated: true,
   // 文档源目录：.vitepress 已移至项目根，文档源位于 docs/
   srcDir: "docs",
   // GitHub Pages 项目页部署：base 为 /eco-enchants-guide/
