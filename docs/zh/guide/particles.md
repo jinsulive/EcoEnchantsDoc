@@ -177,7 +177,7 @@ outline: deep
 
 上方表格中的部分粒子在通过 Bukkit/Paper API 生成时需要附加一个**数据对象**（即「数据类型」列）。本节针对 18 个带数据粒子逐一说明：数据对象含义、YAML 中可用的写法，以及如何在 Java 中携带完整数据生成。
 
-### spawn_particle 如何处理粒子字符串
+### `spawn_particle` 如何处理粒子字符串
 
 libreforge 的 `spawn_particle` 效果只读取一个 `particle` 参数（即 **eco particle string**），并通过 `Particles.lookup(...)` 生成。字符串语法为：
 
