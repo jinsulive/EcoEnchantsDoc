@@ -33,6 +33,8 @@ outline: deep
 | `use-eye-location` | Boolean | — | `false` | — | Whether to use the entity's eye location instead of their feet. |
 | `particle_args` | Custom | — | — | — | Arguments for the animation |
 
+> 💡 See [Particle Types](../guide/particles) for the full list of 115 built-in particles.
+
 ## 📝 Source Notes
 
 > The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectParticleAnimation.kt`).

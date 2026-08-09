@@ -13,6 +13,7 @@ const zhGuideGroup: DefaultTheme.SidebarItem = {
       link: "/zh/guide/ecoenchants-specific",
     },
     { text: "Eco 核心库", link: "/zh/guide/eco-core-library" },
+    { text: "粒子类型", link: "/zh/guide/particles" },
     { text: "术语表", link: "/zh/glossary" },
   ],
 };

@@ -28,6 +28,8 @@ outline: deep
 | `particle` | Any/Custom | ✅ | — | — | The particle to spawn, as an eco particle string. Example: `flame` |
 | `amount` | Expression(数学表达式) | — | `1` | — | The number of particles to spawn. Supports expressions. |
 
+> 💡 See [Particle Types](../guide/particles) for the full list of 115 built-in particles.
+
 ## 📝 Source Notes
 
 > The following information is from the libreforge source code (`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnParticle.kt`).

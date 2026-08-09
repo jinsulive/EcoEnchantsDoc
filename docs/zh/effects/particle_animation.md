@@ -33,6 +33,8 @@ outline: deep
 | `use-eye-location` | Boolean | — | `false` | — | （可选）使用实体的眼睛高度而非脚部高度。 |
 | `particle_args` | Custom | — | — | — | 动画参数。 |
 
+> 💡 完整的内置粒子类型（共 115 个）请参阅 [粒子类型](../guide/particles)。
+
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectParticleAnimation.kt`）。

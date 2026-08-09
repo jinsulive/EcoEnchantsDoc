@@ -28,6 +28,8 @@ outline: deep
 | `particle` | Any/Custom | ✅ | — | — | 要生成的粒子。示例：`flame` |
 | `amount` | Expression(数学表达式) | — | `1` | — | 要生成的粒子数量。支持表达式。 |
 
+> 💡 完整的内置粒子类型（共 115 个）请参阅 [粒子类型](../guide/particles)。
+
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/effects/impl/EffectSpawnParticle.kt`）。

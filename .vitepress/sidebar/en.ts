@@ -13,6 +13,7 @@ const guideGroup: DefaultTheme.SidebarItem = {
       link: "/guide/ecoenchants-specific",
     },
     { text: "Eco Core Library", link: "/guide/eco-core-library" },
+    { text: "Particle Types", link: "/guide/particles" },
     { text: "Glossary", link: "/glossary" },
   ],
 };
