@@ -10,7 +10,7 @@ outline: deep
 
 # give_edprison_pouch <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives the player an EdPrison pouch.
+> Gives the player an EdPrison pouch item, optionally pre-unlocked.
 
 > **Requires:** EdPrison
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | The ID of the pouch type |
-| `unlocked` | Whether the pouch is unlocked |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The EdPrison pouch ID to give. |
+| `unlocked` | Boolean | ✅ | — | — | Whether the pouch starts fully unlocked. |
 
 ## Configuration Example
 

@@ -25,9 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `on_items` | Item List | — | `[]` | — | （可选）要倍率化的掉落物列表。默认作用于所有掉落物。 |
-| `fortune` | Expression(数学表达式) | ✅ | — | — | 模拟的时运等级（选项 1）。 |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 掉落倍率（选项 2）。 |
+| `multiplier` / `fortune`（任一） | Expression | ✅ | — | — | Either a flat drop multiplier or a fortune level to simulate. Supports expressions. 例: `1 + %level% * 0.1` |
+| `on_items` | Item List | — | `[]` | — | A list of items to restrict drop multiplication to. Defaults to all drops. |
 
 ## 📝 源码注记
 

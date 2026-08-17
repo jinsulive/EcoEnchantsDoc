@@ -10,7 +10,7 @@ outline: deep
 
 # create_explosion <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Creates an explosion
+> Creates one or more explosions at the trigger location.
 
 ## Overview
 
@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `power` | Expression(数学表达式) | ✅ | — | — | The explosion power. Vanilla TNT is 4. Supports expressions. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of explosions to create (one per tick). Supports expressions. |
+| `amount` | Expression | ✅ | — | — | The number of explosions to create (one per tick). Supports expressions. |
+| `power` | Expression | ✅ | — | — | The explosion power. Vanilla TNT is 4. Supports expressions. |
+| `player_as_damager` | Boolean | — | `false` | — | If true, the player is attributed as the source of explosion damage. |
 | `create_fire` | Boolean | — | `true` | — | Whether the explosion creates fire. |
 | `break_blocks` | Boolean | — | `true` | — | Whether the explosion breaks blocks. |
-| `player_as_damager` | Boolean | — | `false` | — | If true, the player is attributed as the source of explosion damage. |
 
 ## 📝 Source Notes
 

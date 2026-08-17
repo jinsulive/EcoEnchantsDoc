@@ -10,7 +10,7 @@ outline: deep
 
 # traceback <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Go back to a previous position
+> Teleports the player back to where they were a specified number of seconds ago.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `seconds` | Expression(数学表达式) | ✅ | — | — | How many seconds into the past to teleport the player (clamped to 1–30). Supports expressions. Example: `1 + %level% / 10` |
+| `seconds` | Expression | ✅ | — | — | How many seconds into the past to teleport the player (clamped to 1–30). Supports expressions. Example: `1 + %level% / 10` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # mine_radius <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Mines a square radius around a block
+> Mines all blocks in a cube radius around the triggered block.
 
 ## Overview
 
@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius of blocks to break around the triggered block. Supports expressions. Example: `2 + %level% / 20` |
-| `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that should never be broken by this effect. |
-| `check_hardness` | Boolean | — | `true` | — | Whether blocks harder than the triggered block should be skipped. |
+| `radius` | Expression | ✅ | — | — | The radius of blocks to break around the triggered block. Supports expressions. Example: `2 + %level% / 20` |
+| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
 | `disable_on_sneak` | Boolean | — | `false` | — | Whether the effect should be disabled while the player is sneaking. |
 | `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
-| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
+| `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that should never be broken by this effect. |
+| `check_hardness` | Boolean | — | `true` | — | Whether blocks harder than the triggered block should be skipped. |
 
 ## 📝 Source Notes
 

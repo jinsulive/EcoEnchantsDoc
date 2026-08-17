@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | 要修复的耐久值。支持表达式。示例：`50 + %level% * 10` |
+| `damage` | Expression | ✅ | — | — | The amount of durability to restore. Supports expressions. 例: `50 + %level% * 10` |
 
 ## 📝 源码注记
 

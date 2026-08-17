@@ -10,7 +10,7 @@ outline: deep
 
 # enable <Badge type="info" text="libreforge" /> 
 
-> Triggered when an item / enchant / etc enables
+> Fires when a holder is activated for the dispatcher, such as when an item is equipped.
 
 ## Overview
 

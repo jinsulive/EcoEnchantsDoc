@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # trident_attack <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **需要依赖：** Paper
 
 > 当投掷的三叉戟伤害实体时触发。
 

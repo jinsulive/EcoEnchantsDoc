@@ -10,7 +10,7 @@ outline: deep
 
 # block_item_drop <Badge type="info" text="libreforge" /> 
 
-> Triggered when a mined block drops loot
+> Fires when a block broken by the player drops its items.
 
 ## Overview
 

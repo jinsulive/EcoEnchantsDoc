@@ -10,7 +10,7 @@ outline: deep
 
 # give_health <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives the player health
+> Heals the player by the specified amount, capped at their maximum health.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of health points to restore (allows negative values). Supports expressions. Example: `%level% * 2` |
-| `trigger_heal` | Boolean | — | `false` | — | If true, fires an EntityRegainHealthEvent ("heal" trigger) and respects cancellation (e.g. for Mending). Defaults to false. |
+| `amount` | Expression | ✅ | — | — | The amount of health points to restore. Supports expressions. Example: `%level% * 2` |
+| `trigger_heal` | Boolean | — | `false` | — | If true, fires an EntityRegainHealthEvent and respects cancellation (e.g. for Mending). Defaults to false. |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # mine_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when mining a block
+> Fires when the player successfully breaks a block.
 
 ## Overview
 

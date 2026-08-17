@@ -28,9 +28,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | 占位符（含 % 符号）。示例：`%player_name%` |
-| `value` | String | — | `` | — | 占位符应包含的值。 |
-| `ignore_case` | Boolean | — | `false` | — | （可选）是否忽略大小写。 |
+| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and check. 例: `%player_name%` |
+| `value` | String | — | — | — | The substring to search for within the resolved placeholder. |
+| `ignore_case` | Boolean | — | `false` | — | Whether the substring match should be case-insensitive. |
 
 ## 📝 源码注记
 

@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # pyro_catch_fish <Badge type="info" text="libreforge" /> <Badge type="warning" text="PyroFishingPro" />
+> **Requires:** PyroFishingPro
 
-> Triggered when catching a fish
+> Fires when the player catches a fish through PyroFishingPro.
 
 ## Overview
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` | Item List | ✅ | — | — | 可供选择的物品列表。每次触发随机选取一个。 |
+| `items` / `item`（任一） | Item List | ✅ | — | — | The pool of items to choose from. One is picked at random per trigger. |
 
 ## 📝 源码注记
 

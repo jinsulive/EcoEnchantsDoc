@@ -10,7 +10,7 @@ outline: deep
 
 # swap_positions <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Swaps the positions of the player and the victim
+> Swaps the positions of the player and the victim instantly.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Movement |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

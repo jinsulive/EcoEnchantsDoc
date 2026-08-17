@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # in_trusted_claim <Badge type="info" text="libreforge" />
+> **Requires:** Lands
 
-> Requires the player to be in a claim they're trusted in
+> Passes when the player is standing inside a Lands area where they are trusted.
 
 ## Overview
 
@@ -23,6 +24,12 @@ outline: deep
 ::: tip Inverse Argument
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## Configuration Example
 

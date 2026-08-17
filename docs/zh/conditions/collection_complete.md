@@ -6,9 +6,11 @@ subcategory: player_state
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # collection_complete <Badge type="info" text="libreforge" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 需要玩家完全完成（满级）某个收藏。
 

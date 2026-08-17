@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # harvest_custom_crop <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
+> **Requires:** CustomCrops
 
-> Triggered when harvesting a custom crop
+> Fires when the player harvests a CustomCrops crop.
 
 ## Overview
 

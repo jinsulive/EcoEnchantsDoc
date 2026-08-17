@@ -6,9 +6,11 @@ subcategory: utility
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # remove_reforge <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 移除物品的重铸属性。
 

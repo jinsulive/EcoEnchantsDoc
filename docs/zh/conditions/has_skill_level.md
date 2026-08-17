@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # has_skill_level <Badge type="info" text="libreforge" />
+> **需要依赖：** AuraSkills
 
 > 需要玩家拥有一定的技能等级。
 
@@ -26,10 +27,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `skill` | 技能 ID。 |
-| `level` | 最小等级。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `skill` | String | ✅ | — | — | The AuraSkills skill to check (e.g. FARMING, MINING). |
+| `level` | Expression | ✅ | — | — | The minimum skill level the player must have. |
 
 ## 配置示例
 

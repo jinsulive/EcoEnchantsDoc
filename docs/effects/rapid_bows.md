@@ -10,7 +10,7 @@ outline: deep
 
 # rapid_bows <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Allows bows to be shot at full speed without pulling back as far
+> Allows the player to fire bows faster by a given percentage, as a permanent passive effect.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `percent_faster` | Expression(数学表达式) | ✅ | — | — | How many percent faster the bow charges. Supports expressions. Example: `10 + %level%` |
+| `percent_faster` | Expression | ✅ | — | — | How many percent faster the bow charges. Supports expressions. Example: `10 + %level%` |
 
 ## 📝 Source Notes
 

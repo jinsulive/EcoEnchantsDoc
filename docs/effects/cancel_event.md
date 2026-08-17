@@ -10,7 +10,7 @@ outline: deep
 
 # cancel_event <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Cancel the event that fired the trigger
+> Cancels the triggering event.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

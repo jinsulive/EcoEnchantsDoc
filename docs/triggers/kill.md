@@ -10,7 +10,7 @@ outline: deep
 
 # kill <Badge type="info" text="libreforge" /> 
 
-> Triggered when a player kills a player or entity
+> Fires when the player kills an entity.
 
 ## Overview
 

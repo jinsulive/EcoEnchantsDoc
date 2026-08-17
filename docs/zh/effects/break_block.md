@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `prevent_trigger` | Boolean | — | `false` | — | 是否不从此效果触发 mine_block 触发器。 |
+| `prevent_trigger` | Boolean | — | `false` | — | If true, breaking this block will not fire further libreforge triggers. |
 
 ## 📝 源码注记
 

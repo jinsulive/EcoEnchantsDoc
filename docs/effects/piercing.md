@@ -10,7 +10,7 @@ outline: deep
 
 # piercing <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Makes projectiles pass through other entities (collaterals), like the Piercing enchantment.
+> Adds extra piercing levels to an arrow projectile, allowing it to pass through additional entities.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `level` | Expression(数学表达式) | ✅ | — | — | The number of extra piercing levels to add to the arrow. Supports expressions. Example: `1 + %level% / 20` |
+| `level` | Expression | ✅ | — | — | The number of extra piercing levels to add to the arrow. Supports expressions. Example: `1 + %level% / 20` |
 
 ## 📝 Source Notes
 

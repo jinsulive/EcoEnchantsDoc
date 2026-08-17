@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_drop <Badge type="info" text="libreforge" />
 
-> Move the location to the drop location
+> Sets the location to the drop's position from the trigger event.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `location_to_drop` |
 | Module | libreforge |
 | Category | Location |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

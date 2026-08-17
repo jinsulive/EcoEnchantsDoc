@@ -10,7 +10,7 @@ outline: deep
 
 # remove_enchant <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Removes an enchant from the item
+> Removes a specific enchantment from the triggering item.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_item_points <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Multiply item points (check the points wiki page if you don't know what these are)
+> Multiplies a point value stored on the found item by the specified amount.
 
 ## Overview
 
@@ -26,7 +26,8 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The item point type to multiply. |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier to apply to the item's point value. Supports expressions. Example: `1 + %level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply to the item's point value. Supports expressions. Example: `1 + %level% * 0.1` |
+| `amount` | Expression | — | — | — |  |
 
 ## 📝 Source Notes
 

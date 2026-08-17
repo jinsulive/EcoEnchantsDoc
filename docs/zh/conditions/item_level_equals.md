@@ -28,9 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | Custom | — | — | — | 等级类型 ID。 |
-| `level` | Expression(数学表达式) | ✅ | — | — | 等级（物品必须精确达到的等级）。示例：`5 + %level%` |
-| `name` | String | ✅ | — | — | 要检查的等级类型名称。 |
+| `name` | String | ✅ | — | — | The name of the level type to check on the held item. |
+| `level` | Expression | ✅ | — | — | The exact level the item must have. 例: `5 + %level%` |
 
 ## 📝 源码注记
 

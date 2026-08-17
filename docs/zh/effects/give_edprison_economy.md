@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | 要给予的经济数量。 |
-| `type` | 经济类型 ID。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `type` | String | ✅ | — | — | The EdPrison economy currency ID to give. |
+| `amount` | Expression | ✅ | — | — | The amount of currency to give. Supports expressions. |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # random_teleport <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Teleports the player to a random location within a radius
+> Teleports the player to a random location within a radius, landing on the highest safe block.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum distance from the player's current position to teleport. Supports expressions. Example: `10 + %level%` |
-| `min_radius` | Expression(数学表达式) | — | `0` | — | The minimum distance from the player's current position to teleport. Supports expressions. Example: `%level% * 0.1` |
+| `radius` | Expression | ✅ | — | — | The maximum distance from the player's current position to teleport. Supports expressions. Example: `10 + %level%` |
+| `min_radius` | Expression | — | `0` | — | The minimum distance from the player's current position to teleport. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

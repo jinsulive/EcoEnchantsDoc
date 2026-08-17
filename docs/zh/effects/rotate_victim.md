@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | 旋转角度（以度为单位）。支持表达式。示例：`%level% * 10` |
+| `angle` | Expression | ✅ | — | — | The number of degrees to add to the victim's current yaw. Supports expressions. 例: `%level% * 10` |
 
 ## 📝 源码注记
 

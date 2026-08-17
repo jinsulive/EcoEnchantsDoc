@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `type` | 经济类型 ID。 |
-| `amount` | 要设置的数值。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `type` | String | ✅ | — | — | The EdPrison economy currency ID to set. |
+| `amount` | Expression | ✅ | — | — | The value to set the economy balance to. Supports expressions. |
 
 ## 配置示例
 

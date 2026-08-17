@@ -10,7 +10,7 @@ outline: deep
 
 # give_lands_balance <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Give money to a Land's bank balance
+> Adds money to the Lands balance of the land at the trigger location.
 
 > **Requires:** Lands
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount to give, use negative values to take |
-| `only_trusted` | If only trusted players can use this effect |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression | ✅ | — | — | The amount to add to the land's balance. Supports expressions. |
+| `only_trusted` | Boolean | — | `true` | — | Whether to restrict the effect to trusted land members. Defaults to true. |
 
 ## Configuration Example
 

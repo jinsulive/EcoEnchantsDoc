@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # compost_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **需要依赖：** Paper
 
 > 当玩家使用堆肥桶时触发。
 

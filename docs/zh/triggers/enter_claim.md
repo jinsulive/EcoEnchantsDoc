@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # enter_claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims" />
+> **需要依赖：** HuskClaims
 
 > 当进入已认领区域时触发。
 

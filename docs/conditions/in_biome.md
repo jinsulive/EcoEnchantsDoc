@@ -10,7 +10,7 @@ outline: deep
 
 # in_biome <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a specific biome
+> Passes when the player is located in one of the specified biomes.
 
 ## Overview
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要添加的氧气加成值。支持表达式。示例：`%level% * 0.1` |
+| `amount` | Expression | ✅ | — | — | The flat amount of oxygen bonus to add. Supports expressions. 例: `%level% * 0.1` |
 
 ## 📝 源码注记
 

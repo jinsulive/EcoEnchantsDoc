@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Expression(数学表达式) | ✅ | — | — | 穿透等级，即弹射物可穿过的实体数量。支持表达式。示例：`1 + %level% / 20` |
+| `level` | Expression | ✅ | — | — | The number of extra piercing levels to add to the arrow. Supports expressions. 例: `1 + %level% / 20` |
 
 ## 📝 源码注记
 

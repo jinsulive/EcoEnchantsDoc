@@ -10,7 +10,7 @@ outline: deep
 
 # light_level_below <Badge type="info" text="libreforge" />
 
-> Requires the light level to be less than or equal to certain level
+> Passes when the light level at the dispatcher's location is at or below the specified value.
 
 ## Overview
 

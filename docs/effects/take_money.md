@@ -10,7 +10,7 @@ outline: deep
 
 # take_money <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Takes money from the player
+> Removes a specified amount of money from the player's balance.
 
 > **Requires:** Vault
 
@@ -27,7 +27,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to remove from the player. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The amount of money to remove from the player. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

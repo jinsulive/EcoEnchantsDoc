@@ -10,7 +10,7 @@ outline: deep
 
 # set_armor_trim <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets item armor trim
+> Applies an armor trim with the specified pattern and material to the triggering item.
 
 ## Overview
 

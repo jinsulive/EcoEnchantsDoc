@@ -25,7 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `entity` | Entity | ✅ | — | — | 要生成的生物（接受查找字符串）。 |
+| `entity` | Entity | ✅ | — | — | The entity type to spawn at the trigger location. |
+| `owner` | Boolean | — | — | — |  |
 
 ## 📝 源码注记
 

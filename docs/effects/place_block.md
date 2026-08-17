@@ -10,7 +10,7 @@ outline: deep
 
 # place_block <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Places a block at a location, optionally reverting it after a duration
+> Places a block at the trigger location, optionally reverting it after a duration.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `block` | Block | ✅ | — | — | The block to place at the trigger location. |
-| `duration` | Expression(数学表达式) | — | — | — | How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. Example: `20 * %level%` |
+| `duration` | Expression | — | — | — | How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

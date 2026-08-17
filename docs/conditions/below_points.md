@@ -10,7 +10,7 @@ outline: deep
 
 # below_points <Badge type="info" text="libreforge" />
 
-> Requires a player to have a below amount of points (check the points wiki page if you don't know what these are)
+> Passes when the player's points of the given type are below the specified amount.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The points threshold; the player must be below this amount. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The points threshold; the player must be below this amount. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

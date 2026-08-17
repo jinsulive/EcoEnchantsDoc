@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecocollections
 outline: deep
+deprecated: true
 ---
 
 # tier_up_collection <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoCollections" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when tiering up a collection
 

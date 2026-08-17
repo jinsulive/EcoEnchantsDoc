@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Custom | — | — | — | 饥饿值消耗倍率，越小消耗越慢。 |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. 继承自 `MultiplierEffect` 抽象模板。 |
 
 ## 📝 源码注记
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | 被拉向目标位置的速度（速度向量的大小）。支持表达式。示例：`1 + %level% * 0.1` |
-| `jump` | Expression(数学表达式) | — | `0` | — | 添加到拉力向量上的向上助推。支持表达式。 |
+| `velocity` | Expression | ✅ | — | — | The strength of the pull force applied to the player. Supports expressions. 例: `1 + %level% * 0.1` |
+| `jump` | Expression | — | `0` | — | An upward boost added to the pull vector. Supports expressions. |
 
 ## 📝 源码注记
 

@@ -10,7 +10,7 @@ outline: deep
 
 # dont_consume_lapis_chance <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Prevents consuming lapis when enchanting items
+> Gives a percentage chance for the enchanting table to not consume lapis lazuli.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `chance` | Custom | — | — | — | The chance to not consume lapis |
+| `chance` | Expression | ✅ | — | — | The percentage chance (0–100) for this effect to activate. Supports expressions. Inherited from the `ChanceMultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

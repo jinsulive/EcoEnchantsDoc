@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent` | Expression(数学表达式) | ✅ | — | — | 最大百分比（饥饿值百分比 0–100）。示例：`25 + %level% * 0.5` |
+| `percent` | Expression | ✅ | — | — | The maximum hunger percentage (0–100). 例: `25 + %level% * 0.5` |
 
 ## 📝 源码注记
 

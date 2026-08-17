@@ -24,8 +24,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `target` | String | ✅ | — | `block`, `entity` | 目标位置（方块或实体）。 |
-| `start` | String | ✅ | — | `player`, `victim` | 射线检测的起点（玩家或受害者）。 |
+| `target` | String | ✅ | — | `block`, `entity` | The entity or block to target with the raytrace. |
+| `start` | String | ✅ | — | `player`, `victim` | The entity to raytrace from. |
 
 ## 📝 源码注记
 

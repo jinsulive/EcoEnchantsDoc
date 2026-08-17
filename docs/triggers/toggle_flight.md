@@ -10,7 +10,7 @@ outline: deep
 
 # toggle_flight <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing the flight state
+> Fires when the player toggles creative flight.
 
 ## Overview
 

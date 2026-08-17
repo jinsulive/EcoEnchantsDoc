@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # use_watering_can <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
+> **Requires:** CustomCrops
 
-> Triggered when using a watering can
+> Fires when the player uses a CustomCrops watering can.
 
 ## Overview
 

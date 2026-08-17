@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `biomes` | String List | ✅ | — | — | 要检查的生物群系名称列表。 |
+| `biomes` | String List | ✅ | — | — | The list of biome names to check against. |
 
 ## 📝 源码注记
 

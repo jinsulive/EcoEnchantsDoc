@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # elytra_boost <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when a player boosts an elytra
+> Fires when the player boosts their elytra with a firework rocket.
 
 ## Overview
 

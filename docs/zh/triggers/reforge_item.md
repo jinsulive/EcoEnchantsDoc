@@ -7,9 +7,11 @@ tags:
   - libreforge
   - reforges
 outline: deep
+deprecated: true
 ---
 
 # reforge_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Reforges" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当重铸物品时触发。
 

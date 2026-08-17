@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `world` | String | ✅ | — | — | 要传送到的世界名称。示例：`world_nether` |
-| `x` | Expression(数学表达式) | ✅ | — | — | X 坐标。支持表达式。示例：`100` |
-| `y` | Expression(数学表达式) | ✅ | — | — | Y 坐标。支持表达式。示例：`64` |
-| `z` | Expression(数学表达式) | ✅ | — | — | Z 坐标。支持表达式。示例：`-200` |
+| `world` | String | ✅ | — | — | The name of the world to teleport to. 例: `world_nether` |
+| `x` | Expression | ✅ | — | — | The X coordinate to teleport to. Supports expressions. 例: `100` |
+| `y` | Expression | ✅ | — | — | The Y coordinate to teleport to. Supports expressions. 例: `64` |
+| `z` | Expression | ✅ | — | — | The Z coordinate to teleport to. Supports expressions. 例: `-200` |
 
 ## 📝 源码注记
 

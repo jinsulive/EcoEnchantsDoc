@@ -10,7 +10,7 @@ outline: deep
 
 # name_entity <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Set the display name of an entity
+> Sets the custom name of the victim entity and makes it always visible.
 
 ## Overview
 

@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | 要从物品读取的自定义数据键。 |
-| `value` | String | ✅ | — | — | 该数据键必须等于的值。 |
+| `key` | String | ✅ | — | — | The custom item data key to read from the item. |
+| `value` | String | ✅ | — | — | The value that the data key must equal. |
 
 ## 📝 源码注记
 

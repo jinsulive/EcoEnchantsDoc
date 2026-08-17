@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # use_watering_can <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
+> **需要依赖：** CustomCrops
 
 > 当使用洒水壶时触发。
 

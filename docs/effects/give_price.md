@@ -10,7 +10,7 @@ outline: deep
 
 # give_price <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Pay a price to a player
+> Gives the player a reward using the eco Price system, supporting any registered price type.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `value` | Expression(数学表达式) | ✅ | — | — | The amount to give, as an expression string (may reference placeholders). Example: `%level% * 100` |
+| `value` | Expression | ✅ | — | — | The amount to give, as an expression string (may reference placeholders). Example: `%level% * 100` |
 | `type` | String | ✅ | — | — | The eco price type identifier (e.g. coins, xp, points:mytype). Example: `points:mytype` |
 
 ## 📝 Source Notes

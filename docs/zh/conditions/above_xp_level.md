@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Expression(数学表达式) | ✅ | — | — | 最小经验等级。示例：`10 + %level%` |
+| `level` | Expression | ✅ | — | — | The minimum XP level required. 例: `10 + %level%` |
 
 ## 📝 源码注记
 

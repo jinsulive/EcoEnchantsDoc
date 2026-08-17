@@ -10,7 +10,7 @@ outline: deep
 
 # heal <Badge type="info" text="libreforge" /> 
 
-> Triggered when regaining health
+> Fires when the player regains health.
 
 ## Overview
 

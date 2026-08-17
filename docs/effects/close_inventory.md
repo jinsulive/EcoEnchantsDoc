@@ -10,7 +10,7 @@ outline: deep
 
 # close_inventory <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Closes the player's inventory
+> Closes any open inventory GUI for the player.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Item |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

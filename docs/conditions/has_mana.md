@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # has_mana <Badge type="info" text="libreforge" />
+> **Requires:** AuraSkills
 
-> Requires a player to have amount of mana
+> Passes when the player has at least a specified amount of AuraSkills mana.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of mana |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression | ✅ | — | — | The minimum amount of mana the player must have. |
 
 ## Configuration Example
 

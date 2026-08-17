@@ -10,7 +10,7 @@ outline: deep
 
 # click_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when right-clicking on a block
+> Fires when the player clicks on a block.
 
 ## Overview
 

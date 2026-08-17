@@ -10,7 +10,7 @@ outline: deep
 
 # damage_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when damaging an item
+> Fires when the player's held item takes durability damage.
 
 ## Overview
 

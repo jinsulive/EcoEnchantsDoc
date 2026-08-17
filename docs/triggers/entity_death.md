@@ -10,7 +10,7 @@ outline: deep
 
 # entity_death <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity dies
+> Fires when any living entity dies.
 
 ## Overview
 

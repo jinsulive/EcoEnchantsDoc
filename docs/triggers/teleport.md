@@ -10,7 +10,7 @@ outline: deep
 
 # teleport <Badge type="info" text="libreforge" /> 
 
-> Triggered when teleporting
+> Fires when the player teleports.
 
 ## Overview
 

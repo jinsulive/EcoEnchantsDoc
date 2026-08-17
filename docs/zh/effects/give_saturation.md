@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予/扣除的饱和值（允许负数）。支持表达式。示例：`%level%` |
+| `amount` | Expression | ✅ | — | — | The amount of saturation points to add. Supports expressions. 例: `%level%` |
 
 ## 📝 源码注记
 

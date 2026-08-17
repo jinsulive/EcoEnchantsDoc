@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予的经验值数量。支持表达式。示例：`%level% * 10` |
-| `apply_mending` | Boolean | — | `true` | — | 仅 Paper - 是否先用经验值进行经验修补修复（仅 Paper）。默认为 true。 |
+| `amount` | Expression | ✅ | — | — | The amount of experience points to give the player. Supports expressions. 例: `%level% * 10` |
+| `apply_mending` | Boolean | — | `true` | — | Whether to apply Mending repair before adding XP to the bar (Paper only). Defaults to true. |
 
 ## 📝 源码注记
 

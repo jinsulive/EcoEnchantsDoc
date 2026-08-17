@@ -6,9 +6,11 @@ subcategory: utility
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # uninscribe_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Removes or decreases the level of a scroll inscribed on an item
 

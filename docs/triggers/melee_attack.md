@@ -10,7 +10,7 @@ outline: deep
 
 # melee_attack <Badge type="info" text="libreforge" /> 
 
-> Triggered when injuring an entity with a melee attack
+> Fires when the player lands a melee hit on an entity.
 
 ## Overview
 

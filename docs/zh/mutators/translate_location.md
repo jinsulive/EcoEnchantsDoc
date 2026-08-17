@@ -24,9 +24,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `add_x` | Expression(数学表达式) | ✅ | — | — | 要加到 X 坐标的值。示例：`0.5` |
-| `add_y` | Expression(数学表达式) | ✅ | — | — | 要加到 Y 坐标的值。示例：`1.0` |
-| `add-z` | Expression(数学表达式) | ✅ | — | — | 要加到 Z 坐标的值。示例：`-0.5` |
+| `add_x` | Expression | ✅ | — | — | The amount to add to the X coordinate. 例: `0.5` |
+| `add_y` | Expression | ✅ | — | — | The amount to add to the Y coordinate. 例: `1.0` |
+| `add_z` | Expression | ✅ | — | — | The amount to add to the Z coordinate. 例: `-0.5` |
 
 ## 📝 源码注记
 

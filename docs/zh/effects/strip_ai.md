@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `duration` | Expression(数学表达式) | ✅ | — | — | 移除 AI 的游戏刻数。支持表达式。示例：`20 * %level%` |
+| `duration` | Expression | ✅ | — | — | How long to disable the entity's AI, in ticks. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

@@ -10,7 +10,7 @@ outline: deep
 
 # pull_in <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Pull the victim towards the player
+> Pulls the victim toward the player with a specified velocity.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The strength of the pull force applied to the victim. Supports expressions. Example: `1 + %level% * 0.1` |
+| `velocity` | Expression | ✅ | — | — | The strength of the pull force applied to the victim. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # kick <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Kicks the player
+> Kicks the player from the server with a specified message.
 
 ## Overview
 

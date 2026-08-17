@@ -10,7 +10,7 @@ outline: deep
 
 # entity_target <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity targets another entity
+> Fires when an entity selects a new target.
 
 ## Overview
 

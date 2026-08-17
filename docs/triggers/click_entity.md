@@ -10,7 +10,7 @@ outline: deep
 
 # click_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when right-clicking on an entity
+> Fires when the player right-clicks a living entity.
 
 ## Overview
 

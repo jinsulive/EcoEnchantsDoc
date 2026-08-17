@@ -10,7 +10,7 @@ outline: deep
 
 # target_player <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Makes the victim target the player (requires the victim to be a monster)
+> Forces the victim monster to target the player.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

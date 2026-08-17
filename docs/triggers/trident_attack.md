@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # trident_attack <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered on injuring an entity with a thrown trident
+> Fires when the player's thrown trident hits an entity.
 
 ## Overview
 

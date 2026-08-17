@@ -10,7 +10,7 @@ outline: deep
 
 # catch_fish_fail <Badge type="info" text="libreforge" /> 
 
-> Triggered when failing to catch a fish
+> Fires when the player fails a fishing attempt.
 
 ## Overview
 

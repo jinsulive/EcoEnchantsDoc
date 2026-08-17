@@ -10,7 +10,7 @@ outline: deep
 
 # age_crop <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> If the block is a crop, age it by a certain amount
+> Advances a crop's growth by a number of stages.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `age` | Expression(数学表达式) | — | `1` | — | The number of growth stages to advance. Supports expressions. Example: `1 + %level%` |
+| `age` | Expression | — | `1` | — | The number of growth stages to advance. Supports expressions. Example: `1 + %level%` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # smith_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when smithing an item in a smithing table
+> Fires when the player smiths an item at a smithing table.
 
 ## Overview
 

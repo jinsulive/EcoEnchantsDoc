@@ -25,9 +25,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | 怪物硬币倍率。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
 
 ## 配置示例
 

@@ -6,9 +6,11 @@ subcategory: utility
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # inscribe_item <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 用卷轴为物品刻铭文。
 

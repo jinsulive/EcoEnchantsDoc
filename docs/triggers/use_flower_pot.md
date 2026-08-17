@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # use_flower_pot <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when a player inserts or extracts a plant from a flower pot
+> Fires when the player places or removes a plant from a flower pot.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # toggle_sprint <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing the sprint state
+> Fires when the player toggles sprinting.
 
 ## Overview
 

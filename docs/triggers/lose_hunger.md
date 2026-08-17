@@ -10,7 +10,7 @@ outline: deep
 
 # lose_hunger <Badge type="info" text="libreforge" /> 
 
-> Triggered when losing hunger
+> Fires when the player's food level decreases.
 
 ## Overview
 

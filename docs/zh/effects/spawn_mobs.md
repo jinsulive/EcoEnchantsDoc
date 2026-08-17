@@ -25,11 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要生成的生物数量。支持表达式。示例：`1 + %level% / 5` |
-| `ticks_to_live` | Expression(数学表达式) | ✅ | — | — | 生物的存活游戏刻数。支持表达式。示例：`20 * %level%` |
-| `health` | Expression(数学表达式) | — | `20` | — | 生成生物的生命值。支持表达式。示例：`20 + %level% * 5` |
-| `range` | Expression(数学表达式) | ✅ | — | — | 生物生成位置周围的范围。支持表达式。示例：`5 + %level% * 0.5` |
-| `entity` | Entity | ✅ | — | — | 要生成的生物（接受查找字符串）。 |
+| `amount` | Expression | ✅ | — | — | The number of mobs to spawn. Supports expressions. 例: `1 + %level% / 5` |
+| `ticks_to_live` | Expression | ✅ | — | — | How many ticks the mobs will live before being removed. Supports expressions. 例: `20 * %level%` |
+| `range` | Expression | ✅ | — | — | The radius around the trigger location in which mobs can spawn. Supports expressions. 例: `5 + %level% * 0.5` |
+| `entity` | Entity | ✅ | — | — | The entity type to spawn. |
+| `health` | Expression | — | `20` | — | The max health (and starting health) to set on each spawned mob. Supports expressions. 例: `20 + %level% * 5` |
+| `owner` | Boolean | — | — | — |  |
 
 ## 📝 源码注记
 

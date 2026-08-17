@@ -10,7 +10,7 @@ outline: deep
 
 # has_item_data <Badge type="info" text="libreforge" />
 
-> Requires an item to have a certain data value present on it
+> Passes when the held item has the specified custom item data key set.
 
 ## Overview
 

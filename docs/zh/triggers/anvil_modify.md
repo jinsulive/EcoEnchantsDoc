@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # anvil_modify <Badge type="info" text="libreforge" /> <Badge type="warning" text="Purpur" />
+> **需要依赖：** Purpur
 
 > 当玩家从铁砧取回已修改的物品时触发。
 

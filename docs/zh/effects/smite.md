@@ -10,7 +10,7 @@ outline: deep
 
 # smite <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> 对受害者释放闪电。
+> 对受害者释放闪电，造成可配置的伤害。
 
 ## 基本信息
 
@@ -25,8 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | 闪电对受害者造成的伤害值。支持表达式。示例：`%level% * 2` |
-| `silent` | Custom | — | — | — | 闪电是否静音。 |
+| `damage` | Expression | ✅ | — | — | The amount of damage the lightning strike deals to the victim. Supports expressions. 例: `%level% * 2` |
 
 ## 📝 源码注记
 

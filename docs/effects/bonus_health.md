@@ -10,7 +10,7 @@ outline: deep
 
 # bonus_health <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Gives extra health
+> Permanently increases the player's max health while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `health` | Expression(数学表达式) | ✅ | — | — | The amount of bonus max health to add (one heart is 2 HP). Supports expressions. Example: `%level% * 2` |
+| `health` | Expression | ✅ | — | — | The amount of bonus max health to add. Supports expressions. Example: `%level% * 2` |
 
 ## 📝 Source Notes
 

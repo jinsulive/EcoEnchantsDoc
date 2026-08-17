@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # leave_region <Badge type="info" text="libreforge" /> <Badge type="warning" text="WorldGuard" />
+> **需要依赖：** WorldGuard
 
 > 当离开区域时触发。
 

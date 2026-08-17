@@ -10,7 +10,7 @@ outline: deep
 
 # below_hunger_percent <Badge type="info" text="libreforge" />
 
-> Requires a player to be below a certain % of their max hunger
+> Passes when the player's hunger level is at or below the given percentage.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `percent` | Expression(数学表达式) | ✅ | — | — | The maximum hunger percentage (0–100). Example: `25 + %level% * 0.5` |
+| `percent` | Expression | ✅ | — | — | The maximum hunger percentage (0–100). Example: `25 + %level% * 0.5` |
 
 ## 📝 Source Notes
 

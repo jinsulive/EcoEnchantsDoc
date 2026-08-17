@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # set_battlepass_tier <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Set the player's battlepass tier
 

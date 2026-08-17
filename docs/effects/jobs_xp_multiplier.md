@@ -10,7 +10,7 @@ outline: deep
 
 # jobs_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies xp gain from jobs
+> Multiplies XP earned from Jobs for one or all jobs while the holder is active.
 
 > **Requires:** Jobs Reborn
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The experience multiplier |
-| `jobs` | The list of jobs to multiply xp for. If removed, it will multiply all jobs. |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression | ✅ | — | — | The XP multiplier. Supports expressions. |
+| `jobs` | String_list | — | — | — | List of job names to apply the multiplier to. If omitted, applies to all jobs. |
 
 ## Configuration Example
 

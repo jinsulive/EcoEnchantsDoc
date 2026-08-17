@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `message` | String List | ✅ | — | — | 要向所有玩家广播的消息。示例：`&aWelcome to the server, %player%!` |
+| `message` / `messages`（任一） | String List | ✅ | — | — | The message(s) to broadcast to all players. 例: `&aWelcome to the server, %player%!` |
 
 ## 📝 源码注记
 

@@ -10,7 +10,7 @@ outline: deep
 
 # drop_random_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Drops a random item at a location
+> Drops one randomly chosen item from a list at the trigger location.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `items` | Item List | ✅ | — | — | The pool of items to choose from. One is picked at random per trigger. |
+| `items` / `item` (either) | Item List | ✅ | — | — | The pool of items to choose from. One is picked at random per trigger. |
 
 ## 📝 Source Notes
 

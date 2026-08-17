@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # unclaim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
+> **Requires:** HuskClaims
 
-> Triggered when unclaiming an area
+> Fires when the player deletes a HuskClaims claim.
 
 ## Overview
 

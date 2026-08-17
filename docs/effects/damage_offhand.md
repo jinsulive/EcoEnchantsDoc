@@ -10,7 +10,7 @@ outline: deep
 
 # damage_offhand <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Damage a victim's offhand item
+> Applies durability damage to the item in the victim's off hand.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Custom | — | — | — | The amount of damage to deal |
+| `damage` | Expression | ✅ | — | — | The amount of durability damage to apply to the item. Supports expressions. Inherited from the `DamageItemEffect` abstract template. |
 
 ## 📝 Source Notes
 

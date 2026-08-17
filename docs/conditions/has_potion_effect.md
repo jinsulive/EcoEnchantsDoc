@@ -10,7 +10,7 @@ outline: deep
 
 # has_potion_effect <Badge type="info" text="libreforge" />
 
-> Requires a player to have a potion effect active
+> Passes when the entity has the specified potion effect active.
 
 ## Overview
 
@@ -28,8 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effect` | Potion Effect List | ✅ | — | — | The potion effect(s) to check for. Example: `speed, strength` |
-| `effects` | Potion Effect List | ✅ | — | — | The potion effect(s) to check for. Example: `speed, strength` |
+| `effect` / `effects` (either) | Potion Effect List | ✅ | — | — | The potion effect(s) to check for. Example: `speed, strength` |
 | `level` | Integer | — | `1` | — | The minimum amplifier level required (1-based). |
 
 ## 📝 Source Notes

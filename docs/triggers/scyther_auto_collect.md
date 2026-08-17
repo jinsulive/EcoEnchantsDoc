@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # scyther_auto_collect <Badge type="info" text="libreforge" /> <Badge type="warning" text="Scyther" />
+> **Requires:** Scyther
 
-> Triggered when autocollecting crops with a scyther hoe
+> Fires when Scyther auto-collects a crop for the player.
 
 ## Overview
 

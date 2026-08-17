@@ -10,9 +10,9 @@ outline: deep
 
 # play_animation <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Plays a Model Engine animation (The entity must have a custom model active)
+> Plays a BetterModel animation on the triggering entity or victim.
 
-> **Requires:** Model Engine
+> **Requires:** BetterModel
 
 ## Overview
 
@@ -25,9 +25,15 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `animation` | The name of the animation |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `animation` | String | ✅ | — | — | The name of the animation to play. |
+| `mode` | String | — | `PLAY_ONCE` | — | The animation playback mode (e.g. PLAY_ONCE, LOOP). Defaults to PLAY_ONCE. |
+| `self` | Boolean | — | `false` | — | Whether to show the animation only to the triggering player. |
+| `override` | Boolean | — | — | — | Whether to override any currently playing animation. |
+| `speed` | Double | — | — | — | Playback speed multiplier for the animation. |
+| `start` | Integer | — | — | — | The frame index at which to start the animation. |
+| `end` | Integer | — | — | — | The frame index at which to end the animation. |
 
 ## Configuration Example
 

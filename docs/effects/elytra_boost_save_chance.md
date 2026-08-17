@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # elytra_boost_save_chance <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
+> **Requires:** Paper
 
-> Prevents consuming fireworks when boosting with an elytra
+> Gives a percentage chance that a firework used for an elytra boost will not be consumed.
 
 ## Overview
 
@@ -23,9 +24,9 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `chance` | The chance to not consume a firework |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `chance` | Expression | ✅ | — | — | The percentage chance (0–100) for this effect to activate. Supports expressions. |
 
 ## Configuration Example
 

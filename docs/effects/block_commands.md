@@ -10,7 +10,7 @@ outline: deep
 
 # block_commands <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Prevents the execution of certain commands
+> Prevents the player from using specific commands while the holder is active.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `messages` | String List | — | — | — | Messages to send to the player when a blocked command is attempted. Example: `&cYou can't use that command right now!, &7Complete your quest first.` |
 | `commands` | String List | ✅ | — | — | The list of command names to block (without the leading slash). |
+| `messages` | String List | — | — | — | Messages to send to the player when a blocked command is attempted. Example: `&cYou can't use that command right now!, &7Complete your quest first.` |
 
 ## 📝 Source Notes
 

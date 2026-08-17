@@ -10,7 +10,7 @@ outline: deep
 
 # add_global_points <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Add / subtract global points (check the points wiki page if you don't know what these are)
+> Permanently increases a global point counter while the holder is active.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The global point type to add to. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of global points to add. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The amount of global points to add. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

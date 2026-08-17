@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # level_up_mcmmo <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
+> **Requires:** mcMMO
 
-> Triggered when levelling up McMMO skill
+> Fires when the player gains a level in a McMMO skill.
 
 ## Overview
 

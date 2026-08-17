@@ -10,7 +10,7 @@ outline: deep
 
 # set_freeze_ticks <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets the victims freeze ticks (frost / powdered snow effect)
+> Sets the victim's freeze ticks, controlling how frozen they appear and whether they take freeze damage.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The number of freeze ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | The number of freeze ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

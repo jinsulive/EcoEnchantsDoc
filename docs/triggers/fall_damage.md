@@ -10,7 +10,7 @@ outline: deep
 
 # fall_damage <Badge type="info" text="libreforge" /> 
 
-> Triggered when taking fall damage
+> Fires when an entity takes fall damage.
 
 ## Overview
 

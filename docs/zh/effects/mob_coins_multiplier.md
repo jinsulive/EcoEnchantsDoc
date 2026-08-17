@@ -12,7 +12,7 @@ outline: deep
 
 > 倍率化怪物硬币掉落。
 
-> **需要依赖：** Flare Mobcoins
+> **需要依赖：** TMMobCoins
 
 ## 基本信息
 
@@ -25,9 +25,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | 倍率。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
 
 ## 配置示例
 

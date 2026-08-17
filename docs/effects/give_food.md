@@ -10,7 +10,7 @@ outline: deep
 
 # give_food <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives the player food
+> Restores a set amount of food level to the player, capped at 20.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of food points to add to the player's hunger bar (allows negative values). Supports expressions. Example: `%level%` |
+| `amount` | Expression | ✅ | — | — | The number of food points to add to the player's hunger bar. Supports expressions. Example: `%level%` |
 
 ## 📝 Source Notes
 

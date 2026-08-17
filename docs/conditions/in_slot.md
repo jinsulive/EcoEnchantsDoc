@@ -10,7 +10,7 @@ outline: deep
 
 # in_slot <Badge type="info" text="libreforge" />
 
-> Requires the item (e.g. the EcoItem, enchanted item, reforged item) to be in a certain slot.
+> Passes when the active item holder is in one of the specified equipment slots.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `slot` | String List | ✅ | — | — | The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. Example: `mainhand, 9` |
+| `slot` / `slots` (either) | String List | ✅ | — | — | The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. Example: `mainhand, 9` |
 
 ## 📝 Source Notes
 

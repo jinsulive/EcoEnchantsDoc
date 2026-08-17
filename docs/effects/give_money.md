@@ -10,7 +10,7 @@ outline: deep
 
 # give_money <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives a player money
+> Deposits money into the player's economy balance when triggered.
 
 > **Requires:** Vault
 
@@ -27,7 +27,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of money to deposit into the player's balance. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The amount of money to deposit into the player's balance. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

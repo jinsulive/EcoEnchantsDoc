@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # give_task_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 为任务中的任务目标获得经验值（不含倍率）。
 

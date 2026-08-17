@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # collect_envoy <Badge type="info" text="libreforge" /> <Badge type="warning" text="AxEnvoy" />
+> **Requires:** AxEnvoy
 
-> Triggered when collecting an envoy crate
+> Fires when the player collects an AxEnvoy crate.
 
 ## Overview
 

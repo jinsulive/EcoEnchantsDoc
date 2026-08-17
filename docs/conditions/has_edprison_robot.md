@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # has_edprison_robot <Badge type="info" text="libreforge" />
+> **Requires:** EdPrison
 
-> Requires the player to have a specific EdPrison robot.
+> Passes when the player owns the specified EDPrisonCore robot type.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `robot` | The currency type |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `robot` | String | ✅ | — | — | The EDPrisonCore robot type the player must own. |
 
 ## Configuration Example
 

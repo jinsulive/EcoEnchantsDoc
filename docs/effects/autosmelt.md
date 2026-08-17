@@ -10,7 +10,7 @@ outline: deep
 
 # autosmelt <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Autosmelts drops (requires a drop trigger)
+> Automatically smelts blocks as they are mined, converting drops to their furnace output.
 
 ## Overview
 

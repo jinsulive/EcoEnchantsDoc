@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 额外挖掘效率加成值。支持表达式。示例：`%level% * 0.1` |
+| `amount` | Expression | ✅ | — | — | The flat amount of mining efficiency to add. Supports expressions. 例: `%level% * 0.1` |
 
 ## 📝 源码注记
 

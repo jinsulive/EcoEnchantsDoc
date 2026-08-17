@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_drops <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Multiplies drops
+> Multiplies the item drops from an event, either by a flat multiplier or by simulating a fortune level.
 
 ## Overview
 
@@ -25,9 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
+| `multiplier` / `fortune` (either) | Expression | ✅ | — | — | Either a flat drop multiplier or a fortune level to simulate. Supports expressions. Example: `1 + %level% * 0.1` |
 | `on_items` | Item List | — | `[]` | — | A list of items to restrict drop multiplication to. Defaults to all drops. |
-| `fortune` | Expression(数学表达式) | ✅ | — | — | Either a flat drop multiplier or a fortune level to simulate (Option 1). Supports expressions. Example: `1 + %level% * 0.1` |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | Either a flat drop multiplier (Option 2) or a fortune level to simulate. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

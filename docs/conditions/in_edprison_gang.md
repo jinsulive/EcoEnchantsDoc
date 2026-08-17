@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # in_edprison_gang <Badge type="info" text="libreforge" />
+> **Requires:** EdPrison
 
-> Requires the player to be in a EdPrison gang.
+> Passes when the player is a member of an EDPrisonCore gang.
 
 ## Overview
 
@@ -23,6 +24,12 @@ outline: deep
 ::: tip Inverse Argument
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## Configuration Example
 

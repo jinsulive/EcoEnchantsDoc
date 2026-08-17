@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 移动速度倍率。支持表达式。示例：`1 - %level% * 0.02` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | 持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `multiplier` | Expression | ✅ | — | — | The value to multiply the victim's movement speed by. Supports expressions. 例: `1 - %level% * 0.02` |
+| `duration` | Expression | ✅ | — | — | How many ticks the speed change lasts. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

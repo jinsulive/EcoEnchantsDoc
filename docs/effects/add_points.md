@@ -10,7 +10,7 @@ outline: deep
 
 # add_points <Badge type="info" text="libreforge" /> <Badge type="info" text="Permanent" />
 
-> Add / subtract points (check the points wiki page if you don't know what these are)
+> Permanently increases a player's point counter while the holder is active.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The player point type to add to. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of points to add. Supports expressions. Example: `%level% * 5` |
+| `amount` | Expression | ✅ | — | — | The amount of points to add. Supports expressions. Example: `%level% * 5` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # armor <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Gives armor points
+> Permanently increases or decreases the player's armor attribute while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `points` | Expression(数学表达式) | ✅ | — | — | The number of armor points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.5` |
+| `points` | Expression | ✅ | — | — | The number of armor points to add (or subtract if negative). Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

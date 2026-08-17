@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # join_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **Requires:** HuskTowns
 
-> Triggered when joining a Town
+> Fires when the player joins a HuskTowns town.
 
 ## Overview
 

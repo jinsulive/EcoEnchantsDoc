@@ -10,7 +10,7 @@ outline: deep
 
 # jobs_money_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies money gain from jobs
+> Multiplies money earned from Jobs while the holder is active.
 
 > **Requires:** Jobs Reborn
 
@@ -25,10 +25,9 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The money multiplier |
-| `jobs` | The list of jobs to multiply money for. If removed, it will multiply all jobs. |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
 
 ## Configuration Example
 

@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | 占位符（含 % 符号）。示例：`%player_level%` |
-| `value` | Expression(数学表达式) | ✅ | — | — | 它必须 ≥ 的值。示例：`5 + %level%` |
+| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and evaluate as a number. 例: `%player_level%` |
+| `value` | Expression | ✅ | — | — | The minimum numeric threshold the placeholder must meet or exceed. 例: `5 + %level%` |
 
 ## 📝 源码注记
 

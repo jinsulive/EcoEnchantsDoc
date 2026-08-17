@@ -10,7 +10,7 @@ outline: deep
 
 # time_bomb <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Plants a timed explosion on an entity that detonates after a fuse duration
+> Marks the victim to explode after a fuse delay, with an optional glow effect while the timer counts down.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `fuse` | Expression(数学表达式) | ✅ | — | — | How many ticks before the explosion occurs. Supports expressions. Example: `20 * %level%` |
-| `power` | Expression(数学表达式) | ✅ | — | — | The power of the explosion. Vanilla TNT is 4. Supports expressions. |
+| `fuse` | Expression | ✅ | — | — | How many ticks before the explosion occurs. Supports expressions. Example: `20 * %level%` |
+| `power` | Expression | ✅ | — | — | The power of the explosion. Vanilla TNT is 4. Supports expressions. |
 | `break_blocks` | Boolean | — | `false` | — | Whether the explosion breaks blocks. |
 | `glow` | Boolean | — | `true` | — | Whether the victim glows while waiting for the explosion. |
 

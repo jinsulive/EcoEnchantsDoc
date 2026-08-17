@@ -10,7 +10,7 @@ outline: deep
 
 # arrow_storm <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Rains arrows down onto a location
+> Rains arrows down from above the trigger location.
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of arrows to rain down. Supports expressions. Example: `10 + %level%` |
-| `height` | Expression(数学表达式) | ✅ | — | — | The height above the target to spawn the arrows. Supports expressions. |
-| `spread` | Expression(数学表达式) | ✅ | — | — | The horizontal spread radius for arrow spawning. Supports expressions. Example: `3 + %level% * 0.3` |
-| `damage` | Expression(数学表达式) | — | — | — | The damage each arrow deals. If omitted, uses the arrow's default damage. Example: `%level% * 2` |
+| `amount` | Expression | ✅ | — | — | The number of arrows to rain down. Supports expressions. Example: `10 + %level%` |
+| `height` | Expression | ✅ | — | — | The height above the target to spawn the arrows. Supports expressions. |
+| `spread` | Expression | ✅ | — | — | The horizontal spread radius for arrow spawning. Supports expressions. Example: `3 + %level% * 0.3` |
+| `damage` | Expression | — | — | — | The damage each arrow deals. If omitted, uses the arrow's default damage. Example: `%level% * 2` |
 | `respect_flame` | Boolean | — | `true` | — | Whether arrows inherit the Flame enchantment from the held bow. |
 
 ## 📝 Source Notes

@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `value` | Boolean | — | `true` | — | True = 应用不可破坏，False = 移除不可破坏。 |
-| `slot` | String | — | `holder` | — | 应用不可破坏的栏位（默认为 "holder"）。 |
-| `persist_on_disable` | Boolean | — | `true` | — | 卸下装备或效果停用时是否保留不可破坏标签。 |
+| `value` | Boolean | — | `true` | — | Whether to make the item unbreakable (true) or breakable (false). |
+| `slot` | String | — | `holder` | — | The equipment slot to target: holder, mainhand, offhand, helmet, chestplate, leggings, or boots. 例: `mainhand` |
+| `persist_on_disable` | Boolean | — | `true` | — | Whether the unbreakable state should remain when the effect is removed. |
 
 ## 📝 源码注记
 

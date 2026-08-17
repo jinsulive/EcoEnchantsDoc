@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # has_edprison_robot <Badge type="info" text="libreforge" />
+> **需要依赖：** EdPrison
 
 > 需要玩家拥有指定的 EdPrison 机器人。
 
@@ -26,9 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `robot` | 货币类型。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `robot` | String | ✅ | — | — | The EDPrisonCore robot type the player must own. |
 
 ## 配置示例
 

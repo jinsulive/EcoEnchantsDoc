@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `limit` | Expression(数学表达式) | ✅ | — | — | 单次矿脉挖掘的最大方块数。支持表达式。示例：`10 + %level%` |
-| `blocks` | Block List | — | `[]` | — | （可选）视为同一矿脉的方块类型列表。未指定时仅挖掘与首个方块相同类型的方块。 |
-| `disable_on_sneak` | Boolean | — | `false` | — | 潜行时是否禁用矿脉挖掘。 |
-| `prevent_trigger` | Boolean | — | `false` | — | 可选，是否不从此效果触发 mine_block 触发器。 |
-| `filters` | Custom | — | — | — | （可选）方块过滤器。 |
+| `limit` | Expression | ✅ | — | — | The maximum number of connected blocks to break in one vein. Supports expressions. 例: `10 + %level%` |
+| `blocks` | Block List | — | `[]` | — | A list of block types to consider part of the vein. Defaults to the same type as the mined block. |
+| `prevent_trigger` | Boolean | — | `false` | — | Whether to prevent the vein blocks from re-triggering this effect. |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether to disable vein mining when the player is sneaking. |
+| `filters` | 子节 | — | — | — | **子节参数（嵌套配置）** —— 详见下方子节字段。 |
 
 ## 📝 源码注记
 

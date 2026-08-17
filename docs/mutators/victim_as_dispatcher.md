@@ -10,7 +10,7 @@ outline: deep
 
 # victim_as_dispatcher <Badge type="info" text="libreforge" />
 
-> Set the player / entity / etc that triggered the effect to be the victim.
+> Sets the dispatcher to the current victim.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `victim_as_dispatcher` |
 | Module | libreforge |
 | Category | Victim/Player |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

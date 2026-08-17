@@ -10,7 +10,7 @@ outline: deep
 
 # teleport_to_ground <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Teleports to the ground
+> Teleports the player straight down to the first solid ground beneath them.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

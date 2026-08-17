@@ -10,7 +10,7 @@ outline: deep
 
 # teleport <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Teleports to a location
+> Teleports the player to the trigger location, preserving their look direction.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Movement |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

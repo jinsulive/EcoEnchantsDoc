@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # lands_spawn_teleport <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **Requires:** Lands
 
-> Triggered when teleporting to Lands spawn
+> Fires when the player teleports to a Lands land spawn point.
 
 ## Overview
 

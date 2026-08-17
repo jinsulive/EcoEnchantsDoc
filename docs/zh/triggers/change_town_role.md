@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # change_town_role <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **需要依赖：** HuskTowns
 
 > 当城镇角色变化时触发。
 

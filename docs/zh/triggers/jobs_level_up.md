@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # jobs_level_up <Badge type="info" text="libreforge" /> <Badge type="warning" text="Jobs Reborn" />
+> **需要依赖：** Jobs
 
 > 当职业升级时触发。
 

@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `webhook_url` | String | ✅ | — | — | 要发送到的 Discord webhook URL。示例：`https:         )         require(             ` |
-| `text` | Custom | — | — | — | 消息内容。 |
-| `username` | Custom | — | — | — | （可选）覆盖 webhook 用户名。 |
-| `avatar_url` | Custom | — | — | — | （可选）覆盖 webhook 头像。 |
-| `tts` | Boolean | — | `false` | — | （可选）是否以文本转语音的方式发送消息。 |
-| `embeds` | Any/Custom | — | — | — | （可选）要包含在 webhook 消息中的嵌入对象列表。 |
+| `webhook_url` | String | ✅ | — | — | The Discord webhook URL to send the message to. 例: `https://discord.com/api/webhooks/123456789012345678/abcDEF-token` |
+| `text` | String | ✅ | — | — | The message content to send to the webhook. 例: `%player_name% just found a legendary item!` |
+| `username` | String | — | — | — | The display name to use for the webhook message. |
+| `avatar_url` | String | — | — | — | A URL to an image to use as the webhook avatar. 例: `https://example.com/avatar.png` |
+| `tts` | Boolean | — | `false` | — | Whether to send the message as text-to-speech. |
+| `embeds` | Any | — | — | — | A list of embed objects to include in the webhook message. |
 
 ## 📝 源码注记
 

@@ -10,7 +10,7 @@ outline: deep
 
 # ring_bell <Badge type="info" text="libreforge" /> 
 
-> Triggered when ringing a bell
+> Fires when the player rings a bell.
 
 ## Overview
 

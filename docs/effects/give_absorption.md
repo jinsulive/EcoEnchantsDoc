@@ -10,7 +10,7 @@ outline: deep
 
 # give_absorption <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Adds absorption points to the player
+> Grants the player additional absorption hearts, expanding the max absorption cap if needed.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of absorption hearts to add. Supports expressions. Example: `%level%` |
+| `amount` | Expression | ✅ | — | — | The number of absorption hearts to add. Supports expressions. Example: `%level%` |
 
 ## 📝 Source Notes
 

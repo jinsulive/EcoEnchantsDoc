@@ -10,7 +10,7 @@ outline: deep
 
 # particle_line <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Spawns a line of particles between you and the target location
+> Spawns a line of particles between the player's eye and the trigger location.
 
 ## Overview
 
@@ -26,8 +26,8 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `particle` | String | ✅ | — | — | The particle type to spawn along the line. Example: `flame` |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of particles to spawn at each point along the line. Supports expressions. |
-| `spacing` | Expression(数学表达式) | ✅ | — | — | The distance between each particle point along the line. Supports expressions. |
+| `amount` | Expression | ✅ | — | — | The number of particles to spawn at each point along the line. Supports expressions. |
+| `spacing` | Expression | ✅ | — | — | The distance between each particle point along the line. Supports expressions. |
 
 > 💡 See [Particle Types](../guide/particles) for the full list of 115 built-in particles.
 

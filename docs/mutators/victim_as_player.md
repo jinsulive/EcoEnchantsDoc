@@ -10,7 +10,7 @@ outline: deep
 
 # victim_as_player <Badge type="info" text="libreforge" />
 
-> Set the player to be the victim - useful to give the victim items, etc. Only works when the victim is a player.
+> Sets the player to be the current victim.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `victim_as_player` |
 | Module | libreforge |
 | Category | Victim/Player |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # is_gliding <Badge type="info" text="libreforge" />
 
-> Requires a player to be gliding with an elytra
+> Passes when the entity is gliding with an elytra.
 
 ## Overview
 
@@ -23,6 +23,12 @@ outline: deep
 ::: tip Inverse Argument
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

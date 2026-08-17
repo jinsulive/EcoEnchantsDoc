@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `power` | Expression(数学表达式) | ✅ | — | — | 爆炸威力。原版 TNT 为 4。支持表达式。 |
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要产生的爆炸次数（每游戏刻一次）。支持表达式。 |
-| `create_fire` | Boolean | — | `true` | — | 爆炸是否产生火焰。 |
-| `break_blocks` | Boolean | — | `true` | — | 爆炸是否破坏方块。 |
-| `player_as_damager` | Boolean | — | `false` | — | 是否将玩家视为爆炸伤害的来源。 |
+| `amount` | Expression | ✅ | — | — | The number of explosions to create (one per tick). Supports expressions. |
+| `power` | Expression | ✅ | — | — | The explosion power. Vanilla TNT is 4. Supports expressions. |
+| `player_as_damager` | Boolean | — | `false` | — | If true, the player is attributed as the source of explosion damage. |
+| `create_fire` | Boolean | — | `true` | — | Whether the explosion creates fire. |
+| `break_blocks` | Boolean | — | `true` | — | Whether the explosion breaks blocks. |
 
 ## 📝 源码注记
 

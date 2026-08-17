@@ -10,7 +10,7 @@ outline: deep
 
 # vortex <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Pulls nearby entities toward a location over a duration, then damages them
+> Pulls nearby entities toward the trigger location for a duration, then deals damage to all affected entities.
 
 ## Overview
 
@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius within which entities will be pulled toward the vortex. Supports expressions. Example: `5 + %level% * 0.5` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | How many ticks to pull entities before dealing damage. Supports expressions. Example: `20 * %level%` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to all affected entities at the end of the vortex. Supports expressions. Example: `%level% * 2` |
-| `pull_strength` | Expression(数学表达式) | — | `0.3` | — | How strongly entities are pulled per tick. Supports expressions. Example: `0.1 + %level% * 0.02` |
-| `whitelist` | Entity List | — | `` | — | A list of entity types to exclusively target. If omitted, all entities are targeted. |
-| `blacklist` | Entity List | — | `` | — | A list of entity types to exclude from the vortex. |
+| `radius` | Expression | ✅ | — | — | The radius within which entities will be pulled toward the vortex. Supports expressions. Example: `5 + %level% * 0.5` |
+| `duration` | Expression | ✅ | — | — | How many ticks to pull entities before dealing damage. Supports expressions. Example: `20 * %level%` |
+| `damage` | Expression | ✅ | — | — | The damage dealt to all affected entities at the end of the vortex. Supports expressions. Example: `%level% * 2` |
+| `pull_strength` | Expression | — | `0.3` | — | How strongly entities are pulled per tick. Supports expressions. Example: `0.1 + %level% * 0.02` |
+| `whitelist` | Entity List | — | — | — | A list of entity types to exclusively target. If omitted, all entities are targeted. |
+| `blacklist` | Entity List | — | — | — | A list of entity types to exclude from the vortex. |
 
 ## 📝 Source Notes
 

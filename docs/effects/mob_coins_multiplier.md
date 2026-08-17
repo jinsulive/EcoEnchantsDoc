@@ -10,9 +10,9 @@ outline: deep
 
 # mob_coins_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies mob coin drops
+> Multiplies TMMobCoins earned from mob kills while the holder is active.
 
-> **Requires:** Flare Mobcoins
+> **Requires:** TMMobCoins
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
 
 ## Configuration Example
 

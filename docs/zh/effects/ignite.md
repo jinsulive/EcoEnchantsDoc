@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | 每游戏刻燃烧造成的伤害。支持表达式。示例：`%level%` |
-| `ticks` | Expression(数学表达式) | ✅ | — | — | 受害者着火的时长（以燃烧游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `damage_per_tick` | Expression | ✅ | — | — | The amount of damage dealt per fire tick. Supports expressions. 例: `%level%` |
+| `ticks` | Expression | ✅ | — | — | The number of fire ticks to apply to the victim. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

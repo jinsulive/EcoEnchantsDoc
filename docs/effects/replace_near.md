@@ -10,7 +10,7 @@ outline: deep
 
 # replace_near <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Replaces nearby blocks with other blocks
+> Replaces blocks of one type with another within a specified radius around the trigger location.
 
 ## Overview
 
@@ -25,15 +25,15 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The horizontal radius to search for blocks. Supports expressions. Example: `3 + %level% * 0.3` |
-| `radius_y` | Expression(数学表达式) | ✅ | — | — | The vertical radius to search for blocks. Supports expressions. Example: `2 + %level% * 0.2` |
+| `radius` | Expression | ✅ | — | — | The horizontal radius to search for blocks. Supports expressions. Example: `3 + %level% * 0.3` |
+| `radius_y` | Expression | ✅ | — | — | The vertical radius to search for blocks. Supports expressions. Example: `2 + %level% * 0.2` |
 | `replace_to` | Block | ✅ | — | — | The block type to replace matching blocks with. |
-| `duration` | Expression(数学表达式) | — | — | — | How long (in ticks) before the replaced blocks revert to their original type. Supports expressions. Example: `20 * %level%` |
 | `whitelist` | Block List | — | — | — | A list of block types that are allowed to be replaced. If omitted, all non-air blocks are eligible. |
 | `blacklist` | Block List | — | — | — | A list of block types that should never be replaced. |
+| `duration` | Expression | — | — | — | How long (in ticks) before the replaced blocks revert to their original type. Supports expressions. Example: `20 * %level%` |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether to skip replacement when the player is sneaking. |
 | `exposed_only` | Boolean | — | `false` | — | Whether to only replace blocks that have air directly above them. |
 | `source_only` | Boolean | — | `false` | — | Whether to only replace source liquid blocks (level 0). |
-| `disable_on_sneak` | Boolean | — | `false` | — | Whether to skip replacement when the player is sneaking. |
 
 ## 📝 Source Notes
 

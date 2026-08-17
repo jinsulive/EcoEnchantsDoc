@@ -10,7 +10,7 @@ outline: deep
 
 # drop_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Drops an item at a location
+> Drops an item at the trigger location.
 
 ## Overview
 

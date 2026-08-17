@@ -10,7 +10,7 @@ outline: deep
 
 # leash_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when leashing an entity
+> Fires when the player leashes an entity with a lead.
 
 ## Overview
 

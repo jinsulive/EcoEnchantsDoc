@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # beacon_effect <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **需要依赖：** Paper
 
 > 当玩家获得信标效果时触发。
 

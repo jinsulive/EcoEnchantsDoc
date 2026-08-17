@@ -10,7 +10,7 @@ outline: deep
 
 # copy_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Copies an item from one inventory slot to another
+> Copies the item from one inventory slot into another slot.
 
 ## Overview
 

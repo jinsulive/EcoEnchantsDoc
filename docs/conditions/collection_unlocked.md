@@ -6,9 +6,11 @@ subcategory: player_state
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # collection_unlocked <Badge type="info" text="libreforge" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Requires the player to have unlocked a collection (EcoCollections)
 

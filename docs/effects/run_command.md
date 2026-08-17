@@ -10,7 +10,7 @@ outline: deep
 
 # run_command <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Runs a command from console
+> Runs one or more commands as the console when triggered.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `command` | String List | ✅ | — | — | The command or list of commands to run as console. Use %player% and %victim% as placeholders. Example: `say %player% used an ability!, effect give %player% speed 5 1` |
+| `commands` / `command` (either) | String List | ✅ | — | — | The command or list of commands to run as console. Use %player% and %victim% as placeholders. Example: `say %player% used an ability!, effect give %player% speed 5 1` |
 
 ## 📝 Source Notes
 

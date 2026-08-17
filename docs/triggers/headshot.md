@@ -10,7 +10,7 @@ outline: deep
 
 # headshot <Badge type="info" text="libreforge" /> 
 
-> Triggered when hitting an enemy with a projectile in the head
+> Fires when the player hits an entity in the head with a projectile.
 
 ## Overview
 

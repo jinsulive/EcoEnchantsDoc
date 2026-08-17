@@ -10,7 +10,7 @@ outline: deep
 
 # glow_nearby_blocks <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Make nearby blocks of a certain type glow a certain color
+> Makes nearby blocks glow with configurable colors for a set duration.
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius around the trigger location to search for matching blocks. Supports expressions. Example: `5 + %level% * 0.5` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | How long in ticks the blocks should glow. Supports expressions. Example: `20 * %level%` |
-| `colors` | Any/Custom | ✅ | — | — | A subsection mapping block material names to ChatColor names (e.g. DIAMOND_ORE: AQUA) from javadocs. |
+| `radius` | Expression | ✅ | — | — | The radius around the trigger location to search for matching blocks. Supports expressions. Example: `5 + %level% * 0.5` |
+| `duration` | Expression | ✅ | — | — | How long in ticks the blocks should glow. Supports expressions. Example: `20 * %level%` |
+| `colors` | Any | ✅ | — | — | A subsection mapping block material names to ChatColor names (e.g. DIAMOND_ORE: AQUA). |
 
 ## 📝 Source Notes
 

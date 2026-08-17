@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 聚集怪物的搜索半径。支持表达式。示例：`10 + %level%` |
-| `entities` | Custom | — | — | — | （可选）被激怒的实体列表。 |
+| `radius` | Expression | ✅ | — | — | The radius to search for monsters that will target the victim. Supports expressions. 例: `10 + %level%` |
+| `entities` | String List | — | — | — |  |
 
 ## 📝 源码注记
 

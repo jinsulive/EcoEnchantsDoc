@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 潜行速度倍率。支持表达式。示例：`1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The multiplier applied to sneaking speed. Supports expressions. 例: `1 + %level% * 0.05` |
 
 ## 📝 源码注记
 

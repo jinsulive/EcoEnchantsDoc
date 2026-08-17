@@ -10,7 +10,7 @@ outline: deep
 
 # set_item_points <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Set item points (check the points wiki page if you don't know what these are)
+> Sets a point value on the trigger item to a specific amount.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The item point type to set. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The value to set the item point counter to. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The value to set the item point counter to. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

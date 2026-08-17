@@ -10,7 +10,7 @@ outline: deep
 
 # reflect <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Reflects a portion of incoming damage back to the attacker
+> Reflects a portion of incoming damage back at the attacker.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of incoming damage to reflect back at the attacker. Supports expressions. Example: `0.2 + %level% * 0.02` |
+| `multiplier` | Expression | ✅ | — | — | The fraction of incoming damage to reflect back at the attacker. Supports expressions. Example: `0.2 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # entity_catch_fire_from_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity catches fire from a block
+> Fires when an entity catches fire from a block such as lava.
 
 ## Overview
 

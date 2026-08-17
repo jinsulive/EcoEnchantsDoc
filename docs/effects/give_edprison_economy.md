@@ -10,7 +10,7 @@ outline: deep
 
 # give_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives the player EdPrison economy.
+> Gives the player a specified amount of an EdPrison economy currency.
 
 > **Requires:** EdPrison
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of economy to give |
-| `type` | The ID of the economy type |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The EdPrison economy currency ID to give. |
+| `amount` | Expression | ✅ | — | — | The amount of currency to give. Supports expressions. |
 
 ## Configuration Example
 

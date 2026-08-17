@@ -10,7 +10,7 @@ outline: deep
 
 # above_health_percent <Badge type="info" text="libreforge" />
 
-> Requires a player to be above a certain % of their max health
+> Passes when the entity's health is at or above the given percentage of its maximum.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `percent` | Expression(数学表达式) | ✅ | — | — | The minimum health percentage (0–100). Example: `50 + %level%` |
+| `percent` | Expression | ✅ | — | — | The minimum health percentage (0–100). Example: `50 + %level%` |
 
 ## 📝 Source Notes
 

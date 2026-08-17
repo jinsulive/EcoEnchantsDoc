@@ -10,7 +10,7 @@ outline: deep
 
 # mine_block_cascade <Badge type="info" text="libreforge" /> 
 
-> Triggered for each block broken in a cascade (sugar cane, bamboo, cactus, kelp, vines, chorus plant/flower)
+> Fires for each block broken in a cascading plant break, such as sugar cane, bamboo, kelp, or chorus.
 
 ## Overview
 

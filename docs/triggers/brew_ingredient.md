@@ -10,7 +10,7 @@ outline: deep
 
 # brew_ingredient <Badge type="info" text="libreforge" /> 
 
-> Same as brew, but passes the ingredient as the item
+> Fires when an ingredient finishes brewing in a brewing stand.
 
 ## Overview
 

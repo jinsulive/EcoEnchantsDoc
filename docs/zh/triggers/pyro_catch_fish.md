@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # pyro_catch_fish <Badge type="info" text="libreforge" /> <Badge type="warning" text="PyroFishingPro" />
+> **需要依赖：** PyroFishingPro
 
 > 当钓到鱼时触发。
 

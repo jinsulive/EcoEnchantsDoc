@@ -28,9 +28,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `entities` | Entity List | ✅ | — | — | 要寻找的附近实体类型列表。 |
-| `radius` | Expression(数学表达式) | ✅ | — | — | 半径（搜索附近实体的范围，以方块为单位）。示例：`5 + %level% * 0.5` |
-| `amount` | Integer | — | `1` | — | （可选）匹配实体的最小数量（默认为 1）。 |
+| `entities` | Entity List | ✅ | — | — | The list of entity types to look for nearby. |
+| `radius` | Expression | ✅ | — | — | The radius in blocks to search for nearby entities. 例: `5 + %level% * 0.5` |
+| `amount` | Integer | — | `1` | — | The minimum number of matching entities required (defaults to 1). |
 
 ## 📝 源码注记
 

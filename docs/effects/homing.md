@@ -10,7 +10,7 @@ outline: deep
 
 # homing <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Makes projectiles hone in onto entities (homing arrows / tridents)
+> Makes fired arrows home in on the nearest valid target within range.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum range at which the arrow will lock on to a target. Supports expressions. Example: `10 + %level%` |
+| `distance` | Expression | ✅ | — | — | The maximum range at which the arrow will lock on to a target. Supports expressions. Example: `10 + %level%` |
 | `targets` | Entity List | — | `[]` | — | A list of entity types the arrow will home in on. Leave empty to target all entities. |
 
 ## 📝 Source Notes

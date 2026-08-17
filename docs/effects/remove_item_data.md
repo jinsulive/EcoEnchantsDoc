@@ -10,7 +10,7 @@ outline: deep
 
 # remove_item_data <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Remove item data
+> Removes a custom persistent data entry from the triggering item by its key.
 
 ## Overview
 

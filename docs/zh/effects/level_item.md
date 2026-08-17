@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | 要给予经验值的等级类型 ID。示例：`mining` |
-| `xp` | Expression(数学表达式) | ✅ | — | — | 要获得的经验值数量。支持表达式。示例：`%level% * 10` |
+| `id` | String | ✅ | — | — | The ID of the level type to grant XP for. 例: `mining` |
+| `xp` | Expression | ✅ | — | — | The amount of XP to grant to the item. Supports expressions. 例: `%level% * 10` |
 
 ## 📝 源码注记
 

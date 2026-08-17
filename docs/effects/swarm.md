@@ -10,7 +10,7 @@ outline: deep
 
 # swarm <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Makes nearby monsters in a certain radius attack the victim
+> Causes all nearby monsters within a radius to target the victim.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to search for monsters that will target the victim. Supports expressions. Example: `10 + %level%` |
-| `entities` | Custom | — | — | — | (Optional) The list of entities to anger |
+| `radius` | Expression | ✅ | — | — | The radius to search for monsters that will target the victim. Supports expressions. Example: `10 + %level%` |
+| `entities` | String List | — | — | — |  |
 
 ## 📝 Source Notes
 

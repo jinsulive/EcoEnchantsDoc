@@ -10,7 +10,7 @@ outline: deep
 
 # telekinesis <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Teleports all drops to the player's inventory
+> Automatically sends all drops and XP from blocks, entities, and fishing directly to the player's inventory.
 
 ## Overview
 

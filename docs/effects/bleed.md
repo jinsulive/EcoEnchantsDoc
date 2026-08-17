@@ -10,7 +10,7 @@ outline: deep
 
 # bleed <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Makes your victim bleed, damaging them repeatedly
+> Deals damage to the victim repeatedly over a set number of ticks.
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt per interval on each bleed tick. Supports expressions. Example: `%level% * 0.5` |
-| `interval` | Expression(数学表达式) | ✅ | — | — | The number of ticks between each damage application. Supports expressions. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of times damage is dealt. Supports expressions. Example: `3 + %level%` |
+| `amount` | Expression | ✅ | — | — | The number of times damage is dealt. Supports expressions. Example: `3 + %level%` |
+| `damage` | Expression | ✅ | — | — | The damage dealt per interval. Supports expressions. Example: `%level% * 0.5` |
+| `interval` | Expression | ✅ | — | — | The number of ticks between each damage application. Supports expressions. |
 
 ## 📝 Source Notes
 

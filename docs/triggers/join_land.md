@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # join_land <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **Requires:** Lands
 
-> Triggered when joining a Land
+> Fires when the player is trusted into a Lands land by another player.
 
 ## Overview
 

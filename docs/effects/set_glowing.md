@@ -10,7 +10,7 @@ outline: deep
 
 # set_glowing <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets an entity's glowing state, optionally reverting it after a duration
+> Makes the target entity glow, optionally reverting after a duration.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `glowing` | Boolean | — | `true` | — | Whether to enable or disable the glowing effect. |
-| `duration` | Expression(数学表达式) | — | — | — | How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
+| `duration` | Expression | — | — | — | How long to apply the glow, in ticks. Reverts when expired. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

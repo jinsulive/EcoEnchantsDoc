@@ -10,7 +10,7 @@ outline: deep
 
 # spawn_entity <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Spawns an entity
+> Spawns an entity at the trigger location.
 
 ## Overview
 
@@ -26,6 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `entity` | Entity | ✅ | — | — | The entity type to spawn at the trigger location. |
+| `owner` | Boolean | — | — | — |  |
 
 ## 📝 Source Notes
 

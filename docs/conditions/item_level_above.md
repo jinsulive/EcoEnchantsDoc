@@ -10,7 +10,7 @@ outline: deep
 
 # item_level_above <Badge type="info" text="libreforge" />
 
-> Requires an item to be above a certain level
+> Passes when the held item's level for a given level type is above the specified value.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `id` | String | ✅ | — | — | The ID of the level type to check on the held item. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The minimum level the item must exceed. Example: `5 + %level%` |
+| `level` | Expression | ✅ | — | — | The minimum level the item must exceed. Example: `5 + %level%` |
 
 ## 📝 Source Notes
 

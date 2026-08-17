@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | 点数类型（全局点数类型标识）。 |
-| `amount` | Expression(数学表达式) | ✅ | — | — | 点数数量（要求的精确全局点数）。示例：`%level% * 10` |
+| `type` | String | ✅ | — | — | The global points type identifier. |
+| `amount` | Expression | ✅ | — | — | The exact global points value required. 例: `%level% * 10` |
 
 ## 📝 源码注记
 

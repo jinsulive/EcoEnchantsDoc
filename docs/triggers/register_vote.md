@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # register_vote <Badge type="info" text="libreforge" /> <Badge type="warning" text="Votifier" />
+> **Requires:** Votifier
 
-> Triggered when a player votes for the server
+> Fires when the player registers a vote through Votifier.
 
 ## Overview
 

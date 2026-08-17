@@ -10,7 +10,7 @@ outline: deep
 
 # craft <Badge type="info" text="libreforge" /> 
 
-> Triggered when crafting an item
+> Fires when the player crafts an item.
 
 ## Overview
 

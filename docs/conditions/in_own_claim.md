@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # in_own_claim <Badge type="info" text="libreforge" />
+> **Requires:** HuskClaims
 
-> Requires the player to be in their own claim
+> Passes when the player is standing inside a HuskClaims claim that they own.
 
 ## Overview
 
@@ -23,6 +24,12 @@ outline: deep
 ::: tip Inverse Argument
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## Configuration Example
 

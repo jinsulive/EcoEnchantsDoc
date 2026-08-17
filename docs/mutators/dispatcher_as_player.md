@@ -10,7 +10,7 @@ outline: deep
 
 # dispatcher_as_player <Badge type="info" text="libreforge" />
 
-> Set the player to be whoever dispatched (triggered) the effect.
+> Sets the player to the current dispatcher.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `dispatcher_as_player` |
 | Module | libreforge |
 | Category | Victim/Player |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `pattern` | String | ✅ | — | — | 纹样图案（例如 'sentry' 或 'dune'）。示例：`sentry` |
-| `material` | String | ✅ | — | — | 纹样材料（例如 'gold' 或 'diamond'）。示例：`diamond` |
+| `pattern` | String | ✅ | — | — | The trim pattern to apply, e.g. 'sentry' or 'dune'. 例: `sentry` |
+| `material` | String | ✅ | — | — | The trim material to apply, e.g. 'gold' or 'diamond'. 例: `diamond` |
 
 ## 📝 源码注记
 

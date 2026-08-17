@@ -10,7 +10,7 @@ outline: deep
 
 # remove_dispatcher <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Removes the dispatcher entity from the world. Only works on non-player entities.
+> Removes (despawns) the dispatcher entity. Has no effect if the dispatcher is a player.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

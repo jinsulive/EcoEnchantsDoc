@@ -10,7 +10,7 @@ outline: deep
 
 # spin_location <Badge type="info" text="libreforge" />
 
-> Spin a location a certain angle with a radius away from its current position - for example spinning the location 90 degrees at a distance of 1 block
+> Offsets the location by a distance in a direction rotated from the current facing direction.
 
 ## Overview
 
@@ -24,8 +24,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle in degrees to rotate around the Y axis. Example: `%level% * 10` |
-| `distance` | Expression(数学表达式) | ✅ | — | — | The distance from the current location to offset in the rotated direction. Example: `1 + %level% * 0.1` |
+| `angle` | Expression | ✅ | — | — | The angle in degrees to rotate around the Y axis. Example: `%level% * 10` |
+| `distance` | Expression | ✅ | — | — | The distance from the current location to offset in the rotated direction. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

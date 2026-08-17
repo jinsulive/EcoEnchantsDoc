@@ -24,7 +24,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | 旋转角度（以度为单位，绕 Y 轴旋转速度）。示例：`%level% * 5` |
+| `angle` | Expression | ✅ | — | — | The angle in degrees to rotate the velocity around the Y axis. 例: `%level% * 5` |
 
 ## 📝 源码注记
 

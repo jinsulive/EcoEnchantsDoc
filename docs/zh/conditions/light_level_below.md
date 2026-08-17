@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Integer | ✅ | — | — | 等级（位置允许的最大光照等级 0–15）。 |
+| `level` | Integer | ✅ | — | — | The maximum light level (0–15) allowed at the location. |
 
 ## 📝 源码注记
 

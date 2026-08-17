@@ -10,7 +10,7 @@ outline: deep
 
 # sort_inventory <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sorts a section of the player's inventory alphabetically by item type
+> Sorts items in the player's inventory by material name and stack size.
 
 ## Overview
 

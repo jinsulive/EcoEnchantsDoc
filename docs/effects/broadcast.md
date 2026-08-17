@@ -10,7 +10,7 @@ outline: deep
 
 # broadcast <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Send a message to everyone online
+> Broadcasts one or more messages to all online players.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `message` | String List | ✅ | — | — | The message(s) to broadcast to all players. Example: `&aWelcome to the server, %player%!` |
+| `message` / `messages` (either) | String List | ✅ | — | — | The message(s) to broadcast to all players. Example: `&aWelcome to the server, %player%!` |
 
 ## 📝 Source Notes
 

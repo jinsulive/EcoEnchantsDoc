@@ -10,7 +10,7 @@ outline: deep
 
 # kill <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Kills the victim
+> Instantly kills the victim entity.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Combat |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

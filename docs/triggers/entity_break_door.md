@@ -10,7 +10,7 @@ outline: deep
 
 # entity_break_door <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity breaks a door
+> Fires when an entity breaks a door.
 
 ## Overview
 

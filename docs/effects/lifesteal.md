@@ -10,7 +10,7 @@ outline: deep
 
 # lifesteal <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Heals the player for a portion of the trigger's value (e.g. damage dealt)
+> Heals the player for a portion of the damage dealt to the victim.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The fraction of damage dealt that is converted into healing. Supports expressions. Example: `0.1 + %level% * 0.01` |
+| `multiplier` | Expression | ✅ | — | — | The fraction of damage dealt that is converted into healing. Supports expressions. Example: `0.1 + %level% * 0.01` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # catch_fish <Badge type="info" text="libreforge" /> 
 
-> Triggered when catching a fish
+> Fires when the player successfully catches a fish.
 
 ## Overview
 

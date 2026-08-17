@@ -10,7 +10,7 @@ outline: deep
 
 # placeholder_equals <Badge type="info" text="libreforge" />
 
-> Requires a placeholder to equal a certain value
+> Passes when the resolved placeholder value equals the specified string.
 
 ## Overview
 

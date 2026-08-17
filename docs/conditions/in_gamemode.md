@@ -10,7 +10,7 @@ outline: deep
 
 # in_gamemode <Badge type="info" text="libreforge" />
 
-> Requires a player to be in specified gamemode
+> Passes when the player is in the specified gamemode.
 
 ## Overview
 

@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecobattlepass
 outline: deep
+deprecated: true
 ---
 
 # gain_battlepass_xp <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoBattlepass" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当获得战斗通行证经验值时触发。
 

@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # elytra_boost_save_chance <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
+> **需要依赖：** Paper
 
 > 使用鞘翅飞行加速时不消耗烟花。
 
@@ -23,9 +24,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `chance` | 不消耗烟花的概率。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `chance` | Expression | ✅ | — | — | The percentage chance (0–100) for this effect to activate. Supports expressions. |
 
 ## 配置示例
 

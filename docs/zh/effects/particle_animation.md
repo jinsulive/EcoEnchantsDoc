@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `particle` | String | ✅ | — | — | 要生成的粒子类型。示例：`flame` |
-| `particle-amount` | Expression(数学表达式) | — | `1` | — | 每个动画点上生成的粒子数量。支持表达式。 |
-| `animation` | String | ✅ | — | `circle`, `double_helix`, `ground_spiral`, `helix`, `trace`, `twirl`, `wing_tips`, `projectile_trail` | 动画模式 ID（例如 circle、helix）。 |
-| `tick-multiplier` | Custom | — | — | — | （可选）以某个倍率加快动画速度。 |
-| `entity` | String | — | `player` | `player`, `victim`, `projectile` | （可选）指定动画环绕的实体（player、victim、projectile）。 |
-| `use-eye-location` | Boolean | — | `false` | — | （可选）使用实体的眼睛高度而非脚部高度。 |
-| `particle_args` | Custom | — | — | — | 动画参数。 |
+| `particle` | String | ✅ | — | — | The particle type to spawn during the animation. 例: `flame` |
+| `animation` | String | ✅ | — | `circle`, `double_helix`, `ground_spiral`, `helix`, `trace`, `twirl`, `wing_tips`, `projectile_trail` | The animation pattern to use (e.g. circle, helix). |
+| `particle-amount` | Expression | — | `1` | — | The number of particles to spawn per animation point per tick. Supports expressions. |
+| `entity` | String | — | `player` | `player`, `victim`, `projectile` | The entity to anchor the animation to. |
+| `use-eye-location` | Boolean | — | `false` | — | Whether to use the entity's eye location instead of their feet. |
+| `particle_args` | 子节 | — | — | — | **子节参数（嵌套配置）** —— 详见下方子节字段。 |
+| `tick-multiplier` | 动态 | — | — | — | **隐式参数**（源码 `args.has()` 支持，未在 `arguments` 中声明）。 |
 
 > 💡 完整的内置粒子类型（共 115 个）请参阅 [粒子类型](../guide/particles)。
 

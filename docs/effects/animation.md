@@ -10,7 +10,7 @@ outline: deep
 
 # animation <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Plays an animation
+> Plays a named animation at the trigger location.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `animation` | String | ✅ | — | `spin_item` | The animation to play. |
-| `animation_args` | Custom | — | — | — | Arguments for the animation |
+| `animation_args` | Sub-section | — | — | — | **Sub-section parameter (nested config)** — see sub-section fields below. |
 
 ## 📝 Source Notes
 

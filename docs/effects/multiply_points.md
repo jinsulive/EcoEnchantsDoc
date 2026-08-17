@@ -10,7 +10,7 @@ outline: deep
 
 # multiply_points <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Multiply points (check the points wiki page if you don't know what these are)
+> Multiplies a player's point value for the specified point type by the given amount.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The player point type to multiply. |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier to apply to the player's point value. Supports expressions. Example: `1 + %level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply to the player's point value. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

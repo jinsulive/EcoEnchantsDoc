@@ -10,9 +10,9 @@ outline: deep
 
 # create_hologram <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Creates a hologram temporarily (Requires a hologram plugin to be installed)
+> Creates a temporary hologram at the trigger location.
 
-> **Requires:** 无（需安装 hologram 插件）
+> **Requires:** a hologram provider plugin (e.g. DecentHolograms)
 
 ## Overview
 
@@ -28,7 +28,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `text` | String List | ✅ | — | — | The lines of text to show on the hologram. Supports placeholders. Example: `&6%player%, &7Level %level%` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | How long to show the hologram, in ticks. Supports expressions. Example: `20 * %level%` |
+| `duration` | Expression | ✅ | — | — | How long to show the hologram, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

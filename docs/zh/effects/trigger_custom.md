@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `trigger` | String | ✅ | — | — | 自定义触发器 ID：可在其他效果中用作 custom_id。 |
-| `value` | Expression(数学表达式) | — | `0` | — | 传递给触发器的值（例如用于 EcoPets 升级）。支持表达式。 |
+| `trigger` | String | ✅ | — | — | The ID of the custom trigger to dispatch. |
+| `value` | Expression | — | `0` | — | An optional value to pass to the dispatched trigger. Supports expressions. |
 
 ## 📝 源码注记
 

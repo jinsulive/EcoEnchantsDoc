@@ -10,7 +10,7 @@ outline: deep
 
 # villager_trade_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies the cost of villager trades
+> Multiplies the ingredient costs of villager trades when the player opens a merchant.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Custom | — | — | — | The multiplier for villager trade costs |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. Inherited from the `MultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

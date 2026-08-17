@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecojobs
 outline: deep
+deprecated: true
 ---
 
 # level_up_job <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoJobs" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当职业升级时触发。
 

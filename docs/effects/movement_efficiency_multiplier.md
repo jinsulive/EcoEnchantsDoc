@@ -10,7 +10,7 @@ outline: deep
 
 # movement_efficiency_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies movement speed through difficult terrain
+> Multiplies the player's movement efficiency, reducing the speed penalty from blocks like soul sand.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The movement efficiency multiplier to apply (e.g. 2 = double efficiency). Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The movement efficiency multiplier to apply (e.g. 2 = double efficiency). Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

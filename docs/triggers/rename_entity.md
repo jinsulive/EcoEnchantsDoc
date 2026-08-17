@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # rename_entity <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when a player renames an entity using a name tag
+> Fires when the player renames an entity with a name tag.
 
 ## Overview
 

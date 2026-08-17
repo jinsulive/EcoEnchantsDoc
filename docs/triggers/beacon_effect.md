@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # beacon_effect <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when a player gains effects from a beacon
+> Fires when the player receives a potion effect from a beacon.
 
 ## Overview
 

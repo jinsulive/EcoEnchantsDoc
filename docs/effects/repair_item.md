@@ -10,7 +10,7 @@ outline: deep
 
 # repair_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Repairs the item
+> Repairs the triggering item by a specified amount of durability.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
+| `damage` | Expression | ✅ | — | — | The amount of durability to restore. Supports expressions. Example: `50 + %level% * 10` |
 
 ## 📝 Source Notes
 

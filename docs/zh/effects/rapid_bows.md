@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent_faster` | Expression(数学表达式) | ✅ | — | — | 弓弦拉满所需减少的百分比。支持表达式。示例：`10 + %level%` |
+| `percent_faster` | Expression | ✅ | — | — | How many percent faster the bow charges. Supports expressions. 例: `10 + %level%` |
 
 ## 📝 源码注记
 

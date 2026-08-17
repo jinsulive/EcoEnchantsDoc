@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `jumps` | Expression(数学表达式) | ✅ | — | — | 闪电跳跃的次数。支持表达式。示例：`3 + %level%` |
-| `range` | Expression(数学表达式) | ✅ | — | — | 寻找下一个目标的半径范围（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | 对每个被击中的实体造成的伤害。支持表达式。示例：`%level% * 1.5` |
+| `jumps` | Expression | ✅ | — | — | The number of entities the lightning can chain to. Supports expressions. 例: `3 + %level%` |
+| `range` | Expression | ✅ | — | — | The maximum distance between chain targets. Supports expressions. 例: `5 + %level% * 0.5` |
+| `damage` | Expression | ✅ | — | — | The damage dealt to each entity struck. Supports expressions. 例: `%level% * 1.5` |
 
 ## 📝 源码注记
 

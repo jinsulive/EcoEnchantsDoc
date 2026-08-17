@@ -10,7 +10,7 @@ outline: deep
 
 # transmission <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Teleport a player forward in the direction they're facing (Like AotE)
+> Teleports the player forward by a given distance, stopping at the first solid block in the path.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum distance to teleport the player forward. Supports expressions. Example: `10 + %level%` |
+| `distance` | Expression | ✅ | — | — | The maximum distance to teleport the player forward. Supports expressions. Example: `10 + %level%` |
 
 ## 📝 Source Notes
 

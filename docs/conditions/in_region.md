@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # in_region <Badge type="info" text="libreforge" />
+> **Requires:** WorldGuard
 
-> Requires a player to be in a certain region
+> Passes when the player is standing inside one of the specified WorldGuard regions.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `region` | The list of regions to allow |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `region` | String_list | ✅ | — | — | The WorldGuard region name(s) to check against. |
 
 ## Configuration Example
 

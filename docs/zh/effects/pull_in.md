@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | 被拉向玩家的速度（速度向量的大小）。支持表达式。示例：`1 + %level% * 0.1` |
+| `velocity` | Expression | ✅ | — | — | The strength of the pull force applied to the victim. Supports expressions. 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

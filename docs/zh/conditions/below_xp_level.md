@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Expression(数学表达式) | ✅ | — | — | 最大经验等级（经验等级阈值，玩家必须低于此值）。示例：`10 + %level%` |
+| `level` | Expression | ✅ | — | — | The XP level threshold; the player must be below this value. 例: `10 + %level%` |
 
 ## 📝 源码注记
 

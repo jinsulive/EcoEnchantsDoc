@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # compost_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when a player uses a composter
+> Fires when the player composts an item in a composter.
 
 ## Overview
 

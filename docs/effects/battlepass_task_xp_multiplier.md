@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # battlepass_task_xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Multiplies incoming battlepass task xp gain
 

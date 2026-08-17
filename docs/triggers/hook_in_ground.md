@@ -10,7 +10,7 @@ outline: deep
 
 # hook_in_ground <Badge type="info" text="libreforge" /> 
 
-> Triggered when a fishing rod hook hits the ground
+> Fires when the player's fishing hook embeds in the ground.
 
 ## Overview
 

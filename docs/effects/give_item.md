@@ -10,7 +10,7 @@ outline: deep
 
 # give_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives a player an item
+> Gives the player one or more items, optionally placing them into a specific inventory slot.
 
 ## Overview
 
@@ -25,8 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `item` | Item List | ✅ | — | — | The item or list of items to give to the player. |
-| `items` | Item List | ✅ | — | — | The item or list of items to give to the player. |
+| `item` / `items` (either) | Item List | ✅ | — | — | The item or list of items to give to the player. |
 | `slot` | String | — | — | — | The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. Example: `mainhand` |
 
 ## 📝 Source Notes

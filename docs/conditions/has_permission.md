@@ -10,7 +10,7 @@ outline: deep
 
 # has_permission <Badge type="info" text="libreforge" />
 
-> Requires a player to have a certain permission
+> Passes when the player has the specified permission node.
 
 ## Overview
 

@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `advancement` | String | ✅ | — | — | 进度 ID（进度的命名空间键）。示例：`minecraft:story/mine_stone` |
+| `advancement` | String | ✅ | — | — | The namespaced key of the advancement (e.g. minecraft:story/mine_stone). 例: `minecraft:story/mine_stone` |
 
 ## 📝 源码注记
 

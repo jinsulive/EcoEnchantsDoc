@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # disband_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **需要依赖：** HuskTowns
 
 > 当解散城镇时触发。
 

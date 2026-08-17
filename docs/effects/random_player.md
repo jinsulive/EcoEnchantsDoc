@@ -10,7 +10,7 @@ outline: deep
 
 # random_player <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Runs effects for a random player on the server
+> Picks a random online player and runs the specified effects targeting them.
 
 ## Overview
 
@@ -26,6 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `effects` | Effect List | ✅ | — | — | The list of effects to run on the randomly selected player. |
+| `run-type` | String | — | — | — |  |
 
 ## 📝 Source Notes
 

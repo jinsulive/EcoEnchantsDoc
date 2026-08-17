@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # swing <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when swinging an item, hand or weapon
+> Fires when the player swings their arm.
 
 ## Overview
 

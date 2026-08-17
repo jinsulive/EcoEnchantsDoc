@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # gain_mcmmo_xp <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
+> **需要依赖：** mcMMO
 
 > 当获得 McMMO 经验值时触发。
 

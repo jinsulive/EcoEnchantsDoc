@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` | Dynamic Config | ✅ | — | — | 带权重的物品选择列表。每个条目包含权重和物品列表。 |
+| `items` | Dynamic | ✅ | — | — | A list of weighted item groups. Each entry has a weight and an items list. |
 
 ## 📝 源码注记
 

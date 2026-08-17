@@ -10,7 +10,7 @@ outline: deep
 
 # lose_potion_effect <Badge type="info" text="libreforge" /> 
 
-> Triggered when losing a potion effect
+> Fires when an entity loses a potion effect.
 
 ## Overview
 

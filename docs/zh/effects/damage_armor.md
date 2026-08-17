@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | 对每件盔甲造成的耐久损耗。支持表达式。示例：`10 + %level%` |
-| `slots` | String List | — | — | `HEAD`, `CHEST`, `LEGS`, `FEET` | 要损耗的盔甲栏位。省略时所有盔甲栏位都会受损。 |
+| `damage` | Expression | ✅ | — | — | The durability damage to apply to each armor piece. Supports expressions. 例: `10 + %level%` |
+| `slots` | String List | — | — | `HEAD`, `CHEST`, `LEGS`, `FEET` | Which armor slots to damage. If omitted, all armor slots are damaged. |
 
 ## 📝 源码注记
 

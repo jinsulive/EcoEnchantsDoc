@@ -10,7 +10,7 @@ outline: deep
 
 # underwater_mining_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies underwater mining speed
+> Multiplies the player's mining speed while submerged underwater.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier to apply to underwater mining speed. Supports expressions. Example: `1 + %level% * 0.02` |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply to underwater mining speed. Supports expressions. Example: `1 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # in_block <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a block
+> Passes when the entity's head or feet are inside the specified block type.
 
 ## Overview
 

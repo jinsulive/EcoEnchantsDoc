@@ -10,7 +10,7 @@ outline: deep
 
 # global_points_equal <Badge type="info" text="libreforge" />
 
-> Requires the server to have a exactly a certain amount of points (check the points wiki page if you don't know what these are)
+> Passes when the global points of the given type exactly equal the specified amount.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The global points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The exact global points value required. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The exact global points value required. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

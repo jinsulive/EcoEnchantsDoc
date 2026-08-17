@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # leave_region <Badge type="info" text="libreforge" /> <Badge type="warning" text="WorldGuard" />
+> **Requires:** WorldGuard
 
-> Triggered when leaving a region
+> Fires when the player leaves a WorldGuard region.
 
 ## Overview
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | 要设置的冻结游戏刻数（受害者在雪中停留的时长）。支持表达式。示例：`20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | The number of freeze ticks to apply to the victim. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

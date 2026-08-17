@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | Boss 血条的唯一 ID，用于配合 update_boss_bar 或 remove_boss_bar 引用该血条。 |
-| `name` | String | ✅ | — | — | Boss 血条上显示的文本。支持占位符。示例：`&6%player%'s Charge` |
-| `color` | String | ✅ | — | `BLUE`, `GREEN`, `PINK`, `PURPLE`, `RED`, `WHITE`, `YELLOW` | Boss 血条颜色（pink、blue、red、green、yellow、purple、white）。 |
-| `style` | String | ✅ | — | `PROGRESS`, `NOTCHED_6`, `NOTCHED_10`, `NOTCHED_12`, `NOTCHED_20` | Boss 血条样式（progress、notched_6、notched_10、notched_12、notched_20）。 |
-| `progress` | Expression(数学表达式) | ✅ | — | — | Boss 血条的填充百分比（0 到 100）。支持表达式。示例：`50 + %level%` |
+| `id` | String | ✅ | — | — | A unique identifier used to reference this boss bar with update_boss_bar or remove_boss_bar. |
+| `name` | String | ✅ | — | — | The display text shown on the boss bar. Supports placeholders. 例: `&6%player%'s Charge` |
+| `color` | String | ✅ | — | `BLUE`, `GREEN`, `PINK`, `PURPLE`, `RED`, `WHITE`, `YELLOW` | The boss bar color. |
+| `style` | String | ✅ | — | `PROGRESS`, `NOTCHED_6`, `NOTCHED_10`, `NOTCHED_12`, `NOTCHED_20` | The boss bar overlay style. |
+| `progress` | Expression | ✅ | — | — | The fill percentage of the boss bar, from 0 to 100. Supports expressions. 例: `50 + %level%` |
 
 ## 📝 源码注记
 

@@ -10,7 +10,7 @@ outline: deep
 
 # knockback_resistance_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies knockback resistance
+> Multiplies the player's knockback resistance, reducing how far they are pushed when hit.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The knockback resistance multiplier to apply. Supports expressions. Example: `%level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The knockback resistance multiplier to apply. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

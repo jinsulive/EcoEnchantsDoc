@@ -10,7 +10,7 @@ outline: deep
 
 # total_damage_multiplier <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Multiplies all incoming or outgoing damage from any damage trigger
+> Multiplies the total damage of the triggering damage event by a given amount.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The value to multiply the event's damage by. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The value to multiply the event's damage by. Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

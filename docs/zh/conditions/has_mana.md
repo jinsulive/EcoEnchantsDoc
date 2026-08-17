@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # has_mana <Badge type="info" text="libreforge" />
+> **需要依赖：** AuraSkills
 
 > 需要玩家拥有一定数量的魔力。
 
@@ -26,9 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | 魔力数量。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `amount` | Expression | ✅ | — | — | The minimum amount of mana the player must have. |
 
 ## 配置示例
 

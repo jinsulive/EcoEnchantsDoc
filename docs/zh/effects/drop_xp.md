@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `xp` | Expression(数学表达式) | ✅ | — | — | 要掉落的经验值数量。支持表达式。示例：`10 + %level% * 5` |
+| `xp` | Expression | ✅ | — | — | The amount of experience to drop. Supports expressions. 例: `10 + %level% * 5` |
 
 ## 📝 源码注记
 

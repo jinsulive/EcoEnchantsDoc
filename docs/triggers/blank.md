@@ -10,9 +10,9 @@ outline: deep
 
 # blank <Badge type="info" text="libreforge" /> 
 
-> Fires constantly while the holder is active — useful for effects that should always be applied.
+> 
 
-> 📝 *Editor's note: the source provides no description; the line above was added by the editor.*
+> 
 
 ## Overview
 

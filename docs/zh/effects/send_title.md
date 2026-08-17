@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `title` | String | ✅ | — | — | 主标题文本。支持占位符。示例：`Level Up!` |
-| `subtitle` | String | ✅ | — | — | 副标题文本。支持占位符。示例：`You reached level %player_level%!` |
+| `title` | String | ✅ | — | — | The main title text to display. Supports placeholders. 例: `Level Up!` |
+| `subtitle` | String | ✅ | — | — | The subtitle text to display below the title. Supports placeholders. 例: `You reached level %player_level%!` |
 
 ## 📝 源码注记
 

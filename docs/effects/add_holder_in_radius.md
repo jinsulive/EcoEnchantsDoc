@@ -10,7 +10,7 @@ outline: deep
 
 # add_holder_in_radius <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives a custom holder temporarily for a given period of time. A holder is anything with effects and conditions, in plugins typically a Talisman, Armor Set, etc. You can create custom holders temporarily and give them on a trigger, for example to give permanent effects for a period of time to people around you.
+> Temporarily applies a set of effects and conditions to all nearby entities within a radius.
 
 ## Overview
 
@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to apply temporarily to nearby entities in the holder. |
-| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
-| `duration` | Expression(数学表达式) | ✅ | — | — | How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `effects` | Effect List | ✅ | — | — | The effects to apply temporarily to nearby entities. |
+| `duration` | Expression | ✅ | — | — | How long to apply the holder, in ticks. Supports expressions. Example: `20 * %level%` |
+| `radius` | Expression | ✅ | — | — | The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
 | `apply-to-self` | Boolean | — | `false` | — | Whether to also apply the effects to the dispatcher. |
+| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
 
 ## 📝 Source Notes
 

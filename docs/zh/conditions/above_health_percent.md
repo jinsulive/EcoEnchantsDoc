@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent` | Expression(数学表达式) | ✅ | — | — | 最小百分比（生命值百分比 0–100）。示例：`50 + %level%` |
+| `percent` | Expression | ✅ | — | — | The minimum health percentage (0–100). 例: `50 + %level%` |
 
 ## 📝 源码注记
 

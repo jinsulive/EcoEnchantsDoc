@@ -10,7 +10,7 @@ outline: deep
 
 # change_biome <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing biome
+> Fires when the player moves into a different biome.
 
 ## Overview
 

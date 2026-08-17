@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `y` | Expression(数学表达式) | ✅ | — | — | Y 坐标阈值；实体必须低于此值。 |
+| `y` | Expression | ✅ | — | — | The Y coordinate threshold; the entity must be below this value. |
 
 ## 📝 源码注记
 

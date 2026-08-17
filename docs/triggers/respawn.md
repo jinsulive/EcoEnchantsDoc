@@ -10,7 +10,7 @@ outline: deep
 
 # respawn <Badge type="info" text="libreforge" /> 
 
-> Triggered when respawning
+> Fires when the player respawns after death.
 
 ## Overview
 

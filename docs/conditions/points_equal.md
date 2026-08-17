@@ -10,7 +10,7 @@ outline: deep
 
 # points_equal <Badge type="info" text="libreforge" />
 
-> Requires a player to have a exactly a certain amount of points (check the points wiki page if you don't know what these are)
+> Passes when the player's points of the specified type exactly equal the given amount.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The points type identifier to check. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The exact points amount the player must have. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The exact points amount the player must have. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

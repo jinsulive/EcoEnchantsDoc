@@ -10,7 +10,7 @@ outline: deep
 
 # take_entity_damage <Badge type="info" text="libreforge" /> 
 
-> Triggered when taking damage from an entity or player
+> Fires when a player or entity takes damage from another entity.
 
 ## Overview
 

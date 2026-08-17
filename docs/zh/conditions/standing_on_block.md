@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | 方块类型（玩家必须站立于其上的材料名）。 |
+| `block` | Block | ✅ | — | — | The block type (material name) the player must be standing on. |
 
 ## 📝 源码注记
 

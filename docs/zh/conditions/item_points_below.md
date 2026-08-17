@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | 点数类型（从手持物品读取）。 |
-| `amount` | Expression(数学表达式) | ✅ | — | — | 最大点数数量（物品允许拥有的点数）。示例：`%level% * 10` |
+| `type` | String | ✅ | — | — | The points type to read from the held item. |
+| `amount` | Expression | ✅ | — | — | The maximum number of points the item may have. 例: `%level% * 10` |
 
 ## 📝 源码注记
 

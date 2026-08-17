@@ -10,7 +10,7 @@ outline: deep
 
 # run_command <Badge type="info" text="libreforge" /> 
 
-> Triggered when running a command
+> Fires when the player runs a command.
 
 ## Overview
 

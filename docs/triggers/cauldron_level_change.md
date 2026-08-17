@@ -10,7 +10,7 @@ outline: deep
 
 # cauldron_level_change <Badge type="info" text="libreforge" /> 
 
-> Triggered when a cauldron's water level changes
+> Fires when the player changes the water level of a cauldron.
 
 ## Overview
 

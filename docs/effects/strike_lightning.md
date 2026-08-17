@@ -10,7 +10,7 @@ outline: deep
 
 # strike_lightning <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Strikes lightning at a point
+> Strikes lightning at the trigger location.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | — | `1` | — | The number of lightning strikes. Supports expressions. Example: `1 + %level% / 10` |
+| `amount` | Expression | — | `1` | — | The number of lightning strikes. Supports expressions. Example: `1 + %level% / 10` |
 
 ## 📝 Source Notes
 

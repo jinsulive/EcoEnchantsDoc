@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | 点数类型标识。 |
-| `amount` | Expression(数学表达式) | ✅ | — | — | 最大点数数量（点数阈值，玩家必须低于此值）。示例：`%level% * 10` |
+| `type` | String | ✅ | — | — | The points type identifier. |
+| `amount` | Expression | ✅ | — | — | The points threshold; the player must be below this amount. 例: `%level% * 10` |
 
 ## 📝 源码注记
 

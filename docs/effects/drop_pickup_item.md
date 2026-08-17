@@ -10,7 +10,7 @@ outline: deep
 
 # drop_pickup_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Drops an item that runs a chain on pickup
+> Drops a custom item at the trigger location that executes a set of effects when a player picks it up.
 
 > **Requires:** Paper
 
@@ -25,12 +25,12 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `item` | The item texture, cannot actually be picked up |
-| `glow-color` | The glow color |
-| `run-type` | The run type, see 'configuring an effect' |
-| `effects` | The effects to run on pickup |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `item` | Item | ✅ | — | — | The item to drop at the trigger location. |
+| `effects` | Any | ✅ | — | — | The effects to run when a player picks up the dropped item. |
+| `glow-color` | String | — | — | — | The ChatColor name to make the dropped item glow with (e.g. RED, GOLD). |
+| `run-type` | String | — | — | — | The chain executor type to use for the pickup effects. |
 
 ## Configuration Example
 

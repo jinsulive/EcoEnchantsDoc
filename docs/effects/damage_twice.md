@@ -10,7 +10,7 @@ outline: deep
 
 # damage_twice <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Deals an extra hit to the victim
+> Causes the victim to take the triggering hit's damage a second time.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Combat |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

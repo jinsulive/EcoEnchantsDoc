@@ -10,7 +10,7 @@ outline: deep
 
 # damage_armor <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Damage a victim's armor
+> Applies durability damage to the victim's equipped armor.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The durability damage to apply to each armor piece. Supports expressions. Example: `10 + %level%` |
+| `damage` | Expression | ✅ | — | — | The durability damage to apply to each armor piece. Supports expressions. Example: `10 + %level%` |
 | `slots` | String List | — | — | `HEAD`, `CHEST`, `LEGS`, `FEET` | Which armor slots to damage. If omitted, all armor slots are damaged. |
 
 ## 📝 Source Notes

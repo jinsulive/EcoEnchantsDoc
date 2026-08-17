@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_victim <Badge type="info" text="libreforge" />
 
-> Move the location to the victim's location
+> Sets the location to the victim's current position.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `location_to_victim` |
 | Module | libreforge |
 | Category | Location |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

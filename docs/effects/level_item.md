@@ -10,7 +10,7 @@ outline: deep
 
 # level_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gain item XP for a certain level
+> Grants XP to the triggered item's level system.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `id` | String | ✅ | — | — | The ID of the level type to grant XP for. Example: `mining` |
-| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of XP to grant to the item. Supports expressions. Example: `%level% * 10` |
+| `xp` | Expression | ✅ | — | — | The amount of XP to grant to the item. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # mcmmo_ability_on_cooldown <Badge type="info" text="libreforge" />
+> **需要依赖：** mcMMO
 
 > 需要某个 McMMO 技能处于冷却中。
 
@@ -26,9 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `abilities` | 技能 ID。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `abilities` | String_list | ✅ | — | — | A list of mcMMO super ability names to check (e.g. SUPER_BREAKER, GIGA_DRILL_BREAKER). |
 
 ## 配置示例
 

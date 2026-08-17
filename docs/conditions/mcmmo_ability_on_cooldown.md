@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # mcmmo_ability_on_cooldown <Badge type="info" text="libreforge" />
+> **Requires:** mcMMO
 
-> Requires an McMMO ability to be on cooldown
+> Passes when any of the specified mcMMO super abilities are currently on cooldown for the player.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `abilities` | The ID of the ability |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `abilities` | String_list | ✅ | — | — | A list of mcMMO super ability names to check (e.g. SUPER_BREAKER, GIGA_DRILL_BREAKER). |
 
 ## Configuration Example
 

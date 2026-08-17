@@ -10,7 +10,7 @@ outline: deep
 
 # remove_potion_effect <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Removes a potion effect
+> Removes a specified potion effect from the player or victim.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effect` | Any/Custom | ✅ | — | — | The effect to remove (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
-| `apply_to_player` | Custom | — | — | — | True to remove the effect from the player, false to remove it from the victim |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect type to remove. |
+| `apply_to_player` | Boolean | — | `false` | — | If true, removes the effect from the player instead of the victim. |
 
 ## 📝 Source Notes
 

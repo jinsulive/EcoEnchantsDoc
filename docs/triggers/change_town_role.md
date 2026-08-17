@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # change_town_role <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **Requires:** HuskTowns
 
-> Triggered when changing town role
+> Fires when the player's role in their HuskTowns town changes.
 
 ## Overview
 

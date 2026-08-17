@@ -12,7 +12,7 @@ outline: deep
 
 > 倍率化技能经验值获取。
 
-> **需要依赖：** EcoSkills || AuraSkills
+> **需要依赖：** AuraSkills
 
 ## 基本信息
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | 经验值倍率。 |
-| `skills` | 要倍率化经验值的技能列表。移除后将对所有技能生效。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression | ✅ | — | — | The XP multiplier. Supports expressions. |
+| `skills` | String_list | — | — | — | List of AuraSkills skill IDs to apply the multiplier to. If omitted, applies to all skills. |
 
 ## 配置示例
 

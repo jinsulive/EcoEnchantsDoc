@@ -10,7 +10,7 @@ outline: deep
 
 # mine_vein <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Mines a vein of blocks
+> Mines an entire connected vein of the same block type up to a configurable limit.
 
 ## Overview
 
@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `limit` | Expression(数学表达式) | ✅ | — | — | The maximum number of connected blocks to break in one vein. Supports expressions. Example: `10 + %level%` |
+| `limit` | Expression | ✅ | — | — | The maximum number of connected blocks to break in one vein. Supports expressions. Example: `10 + %level%` |
 | `blocks` | Block List | — | `[]` | — | A list of block types to consider part of the vein. Defaults to the same type as the mined block. |
-| `disable_on_sneak` | Boolean | — | `false` | — | Whether to disable vein mining when the player is sneaking. |
 | `prevent_trigger` | Boolean | — | `false` | — | Whether to prevent the vein blocks from re-triggering this effect. |
-| `filters` | Custom | — | — | — | (Optional) Filters for the blocks |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether to disable vein mining when the player is sneaking. |
+| `filters` | Sub-section | — | — | — | **Sub-section parameter (nested config)** — see sub-section fields below. |
 
 ## 📝 Source Notes
 

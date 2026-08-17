@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # is_season <Badge type="info" text="libreforge" />
+> **Requires:** CustomCrops
 
-> Requires it to be a certain season
+> Passes when the current world season matches one of the specified seasons.
 
 ## Overview
 
@@ -26,10 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `season` | Use for a single season |
-| `seasons` | Use for multiple seasons |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `season` / `seasons` (either) | String_list | ✅ | — | — | The season name(s) to check against (e.g. SPRING, SUMMER, AUTUMN, WINTER). |
 
 ## Configuration Example
 

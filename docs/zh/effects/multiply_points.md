@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | 要倍率化的玩家点数类型。 |
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 要乘以的数值。支持表达式。示例：`1 + %level% * 0.1` |
+| `type` | String | ✅ | — | — | The player point type to multiply. |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply to the player's point value. Supports expressions. 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

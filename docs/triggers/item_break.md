@@ -10,7 +10,7 @@ outline: deep
 
 # item_break <Badge type="info" text="libreforge" /> 
 
-> Triggered when breaking any item in your inventory (durability)
+> Fires when the player's item breaks from durability loss.
 
 ## Overview
 

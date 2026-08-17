@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `sound` | Sound | ✅ | — | — | 要播放的声音。支持 Minecraft 声音名和资源包声音。 |
-| `pitch` | Expression(数学表达式) | ✅ | — | — | 声音的音调（0.5 - 2）。支持表达式。 |
-| `volume` | Expression(数学表达式) | ✅ | — | — | 声音的音量。支持表达式。 |
-| `category` | String | — | `MASTER` | — | 声音所属类别。 |
+| `sound` | Sound | ✅ | — | — | The sound to play. Supports Minecraft sound names and resource pack sounds. |
+| `pitch` | Expression | ✅ | — | — | The pitch of the sound, between 0.5 and 2.0. Supports expressions. |
+| `volume` | Expression | ✅ | — | — | The volume of the sound. Supports expressions. |
+| `category` | String | — | `MASTER` | `SoundCategory.entries.map` | The sound category to play the sound in. |
 
 ## 📝 源码注记
 

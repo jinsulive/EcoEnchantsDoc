@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoscrolls
 outline: deep
+deprecated: true
 ---
 
 # try_inscribe <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoScrolls" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当尝试刻铭卷轴时触发。
 

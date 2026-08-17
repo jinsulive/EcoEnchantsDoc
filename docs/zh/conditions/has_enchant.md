@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `enchant` | Enchantment List | ✅ | — | — | 要检查的附魔 ID（可带等级或范围，例如 sharpness:3-5）。示例：`sharpness:3-5, unbreaking:2` |
-| `slot` | String List | ✅ | — | — | 要检查附魔的装备栏位。示例：`mainhand, 9` |
+| `slot` / `slots`（任一） | String List | ✅ | — | — | The equipment slot(s) to check for the enchantment. 例: `mainhand, 9` |
+| `enchant` / `enchants`（任一） | Enchantment List | ✅ | — | — | The enchantment(s) to require, optionally with a level or range (e.g. sharpness:3-5). 例: `sharpness:3-5, unbreaking:2` |
 
 ## 📝 源码注记
 

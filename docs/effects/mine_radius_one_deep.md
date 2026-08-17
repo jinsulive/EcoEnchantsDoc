@@ -10,7 +10,7 @@ outline: deep
 
 # mine_radius_one_deep <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Mines a square radius around a block, but only one block deep
+> Mines blocks in a radius around the triggered block, only one layer deep in the direction the player is facing.
 
 ## Overview
 
@@ -25,13 +25,13 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius of blocks to break in the flat layer. Supports expressions. Example: `3 + %level% / 20` |
+| `radius` | Expression | ✅ | — | — | The radius of blocks to break in the flat layer. Supports expressions. Example: `3 + %level% / 20` |
+| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether the effect should be disabled while the player is sneaking. |
+| `no_corners` | Boolean | — | `false` | — | Whether corner blocks at the edge of the radius should be excluded. |
+| `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
 | `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that should never be broken by this effect. |
 | `check_hardness` | Boolean | — | `true` | — | Whether blocks harder than the triggered block should be skipped. |
-| `disable_on_sneak` | Boolean | — | `false` | — | Whether the effect should be disabled while the player is sneaking. |
-| `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
-| `no_corners` | Boolean | — | `false` | — | Whether corner blocks at the edge of the radius should be excluded (plus-sign shape). |
-| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
 
 ## 📝 Source Notes
 

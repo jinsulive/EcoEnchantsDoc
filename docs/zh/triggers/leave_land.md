@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # leave_land <Badge type="info" text="libreforge" /> 
+> **需要依赖：** Lands
 
 > 当离开城镇时触发。
 

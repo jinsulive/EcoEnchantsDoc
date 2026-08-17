@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 耐久倍率（例如 2 表示物品耐用两倍）。支持表达式。示例：`1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The durability multiplier to apply (e.g. 2 means the item lasts twice as long). Supports expressions. 例: `1 + %level% * 0.05` |
 
 ## 📝 源码注记
 

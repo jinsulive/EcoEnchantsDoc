@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # exit_claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
+> **Requires:** HuskTowns
 
-> Triggered when exiting a claimed area
+> Fires when the player exits a HuskTowns town claim.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # jump_strength_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies jump strength
+> Multiplies the player's jump strength, making them jump higher or lower.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The jump strength multiplier to apply. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The jump strength multiplier to apply. Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

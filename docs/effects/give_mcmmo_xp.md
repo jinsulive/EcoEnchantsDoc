@@ -10,9 +10,9 @@ outline: deep
 
 # give_mcmmo_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives experience points for a certain skill
+> Gives the player raw XP in a specified McMMO skill.
 
-> **Requires:** McMMO
+> **Requires:** mcMMO
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The amount of xp to give |
-| `skill` | The skill to give the xp for |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression | ✅ | — | — | The amount of raw XP to give. Supports expressions. |
+| `skill` | String | ✅ | — | — | The McMMO skill name to give XP for, e.g. mining. |
 
 ## Configuration Example
 

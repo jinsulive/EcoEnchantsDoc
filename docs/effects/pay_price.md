@@ -10,7 +10,7 @@ outline: deep
 
 # pay_price <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Pay a price
+> Deducts a price of the specified type from the player.
 
 ## Overview
 

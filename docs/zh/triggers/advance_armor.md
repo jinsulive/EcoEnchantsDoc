@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoarmor
 outline: deep
+deprecated: true
 ---
 
 # advance_armor <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoArmor" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当玩家进阶一套盔甲时触发。
 

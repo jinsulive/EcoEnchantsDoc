@@ -10,7 +10,7 @@ outline: deep
 
 # dont_consume_xp_chance <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Prevents consuming xp when enchanting items
+> Gives a percentage chance for the enchanting table to not consume experience levels.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `chance` | Custom | — | — | — | The chance to not consume xp |
+| `chance` | Expression | ✅ | — | — | The percentage chance (0–100) for this effect to activate. Supports expressions. Inherited from the `ChanceMultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

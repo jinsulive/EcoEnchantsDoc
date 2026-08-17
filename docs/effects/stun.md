@@ -10,7 +10,7 @@ outline: deep
 
 # stun <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Prevents an entity from moving by zeroing its velocity each tick for a duration
+> Prevents the victim entity from moving for a duration.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | How many ticks to stun the victim for. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | How many ticks to stun the victim for. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # drop_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when dropping an item
+> Fires when the player drops an item from their inventory.
 
 ## Overview
 

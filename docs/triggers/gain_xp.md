@@ -10,7 +10,7 @@ outline: deep
 
 # gain_xp <Badge type="info" text="libreforge" /> 
 
-> Triggered when gaining experience points
+> Fires when the player gains experience points.
 
 ## Overview
 

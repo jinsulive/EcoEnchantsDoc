@@ -25,15 +25,15 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 替换的水平半径。支持表达式。示例：`3 + %level% * 0.3` |
-| `radius_y` | Expression(数学表达式) | ✅ | — | — | 替换的垂直半径。支持表达式。示例：`2 + %level% * 0.2` |
-| `replace_to` | Block | ✅ | — | — | 替换目标方块类型。 |
-| `duration` | Expression(数学表达式) | — | — | — | （可选）替换后恢复原状的持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
-| `whitelist` | Block List | — | — | — | （可选）允许被替换的方块类型列表。省略时所有非空气方块均可被替换。 |
-| `blacklist` | Block List | — | — | — | （可选）永远不会被替换的方块类型列表。 |
-| `exposed_only` | Boolean | — | `false` | — | （可选）是否仅替换正上方为空气的方块。 |
-| `source_only` | Boolean | — | `false` | — | （可选）是否仅替换液体源方块（level 0）。 |
-| `disable_on_sneak` | Boolean | — | `false` | — | 潜行时是否不执行替换。 |
+| `radius` | Expression | ✅ | — | — | The horizontal radius to search for blocks. Supports expressions. 例: `3 + %level% * 0.3` |
+| `radius_y` | Expression | ✅ | — | — | The vertical radius to search for blocks. Supports expressions. 例: `2 + %level% * 0.2` |
+| `replace_to` | Block | ✅ | — | — | The block type to replace matching blocks with. |
+| `whitelist` | Block List | — | — | — | A list of block types that are allowed to be replaced. If omitted, all non-air blocks are eligible. |
+| `blacklist` | Block List | — | — | — | A list of block types that should never be replaced. |
+| `duration` | Expression | — | — | — | How long (in ticks) before the replaced blocks revert to their original type. Supports expressions. 例: `20 * %level%` |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether to skip replacement when the player is sneaking. |
+| `exposed_only` | Boolean | — | `false` | — | Whether to only replace blocks that have air directly above them. |
+| `source_only` | Boolean | — | `false` | — | Whether to only replace source liquid blocks (level 0). |
 
 ## 📝 源码注记
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `health` | Expression(数学表达式) | ✅ | — | — | 要给予的生命值数量（1 颗心 = 2 点生命）。支持表达式。示例：`%level% * 2` |
+| `health` | Expression | ✅ | — | — | The amount of bonus max health to add. Supports expressions. 例: `%level% * 2` |
 
 ## 📝 源码注记
 

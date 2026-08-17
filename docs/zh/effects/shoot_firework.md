@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `inherit_velocity` | Boolean | — | `false` | — | 烟花是否继承触发时的速度。 |
-| `no_source` | Boolean | — | `false` | — | 是否不将玩家标记为来源（省略时默认为 false）。 |
-| `launch-at-location` | Boolean | — | `false` | — | 烟花是否在触发位置而非玩家位置发射。 |
-| `power` | Integer | — | `0` | — | 烟花的飞行时长威力（0-255，0 为立即爆炸）。 |
-| `effects` | Dynamic Config | — | — | — | 你可以为烟花指定多个效果。 |
+| `effects` | Dynamic | — | — | — | List of firework effect subsections defining the firework's appearance. |
+| `power` | Integer | — | `0` | — | The flight duration power of the firework (0-255). |
+| `inherit_velocity` | Boolean | — | `false` | — | Whether the firework should inherit the player's current velocity. |
+| `launch-at-location` | Boolean | — | `false` | — | Whether the firework should be teleported to the trigger location after launch. |
+| `no_source` | Boolean | — | `false` | — | Whether the firework should have no shooter, preventing attribution to the player. |
 
 ## 📝 源码注记
 

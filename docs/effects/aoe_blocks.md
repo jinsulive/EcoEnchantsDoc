@@ -10,7 +10,7 @@ outline: deep
 
 # aoe_blocks <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Runs effects for all blocks within an area of effect (the list of shapes is found in the aoe page)
+> Runs a set of effects on all non-air blocks within an AOE shape.
 
 ## Overview
 
@@ -27,10 +27,6 @@ outline: deep
 |-----------|------|----------|---------|---------|-------------|
 | `effects` | Effect List | ✅ | — | — | The effects to run on each block within the AOE. |
 | `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use. |
-| `radius` | Custom | — | — | — | The radius of the cone |
-| `distance` | Custom | — | — | — | The length of the beam |
-| `pierce_blocks` | Custom | — | — | — | If the beam should pass through blocks |
-| `pierce_entities` | Custom | — | — | — | If the beam should pass through entities |
 
 ## 📝 Source Notes
 

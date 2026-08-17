@@ -7,9 +7,11 @@ tags:
   - libreforge
   - reforges
 outline: deep
+deprecated: true
 ---
 
 # reforge_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Reforges" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when reforging an item
 

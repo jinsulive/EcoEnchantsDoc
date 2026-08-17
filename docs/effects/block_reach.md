@@ -10,7 +10,7 @@ outline: deep
 
 # block_reach <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Adds reach for interacting with blocks
+> Increases the player's block interaction range while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `reach` | Expression(数学表达式) | ✅ | — | — | The number of blocks to add to the interaction range. Supports expressions. Example: `%level% * 0.5` |
+| `reach` | Expression | ✅ | — | — | The number of blocks to add to the interaction range. Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

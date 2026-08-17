@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # grind_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Purpur" />
+> **需要依赖：** Purpur
 
 > 当玩家在砂轮上打磨物品时触发。
 

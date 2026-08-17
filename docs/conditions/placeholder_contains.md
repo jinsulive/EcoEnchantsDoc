@@ -10,7 +10,7 @@ outline: deep
 
 # placeholder_contains <Badge type="info" text="libreforge" />
 
-> Requires a placeholder to contain a certain value
+> Passes when the resolved placeholder value contains the specified string.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `placeholder` | String | ✅ | — | — | The placeholder string to resolve and check. Example: `%player_name%` |
-| `value` | String | — | `` | — | The substring to search for within the resolved placeholder. |
+| `value` | String | — | — | — | The substring to search for within the resolved placeholder. |
 | `ignore_case` | Boolean | — | `false` | — | Whether the substring match should be case-insensitive. |
 
 ## 📝 Source Notes

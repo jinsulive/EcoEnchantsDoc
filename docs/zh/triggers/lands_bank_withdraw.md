@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # lands_bank_withdraw <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **需要依赖：** Lands
 
 > 当从领地银行取出金钱时触发。
 

@@ -28,10 +28,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `x` | Expression(数学表达式) | ✅ | — | — | 目标位置的 X 坐标。 |
-| `y` | Expression(数学表达式) | ✅ | — | — | 目标位置的 Y 坐标。 |
-| `z` | Expression(数学表达式) | ✅ | — | — | 目标位置的 Z 坐标。 |
-| `radius` | Expression(数学表达式) | ✅ | — | — | 半径（距目标位置的最大距离）。示例：`15 + %level% * 0.5` |
+| `x` | Expression | ✅ | — | — | The X coordinate of the target location. |
+| `y` | Expression | ✅ | — | — | The Y coordinate of the target location. |
+| `z` | Expression | ✅ | — | — | The Z coordinate of the target location. |
+| `radius` | Expression | ✅ | — | — | The maximum distance from the target location. 例: `15 + %level% * 0.5` |
 
 ## 📝 源码注记
 

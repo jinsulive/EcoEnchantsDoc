@@ -10,7 +10,7 @@ outline: deep
 
 # brew <Badge type="info" text="libreforge" /> 
 
-> Triggered when brewing a potion in a brewing stand
+> Fires when the player brews potions in a brewing stand.
 
 ## Overview
 

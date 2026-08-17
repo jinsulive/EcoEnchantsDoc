@@ -10,7 +10,7 @@ outline: deep
 
 # blink <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Teleports the player forward in the direction they are looking, stopping at solid blocks
+> Teleports the player forward in their look direction, stopping at solid blocks.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
+| `distance` | Expression | ✅ | — | — | The maximum number of blocks to teleport forward. Supports expressions. Example: `5 + %level%` |
 
 ## 📝 Source Notes
 

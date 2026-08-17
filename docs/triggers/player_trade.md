@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # player_trade <Badge type="info" text="libreforge" /> <Badge type="warning" text="AxTrade" />
+> **Requires:** AxTrade
 
-> Triggered when trading with a player (player = initiator, victim = recipricant)
+> Fires when an AxTrade trade between two players is completed.
 
 ## Overview
 

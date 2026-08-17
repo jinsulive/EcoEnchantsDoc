@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # left_click_npc <Badge type="info" text="libreforge" /> <Badge type="warning" text="Citizens / FancyNpcs" />
+> **Requires:** Citizens
 
-> Triggered when left-clicking an NPC
+> Fires when the player left-clicks a Citizens NPC.
 
 ## Overview
 

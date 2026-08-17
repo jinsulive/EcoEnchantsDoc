@@ -10,7 +10,7 @@ outline: deep
 
 # remove_boss_bar <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Removes a boss bar
+> Removes a currently displayed boss bar by its ID.
 
 ## Overview
 

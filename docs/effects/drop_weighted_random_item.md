@@ -10,7 +10,7 @@ outline: deep
 
 # drop_weighted_random_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Drops a random item at a location, with weighting for different items
+> Drops one item chosen from a weighted list at the trigger location.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `items` | Dynamic Config | ✅ | — | — | A list of weighted item groups. Each entry has a weight and an items list. |
+| `items` | Dynamic | ✅ | — | — | A list of weighted item groups. Each entry has a weight and an items list. |
 
 ## 📝 Source Notes
 

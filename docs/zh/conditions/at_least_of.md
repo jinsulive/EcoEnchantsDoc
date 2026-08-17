@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `conditions` | Any/Custom | ✅ | — | — | 要判断的条件列表。 |
-| `amount` | Integer | ✅ | — | — | 必须满足的条件数量。 |
+| `conditions` | Any | ✅ | — | — | List of conditions to evaluate. |
+| `amount` | Integer | ✅ | — | — | The minimum number of conditions that must pass. |
 
 ## 📝 源码注记
 

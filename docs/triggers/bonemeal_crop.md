@@ -10,7 +10,7 @@ outline: deep
 
 # bonemeal_crop <Badge type="info" text="libreforge" /> 
 
-> Triggered when using bonemeal on a crop
+> Fires when the player uses bone meal to fertilize a crop.
 
 ## Overview
 

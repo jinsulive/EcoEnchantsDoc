@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # scyther_auto_sell <Badge type="info" text="libreforge" /> <Badge type="warning" text="Scyther" />
+> **需要依赖：** Scyther
 
 > 当使用镰刀锄自动出售作物时触发。
 

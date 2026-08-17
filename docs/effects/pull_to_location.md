@@ -10,7 +10,7 @@ outline: deep
 
 # pull_to_location <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Get pulled to a location
+> Pulls the player toward the trigger location with a specified velocity.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The strength of the pull force applied to the player. Supports expressions. Example: `1 + %level% * 0.1` |
-| `jump` | Expression(数学表达式) | — | `0` | — | An upward boost added to the pull vector. Supports expressions. |
+| `velocity` | Expression | ✅ | — | — | The strength of the pull force applied to the player. Supports expressions. Example: `1 + %level% * 0.1` |
+| `jump` | Expression | — | `0` | — | An upward boost added to the pull vector. Supports expressions. |
 
 ## 📝 Source Notes
 

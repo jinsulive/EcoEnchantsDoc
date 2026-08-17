@@ -10,7 +10,7 @@ outline: deep
 
 # above_global_points <Badge type="info" text="libreforge" />
 
-> Requires the server to have a certain amount of points (check the points wiki page if you don't know what these are)
+> Passes when the global points of the given type are at or above the minimum.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The global points type identifier. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The minimum number of global points required. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The minimum number of global points required. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

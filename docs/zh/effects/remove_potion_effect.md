@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Any/Custom | ✅ | — | — | 要移除的效果。 |
-| `apply_to_player` | Custom | — | — | — | 为 true 时移除玩家身上的效果，为 false 时移除受害者身上的效果。 |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect type to remove. |
+| `apply_to_player` | Boolean | — | `false` | — | If true, removes the effect from the player instead of the victim. |
 
 ## 📝 源码注记
 

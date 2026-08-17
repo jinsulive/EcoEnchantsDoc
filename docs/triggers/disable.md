@@ -10,7 +10,7 @@ outline: deep
 
 # disable <Badge type="info" text="libreforge" /> 
 
-> Triggered when an item / enchant / etc disables
+> Fires when a holder is deactivated for the dispatcher, such as when an item is unequipped.
 
 ## Overview
 

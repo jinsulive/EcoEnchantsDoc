@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # gain_mcmmo_xp <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
+> **Requires:** mcMMO
 
-> Triggered when gaining McMMO xp
+> Fires when the player gains McMMO experience.
 
 ## Overview
 

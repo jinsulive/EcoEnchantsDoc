@@ -10,7 +10,7 @@ outline: deep
 
 # leave_bed <Badge type="info" text="libreforge" /> 
 
-> Triggered when leaving a bed
+> Fires when the player leaves a bed.
 
 ## Overview
 

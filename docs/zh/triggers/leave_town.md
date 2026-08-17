@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # leave_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **需要依赖：** HuskTowns
 
 > 当离开城镇时触发。
 

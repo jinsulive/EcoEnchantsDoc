@@ -10,7 +10,7 @@ outline: deep
 
 # mob_coins_drop_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies the mobcoins dropped
+> Multiplies the amount of UltimateMobCoins received from mob kills while the holder is active.
 
 > **Requires:** UltimateMobCoins
 
@@ -25,9 +25,9 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The drop multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
 
 ## Configuration Example
 

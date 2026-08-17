@@ -10,7 +10,7 @@ outline: deep
 
 # in_mainhand <Badge type="info" text="libreforge" />
 
-> Requires a player to have an item in their main hand
+> Passes when the entity is holding a matching item in their main hand.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `items` | Custom | — | — | — | The list of allowed items |
+| `items` / `item` (either) | Item List | ✅ | — | — | The item(s) to check for. Inherited from the `ItemCondition` abstract template. |
 
 ## 📝 Source Notes
 

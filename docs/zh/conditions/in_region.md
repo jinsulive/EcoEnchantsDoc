@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # in_region <Badge type="info" text="libreforge" />
+> **需要依赖：** WorldGuard
 
 > 需要玩家位于某个区域中。
 
@@ -26,9 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `region` | 允许的区域列表。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `region` | String_list | ✅ | — | — | The WorldGuard region name(s) to check against. |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # sell_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when selling an item in a shop
+> Fires when the player sells an item to a shop.
 
 ## Overview
 

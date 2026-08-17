@@ -10,7 +10,7 @@ outline: deep
 
 # level_up_xp <Badge type="info" text="libreforge" /> 
 
-> Triggered when levelling up XP
+> Fires when the player gains an XP level.
 
 ## Overview
 

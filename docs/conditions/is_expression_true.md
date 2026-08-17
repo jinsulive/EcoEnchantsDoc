@@ -10,7 +10,7 @@ outline: deep
 
 # is_expression_true <Badge type="info" text="libreforge" />
 
-> Requires a certain expression to be true
+> Passes when the given mathematical expression evaluates to 1.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `expression` | Expression(数学表达式) | ✅ | — | — | A mathematical expression or placeholder that must evaluate to 1 for the condition to pass. Example: `%player_level% >= 10` |
+| `expression` | Expression | ✅ | — | — | A mathematical expression or placeholder that must evaluate to 1 for the condition to pass. Example: `%player_level% >= 10` |
 
 ## 📝 Source Notes
 

@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # has_town_role <Badge type="info" text="libreforge" />
+> **Requires:** HuskTowns
 
-> Requires a player to have a certain role in a town
+> Passes when the player holds one of the specified roles in their HuskTowns town.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `roles` | The ID of the role |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `roles` | String_list | ✅ | — | — | A list of HuskTowns town role names to check against (e.g. mayor, resident). |
 
 ## Configuration Example
 

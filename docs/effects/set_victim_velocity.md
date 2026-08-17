@@ -10,7 +10,7 @@ outline: deep
 
 # set_victim_velocity <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets the victim's velocity
+> Sets the victim entity's velocity to the specified x, y, z components.
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `x` | Expression(数学表达式) | ✅ | — | — | The X component of the velocity vector. Supports expressions. Example: `0` |
-| `y` | Expression(数学表达式) | ✅ | — | — | The Y component of the velocity vector. Supports expressions. Example: `1.5` |
-| `z` | Expression(数学表达式) | ✅ | — | — | The Z component of the velocity vector. Supports expressions. Example: `0` |
+| `x` | Expression | ✅ | — | — | The X component of the velocity vector. Supports expressions. Example: `0` |
+| `y` | Expression | ✅ | — | — | The Y component of the velocity vector. Supports expressions. Example: `1.5` |
+| `z` | Expression | ✅ | — | — | The Z component of the velocity vector. Supports expressions. Example: `0` |
 
 ## 📝 Source Notes
 

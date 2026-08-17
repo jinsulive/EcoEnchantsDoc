@@ -10,7 +10,7 @@ outline: deep
 
 # placeholder_greater_than <Badge type="info" text="libreforge" />
 
-> Requires a placeholder to be greater than or equal to a certain value
+> Passes when the resolved placeholder value is numerically greater than or equal to the specified value.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `placeholder` | String | ✅ | — | — | The placeholder string to resolve and evaluate as a number. Example: `%player_level%` |
-| `value` | Expression(数学表达式) | ✅ | — | — | The minimum numeric threshold the placeholder must meet or exceed. Example: `5 + %level%` |
+| `value` | Expression | ✅ | — | — | The minimum numeric threshold the placeholder must meet or exceed. Example: `5 + %level%` |
 
 ## 📝 Source Notes
 

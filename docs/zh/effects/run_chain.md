@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `run-type` | String | — | — | `normal`, `cycle`, `random` | 可选，设置链的执行方式，参见"配置效果"页面。 |
-| `chain` | String | ✅ | — | — | 要执行的链 ID。 |
-| `chain_args` | Any/Custom | — | — | — | 在链内以占位符形式暴露的键值对子配置。 |
+| `chain` | String | ✅ | — | — | The ID of the chain to execute. |
+| `chain_args` | Any | — | — | — | A subsection of key-value pairs to expose as placeholders within the chain. |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor type to use when running the chain. |
 
 ## 📝 源码注记
 

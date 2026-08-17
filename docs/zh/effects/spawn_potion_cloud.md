@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect | ✅ | — | — | 云中实体获得的药水效果。 |
-| `level` | Expression(数学表达式) | ✅ | — | — | 要给予的等级。支持表达式。示例：`1 + %level% / 10` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | 效果的持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect to apply to entities in the cloud. |
+| `level` | Expression | ✅ | — | — | The amplifier level of the potion effect. Supports expressions. 例: `1 + %level% / 10` |
+| `duration` | Expression | ✅ | — | — | How long the cloud and its applied effect last, in ticks. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

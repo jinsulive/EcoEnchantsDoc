@@ -10,7 +10,7 @@ outline: deep
 
 # update_edprison_pickaxe <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Updates the player's EdPrison pickaxe
+> Forces an update of the player's EdPrison pickaxe, refreshing its stats and enchantments.
 
 > **Requires:** EdPrison
 
@@ -22,6 +22,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## Configuration Example
 

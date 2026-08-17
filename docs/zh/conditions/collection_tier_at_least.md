@@ -6,9 +6,11 @@ subcategory: player_state
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # collection_tier_at_least <Badge type="info" text="libreforge" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 需要玩家在收藏中达到至少一定等级（EcoCollections）。
 

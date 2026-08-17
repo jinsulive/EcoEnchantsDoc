@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_cursor <Badge type="info" text="libreforge" />
 
-> Move the location to where you or the victim are looking
+> Sets the location to the position of the entity or block at the player's or victim's cursor.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `target` | String | ✅ | — | `block`, `entity` | The entity or block to target with the raytrace. |
-| `start` | String | ✅ | — | `player`, `victim` | The entity to raytrace from (either player or victim). |
+| `start` | String | ✅ | — | `player`, `victim` | The entity to raytrace from. |
 
 ## 📝 Source Notes
 

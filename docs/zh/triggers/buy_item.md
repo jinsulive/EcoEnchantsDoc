@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoshop
 outline: deep
+deprecated: true
 ---
 
 # buy_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoShop" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当在商店购买物品时触发。
 

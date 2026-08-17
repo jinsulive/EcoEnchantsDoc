@@ -10,7 +10,7 @@ outline: deep
 
 # run_chain <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Execute an effect chain
+> Runs a named chain of effects defined in `plugins/libreforge/chains.yml`.
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor type to use when running the chain. |
 | `chain` | String | ✅ | — | — | The ID of the chain to execute. |
-| `chain_args` | Any/Custom | — | — | — | A subsection of key-value pairs to expose as placeholders within the chain. |
+| `chain_args` | Any | — | — | — | A subsection of key-value pairs to expose as placeholders within the chain. |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor type to use when running the chain. |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # tame_animal <Badge type="info" text="libreforge" /> 
 
-> Triggered when taming an animal
+> Fires when the player tames an animal.
 
 ## Overview
 

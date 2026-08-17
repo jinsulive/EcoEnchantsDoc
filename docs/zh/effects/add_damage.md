@@ -10,7 +10,7 @@ outline: deep
 
 # add_damage <Badge type="info" text="libreforge" /> <Badge type="info" text="触发型" />
 
-> 为任意伤害触发器添加进出伤害。
+> 为触发攻击添加额外伤害。
 
 ## 基本信息
 
@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | 要添加（或扣除）的伤害值。支持表达式。示例：`%victim_max_health% * 0.1` |
+| `damage` | Expression | ✅ | — | — | The amount of extra damage to add. Supports expressions. 例: `%victim_max_health% * 0.1` |
 
 ## 📝 源码注记
 

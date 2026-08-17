@@ -10,7 +10,7 @@ outline: deep
 
 # entity_item_drop <Badge type="info" text="libreforge" /> 
 
-> Triggered when a killed entity drops loot
+> Fires when the player kills an entity and the entity drops items.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # shoot <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Shoots a projectile
+> Launches a projectile of the specified entity type from the player.
 
 ## Overview
 
@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `inherit_velocity` | Boolean | — | `false` | — | Whether the projectile should inherit the player's current velocity (ie if you want to make a tripleshot effect). |
-| `no_source` | Boolean | — | `false` | — | Whether the projectile should have no shooter, preventing attribution to the player. |
 | `projectile` | Entity | ✅ | — | — | The entity type to launch as a projectile, e.g. ARROW or SNOWBALL. |
+| `inherit_velocity` | Boolean | — | `false` | — | Whether the projectile should inherit the player's current velocity. |
 | `launch-at-location` | Boolean | — | `false` | — | Whether the projectile should be teleported to the trigger location after launch. |
 | `allow_pickup` | Boolean | — | `false` | — | Whether the projectile can be picked up by players (applies to arrows). |
+| `no_source` | Boolean | — | `false` | — | Whether the projectile should have no shooter, preventing attribution to the player. |
 
 ## 📝 Source Notes
 

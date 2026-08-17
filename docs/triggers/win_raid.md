@@ -10,7 +10,7 @@ outline: deep
 
 # win_raid <Badge type="info" text="libreforge" /> 
 
-> Triggered when a player wins a raid
+> Fires when the player wins a raid.
 
 ## Overview
 

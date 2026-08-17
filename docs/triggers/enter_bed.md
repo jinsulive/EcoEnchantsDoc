@@ -10,7 +10,7 @@ outline: deep
 
 # enter_bed <Badge type="info" text="libreforge" /> 
 
-> Triggered when entering a bed
+> Fires when the player enters a bed.
 
 ## Overview
 

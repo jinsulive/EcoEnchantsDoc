@@ -10,7 +10,7 @@ outline: deep
 
 # particle_animation <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Plays a particle animation
+> Plays a particle animation at the trigger location over time using a named animation pattern.
 
 ## Overview
 
@@ -26,12 +26,12 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `particle` | String | ✅ | — | — | The particle type to spawn during the animation. Example: `flame` |
-| `particle-amount` | Expression(数学表达式) | — | `1` | — | The number of particles to spawn per animation point per tick. Supports expressions. |
 | `animation` | String | ✅ | — | `circle`, `double_helix`, `ground_spiral`, `helix`, `trace`, `twirl`, `wing_tips`, `projectile_trail` | The animation pattern to use (e.g. circle, helix). |
-| `tick-multiplier` | Custom | — | — | — | (Optional) increases the speed of the animation by some multiplier |
-| `entity` | String | — | `player` | `player`, `victim`, `projectile` | The entity to anchor the animation to (player, victim, projectile). |
+| `particle-amount` | Expression | — | `1` | — | The number of particles to spawn per animation point per tick. Supports expressions. |
+| `entity` | String | — | `player` | `player`, `victim`, `projectile` | The entity to anchor the animation to. |
 | `use-eye-location` | Boolean | — | `false` | — | Whether to use the entity's eye location instead of their feet. |
-| `particle_args` | Custom | — | — | — | Arguments for the animation |
+| `particle_args` | Sub-section | — | — | — | **Sub-section parameter (nested config)** — see sub-section fields below. |
+| `tick-multiplier` | Dynamic | — | — | — | **Implicit parameter** (supported via source `args.has()`, not declared in `arguments`). |
 
 > 💡 See [Particle Types](../guide/particles) for the full list of 115 built-in particles.
 

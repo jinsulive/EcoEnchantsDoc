@@ -10,7 +10,7 @@ outline: deep
 
 # set_unbreakable <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Sets the unbreakable tag on an item
+> Makes an item in a specific slot unbreakable while the effect is active.
 
 ## Overview
 

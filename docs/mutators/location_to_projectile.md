@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_projectile <Badge type="info" text="libreforge" />
 
-> Move the location to the projectile's location
+> Sets the location to the projectile's current position.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `location_to_projectile` |
 | Module | libreforge |
 | Category | Rotation |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

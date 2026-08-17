@@ -10,7 +10,7 @@ outline: deep
 
 # open_ender_chest <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Opens the player's ender chest
+> Opens the player's ender chest inventory.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Item |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `item` | String | — | — | — |  |
 
 ## 📝 Source Notes
 

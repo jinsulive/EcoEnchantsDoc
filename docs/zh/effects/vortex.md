@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 吸引实体的半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | 吸引实体的持续游戏刻数。支持表达式。示例：`20 * %level%` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | 最终对所有受影响实体造成的伤害。支持表达式。示例：`%level% * 2` |
-| `pull_strength` | Expression(数学表达式) | — | `0.3` | — | （可选）每游戏刻的牵引力度，默认为 0.3。支持表达式。示例：`0.1 + %level% * 0.02` |
-| `whitelist` | Entity List | — | `` | — | （可选）要牵引的实体类型列表。未指定时牵引所有实体。 |
-| `blacklist` | Entity List | — | `` | — | （可选）要忽略的实体类型列表。未指定时忽略所有实体。 |
+| `radius` | Expression | ✅ | — | — | The radius within which entities will be pulled toward the vortex. Supports expressions. 例: `5 + %level% * 0.5` |
+| `duration` | Expression | ✅ | — | — | How many ticks to pull entities before dealing damage. Supports expressions. 例: `20 * %level%` |
+| `damage` | Expression | ✅ | — | — | The damage dealt to all affected entities at the end of the vortex. Supports expressions. 例: `%level% * 2` |
+| `pull_strength` | Expression | — | `0.3` | — | How strongly entities are pulled per tick. Supports expressions. 例: `0.1 + %level% * 0.02` |
+| `whitelist` | Entity List | — | — | — | A list of entity types to exclusively target. If omitted, all entities are targeted. |
+| `blacklist` | Entity List | — | — | — | A list of entity types to exclude from the vortex. |
 
 ## 📝 源码注记
 

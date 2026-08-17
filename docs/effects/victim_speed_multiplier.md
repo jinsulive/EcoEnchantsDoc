@@ -10,7 +10,7 @@ outline: deep
 
 # victim_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Temporarily multiplies victim movement speed
+> Temporarily multiplies the victim's movement speed for a given duration.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
-| `duration` | Expression(数学表达式) | ✅ | — | — | How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
+| `multiplier` | Expression | ✅ | — | — | The value to multiply the victim's movement speed by. Supports expressions. Example: `1 - %level% * 0.02` |
+| `duration` | Expression | ✅ | — | — | How many ticks the speed change lasts. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

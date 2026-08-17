@@ -10,7 +10,7 @@ outline: deep
 
 # join <Badge type="info" text="libreforge" /> 
 
-> Triggered when joining the server
+> Fires when the player joins the server.
 
 ## Overview
 

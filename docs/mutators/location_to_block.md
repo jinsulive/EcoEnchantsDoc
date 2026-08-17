@@ -10,7 +10,7 @@ outline: deep
 
 # location_to_block <Badge type="info" text="libreforge" />
 
-> Move the location to the block's location
+> Sets the block parameter to use the block's location.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `location_to_block` |
 | Module | libreforge |
 | Category | Location |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

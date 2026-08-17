@@ -10,7 +10,7 @@ outline: deep
 
 # change_world <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing world
+> Fires when the player moves to a different world.
 
 ## Overview
 

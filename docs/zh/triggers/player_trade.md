@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # player_trade <Badge type="info" text="libreforge" /> <Badge type="warning" text="AxTrade" />
+> **需要依赖：** AxTrade
 
 > 当与玩家交易时触发（玩家 = 发起者，受害者 = 接受者）。
 

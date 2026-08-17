@@ -10,7 +10,7 @@ outline: deep
 
 # above_y <Badge type="info" text="libreforge" />
 
-> Requires a player to be above a certain y level
+> Passes when the entity's Y coordinate is at or above the specified value.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `y` | Expression(数学表达式) | ✅ | — | — | The minimum Y coordinate. |
+| `y` | Expression | ✅ | — | — | The minimum Y coordinate. |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # xp_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies incoming xp gain
+> Multiplies the amount of XP the player gains from natural sources and telekinesis drops.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Custom | — | — | — | The xp multiplier |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. Inherited from the `MultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

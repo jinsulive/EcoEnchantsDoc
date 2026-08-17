@@ -25,9 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item List | ✅ | — | — | 要给予玩家的物品或物品列表。 |
-| `items` | Item List | ✅ | — | — | 你也可以指定一个物品列表。 |
-| `slot` | String | — | — | — | 给予物品的背包栏位，可以是任意数字栏位、hand 或 'any'。省略时物品会通过念力传送到玩家背包。示例：`mainhand` |
+| `item` / `items`（任一） | Item List | ✅ | — | — | The item or list of items to give to the player. |
+| `slot` | String | — | — | — | The inventory slot type to place the item into. If omitted the item is dropped into the player's inventory via telekinesis. 例: `mainhand` |
 
 ## 📝 源码注记
 

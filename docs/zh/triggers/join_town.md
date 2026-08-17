@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # join_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **需要依赖：** HuskTowns
 
 > 当加入城镇时触发。
 

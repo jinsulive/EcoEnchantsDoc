@@ -10,7 +10,7 @@ outline: deep
 
 # set_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets the EdPrison economy for the player
+> Sets the player's EdPrison economy balance for a given currency to a specific value.
 
 > **Requires:** EdPrison
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `type` | the ID of the economy type |
-| `amount` | The amount to set |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `type` | String | ✅ | — | — | The EdPrison economy currency ID to set. |
+| `amount` | Expression | ✅ | — | — | The value to set the economy balance to. Supports expressions. |
 
 ## Configuration Example
 

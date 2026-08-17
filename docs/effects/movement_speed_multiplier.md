@@ -10,7 +10,7 @@ outline: deep
 
 # movement_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies movement speed
+> Multiplies the player's movement speed while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The movement speed multiplier to apply (e.g. 1.5 = 50% faster). Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The movement speed multiplier to apply (e.g. 1.5 = 50% faster). Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

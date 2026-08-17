@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `skill` | 要施放的技能 ID。 |
-| `victim_to_player` | 被动技能请设为 true。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `skill` | String | ✅ | — | — | The MythicMobs skill name to cast. |
+| `victim_to_player` | Boolean | — | `false` | — | Whether to target the casting player instead of the victim. Defaults to false. |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # soul_rip <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Damages nearby entities and heals the player for the damage dealt
+> Damages nearby enemies within a radius and heals the player based on the damage dealt.
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius around the player to search for targets. Supports expressions. Example: `5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage dealt to each nearby entity. Supports expressions. Example: `%level% * 2` |
-| `heal_multiplier` | Expression(数学表达式) | — | `1.0` | — | A multiplier applied to the total damage dealt before it is converted to healing. Example: `0.5 + %level% * 0.02` |
+| `radius` | Expression | ✅ | — | — | The radius around the player to search for targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression | ✅ | — | — | The amount of damage dealt to each nearby entity. Supports expressions. Example: `%level% * 2` |
+| `heal_multiplier` | Expression | — | `1.0` | — | A multiplier applied to the total damage dealt before it is converted to healing. Example: `0.5 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

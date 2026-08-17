@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecobattlepass
 outline: deep
+deprecated: true
 ---
 
 # claim_battlepass_reward <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoBattlepass" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when claiming a battlepass reward
 

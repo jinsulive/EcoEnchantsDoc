@@ -10,7 +10,7 @@ outline: deep
 
 # drop_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Drops experience orbs at the trigger location
+> Drops experience orbs at the trigger location.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `xp` | Expression(数学表达式) | ✅ | — | — | The amount of experience to drop. Supports expressions. Example: `10 + %level% * 5` |
+| `xp` | Expression | ✅ | — | — | The amount of experience to drop. Supports expressions. Example: `10 + %level% * 5` |
 
 ## 📝 Source Notes
 

@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `x` | Expression(数学表达式) | ✅ | — | — | X 轴速度分量。支持表达式。示例：`0` |
-| `y` | Expression(数学表达式) | ✅ | — | — | Y 轴速度分量。支持表达式。示例：`1.5` |
-| `z` | Expression(数学表达式) | ✅ | — | — | Z 轴速度分量。支持表达式。示例：`0` |
+| `x` | Expression | ✅ | — | — | The X component of the velocity vector. Supports expressions. 例: `0` |
+| `y` | Expression | ✅ | — | — | The Y component of the velocity vector. Supports expressions. 例: `1.5` |
+| `z` | Expression | ✅ | — | — | The Z component of the velocity vector. Supports expressions. 例: `0` |
 
 ## 📝 源码注记
 

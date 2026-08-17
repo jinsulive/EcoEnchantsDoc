@@ -10,7 +10,7 @@ outline: deep
 
 # explosion_knockback_resistance_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies explosion resistance
+> Adds a flat value to the player's explosion knockback resistance attribute.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The value to add to the explosion knockback resistance attribute. Supports expressions. Example: `%level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The value to add to the explosion knockback resistance attribute. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

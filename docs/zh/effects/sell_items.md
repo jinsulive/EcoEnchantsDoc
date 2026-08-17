@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | — | `1.0` | — | 价格倍率。支持表达式。示例：`1 + %level% * 0.05` |
-| `whitelist` | Item List | — | — | — | 允许出售的物品类型列表。省略时所有可出售物品都会被出售。 |
+| `multiplier` | Expression | — | `1.0` | — | A multiplier applied to the sell price of each item. Supports expressions. 例: `1 + %level% * 0.05` |
+| `whitelist` | Item List | — | — | — | A list of item types that are allowed to be sold. If omitted, all sellable items are sold. |
 
 ## 📝 源码注记
 

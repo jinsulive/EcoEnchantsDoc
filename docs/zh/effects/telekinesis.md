@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `on_tamed_mob_kills` | Boolean | — | `false` | — | 被驯服的生物击杀实体时是否也生效念力传送。 |
+| `on_tamed_mob_kills` | Boolean | — | `false` | — | If true, telekinesis also applies when a tamed mob kills an entity. |
 
 ## 📝 源码注记
 

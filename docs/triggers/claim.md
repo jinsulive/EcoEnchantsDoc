@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
+> **Requires:** HuskClaims
 
-> Triggered when claiming an area
+> Fires when the player creates a HuskClaims claim.
 
 ## Overview
 

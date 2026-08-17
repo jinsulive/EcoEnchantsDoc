@@ -10,7 +10,7 @@ outline: deep
 
 # flight <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Grants flight
+> Grants the player the ability to fly while the holder is active.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Movement |
 | Effect Type | Permanent |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

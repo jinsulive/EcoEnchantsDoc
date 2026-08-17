@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `reach` | Expression(数学表达式) | ✅ | — | — | 额外实体交互距离。支持表达式。示例：`%level% * 0.5` |
+| `reach` | Expression | ✅ | — | — | The number of blocks to add to the entity interaction range. Supports expressions. 例: `%level% * 0.5` |
 
 ## 📝 源码注记
 

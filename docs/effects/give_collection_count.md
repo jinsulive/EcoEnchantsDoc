@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # give_collection_count <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Gives a player count toward a collection
 

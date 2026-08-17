@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecopets
 outline: deep
+deprecated: true
 ---
 
 # pet_deactivate <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoPets" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当停用宠物时触发。
 

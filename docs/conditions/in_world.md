@@ -10,7 +10,7 @@ outline: deep
 
 # in_world <Badge type="info" text="libreforge" />
 
-> Requires a player to be in a certain world
+> Passes when the dispatcher is located in the specified world.
 
 ## Overview
 

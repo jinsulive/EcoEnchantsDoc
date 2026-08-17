@@ -10,7 +10,7 @@ outline: deep
 
 # collide_with_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when a player collides with another entity
+> Fires when the player physically collides with a nearby entity.
 
 ## Overview
 

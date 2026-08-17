@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 速度倍率（例如 2 = 两倍速度）。支持表达式。示例：`1 + %level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The factor to multiply all velocity components by (e.g. 2 = double speed). Supports expressions. 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

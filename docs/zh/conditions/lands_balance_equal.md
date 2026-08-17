@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # lands_balance_equal <Badge type="info" text="libreforge" />
+> **需要依赖：** Lands
 
 > 需要领地银行余额等于某个值。
 
@@ -26,9 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | 所需余额。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `amount` | Expression | ✅ | — | — | The exact land balance required. |
 
 ## 配置示例
 

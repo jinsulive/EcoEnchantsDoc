@@ -10,7 +10,7 @@ outline: deep
 
 # keep_level <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Makes the player keep their XP level on death
+> Prevents the player from losing their XP levels on death.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Item |
 | Effect Type | Permanent |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

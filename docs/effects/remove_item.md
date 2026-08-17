@@ -10,7 +10,7 @@ outline: deep
 
 # remove_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Removes an item from the player's inventory
+> Removes a specified item (and its stack amount) from the player's inventory.
 
 ## Overview
 

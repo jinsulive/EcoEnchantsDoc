@@ -10,7 +10,7 @@ outline: deep
 
 # safe_fall_distance <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Increases/decreases the distance you can fall without taking damage
+> Increases the player's safe fall distance, reducing fall damage taken.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `distance` | Expression(数学表达式) | ✅ | — | — | The number of extra blocks the player can fall safely. Supports expressions. Example: `%level% * 0.5` |
+| `distance` | Expression | ✅ | — | — | The number of extra blocks the player can fall safely. Supports expressions. Example: `%level% * 0.5` |
 
 ## 📝 Source Notes
 

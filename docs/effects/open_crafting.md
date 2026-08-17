@@ -10,7 +10,7 @@ outline: deep
 
 # open_crafting <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Opens a crafting table for the player
+> Opens a virtual crafting table GUI for the player.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Item |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

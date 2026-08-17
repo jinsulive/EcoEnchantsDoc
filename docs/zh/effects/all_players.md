@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | 对每个在线玩家运行的效果。 |
-| `run-type` | String | — | — | `normal`, `cycle`, `random` | 要使用的链执行器。 |
+| `effects` | Effect List | ✅ | — | — | The effects to run on every online player. |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor to use. |
 
 ## 📝 源码注记
 

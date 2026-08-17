@@ -10,7 +10,7 @@ outline: deep
 
 # sell_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies money gained from selling items
+> Multiplies the sell price of items when the player sells through a shop.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Custom | — | — | — | The sell multiplier |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. Inherited from the `MultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

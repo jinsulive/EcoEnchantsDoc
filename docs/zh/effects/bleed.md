@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | 每次流血结算造成的伤害。支持表达式。示例：`%level% * 0.5` |
-| `interval` | Expression(数学表达式) | ✅ | — | — | 每次伤害结算之间的间隔游戏刻数。支持表达式。 |
-| `amount` | Expression(数学表达式) | ✅ | — | — | 流血结算次数。支持表达式。示例：`3 + %level%` |
+| `amount` | Expression | ✅ | — | — | The number of times damage is dealt. Supports expressions. 例: `3 + %level%` |
+| `damage` | Expression | ✅ | — | — | The damage dealt per interval. Supports expressions. 例: `%level% * 0.5` |
+| `interval` | Expression | ✅ | — | — | The number of ticks between each damage application. Supports expressions. |
 
 ## 📝 源码注记
 

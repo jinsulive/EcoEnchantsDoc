@@ -10,7 +10,7 @@ outline: deep
 
 # empty_bucket <Badge type="info" text="libreforge" /> 
 
-> Triggered when emptying a bucket
+> Fires when the player empties a bucket.
 
 ## Overview
 

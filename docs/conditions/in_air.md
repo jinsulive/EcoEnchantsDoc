@@ -10,7 +10,7 @@ outline: deep
 
 # in_air <Badge type="info" text="libreforge" />
 
-> Requires a player to be in the air
+> Passes when the entity has no solid block directly below them.
 
 ## Overview
 
@@ -23,6 +23,12 @@ outline: deep
 ::: tip Inverse Argument
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

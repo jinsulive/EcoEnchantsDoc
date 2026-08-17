@@ -10,7 +10,7 @@ outline: deep
 
 # increase_step_height <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Increases the amount of blocks you can walk over without jumping
+> Increases the player's step height, allowing them to walk up taller blocks without jumping.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `height` | Expression(数学表达式) | ✅ | — | — | The number of extra blocks the player can step up automatically. Supports expressions. Example: `0.5 + %level% * 0.1` |
+| `height` | Expression | ✅ | — | — | The number of extra blocks the player can step up automatically. Supports expressions. Example: `0.5 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

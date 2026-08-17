@@ -10,7 +10,7 @@ outline: deep
 
 # send_message <Badge type="info" text="libreforge" /> 
 
-> Triggered when sending a message
+> Fires when the player sends a chat message.
 
 ## Overview
 

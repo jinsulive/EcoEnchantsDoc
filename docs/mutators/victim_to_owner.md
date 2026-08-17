@@ -10,7 +10,7 @@ outline: deep
 
 # victim_to_owner <Badge type="info" text="libreforge" />
 
-> If the victim is a tamed animal, set the victim to be the owner of the animal
+> Sets the victim to the tamed entity's owner.
 
 ## Overview
 
@@ -19,6 +19,12 @@ outline: deep
 | Type ID | `victim_to_owner` |
 | Module | libreforge |
 | Category | Victim/Player |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

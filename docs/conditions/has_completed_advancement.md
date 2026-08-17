@@ -10,7 +10,7 @@ outline: deep
 
 # has_completed_advancement <Badge type="info" text="libreforge" />
 
-> Requires a player to have completed an advancement
+> Passes when the player has completed the specified advancement.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # brew_time_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies the time taken to brew potions
+> Multiplies the time taken to brew potions while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Custom | — | — | — | The multiplier |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. Inherited from the `MultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

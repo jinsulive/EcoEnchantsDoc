@@ -10,7 +10,7 @@ outline: deep
 
 # spin_velocity <Badge type="info" text="libreforge" />
 
-> Rotate a velocity around the y axis
+> Rotates the velocity vector around the Y axis by the given angle.
 
 ## Overview
 
@@ -24,7 +24,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The angle in degrees to rotate the velocity around the Y axis. Example: `%level% * 5` |
+| `angle` | Expression | ✅ | — | — | The angle in degrees to rotate the velocity around the Y axis. Example: `%level% * 5` |
 
 ## 📝 Source Notes
 

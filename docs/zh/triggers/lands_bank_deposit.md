@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # lands_bank_deposit <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **需要依赖：** Lands
 
 > 当向领地银行存入金钱时触发。
 

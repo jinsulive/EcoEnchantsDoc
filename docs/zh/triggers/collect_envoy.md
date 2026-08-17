@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # collect_envoy <Badge type="info" text="libreforge" /> <Badge type="warning" text="AxEnvoy" />
+> **需要依赖：** AxEnvoy
 
 > 当收集使者宝箱时触发。
 

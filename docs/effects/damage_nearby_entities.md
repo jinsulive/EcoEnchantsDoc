@@ -10,7 +10,7 @@ outline: deep
 
 # damage_nearby_entities <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Damage entities near a location
+> Deals damage to all nearby entities within a radius.
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage to deal to each entity. Supports expressions. Example: `%level% * 2` |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to damage entities within. Supports expressions. Example: `5 + %level% * 0.5` |
-| `entities` | Entity List | — | — | — | If specified, only these entity types will be damaged. |
+| `radius` | Expression | ✅ | — | — | The radius to damage entities within. Supports expressions. Example: `5 + %level% * 0.5` |
 | `damage_as_player` | Boolean | ✅ | — | — | Whether the player is attributed as the source of damage. |
+| `damage` | Expression | ✅ | — | — | The amount of damage to deal to each entity. Supports expressions. Example: `%level% * 2` |
+| `entities` | Entity List | — | — | — | If specified, only these entity types will be damaged. |
 | `damage_self` | Boolean | — | `true` | — | Whether the player can damage themselves with this effect. |
 
 ## 📝 Source Notes

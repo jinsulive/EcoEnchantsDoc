@@ -10,7 +10,7 @@ outline: deep
 
 # enchant_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when enchanting an item in an enchanting table
+> Fires when the player enchants an item at an enchanting table.
 
 ## Overview
 

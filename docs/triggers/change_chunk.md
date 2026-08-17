@@ -10,7 +10,7 @@ outline: deep
 
 # change_chunk <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing chunk
+> Fires when the player or a living entity moves into a different chunk.
 
 ## Overview
 

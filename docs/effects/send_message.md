@@ -10,7 +10,7 @@ outline: deep
 
 # send_message <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sends the player a message
+> Sends one or more chat messages to the player.
 
 ## Overview
 
@@ -25,8 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `message` | String List | ✅ | — | — | The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
-| `messages` | String List | ✅ | — | — | The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
+| `message` / `messages` (either) | String List | ✅ | — | — | The message or list of messages to send to the player. Supports placeholders. Example: `Hi %player_name%!, You have %player_level% levels.` |
 | `action_bar` | Boolean | — | `false` | — | Whether to display the first message in the action bar instead of chat. |
 
 ## 📝 Source Notes

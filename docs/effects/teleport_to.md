@@ -10,7 +10,7 @@ outline: deep
 
 # teleport_to <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Teleport a player to a specific location
+> Teleports the player to a specific coordinate in a named world.
 
 ## Overview
 
@@ -26,9 +26,9 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `world` | String | ✅ | — | — | The name of the world to teleport to. Example: `world_nether` |
-| `x` | Expression(数学表达式) | ✅ | — | — | The X coordinate to teleport to. Supports expressions. Example: `100` |
-| `y` | Expression(数学表达式) | ✅ | — | — | The Y coordinate to teleport to. Supports expressions. Example: `64` |
-| `z` | Expression(数学表达式) | ✅ | — | — | The Z coordinate to teleport to. Supports expressions. Example: `-200` |
+| `x` | Expression | ✅ | — | — | The X coordinate to teleport to. Supports expressions. Example: `100` |
+| `y` | Expression | ✅ | — | — | The Y coordinate to teleport to. Supports expressions. Example: `64` |
+| `z` | Expression | ✅ | — | — | The Z coordinate to teleport to. Supports expressions. Example: `-200` |
 
 ## 📝 Source Notes
 

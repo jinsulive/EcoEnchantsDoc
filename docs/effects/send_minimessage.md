@@ -10,7 +10,7 @@ outline: deep
 
 # send_minimessage <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sends the player a minimessage message, supports clickable components, etc.
+> Sends one or more MiniMessage-formatted messages to the player, with optional action bar display.
 
 > **Requires:** Paper
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `message` | The message to send |
-| `action_bar` | If the message should go to the action bar instead of chat |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `message` / `messages` (either) | String_list | ✅ | — | — | The MiniMessage-formatted message(s) to send. Supports placeholders. |
+| `action_bar` | Boolean | — | `false` | — | Whether to display the first message in the action bar instead of chat. Defaults to false. |
 
 ## Configuration Example
 

@@ -10,7 +10,7 @@ outline: deep
 
 # leave <Badge type="info" text="libreforge" /> 
 
-> Triggered when leaving the server
+> Fires when the player leaves the server.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # smelt <Badge type="info" text="libreforge" /> 
 
-> Triggered when smelting an item in a furnace
+> Fires when the player smelts an item in a furnace.
 
 ## Overview
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `glowing` | Boolean | — | `true` | — | （可选）是否启用发光，默认为 true。 |
-| `duration` | Expression(数学表达式) | — | — | — | （可选）发光状态恢复前的游戏刻数。支持表达式。示例：`20 * %level%` |
+| `glowing` | Boolean | — | `true` | — | Whether to enable or disable the glowing effect. |
+| `duration` | Expression | — | — | — | How long to apply the glow, in ticks. Reverts when expired. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

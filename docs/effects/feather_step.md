@@ -10,7 +10,7 @@ outline: deep
 
 # feather_step <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Prevents trampling crops
+> Prevents the player trampling crops.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Permanent |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `enchant` | Enchantment | ✅ | — | — | 要添加的附魔 ID（例如 sharpness）。 |
-| `level` | Expression(数学表达式) | ✅ | — | — | 要添加的附魔等级。支持表达式。示例：`%level% + 1` |
+| `enchant` | Enchantment | ✅ | — | — | The enchantment to add, e.g. sharpness. |
+| `level` | Expression | ✅ | — | — | The level of the enchantment to add. Supports expressions. 例: `%level% + 1` |
 
 ## 📝 源码注记
 

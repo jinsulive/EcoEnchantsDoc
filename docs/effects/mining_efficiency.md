@@ -10,7 +10,7 @@ outline: deep
 
 # mining_efficiency <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Adds mining efficiency (mining speed when using the correct tool)
+> Increases the player's mining efficiency attribute while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The flat amount of mining efficiency to add. Supports expressions. Example: `%level% * 0.1` |
+| `amount` | Expression | ✅ | — | — | The flat amount of mining efficiency to add. Supports expressions. Example: `%level% * 0.1` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # item_data_equals <Badge type="info" text="libreforge" />
 
-> Requires an item to have a certain data value
+> Passes when the held item's custom data value for a given key equals the specified value.
 
 ## Overview
 

@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # take_mythic_damage <Badge type="info" text="libreforge" /> <Badge type="warning" text="MythicMobs" />
+> **Requires:** MythicMobs
 
-> Triggered when taking MythicMobs damage
+> Fires when a player or entity takes damage from a MythicMobs mob.
 
 ## Overview
 

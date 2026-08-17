@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # create_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **Requires:** HuskTowns
 
-> Triggered when creating a Town
+> Fires when the player creates a HuskTowns town.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # death <Badge type="info" text="libreforge" /> 
 
-> Triggered on death from any sources
+> Fires when the player dies.
 
 ## Overview
 

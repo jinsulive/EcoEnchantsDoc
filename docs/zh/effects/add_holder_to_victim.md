@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | 临时应用于受害者的效果。 |
-| `conditions` | Condition List | — | — | — | 持有器激活所需的条件。 |
-| `duration` | Expression(数学表达式) | ✅ | — | — | 持续时间（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `effects` | Effect List | ✅ | — | — | The effects to apply temporarily to the victim. |
+| `duration` | Expression | ✅ | — | — | How long to apply the holder, in ticks. Supports expressions. 例: `20 * %level%` |
+| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
 
 ## 📝 源码注记
 

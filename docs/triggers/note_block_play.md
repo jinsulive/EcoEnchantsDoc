@@ -10,7 +10,7 @@ outline: deep
 
 # note_block_play <Badge type="info" text="libreforge" /> 
 
-> Triggered when playing a note block
+> Fires when the player plays a note block.
 
 ## Overview
 

@@ -1,0 +1,57 @@
+---
+title: pyro_fish_tier
+titleEn: pyro_fish_tier
+category: filters
+subcategory: pyrofishingpro
+tags:
+  - libreforge
+outline: deep
+---
+
+# pyro_fish_tier <Badge type="info" text="libreforge" /> <Badge type="info" text="过滤器" />
+
+> 当钓到的鱼等级与给定的等级名称之一匹配时匹配。
+
+> **需要依赖：** PyroFishingPro
+
+## 基本信息
+
+| 属性 | 值 |
+|------|-----|
+| 类型 ID | `pyro_fish_tier` |
+| 所属模块 | libreforge |
+| 分类 | Player |
+| 取值类型 | `STRING_LIST` |
+
+## 用法
+
+过滤器以 YAML Map 形式配置在 `filters` 键下。过滤器 ID 为键，值为该过滤器对应的取值：
+
+```yaml
+filters:
+  pyro_fish_tier: <value>
+```
+
+## 取反语法
+
+在过滤器 ID 前加 `not_` 前缀即可取反（`not_pyro_fish_tier`）：
+
+```yaml
+filters:
+  not_pyro_fish_tier: <value>
+```
+
+## 📝 源码注记
+
+> 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/integrations/pyrofishingpro/impl/FilterFishTier.kt`）。
+
+- **源码描述**: 当钓到的鱼等级与给定的等级名称之一匹配时匹配。
+
+- **所属分类**: `player`
+
+## 关联页面
+
+- [所有过滤器](./)
+- [指南：Effect 基础](../guide/effect-basics)
+- [所有效果](../effects/)
+- [所有触发器](../triggers/)

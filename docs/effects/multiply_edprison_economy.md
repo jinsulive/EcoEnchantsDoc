@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # multiply_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Multiplies incoming EdPrison economy.
 

@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # gain_task_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Gains experience points for a task in a quest, including multipliers.
 

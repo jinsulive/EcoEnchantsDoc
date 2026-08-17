@@ -10,7 +10,7 @@ outline: deep
 
 # entity_teleport <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity teleports
+> Fires when an entity teleports.
 
 ## Overview
 

@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # villager_trade <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **需要依赖：** Paper
 
 > 当与村民交易时触发。
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要设置的饱和值。支持表达式。 |
+| `amount` | Expression | ✅ | — | — | The saturation level to set for the player. Supports expressions. |
 
 ## 📝 源码注记
 

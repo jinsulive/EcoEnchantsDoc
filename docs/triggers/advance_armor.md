@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoarmor
 outline: deep
+deprecated: true
 ---
 
 # advance_armor <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoArmor" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when a player advances an armor set
 

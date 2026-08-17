@@ -10,7 +10,7 @@ outline: deep
 
 # spawn_mobs <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Spawns mobs to help you
+> Spawns multiple mobs near the trigger location that target the victim.
 
 ## Overview
 
@@ -25,11 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of mobs to spawn. Supports expressions. Example: `1 + %level% / 5` |
-| `ticks_to_live` | Expression(数学表达式) | ✅ | — | — | How many ticks the mobs will live before being removed. Supports expressions. Example: `20 * %level%` |
-| `health` | Expression(数学表达式) | — | `20` | — | The max health (and starting health) to set on each spawned mob. Supports expressions. Example: `20 + %level% * 5` |
-| `range` | Expression(数学表达式) | ✅ | — | — | The radius around the trigger location in which mobs can spawn. Supports expressions. Example: `5 + %level% * 0.5` |
+| `amount` | Expression | ✅ | — | — | The number of mobs to spawn. Supports expressions. Example: `1 + %level% / 5` |
+| `ticks_to_live` | Expression | ✅ | — | — | How many ticks the mobs will live before being removed. Supports expressions. Example: `20 * %level%` |
+| `range` | Expression | ✅ | — | — | The radius around the trigger location in which mobs can spawn. Supports expressions. Example: `5 + %level% * 0.5` |
 | `entity` | Entity | ✅ | — | — | The entity type to spawn. |
+| `health` | Expression | — | `20` | — | The max health (and starting health) to set on each spawned mob. Supports expressions. Example: `20 + %level% * 5` |
+| `owner` | Boolean | — | — | — |  |
 
 ## 📝 Source Notes
 

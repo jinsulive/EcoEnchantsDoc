@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `multiplier` | 经验值倍率。 |
-| `jobs` | 要倍率化经验值的职业列表。移除后将对所有职业生效。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `multiplier` | Expression | ✅ | — | — | The XP multiplier. Supports expressions. |
+| `jobs` | String_list | — | — | — | List of job names to apply the multiplier to. If omitted, applies to all jobs. |
 
 ## 配置示例
 

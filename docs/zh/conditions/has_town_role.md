@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # has_town_role <Badge type="info" text="libreforge" />
+> **需要依赖：** HuskTowns
 
 > 需要玩家在城镇中拥有某个角色。
 
@@ -26,9 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `roles` | 角色 ID。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `roles` | String_list | ✅ | — | — | A list of HuskTowns town role names to check against (e.g. mayor, resident). |
 
 ## 配置示例
 

@@ -10,7 +10,7 @@ outline: deep
 
 # run_player_command <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Runs a command as a player
+> Runs one or more commands as the player when triggered.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `command` | String List | ✅ | — | — | The command or list of commands to run as the player. Use %player% and %victim% as placeholders. Example: `me does a flip!, kill %victim%` |
+| `commands` / `command` (either) | String List | ✅ | — | — | The command or list of commands to run as the player. Use %player% and %victim% as placeholders. Example: `me does a flip!, kill %victim%` |
 | `as_op` | Boolean | — | `false` | — | Whether to temporarily grant the player operator permissions while running the commands. |
 
 ## 📝 Source Notes

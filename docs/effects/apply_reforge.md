@@ -6,9 +6,11 @@ subcategory: utility
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # apply_reforge <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Applies a reforge to an item
 

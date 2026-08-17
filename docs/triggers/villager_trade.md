@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # villager_trade <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **Requires:** Paper
 
-> Triggered when trading with a villager
+> Fires when the player completes a trade with a villager.
 
 ## Overview
 

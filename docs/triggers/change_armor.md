@@ -10,7 +10,7 @@ outline: deep
 
 # change_armor <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing armor
+> Fires when the player changes their equipped armor.
 
 ## Overview
 

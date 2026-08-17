@@ -10,7 +10,7 @@ outline: deep
 
 # knock_away <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Knock the victim away from the player
+> Launches the victim away from the player with a specified velocity.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `velocity` | Expression(数学表达式) | ✅ | — | — | The speed at which the victim is knocked away from the player. Supports expressions. Example: `1 + %level% * 0.1` |
+| `velocity` | Expression | ✅ | — | — | The speed at which the victim is knocked away from the player. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

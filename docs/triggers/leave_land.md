@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # leave_land <Badge type="info" text="libreforge" /> 
+> **Requires:** Lands
 
-> Triggered when leaving a Town
+> Fires when the player leaves a Lands land membership.
 
 ## Overview
 

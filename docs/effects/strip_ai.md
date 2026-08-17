@@ -10,7 +10,7 @@ outline: deep
 
 # strip_ai <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Strips a mob's AI temporarily
+> Temporarily removes the AI from the victim entity, stopping it from acting.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `duration` | Expression(数学表达式) | ✅ | — | — | How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
+| `duration` | Expression | ✅ | — | — | How long to disable the entity's AI, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

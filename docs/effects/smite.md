@@ -10,7 +10,7 @@ outline: deep
 
 # smite <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Strikes lightning on a victim
+> Strikes the victim with lightning, dealing a configurable amount of damage.
 
 ## Overview
 
@@ -25,8 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage the lightning strike deals to the victim. Supports expressions. Example: `%level% * 2` |
-| `silent` | Custom | — | — | — | If the lightning should be silent |
+| `damage` | Expression | ✅ | — | — | The amount of damage the lightning strike deals to the victim. Supports expressions. Example: `%level% * 2` |
 
 ## 📝 Source Notes
 

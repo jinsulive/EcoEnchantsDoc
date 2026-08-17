@@ -10,7 +10,7 @@ outline: deep
 
 # bite <Badge type="info" text="libreforge" /> 
 
-> Triggered when a fish bites on your rod
+> Fires when a fish bites the player's hook.
 
 ## Overview
 

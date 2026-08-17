@@ -10,7 +10,7 @@ outline: deep
 
 # shockwave <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Emits an expanding shockwave that knocks back and damages nearby entities
+> Creates an expanding shockwave that knocks back and damages nearby entities.
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum radius the shockwave expands to. Supports expressions. Example: `5 + %level% * 0.5` |
-| `pulses` | Expression(数学表达式) | ✅ | — | — | How many pulses the shockwave expands over before reaching its full radius. Supports expressions. |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of damage dealt to each entity caught in the shockwave. Supports expressions. Example: `%level% * 2` |
-| `knockback` | Expression(数学表达式) | ✅ | — | — | The knockback force applied to each entity hit. Supports expressions. Example: `1 + %level% * 0.1` |
+| `radius` | Expression | ✅ | — | — | The maximum radius the shockwave expands to. Supports expressions. Example: `5 + %level% * 0.5` |
+| `pulses` | Expression | ✅ | — | — | How many pulses the shockwave expands over before reaching its full radius. Supports expressions. |
+| `damage` | Expression | ✅ | — | — | The amount of damage dealt to each entity caught in the shockwave. Supports expressions. Example: `%level% * 2` |
+| `knockback` | Expression | ✅ | — | — | The knockback force applied to each entity hit. Supports expressions. Example: `1 + %level% * 0.1` |
 
 ## 📝 Source Notes
 

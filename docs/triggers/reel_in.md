@@ -10,7 +10,7 @@ outline: deep
 
 # reel_in <Badge type="info" text="libreforge" /> 
 
-> Triggered when reeling in a fishing rod
+> Fires when the player reels in their fishing rod without a catch.
 
 ## Overview
 

@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # lands_spawn_teleport <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **需要依赖：** Lands
 
 > 当传送到领地出生点时触发。
 

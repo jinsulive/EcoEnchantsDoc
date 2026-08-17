@@ -10,7 +10,7 @@ outline: deep
 
 # extinguish <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Extinguish the player
+> Immediately extinguishes any fire on the player.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

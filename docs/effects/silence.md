@@ -10,7 +10,7 @@ outline: deep
 
 # silence <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Silences an entity so it cannot make sounds for a duration
+> Silences the victim entity for a duration, preventing it from making sounds.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | How long to silence the entity, in ticks. Supports expressions. Example: `20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | How long to silence the entity, in ticks. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

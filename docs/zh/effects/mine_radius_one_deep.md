@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 中心方块周围的破坏半径：1 = 3x3x1，2 = 5x5x1，以此类推。支持表达式。示例：`3 + %level% / 20` |
-| `blacklisted_blocks` | Block List | — | `[]` | — | 永远不会被此效果破坏的方块列表。 |
-| `check_hardness` | Boolean | — | `true` | — | 是否仅破坏硬度不大于所挖掘方块的方块。 |
-| `disable_on_sneak` | Boolean | — | `false` | — | 潜行时是否禁用此效果。 |
-| `whitelist` | Block List | — | `[]` | — | 允许被挖掘的方块列表（不需要可移除）。省略时所有方块都可被破坏。 |
-| `no_corners` | Boolean | — | `false` | — | 是否不破坏边角的方块（十字形）。 |
-| `prevent_trigger` | Boolean | — | `false` | — | 可选，是否不从此效果触发 mine_block 触发器。 |
+| `radius` | Expression | ✅ | — | — | The radius of blocks to break in the flat layer. Supports expressions. 例: `3 + %level% / 20` |
+| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
+| `disable_on_sneak` | Boolean | — | `false` | — | Whether the effect should be disabled while the player is sneaking. |
+| `no_corners` | Boolean | — | `false` | — | Whether corner blocks at the edge of the radius should be excluded. |
+| `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
+| `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that should never be broken by this effect. |
+| `check_hardness` | Boolean | — | `true` | — | Whether blocks harder than the triggered block should be skipped. |
 
 ## 📝 源码注记
 

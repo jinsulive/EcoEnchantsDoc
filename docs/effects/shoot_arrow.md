@@ -10,7 +10,7 @@ outline: deep
 
 # shoot_arrow <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Shoots an arrow
+> Shoots an arrow from the player, optionally inheriting bow fire and velocity.
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `inherit_velocity` | Boolean | — | `false` | — | Whether the arrow should inherit the player's current velocity (ie if you want to make a tripleshot effect). |
-| `no_source` | Boolean | — | `false` | — | Whether the arrow should have no shooter, preventing attribution to the player. |
+| `inherit_velocity` | Boolean | — | `false` | — | Whether the arrow should inherit the player's current velocity. |
 | `launch-at-location` | Boolean | — | `false` | — | Whether the arrow should be teleported to the trigger location after launch. |
 | `allow_pickup` | Boolean | — | `false` | — | Whether the arrow can be picked up by players. |
+| `no_source` | Boolean | — | `false` | — | Whether the arrow should have no shooter, preventing attribution to the player. |
 
 ## 📝 Source Notes
 

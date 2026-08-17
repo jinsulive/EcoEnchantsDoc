@@ -10,7 +10,7 @@ outline: deep
 
 # gain_hunger <Badge type="info" text="libreforge" /> 
 
-> Triggered when gaining hunger points
+> Fires when the player's food level increases.
 
 ## Overview
 

@@ -25,9 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `message` | String List | ✅ | — | — | 要发送给玩家的消息或消息列表。支持占位符。示例：`Hi %player_name%!, You have %player_level% levels.` |
-| `messages` | String List | ✅ | — | — | 你也可以指定一个消息列表。 |
-| `action_bar` | Boolean | — | `false` | — | 是否在快捷栏上方（action bar）显示消息而非聊天栏。 |
+| `message` / `messages`（任一） | String List | ✅ | — | — | The message or list of messages to send to the player. Supports placeholders. 例: `Hi %player_name%!, You have %player_level% levels.` |
+| `action_bar` | Boolean | — | `false` | — | Whether to display the first message in the action bar instead of chat. |
 
 ## 📝 源码注记
 

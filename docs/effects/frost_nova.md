@@ -10,7 +10,7 @@ outline: deep
 
 # frost_nova <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Freezes and slows nearby entities in a radius
+> Freezes all nearby entities within a radius, optionally also applying a slowness effect.
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius around the trigger location in which entities are frozen. Supports expressions. Example: `5 + %level% * 0.5` |
-| `freeze_ticks` | Expression(数学表达式) | ✅ | — | — | How many ticks the affected entities are frozen for. Supports expressions. Example: `20 * %level%` |
-| `slow_duration` | Expression(数学表达式) | — | `0` | — | Duration in ticks of the slowness effect applied alongside freezing. Defaults to 0 (no slowness). Example: `20 * %level%` |
-| `slow_amplifier` | Expression(数学表达式) | — | `0` | — | Amplifier level of the slowness effect (0 = Slowness I). Defaults to 0. Example: `%level% / 10` |
+| `radius` | Expression | ✅ | — | — | The radius around the trigger location in which entities are frozen. Supports expressions. Example: `5 + %level% * 0.5` |
+| `freeze_ticks` | Expression | ✅ | — | — | How many ticks the affected entities are frozen for. Supports expressions. Example: `20 * %level%` |
+| `slow_duration` | Expression | — | `0` | — | Duration in ticks of the slowness effect applied alongside freezing. Defaults to 0 (no slowness). Example: `20 * %level%` |
+| `slow_amplifier` | Expression | — | `0` | — | Amplifier level of the slowness effect (0 = Slowness I). Defaults to 0. Example: `%level% / 10` |
 
 ## 📝 Source Notes
 

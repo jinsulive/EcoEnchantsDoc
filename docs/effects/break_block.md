@@ -10,7 +10,7 @@ outline: deep
 
 # break_block <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Breaks a block instantly
+> Breaks the triggering block as if the player mined it.
 
 ## Overview
 

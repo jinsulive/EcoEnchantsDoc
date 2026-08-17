@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `message` | 要发送的消息。 |
-| `action_bar` | 消息是否显示在快捷栏上方（action bar）而非聊天栏。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `message` / `messages`（任一） | String_list | ✅ | — | — | The MiniMessage-formatted message(s) to send. Supports placeholders. |
+| `action_bar` | Boolean | — | `false` | — | Whether to display the first message in the action bar instead of chat. Defaults to false. |
 
 ## 配置示例
 

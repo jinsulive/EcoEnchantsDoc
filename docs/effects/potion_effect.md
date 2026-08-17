@@ -10,7 +10,7 @@ outline: deep
 
 # potion_effect <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives a potion effect
+> Applies a potion effect to the player or victim for a configurable duration and level.
 
 ## Overview
 
@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effect` | Any/Custom | ✅ | — | — | The effect to give (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html) |
-| `level` | Custom | — | — | — | The level to give |
-| `duration` | Custom | — | — | — | The duration of the effect (in ticks) |
-| `particles` | Custom | — | — | — | (Optional) If the effect should show particles |
-| `icon` | Custom | — | — | — | (Optional) If the effect should show the icon in the top corner |
-| `apply_to_player` | Custom | — | — | — | True to apply to the player, false to apply to the victim |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect type to apply. |
+| `level` | Expression | ✅ | — | — | The level of the potion effect (1 = level I). Supports expressions. Example: `1 + %level% / 10` |
+| `duration` | Expression | ✅ | — | — | How long the effect lasts in ticks. Supports expressions. Example: `20 * %level%` |
+| `apply_to_player` | Boolean | — | `false` | — | If true, applies the effect to the player instead of the victim. |
+| `particles` | Boolean | — | `true` | — | Whether to show potion effect particles. |
+| `icon` | Boolean | — | `true` | — | Whether to show the effect icon in the HUD. |
 
 ## 📝 Source Notes
 

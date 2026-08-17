@@ -10,7 +10,7 @@ outline: deep
 
 # shuffle_hotbar <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Shuffle your victim's hotbar
+> Randomly shuffles the items in the victim's hotbar.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Item |
 | Effect Type | Triggered |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

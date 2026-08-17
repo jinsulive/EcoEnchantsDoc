@@ -10,7 +10,7 @@ outline: deep
 
 # shoot_firework <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Shoots a firework
+> Launches a firework projectile from the player with configurable visual effects.
 
 ## Overview
 
@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `inherit_velocity` | Boolean | — | `false` | — | Whether the firework should inherit the player's current velocity from the trigger. |
-| `no_source` | Boolean | — | `false` | — | Whether the firework should have no shooter, preventing attribution to the player. |
-| `launch-at-location` | Boolean | — | `false` | — | Whether the firework should be teleported to the trigger location after launch. |
+| `effects` | Dynamic | — | — | — | List of firework effect subsections defining the firework's appearance. |
 | `power` | Integer | — | `0` | — | The flight duration power of the firework (0-255). |
-| `effects` | Dynamic Config | — | — | — | List of firework effect subsections defining the firework's appearance. |
+| `inherit_velocity` | Boolean | — | `false` | — | Whether the firework should inherit the player's current velocity. |
+| `launch-at-location` | Boolean | — | `false` | — | Whether the firework should be teleported to the trigger location after launch. |
+| `no_source` | Boolean | — | `false` | — | Whether the firework should have no shooter, preventing attribution to the player. |
 
 ## 📝 Source Notes
 

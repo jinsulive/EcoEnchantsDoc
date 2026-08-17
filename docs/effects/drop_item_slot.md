@@ -10,7 +10,7 @@ outline: deep
 
 # drop_item_slot <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Drops items from the player's inventory
+> Drops items from a specific inventory slot.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `slot` | String | ✅ | — | — | The inventory slot to drop items from, e.g. mainhand or slot_0. Example: `mainhand` |
-| `amount` | Expression(数学表达式) | — | — | — | How many items to drop. If omitted, drops the entire stack. |
+| `amount` | Expression | — | — | — | How many items to drop. If omitted, drops the entire stack. |
 
 ## 📝 Source Notes
 

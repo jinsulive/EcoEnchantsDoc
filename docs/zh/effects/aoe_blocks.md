@@ -25,12 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | 对范围内每个方块运行的效果。 |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | 范围效果区域的形状。 |
-| `radius` | Custom | — | — | — | 圆锥的半径。 |
-| `distance` | Custom | — | — | — | 光束的长度。 |
-| `pierce_blocks` | Custom | — | — | — | 光束是否穿过方块。 |
-| `pierce_entities` | Custom | — | — | — | 光束是否穿过实体。 |
+| `effects` | Effect List | ✅ | — | — | The effects to run on each block within the AOE. |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use. |
 
 ## 📝 源码注记
 

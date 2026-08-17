@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `particle` | Any/Custom | ✅ | — | — | 要生成的粒子。示例：`flame` |
-| `amount` | Expression(数学表达式) | — | `1` | — | 要生成的粒子数量。支持表达式。 |
+| `particle` | Any | ✅ | — | — | The particle to spawn, as an eco particle string. 例: `flame` |
+| `amount` | Expression | — | `1` | — | The number of particles to spawn. Supports expressions. |
 
 > 💡 完整的内置粒子类型（共 115 个）请参阅 [粒子类型](../guide/particles)。
 

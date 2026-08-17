@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # disband_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **Requires:** HuskTowns
 
-> Triggered when disbanding a Town
+> Fires when the player disbands their HuskTowns town.
 
 ## Overview
 

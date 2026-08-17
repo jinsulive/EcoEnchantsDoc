@@ -10,7 +10,7 @@ outline: deep
 
 # standing_on_block <Badge type="info" text="libreforge" />
 
-> Requires a player to be standing on a block
+> Passes when the player is standing on or inside the specified block type.
 
 ## Overview
 

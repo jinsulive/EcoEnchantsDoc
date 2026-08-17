@@ -10,7 +10,7 @@ outline: deep
 
 # set_food <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets the player's food
+> Sets the player's food level to a specified value.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The food level to set (0–20). Supports expressions. |
+| `amount` | Expression | ✅ | — | — | The food level to set (0–20). Supports expressions. |
 
 ## 📝 Source Notes
 

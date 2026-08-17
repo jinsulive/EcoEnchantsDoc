@@ -10,7 +10,7 @@ outline: deep
 
 # catch_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when hooking onto an entity with a fishing rod
+> Fires when the player catches a living entity with a fishing rod.
 
 ## Overview
 

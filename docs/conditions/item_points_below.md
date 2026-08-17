@@ -10,7 +10,7 @@ outline: deep
 
 # item_points_below <Badge type="info" text="libreforge" />
 
-> Requires an item to have below a certain amount of points (check the points wiki page if you don't know what these are)
+> Passes when the held item's points of a given type are at or below the specified amount.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The points type to read from the held item. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The maximum number of points the item may have. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The maximum number of points the item may have. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

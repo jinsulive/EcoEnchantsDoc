@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `animation` | String | ✅ | — | `spin_item` | 要播放的动画 ID。 |
-| `animation_args` | Custom | — | — | — | 动画参数。 |
+| `animation` | String | ✅ | — | `spin_item` | The animation to play. |
+| `animation_args` | 子节 | — | — | — | **子节参数（嵌套配置）** —— 详见下方子节字段。 |
 
 ## 📝 源码注记
 

@@ -6,9 +6,11 @@ subcategory: utility
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # multiply_all_stats <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 将所有属性乘以指定值。
 

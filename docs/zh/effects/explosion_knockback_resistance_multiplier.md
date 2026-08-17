@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 爆炸击退抗性加成值。支持表达式。示例：`%level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The value to add to the explosion knockback resistance attribute. Supports expressions. 例: `%level% * 0.1` |
 
 ## 📝 源码注记
 

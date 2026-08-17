@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoscrolls
 outline: deep
+deprecated: true
 ---
 
 # inscribe <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoScrolls" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when inscribing a scroll
 

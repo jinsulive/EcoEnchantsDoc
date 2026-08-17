@@ -10,7 +10,7 @@ outline: deep
 
 # has_enchant <Badge type="info" text="libreforge" />
 
-> Multiple enchants and/or slots are supported:
+> Passes when the entity has an item with the specified enchantment in the specified slot.
 
 ## Overview
 
@@ -28,8 +28,8 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `enchant` | Enchantment List | ✅ | — | — | The enchantment(s) to require, optionally with a level or range (e.g. sharpness:3-5). Example: `sharpness:3-5, unbreaking:2` |
-| `slot` | String List | ✅ | — | — | The equipment slot(s) to check for the enchantment. Example: `mainhand, 9` |
+| `slot` / `slots` (either) | String List | ✅ | — | — | The equipment slot(s) to check for the enchantment. Example: `mainhand, 9` |
+| `enchant` / `enchants` (either) | Enchantment List | ✅ | — | — | The enchantment(s) to require, optionally with a level or range (e.g. sharpness:3-5). Example: `sharpness:3-5, unbreaking:2` |
 
 ## 📝 Source Notes
 

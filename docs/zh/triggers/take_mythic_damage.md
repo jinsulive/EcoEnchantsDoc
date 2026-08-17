@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # take_mythic_damage <Badge type="info" text="libreforge" /> <Badge type="warning" text="MythicMobs" />
+> **需要依赖：** MythicMobs
 
 > 当受到 MythicMobs 伤害时触发。
 

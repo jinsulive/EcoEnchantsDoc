@@ -10,7 +10,7 @@ outline: deep
 
 # antigravity_projectile <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Projectiles are immune from gravity, allowing them to fly in a straight line until they hit something.
+> Makes all projectiles the player fires travel in a straight line, unaffected by gravity.
 
 ## Overview
 
@@ -20,6 +20,12 @@ outline: deep
 | Module | libreforge |
 | Category | Utility |
 | Effect Type | Permanent |
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

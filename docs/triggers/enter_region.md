@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # enter_region <Badge type="info" text="libreforge" /> <Badge type="warning" text="WorldGuard" />
+> **Requires:** WorldGuard
 
-> Triggered when entering a region
+> Fires when the player enters a WorldGuard region.
 
 ## Overview
 

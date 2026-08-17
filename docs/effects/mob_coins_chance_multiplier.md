@@ -10,7 +10,7 @@ outline: deep
 
 # mob_coins_chance_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies the chance of mobcoins being dropped
+> Multiplies the drop chance for UltimateMobCoins while the holder is active.
 
 > **Requires:** UltimateMobCoins
 
@@ -25,9 +25,9 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `multiplier` | The mobcoins multiplier |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
 
 ## Configuration Example
 

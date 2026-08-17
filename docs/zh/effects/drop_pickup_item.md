@@ -25,12 +25,12 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `item` | 物品贴图，实际上无法被拾取。 |
-| `glow-color` | 发光颜色。 |
-| `run-type` | 运行类型，参见"配置效果"。 |
-| `effects` | 拾取时运行的效果。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `item` | Item | ✅ | — | — | The item to drop at the trigger location. |
+| `effects` | Any | ✅ | — | — | The effects to run when a player picks up the dropped item. |
+| `glow-color` | String | — | — | — | The ChatColor name to make the dropped item glow with (e.g. RED, GOLD). |
+| `run-type` | String | — | — | — | The chain executor type to use for the pickup effects. |
 
 ## 配置示例
 

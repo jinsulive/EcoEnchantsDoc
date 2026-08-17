@@ -10,7 +10,7 @@ outline: deep
 
 # above_xp_level <Badge type="info" text="libreforge" />
 
-> Requires the player to be above a certain xp level
+> Passes when the player's XP level is at or above the specified level.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `level` | Expression(数学表达式) | ✅ | — | — | The minimum XP level required. Example: `10 + %level%` |
+| `level` | Expression | ✅ | — | — | The minimum XP level required. Example: `10 + %level%` |
 
 ## 📝 Source Notes
 

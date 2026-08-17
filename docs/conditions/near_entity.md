@@ -10,7 +10,7 @@ outline: deep
 
 # near_entity <Badge type="info" text="libreforge" />
 
-> Requires a player to be within a certain radius of an entity
+> Passes when the specified number of matching entities are within the given radius.
 
 ## Overview
 
@@ -29,7 +29,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `entities` | Entity List | ✅ | — | — | The list of entity types to look for nearby. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius in blocks to search for nearby entities. Example: `5 + %level% * 0.5` |
+| `radius` | Expression | ✅ | — | — | The radius in blocks to search for nearby entities. Example: `5 + %level% * 0.5` |
 | `amount` | Integer | — | `1` | — | The minimum number of matching entities required (defaults to 1). |
 
 ## 📝 Source Notes

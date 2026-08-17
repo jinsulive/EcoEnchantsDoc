@@ -10,7 +10,7 @@ outline: deep
 
 # chain_lightning <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Strikes chain lightning that jumps between nearby entities
+> Strikes lightning that chains to nearby entities, dealing damage at each jump.
 
 ## Overview
 
@@ -25,9 +25,9 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `jumps` | Expression(数学表达式) | ✅ | — | — | The number of entities the lightning can chain to. Supports expressions. Example: `3 + %level%` |
-| `range` | Expression(数学表达式) | ✅ | — | — | The maximum distance between chain targets. Supports expressions. Example: `5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | The damage dealt to each entity struck. Supports expressions. Example: `%level% * 1.5` |
+| `jumps` | Expression | ✅ | — | — | The number of entities the lightning can chain to. Supports expressions. Example: `3 + %level%` |
+| `range` | Expression | ✅ | — | — | The maximum distance between chain targets. Supports expressions. Example: `5 + %level% * 0.5` |
+| `damage` | Expression | ✅ | — | — | The damage dealt to each entity struck. Supports expressions. Example: `%level% * 1.5` |
 
 ## 📝 Source Notes
 

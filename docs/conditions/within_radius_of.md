@@ -10,7 +10,7 @@ outline: deep
 
 # within_radius_of <Badge type="info" text="libreforge" />
 
-> Requires a player to be within a certain radius of a location
+> Passes when the entity is within the specified radius of a given coordinate.
 
 ## Overview
 
@@ -28,10 +28,10 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `x` | Expression(数学表达式) | ✅ | — | — | The X coordinate of the target location. |
-| `y` | Expression(数学表达式) | ✅ | — | — | The Y coordinate of the target location. |
-| `z` | Expression(数学表达式) | ✅ | — | — | The Z coordinate of the target location. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The maximum distance from the target location. Example: `15 + %level% * 0.5` |
+| `x` | Expression | ✅ | — | — | The X coordinate of the target location. |
+| `y` | Expression | ✅ | — | — | The Y coordinate of the target location. |
+| `z` | Expression | ✅ | — | — | The Z coordinate of the target location. |
+| `radius` | Expression | ✅ | — | — | The maximum distance from the target location. Example: `15 + %level% * 0.5` |
 
 ## 📝 Source Notes
 

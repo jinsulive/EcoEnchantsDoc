@@ -10,7 +10,7 @@ outline: deep
 
 # potion_effect <Badge type="info" text="libreforge" /> 
 
-> Triggered when gaining a potion effect
+> Fires when an entity receives a potion effect.
 
 ## Overview
 

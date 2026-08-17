@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoskills
 outline: deep
+deprecated: true
 ---
 
 # regen_magic <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoSkills" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 当恢复魔力时触发。
 

@@ -10,7 +10,7 @@ outline: deep
 
 # breed <Badge type="info" text="libreforge" /> 
 
-> Triggered when breeding entities together
+> Fires when two entities are bred.
 
 ## Overview
 

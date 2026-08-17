@@ -10,7 +10,7 @@ outline: deep
 
 # update_boss_bar <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Updates a boss bar
+> Updates the properties of an existing boss bar created by create_boss_bar.
 
 ## Overview
 
@@ -26,10 +26,10 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `id` | String | ✅ | — | — | The ID of the boss bar to update. Example: `boss_%player_name%` |
-| `name` | String | — | `` | — | The new display name of the boss bar. Supports placeholders. Example: `%player_name%'s Boss` |
-| `color` | String | — | `` | — | The new color of the boss bar (e.g. BLUE, RED). Example: `RED` |
-| `style` | String | — | `` | — | The new overlay style of the boss bar (e.g. PROGRESS, NOTCHED_10). Example: `NOTCHED_10` |
-| `progress` | Expression(数学表达式) | — | `` | — | The new progress value (0–100). Supports expressions. |
+| `progress` | Expression | — | — | — | The new progress value (0–100). Supports expressions. |
+| `name` | String | — | — | — | The new display name of the boss bar. Supports placeholders. Example: `%player_name%'s Boss` |
+| `color` | String | — | — | — | The new color of the boss bar (e.g. BLUE, RED). Example: `RED` |
+| `style` | String | — | — | — | The new overlay style of the boss bar (e.g. PROGRESS, NOTCHED_10). Example: `NOTCHED_10` |
 
 ## 📝 Source Notes
 

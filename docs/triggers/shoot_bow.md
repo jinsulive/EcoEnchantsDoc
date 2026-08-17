@@ -10,7 +10,7 @@ outline: deep
 
 # shoot_bow <Badge type="info" text="libreforge" /> 
 
-> Triggered when shooting a bow
+> Fires when the player shoots a bow or crossbow.
 
 ## Overview
 

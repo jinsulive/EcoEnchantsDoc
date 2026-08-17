@@ -10,7 +10,7 @@ outline: deep
 
 # item_durability_multiplier <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Multiplies item durability (only works if holders are items, e.g. in EcoEnchants, EcoItems, etc.). Item durability cannot actually be changed, so this functions like unbreaking where items will instead lose durability more quickly / slowly.
+> Multiplies the durability loss of the held item, effectively making it more or less durable.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The durability multiplier to apply (e.g. 2 means the item lasts twice as long). Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The durability multiplier to apply (e.g. 2 means the item lasts twice as long). Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

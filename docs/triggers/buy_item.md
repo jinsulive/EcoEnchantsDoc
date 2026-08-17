@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoshop
 outline: deep
+deprecated: true
 ---
 
 # buy_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoShop" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when buying an item in a shop
 

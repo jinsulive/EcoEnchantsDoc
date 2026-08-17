@@ -10,7 +10,7 @@ outline: deep
 
 # shield_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when blocking an attack with a shield
+> Fires when the player blocks an attack with a shield.
 
 ## Overview
 

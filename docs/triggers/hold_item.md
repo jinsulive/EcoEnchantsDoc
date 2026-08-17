@@ -10,7 +10,7 @@ outline: deep
 
 # hold_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing your held item
+> Fires when the player switches to a different hotbar slot.
 
 ## Overview
 

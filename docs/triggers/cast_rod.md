@@ -10,7 +10,7 @@ outline: deep
 
 # cast_rod <Badge type="info" text="libreforge" /> 
 
-> Triggered when casting a fishing line
+> Fires when the player casts a fishing rod.
 
 ## Overview
 

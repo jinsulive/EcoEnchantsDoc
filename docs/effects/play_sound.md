@@ -10,7 +10,7 @@ outline: deep
 
 # play_sound <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Plays a sound to the player
+> Plays a sound to the triggering player at their location.
 
 ## Overview
 
@@ -26,9 +26,9 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `sound` | Sound | ✅ | — | — | The sound to play. Supports Minecraft sound names and resource pack sounds. |
-| `pitch` | Expression(数学表达式) | ✅ | — | — | The pitch of the sound, between 0.5 and 2.0. Supports expressions. |
-| `volume` | Expression(数学表达式) | ✅ | — | — | The volume of the sound. Supports expressions. |
-| `category` | String | — | `MASTER` | — | The sound category (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/SoundCategory.html) to play the sound in. |
+| `pitch` | Expression | ✅ | — | — | The pitch of the sound, between 0.5 and 2.0. Supports expressions. |
+| `volume` | Expression | ✅ | — | — | The volume of the sound. Supports expressions. |
+| `category` | String | — | `MASTER` | `SoundCategory.entries.map` | The sound category to play the sound in. |
 
 ## 📝 Source Notes
 

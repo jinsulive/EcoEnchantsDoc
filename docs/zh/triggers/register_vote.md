@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # register_vote <Badge type="info" text="libreforge" /> <Badge type="warning" text="Votifier" />
+> **需要依赖：** Votifier
 
 > 当玩家为服务器投票时触发。
 

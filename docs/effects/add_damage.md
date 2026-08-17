@@ -10,7 +10,7 @@ outline: deep
 
 # add_damage <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Adds incoming or outgoing damage from any damage trigger
+> Adds extra damage to the triggering attack.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Expression(数学表达式) | ✅ | — | — | The amount of extra damage to add (or subtract). Supports expressions. Example: `%victim_max_health% * 0.1` |
+| `damage` | Expression | ✅ | — | — | The amount of extra damage to add. Supports expressions. Example: `%victim_max_health% * 0.1` |
 
 ## 📝 Source Notes
 

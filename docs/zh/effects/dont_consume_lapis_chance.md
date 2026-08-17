@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `chance` | Custom | — | — | — | 不消耗青金石的概率。 |
+| `chance` | Expression | ✅ | — | — | The percentage chance (0–100) for this effect to activate. Supports expressions. 继承自 `ChanceMultiplierEffect` 抽象模板。 |
 
 ## 📝 源码注记
 

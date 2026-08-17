@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `permission` | String | ✅ | — | — | 需要的权限节点。示例：`myplugin.vip.access` |
+| `permission` | String | ✅ | — | — | The permission node to check. 例: `myplugin.vip.access` |
 
 ## 📝 源码注记
 

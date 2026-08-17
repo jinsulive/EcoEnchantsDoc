@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `ticks` | Expression(数学表达式) | ✅ | — | — | 使实体沉默的时长（以游戏刻为单位）。支持表达式。示例：`20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | How long to silence the entity, in ticks. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # lands_balance_equal <Badge type="info" text="libreforge" />
+> **Requires:** Lands
 
-> Requires the Land's bank balance to be equal to a value
+> Passes when the land balance at the player's location is exactly equal to the specified amount.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The required balance |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression | ✅ | — | — | The exact land balance required. |
 
 ## Configuration Example
 

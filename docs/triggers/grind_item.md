@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # grind_item <Badge type="info" text="libreforge" /> <Badge type="warning" text="Purpur" />
+> **Requires:** Purpur
 
-> Triggered when a player grinds an item in the grindstone
+> Fires when the player takes a result from a grindstone.
 
 ## Overview
 

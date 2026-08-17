@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要挖掘的方块数量。支持表达式。示例：`3 + %level%` |
-| `blacklisted_blocks` | Block List | — | — | — | 不会因钻探而破坏的方块类型。 |
-| `check_hardness` | Boolean | ✅ | — | — | 是否仅破坏硬度不大于所挖掘方块的方块。 |
-| `disable_on_sneak` | Boolean | — | `false` | — | 潜行时是否禁用钻探效果。 |
-| `whitelist` | Block List | — | — | — | 允许被钻探破坏的方块类型。 |
-| `prevent_trigger` | Boolean | — | `false` | — | 为 true 时，破坏额外方块不会触发进一步的 libreforge 触发器。 |
+| `amount` | Expression | ✅ | — | — | The number of blocks to break in a line. Supports expressions. 例: `3 + %level%` |
+| `check_hardness` | Boolean | ✅ | — | — | If true, only blocks with hardness ≤ the trigger block are broken. |
+| `disable_on_sneak` | Boolean | — | `false` | — | If true, the drill effect is disabled while the player is sneaking. |
+| `prevent_trigger` | Boolean | — | `false` | — | If true, breaking additional blocks will not fire further libreforge triggers. |
+| `whitelist` | Block List | — | — | — | Only these block types will be broken by the drill. |
+| `blacklisted_blocks` | Block List | — | — | — | These block types will never be broken by the drill. |
 
 ## 📝 源码注记
 

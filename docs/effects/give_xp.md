@@ -10,7 +10,7 @@ outline: deep
 
 # give_xp <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Gives experience points
+> Gives the player experience points when triggered, with optional Mending repair support.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The amount of experience points to give the player. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The amount of experience points to give the player. Supports expressions. Example: `%level% * 10` |
 | `apply_mending` | Boolean | — | `true` | — | Whether to apply Mending repair before adding XP to the bar (Paper only). Defaults to true. |
 
 ## 📝 Source Notes

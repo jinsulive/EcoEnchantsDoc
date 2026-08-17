@@ -10,7 +10,7 @@ outline: deep
 
 # rotate <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Spin around
+> Rotates the player's yaw by a specified angle.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `angle` | Expression(数学表达式) | ✅ | — | — | The number of degrees to add to the player's current yaw. Supports expressions. Example: `%level% * 10` |
+| `angle` | Expression | ✅ | — | — | The number of degrees to add to the player's current yaw. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

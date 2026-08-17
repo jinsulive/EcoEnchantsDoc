@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # join_land <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **需要依赖：** Lands
 
 > 当加入领地时触发。
 

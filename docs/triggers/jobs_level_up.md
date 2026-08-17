@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # jobs_level_up <Badge type="info" text="libreforge" /> <Badge type="warning" text="Jobs Reborn" />
+> **Requires:** Jobs
 
-> Triggered when levelling up a job
+> Fires when the player gains a level in a Jobs Reborn job.
 
 ## Overview
 

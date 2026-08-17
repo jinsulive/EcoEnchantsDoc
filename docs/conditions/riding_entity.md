@@ -10,7 +10,7 @@ outline: deep
 
 # riding_entity <Badge type="info" text="libreforge" />
 
-> Requires a player to be riding a certain entity
+> Passes when the entity is riding one of the specified entity types.
 
 ## Overview
 

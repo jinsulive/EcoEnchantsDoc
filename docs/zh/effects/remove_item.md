@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item | ✅ | — | — | 要从玩家背包移除的物品（包含数量）。 |
+| `item` | Item | ✅ | — | — | The item to remove from the player's inventory, including its stack size. |
 
 ## 📝 源码注记
 

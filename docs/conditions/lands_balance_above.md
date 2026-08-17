@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # lands_balance_above <Badge type="info" text="libreforge" />
+> **Requires:** Lands
 
-> Requires the Land's bank balance to be above a value
+> Passes when the Lands area at the player's location has a balance above the specified amount.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `amount` | The minimum balance |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `amount` | Expression | ✅ | — | — | The balance threshold the land's balance must exceed. |
 
 ## Configuration Example
 

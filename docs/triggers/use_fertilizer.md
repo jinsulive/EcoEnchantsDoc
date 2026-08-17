@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # use_fertilizer <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
+> **Requires:** CustomCrops
 
-> Triggered when using fertilizer
+> Fires when the player uses a CustomCrops fertilizer on a crop.
 
 ## Overview
 

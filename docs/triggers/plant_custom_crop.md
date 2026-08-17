@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # plant_custom_crop <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
+> **Requires:** CustomCrops
 
-> Triggered when planting a custom crop
+> Fires when the player plants a CustomCrops crop.
 
 ## Overview
 

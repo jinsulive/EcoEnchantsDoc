@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # lands_bank_deposit <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **Requires:** Lands
 
-> Triggered when depositing into the Lands bank
+> Fires when the player deposits money into a Lands bank.
 
 ## Overview
 

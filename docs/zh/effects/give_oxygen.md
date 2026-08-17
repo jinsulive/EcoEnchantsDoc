@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | 要给予的氧气量（支持负数）。支持表达式。示例：`%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The number of air ticks to add to the player's remaining air. Supports expressions. 例: `%level% * 10` |
 
 ## 📝 源码注记
 

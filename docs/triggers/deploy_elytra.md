@@ -10,7 +10,7 @@ outline: deep
 
 # deploy_elytra <Badge type="info" text="libreforge" /> 
 
-> Triggered when the player starts elytra gliding
+> Fires when an entity toggles elytra gliding.
 
 ## Overview
 

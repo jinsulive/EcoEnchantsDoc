@@ -10,7 +10,7 @@ outline: deep
 
 # consume <Badge type="info" text="libreforge" /> 
 
-> Triggered on item consumption
+> Fires when the player consumes a food or potion item.
 
 ## Overview
 

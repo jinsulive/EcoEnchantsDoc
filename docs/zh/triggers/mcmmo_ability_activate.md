@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # mcmmo_ability_activate <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
+> **需要依赖：** mcMMO
 
 > 当 McMMO 技能被激活时触发。
 

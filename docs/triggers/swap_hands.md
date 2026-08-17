@@ -10,7 +10,7 @@ outline: deep
 
 # swap_hands <Badge type="info" text="libreforge" /> 
 
-> Triggered when swapping items in hands (F by default)
+> Fires when the player swaps items between main hand and off-hand.
 
 ## Overview
 

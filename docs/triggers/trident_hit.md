@@ -10,7 +10,7 @@ outline: deep
 
 # trident_hit <Badge type="info" text="libreforge" /> 
 
-> Triggered when hitting a block or an entity with a thrown trident
+> Fires when the player's thrown trident hits a block or entity.
 
 ## Overview
 

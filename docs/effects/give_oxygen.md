@@ -10,7 +10,7 @@ outline: deep
 
 # give_oxygen <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Give a player oxygen
+> Restores a set number of air ticks (oxygen) to the player's air supply.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of air ticks to add to the player's remaining air. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The number of air ticks to add to the player's remaining air. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

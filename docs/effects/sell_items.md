@@ -10,7 +10,7 @@ outline: deep
 
 # sell_items <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sells dropped items / item from trigger
+> Sells sellable items from the drop trigger.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | — | `1.0` | — | A multiplier applied to the sell price of each item. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | — | `1.0` | — | A multiplier applied to the sell price of each item. Supports expressions. Example: `1 + %level% * 0.05` |
 | `whitelist` | Item List | — | — | — | A list of item types that are allowed to be sold. If omitted, all sellable items are sold. |
 
 ## 📝 Source Notes

@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # scyther_auto_sell <Badge type="info" text="libreforge" /> <Badge type="warning" text="Scyther" />
+> **Requires:** Scyther
 
-> Triggered when autoselling crops with a scyther hoe
+> Fires when Scyther auto-sells a crop for the player.
 
 ## Overview
 

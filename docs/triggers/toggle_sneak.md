@@ -10,7 +10,7 @@ outline: deep
 
 # toggle_sneak <Badge type="info" text="libreforge" /> 
 
-> Triggered when changing the sneak state
+> Fires when the player toggles sneaking.
 
 ## Overview
 

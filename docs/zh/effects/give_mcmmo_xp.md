@@ -12,7 +12,7 @@ outline: deep
 
 > 为特定技能获得经验值。
 
-> **需要依赖：** McMMO
+> **需要依赖：** mcMMO
 
 ## 基本信息
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | 要给予的经验值数量。 |
-| `skill` | 要给予经验值的技能。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `amount` | Expression | ✅ | — | — | The amount of raw XP to give. Supports expressions. |
+| `skill` | String | ✅ | — | — | The McMMO skill name to give XP for, e.g. mining. |
 
 ## 配置示例
 

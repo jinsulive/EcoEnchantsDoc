@@ -10,7 +10,7 @@ outline: deep
 
 # sneaking_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies sneaking speed
+> Multiplies the player's movement speed while they are sneaking.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The multiplier applied to sneaking speed. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The multiplier applied to sneaking speed. Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

@@ -10,7 +10,7 @@ outline: deep
 
 # hunger_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies hunger loss
+> Multiplies the rate at which the player loses hunger.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Custom | — | — | — | The multiplier for hunger loss, smaller means slower loss |
+| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. Inherited from the `MultiplierEffect` abstract template. |
 
 ## 📝 Source Notes
 

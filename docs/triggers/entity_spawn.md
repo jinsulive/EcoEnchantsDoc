@@ -10,7 +10,7 @@ outline: deep
 
 # entity_spawn <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity spawns
+> Fires when any entity spawns in the world.
 
 ## Overview
 

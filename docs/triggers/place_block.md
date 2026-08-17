@@ -10,7 +10,7 @@ outline: deep
 
 # place_block <Badge type="info" text="libreforge" /> 
 
-> Triggered when placing a block
+> Fires when the player places a block.
 
 ## Overview
 

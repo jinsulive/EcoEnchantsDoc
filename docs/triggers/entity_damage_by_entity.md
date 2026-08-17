@@ -10,7 +10,7 @@ outline: deep
 
 # entity_damage_by_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity takes damage from another entity
+> Fires when an entity is damaged by another entity.
 
 ## Overview
 

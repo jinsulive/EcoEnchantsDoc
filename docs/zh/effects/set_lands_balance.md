@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `amount` | 要给予的数量，负数表示收取。 |
-| `only_trusted` | （可选）是否仅受信任的玩家可以使用此效果。默认为 true。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `amount` | Expression | ✅ | — | — | The value to set the land's balance to. Supports expressions. |
+| `only_trusted` | Boolean | — | `true` | — | Whether to restrict the effect to trusted land members. Defaults to true. |
 
 ## 配置示例
 

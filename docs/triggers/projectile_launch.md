@@ -10,7 +10,7 @@ outline: deep
 
 # projectile_launch <Badge type="info" text="libreforge" /> 
 
-> Triggered when launching a projectile (arrow, trident, splash potion, egg, snowball)
+> Fires when the player launches a projectile.
 
 ## Overview
 

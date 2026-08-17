@@ -10,7 +10,7 @@ outline: deep
 
 # take_damage <Badge type="info" text="libreforge" /> 
 
-> Triggered when taking damage from any source
+> Fires when the player takes any damage.
 
 ## Overview
 

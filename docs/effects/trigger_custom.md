@@ -10,7 +10,7 @@ outline: deep
 
 # trigger_custom <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Call a custom trigger
+> Dispatches a named custom trigger, which can activate other effect chains listening for that trigger ID.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `trigger` | String | ✅ | — | — | The ID of the custom trigger to dispatch (i.e. custom_example here). |
-| `value` | Expression(数学表达式) | — | `0` | — | An optional value to pass to the dispatched trigger. Supports expressions. |
+| `trigger` | String | ✅ | — | — | The ID of the custom trigger to dispatch. |
+| `value` | Expression | — | `0` | — | An optional value to pass to the dispatched trigger. Supports expressions. |
 
 ## 📝 Source Notes
 

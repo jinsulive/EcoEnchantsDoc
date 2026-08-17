@@ -10,7 +10,7 @@ outline: deep
 
 # all_players <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Runs effects for all players on the server
+> Runs a set of effects on every online player.
 
 ## Overview
 

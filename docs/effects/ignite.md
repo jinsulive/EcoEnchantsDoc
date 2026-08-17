@@ -10,7 +10,7 @@ outline: deep
 
 # ignite <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Lights the victim on fire
+> Sets the victim on fire for a specified number of ticks with custom damage per tick.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage_per_tick` | Expression(数学表达式) | ✅ | — | — | The amount of damage dealt per fire tick. Supports expressions. Example: `%level%` |
-| `ticks` | Expression(数学表达式) | ✅ | — | — | The number of fire ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
+| `damage_per_tick` | Expression | ✅ | — | — | The amount of damage dealt per fire tick. Supports expressions. Example: `%level%` |
+| `ticks` | Expression | ✅ | — | — | The number of fire ticks to apply to the victim. Supports expressions. Example: `20 * %level%` |
 
 ## 📝 Source Notes
 

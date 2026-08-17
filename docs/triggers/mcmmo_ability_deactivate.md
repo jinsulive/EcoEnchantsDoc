@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # mcmmo_ability_deactivate <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
+> **Requires:** mcMMO
 
-> Triggered when an McMMO ability is deactivated
+> Fires when the player deactivates a McMMO ability.
 
 ## Overview
 

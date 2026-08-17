@@ -6,9 +6,11 @@ subcategory: item
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # open_menu <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Opens an EcoMenus menu.
 

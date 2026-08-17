@@ -10,7 +10,7 @@ outline: deep
 
 # add_permanent_holder_in_radius <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Gives a custom holder to people within a certain radius of you. A holder is anything with effects and conditions, in plugins typically a Talisman, Armor Set, etc.
+> Permanently applies a set of effects and conditions to all nearby entities within a radius while the holder is active.
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `effects` | Effect List | ✅ | — | — | The effects to apply to nearby entities in the holder. |
-| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
+| `effects` | Effect List | ✅ | — | — | The effects to apply to nearby entities. |
+| `radius` | Expression | ✅ | — | — | The radius to apply effects within. Supports expressions. Example: `5 + %level% * 0.5` |
 | `apply-to-self` | Boolean | — | `false` | — | Whether to also apply the effects to the holder owner. |
+| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
 
 ## 📝 Source Notes
 

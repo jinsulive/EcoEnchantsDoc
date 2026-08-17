@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # lands_bank_withdraw <Badge type="info" text="libreforge" /> <Badge type="warning" text="Lands" />
+> **Requires:** Lands
 
-> Triggered when withdrawing from the Lands bank
+> Fires when the player withdraws money from a Lands bank.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # set_custom_model_data <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Set the item's custom model data
+> Sets the custom model data value on the triggering item.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `model` | Expression(数学表达式) | ✅ | — | — | The custom model data integer to apply to the item. Supports expressions. |
+| `model` | Expression | ✅ | — | — | The custom model data integer to apply to the item. Supports expressions. |
 
 ## 📝 Source Notes
 

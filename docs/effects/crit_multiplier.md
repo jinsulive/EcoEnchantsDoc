@@ -10,7 +10,7 @@ outline: deep
 
 # crit_multiplier <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Multiplies critical (falling) hit damage
+> Multiplies damage when the player lands a critical hit (falling attack).
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The damage multiplier applied on a critical hit. Supports expressions. Example: `1.5 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The damage multiplier applied on a critical hit. Supports expressions. Example: `1.5 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

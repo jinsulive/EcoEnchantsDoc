@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # right_click_npc <Badge type="info" text="libreforge" /> <Badge type="warning" text="Citizens / FancyNpcs" />
+> **Requires:** Citizens
 
-> Triggered when right-clicking an NPC
+> Fires when the player right-clicks a Citizens NPC.
 
 ## Overview
 

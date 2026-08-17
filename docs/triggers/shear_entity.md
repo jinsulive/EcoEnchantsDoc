@@ -10,7 +10,7 @@ outline: deep
 
 # shear_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when shearing an entity
+> Fires when the player shears a living entity.
 
 ## Overview
 

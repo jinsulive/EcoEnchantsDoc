@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # has_skill_level <Badge type="info" text="libreforge" />
+> **Requires:** AuraSkills
 
-> Requires a player to have a certain skill level
+> Passes when the player has reached at least the specified level in a given AuraSkills skill.
 
 ## Overview
 
@@ -26,10 +27,10 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `skill` | The skill ID |
-| `level` | The minimum level |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `skill` | String | ✅ | — | — | The AuraSkills skill to check (e.g. FARMING, MINING). |
+| `level` | Expression | ✅ | — | — | The minimum skill level the player must have. |
 
 ## Configuration Example
 

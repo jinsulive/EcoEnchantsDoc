@@ -6,9 +6,11 @@ subcategory: victim_player
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # player_to_pet <Badge type="info" text="libreforge" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > Requires: EcoPets
 

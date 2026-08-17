@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | 要更新的 Boss 血条 ID。示例：`boss_%player_name%` |
-| `name` | String | — | `` | — | （可选）Boss 血条的新名称。支持占位符。示例：`%player_name%'s Boss` |
-| `color` | String | — | `` | — | （可选）Boss 血条的新颜色。示例：`RED` |
-| `style` | String | — | `` | — | （可选）Boss 血条的新样式。示例：`NOTCHED_10` |
-| `progress` | Expression(数学表达式) | — | `` | — | （可选）Boss 血条的新完成百分比（0–100）。支持表达式。 |
+| `id` | String | ✅ | — | — | The ID of the boss bar to update. 例: `boss_%player_name%` |
+| `progress` | Expression | — | — | — | The new progress value (0–100). Supports expressions. |
+| `name` | String | — | — | — | The new display name of the boss bar. Supports placeholders. 例: `%player_name%'s Boss` |
+| `color` | String | — | — | — | The new color of the boss bar (e.g. BLUE, RED). 例: `RED` |
+| `style` | String | — | — | — | The new overlay style of the boss bar (e.g. PROGRESS, NOTCHED_10). 例: `NOTCHED_10` |
 
 ## 📝 源码注记
 

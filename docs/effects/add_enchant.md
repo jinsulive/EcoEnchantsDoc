@@ -10,7 +10,7 @@ outline: deep
 
 # add_enchant <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Adds an enchant to the item
+> Adds an enchantment to the triggering item.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `enchant` | Enchantment | ✅ | — | — | The enchantment to add, e.g. sharpness. |
-| `level` | Expression(数学表达式) | ✅ | — | — | The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
+| `level` | Expression | ✅ | — | — | The level of the enchantment to add. Supports expressions. Example: `%level% + 1` |
 
 ## 📝 Source Notes
 

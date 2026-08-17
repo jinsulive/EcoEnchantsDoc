@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 冻结实体范围内的半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
-| `freeze_ticks` | Expression(数学表达式) | ✅ | — | — | 冻结实体的游戏刻数。支持表达式。示例：`20 * %level%` |
-| `slow_duration` | Expression(数学表达式) | — | `0` | — | 施加缓慢效果的时长（以游戏刻为单位）。默认为 0（无缓慢效果）。示例：`20 * %level%` |
-| `slow_amplifier` | Expression(数学表达式) | — | `0` | — | 缓慢效果等级（0 = 缓慢 I）。默认为 0。示例：`%level% / 10` |
+| `radius` | Expression | ✅ | — | — | The radius around the trigger location in which entities are frozen. Supports expressions. 例: `5 + %level% * 0.5` |
+| `freeze_ticks` | Expression | ✅ | — | — | How many ticks the affected entities are frozen for. Supports expressions. 例: `20 * %level%` |
+| `slow_duration` | Expression | — | `0` | — | Duration in ticks of the slowness effect applied alongside freezing. Defaults to 0 (no slowness). 例: `20 * %level%` |
+| `slow_amplifier` | Expression | — | `0` | — | Amplifier level of the slowness effect (0 = Slowness I). Defaults to 0. 例: `%level% / 10` |
 
 ## 📝 源码注记
 

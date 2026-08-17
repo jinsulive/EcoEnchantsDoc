@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # use_fertilizer <Badge type="info" text="libreforge" /> <Badge type="warning" text="CustomCrops" />
+> **需要依赖：** CustomCrops
 
 > 当使用肥料时触发。
 

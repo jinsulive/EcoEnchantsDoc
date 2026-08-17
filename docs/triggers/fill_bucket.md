@@ -10,7 +10,7 @@ outline: deep
 
 # fill_bucket <Badge type="info" text="libreforge" /> 
 
-> Triggered when filling a bucket
+> Fires when the player fills a bucket.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # move <Badge type="info" text="libreforge" /> 
 
-> Triggered on all movement: looking around, walking
+> Fires when the player or a living entity moves to a new block.
 
 ## Overview
 

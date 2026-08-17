@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # exit_claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
+> **需要依赖：** HuskTowns
 
 > 当离开已认领区域时触发。
 

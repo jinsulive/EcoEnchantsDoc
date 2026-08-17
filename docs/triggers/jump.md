@@ -10,7 +10,7 @@ outline: deep
 
 # jump <Badge type="info" text="libreforge" /> 
 
-> Triggered when Jumping (pressing space)
+> Fires when the player jumps.
 
 ## Overview
 

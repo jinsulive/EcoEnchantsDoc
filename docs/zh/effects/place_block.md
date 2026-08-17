@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | 要放置的方块（eco 方块 ID）。 |
-| `duration` | Expression(数学表达式) | — | — | — | （可选）恢复原方块前的游戏刻数。省略则永久放置。支持表达式。示例：`20 * %level%` |
+| `block` | Block | ✅ | — | — | The block to place at the trigger location. |
+| `duration` | Expression | — | — | — | How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. 例: `20 * %level%` |
 
 ## 📝 源码注记
 

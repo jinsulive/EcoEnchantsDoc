@@ -12,7 +12,7 @@ outline: deep
 
 > 为特定属性添加数值。
 
-> **需要依赖：** EcoSkills / AuraSkills
+> **需要依赖：** AuraSkills
 
 ## 基本信息
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `stat` | 属性名称。 |
-| `amount` | 要添加（或扣除）的数量（允许负数）。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `stat` | String | ✅ | — | — | The AuraSkills stat ID to add to, e.g. strength. |
+| `amount` | Expression | ✅ | — | — | The amount to add to the stat. Supports expressions. |
 
 ## 配置示例
 

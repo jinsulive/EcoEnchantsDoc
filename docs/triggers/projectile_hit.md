@@ -10,7 +10,7 @@ outline: deep
 
 # projectile_hit <Badge type="info" text="libreforge" /> 
 
-> Triggered when hitting a block or an entity with a projectile (arrow, trident, splash potion, egg, snowball)
+> Fires when the player's projectile hits a block or entity.
 
 ## Overview
 

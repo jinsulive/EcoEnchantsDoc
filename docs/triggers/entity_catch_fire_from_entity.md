@@ -10,7 +10,7 @@ outline: deep
 
 # entity_catch_fire_from_entity <Badge type="info" text="libreforge" /> 
 
-> Triggered when an entity catches fire from an entity
+> Fires when an entity catches fire caused by another entity.
 
 ## Overview
 

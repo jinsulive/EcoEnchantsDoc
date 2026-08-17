@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # enter_claim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims" />
+> **Requires:** HuskClaims
 
-> Triggered when entering a claimed area
+> Fires when the player enters a HuskClaims claim.
 
 ## Overview
 

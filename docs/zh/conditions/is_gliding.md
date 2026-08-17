@@ -24,6 +24,12 @@ outline: deep
 每个条件都支持可选的 `inverse` 参数，用于取反条件。
 :::
 
+## 参数说明
+
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| — | — | — | — | — | 该组件无参数。 |
+
 ## 📝 源码注记
 
 > 以下信息来自 libreforge 源码（`libreforge/core/common/src/main/kotlin/com/willfp/libreforge/conditions/impl/ConditionIsGliding.kt`）。

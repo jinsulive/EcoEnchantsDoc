@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `fuse` | Expression(数学表达式) | ✅ | — | — | 爆炸前的延迟游戏刻数。支持表达式。示例：`20 * %level%` |
-| `power` | Expression(数学表达式) | ✅ | — | — | 爆炸威力。原版 TNT 为 4。支持表达式。 |
-| `break_blocks` | Boolean | — | `false` | — | （可选）爆炸是否破坏方块，默认为 false。 |
-| `glow` | Boolean | — | `true` | — | （可选）引信燃烧期间实体是否发光，默认为 true。 |
+| `fuse` | Expression | ✅ | — | — | How many ticks before the explosion occurs. Supports expressions. 例: `20 * %level%` |
+| `power` | Expression | ✅ | — | — | The power of the explosion. Vanilla TNT is 4. Supports expressions. |
+| `break_blocks` | Boolean | — | `false` | — | Whether the explosion breaks blocks. |
+| `glow` | Boolean | — | `true` | — | Whether the victim glows while waiting for the explosion. |
 
 ## 📝 源码注记
 

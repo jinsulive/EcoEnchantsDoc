@@ -10,7 +10,7 @@ outline: deep
 
 # mining_speed_multiplier <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies mining speed
+> Multiplies the player's overall block-break speed while the holder is active.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The mining speed multiplier to apply (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.02` |
+| `multiplier` | Expression | ✅ | — | — | The mining speed multiplier to apply (e.g. 2 = double speed). Supports expressions. Example: `1 + %level% * 0.02` |
 
 ## 📝 Source Notes
 

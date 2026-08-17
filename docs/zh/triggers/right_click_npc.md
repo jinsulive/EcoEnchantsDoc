@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # right_click_npc <Badge type="info" text="libreforge" /> <Badge type="warning" text="Citizens / FancyNpcs" />
+> **需要依赖：** Citizens
 
 > 当右键点击 NPC 时触发。
 

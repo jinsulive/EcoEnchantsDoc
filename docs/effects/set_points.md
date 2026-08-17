@@ -10,7 +10,7 @@ outline: deep
 
 # set_points <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Set points (check the points wiki page if you don't know what these are)
+> Sets a player's point counter to a specific value.
 
 ## Overview
 
@@ -26,7 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `type` | String | ✅ | — | — | The point type to set. |
-| `amount` | Expression(数学表达式) | ✅ | — | — | The value to set the player's point counter to. Supports expressions. Example: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | The value to set the player's point counter to. Supports expressions. Example: `%level% * 10` |
 
 ## 📝 Source Notes
 

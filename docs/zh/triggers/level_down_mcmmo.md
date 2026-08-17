@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # level_down_mcmmo <Badge type="info" text="libreforge" /> <Badge type="warning" text="McMMO" />
+> **需要依赖：** mcMMO
 
 > 当 McMMO 技能降级时触发。
 

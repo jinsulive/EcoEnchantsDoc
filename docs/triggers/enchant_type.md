@@ -7,9 +7,11 @@ tags:
   - libreforge
   - ecoenchants
 outline: deep
+deprecated: true
 ---
 
 # enchant_&lt;type&gt; <Badge type="info" text="libreforge" /> <Badge type="warning" text="EcoEnchants" />
+> ⚠️ **Deprecated** — This component has been removed from libreforge and is no longer functional. It is kept for reference only.
 
 > Triggered when enchanting an item with a certain type of enchantment.
 

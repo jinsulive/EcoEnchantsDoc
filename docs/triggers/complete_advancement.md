@@ -10,7 +10,7 @@ outline: deep
 
 # complete_advancement <Badge type="info" text="libreforge" /> 
 
-> Triggered when completing an advancement
+> Fires when the player completes an advancement.
 
 ## Overview
 

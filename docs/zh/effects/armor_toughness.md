@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `points` | Expression(数学表达式) | ✅ | — | — | 要给予的盔甲韧性点数数量。支持表达式。示例：`%level% * 0.25` |
+| `points` | Expression | ✅ | — | — | The number of armor toughness points to add (or subtract if negative). Supports expressions. 例: `%level% * 0.25` |
 
 ## 📝 源码注记
 

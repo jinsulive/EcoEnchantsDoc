@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `only_fully_grown` | Boolean | ✅ | — | — | 是否只收获完全成熟的作物。 |
+| `only_fully_grown` | Boolean | ✅ | — | — | Whether the crop must be fully grown before it is harvested. |
 
 ## 📝 源码注记
 

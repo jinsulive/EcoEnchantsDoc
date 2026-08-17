@@ -10,9 +10,9 @@ outline: deep
 
 # add_stat <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Adds a value to a specific stat
+> Permanently adds a flat bonus to an AuraSkills stat while the holder is active.
 
-> **Requires:** EcoSkills / AuraSkills
+> **Requires:** AuraSkills
 
 ## Overview
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `stat` | The name of the stat |
-| `amount` | The amount to add (or subtract, allows negative values) |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `stat` | String | ✅ | — | — | The AuraSkills stat ID to add to, e.g. strength. |
+| `amount` | Expression | ✅ | — | — | The amount to add to the stat. Supports expressions. |
 
 ## Configuration Example
 

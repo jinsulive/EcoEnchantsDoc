@@ -10,7 +10,7 @@ outline: deep
 
 # alt_click <Badge type="info" text="libreforge" /> 
 
-> Triggered when using Right Click on most items, Left Click on those that have a default right click functionality
+> Fires when the player right-clicks with an item in hand, or left-clicks with a bow, rod, or trident.
 
 ## Overview
 

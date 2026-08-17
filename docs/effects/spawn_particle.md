@@ -10,7 +10,7 @@ outline: deep
 
 # spawn_particle <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Spawns a particle
+> Spawns particles at the trigger location.
 
 ## Overview
 
@@ -25,8 +25,8 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `particle` | Any/Custom | ✅ | — | — | The particle to spawn, as an eco particle string. Example: `flame` |
-| `amount` | Expression(数学表达式) | — | `1` | — | The number of particles to spawn. Supports expressions. |
+| `particle` | Any | ✅ | — | — | The particle to spawn, as an eco particle string. Example: `flame` |
+| `amount` | Expression | — | `1` | — | The number of particles to spawn. Supports expressions. |
 
 > 💡 See [Particle Types](../guide/particles) for the full list of 115 built-in particles.
 

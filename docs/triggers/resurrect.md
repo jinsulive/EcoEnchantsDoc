@@ -10,7 +10,7 @@ outline: deep
 
 # resurrect <Badge type="info" text="libreforge" /> 
 
-> Triggered when a Totem activates
+> Fires when the player is resurrected by a totem of undying.
 
 ## Overview
 

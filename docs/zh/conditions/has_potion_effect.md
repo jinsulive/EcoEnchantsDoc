@@ -28,9 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect List | ✅ | — | — | 要检查的药水效果。示例：`speed, strength` |
-| `effects` | Potion Effect List | ✅ | — | — | 你也可以指定一个药水效果列表。示例：`speed, strength` |
-| `level` | Integer | — | `1` | — | 所需的最小效果等级（从 1 开始）。 |
+| `effect` / `effects`（任一） | Potion Effect List | ✅ | — | — | The potion effect(s) to check for. 例: `speed, strength` |
+| `level` | Integer | — | `1` | — | The minimum amplifier level required (1-based). |
 
 ## 📝 源码注记
 

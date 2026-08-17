@@ -10,7 +10,7 @@ outline: deep
 
 # consume_held_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Consume items held in the player's main hand
+> Removes a number of items from the player's main hand.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of items to remove from the main hand (i.e. 1 apple, 2 apples, etc). Supports expressions. |
+| `amount` | Expression | ✅ | — | — | The number of items to remove from the main hand. Supports expressions. |
 
 ## 📝 Source Notes
 

@@ -25,10 +25,10 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `type` | 袋囊类型 ID。 |
-| `unlocked` | 袋囊是否已解锁。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `type` | String | ✅ | — | — | The EdPrison pouch ID to give. |
+| `unlocked` | Boolean | ✅ | — | — | Whether the pouch starts fully unlocked. |
 
 ## 配置示例
 

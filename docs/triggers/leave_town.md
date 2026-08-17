@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # leave_town <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns" />
+> **Requires:** HuskTowns
 
-> Triggered when leaving a Town
+> Fires when the player leaves a HuskTowns town.
 
 ## Overview
 

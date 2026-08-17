@@ -10,7 +10,7 @@ outline: deep
 
 # create_boss_bar <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Creates a boss bar and shows it to the player
+> Creates and displays a boss bar for the player.
 
 ## Overview
 
@@ -27,9 +27,9 @@ outline: deep
 |-----------|------|----------|---------|---------|-------------|
 | `id` | String | ✅ | — | — | A unique identifier used to reference this boss bar with update_boss_bar or remove_boss_bar. |
 | `name` | String | ✅ | — | — | The display text shown on the boss bar. Supports placeholders. Example: `&6%player%'s Charge` |
-| `color` | String | ✅ | — | `BLUE`, `GREEN`, `PINK`, `PURPLE`, `RED`, `WHITE`, `YELLOW` | The boss bar color (pink, blue, red, green, yellow, purple, white). |
-| `style` | String | ✅ | — | `PROGRESS`, `NOTCHED_6`, `NOTCHED_10`, `NOTCHED_12`, `NOTCHED_20` | The boss bar overlay style (progress, notched_6, notched_10, notched_12, notched_20). |
-| `progress` | Expression(数学表达式) | ✅ | — | — | The fill percentage of the boss bar, from 0 to 100. Supports expressions. Example: `50 + %level%` |
+| `color` | String | ✅ | — | `BLUE`, `GREEN`, `PINK`, `PURPLE`, `RED`, `WHITE`, `YELLOW` | The boss bar color. |
+| `style` | String | ✅ | — | `PROGRESS`, `NOTCHED_6`, `NOTCHED_10`, `NOTCHED_12`, `NOTCHED_20` | The boss bar overlay style. |
+| `progress` | Expression | ✅ | — | — | The fill percentage of the boss bar, from 0 to 100. Supports expressions. Example: `50 + %level%` |
 
 ## 📝 Source Notes
 

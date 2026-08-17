@@ -10,7 +10,7 @@ outline: deep
 
 # clear_inventory <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Clears a section of the player's inventory
+> Clears a section of the player's inventory.
 
 ## Overview
 

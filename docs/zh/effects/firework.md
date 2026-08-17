@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `power` | Integer | — | `0` | — | 烟花的飞行时长威力（0-255，0 为立即爆炸）。默认为 0。 |
-| `effects` | Dynamic Config | — | — | — | 你可以指定多个烟花效果。 |
+| `power` | Integer | — | `0` | — | The flight duration of the firework (0–255). Defaults to 0. |
+| `effects` | Dynamic | — | — | — | A list of firework effect subsections, each with type, colors, fade-colors, trail, and flicker. |
 
 ## 📝 源码注记
 

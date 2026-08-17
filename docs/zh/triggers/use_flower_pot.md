@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # use_flower_pot <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **需要依赖：** Paper
 
 > 当玩家向花盆中放入或取出植物时触发。
 

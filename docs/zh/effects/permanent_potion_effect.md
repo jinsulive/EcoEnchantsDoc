@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Any/Custom | ✅ | — | — | 要给予的效果。 |
-| `level` | Custom | — | — | — | 要给予的效果等级。 |
-| `particles` | Custom | — | — | — | （可选）效果是否显示粒子。 |
-| `icon` | Custom | — | — | — | （可选）效果是否在屏幕右上角显示图标。 |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect type to apply (e.g. SPEED, STRENGTH). |
+| `level` | Expression | ✅ | — | — | The amplifier level of the potion effect (1 = level I). Supports expressions. 例: `1 + %level% / 10` |
+| `particles` | Boolean | — | `true` | — | Whether the potion effect shows particles. Defaults to true. |
+| `icon` | Boolean | — | `true` | — | Whether the potion effect shows an icon in the HUD. Defaults to true. |
 
 ## 📝 源码注记
 

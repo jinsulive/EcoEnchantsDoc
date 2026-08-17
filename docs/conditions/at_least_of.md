@@ -10,7 +10,7 @@ outline: deep
 
 # at_least_of <Badge type="info" text="libreforge" />
 
-> Requires at least a certain mount of a certain list of conditions to be met
+> Passes when at least the specified number of the listed conditions are met.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `conditions` | Any/Custom | ✅ | — | — | List of conditions to evaluate. |
+| `conditions` | Any | ✅ | — | — | List of conditions to evaluate. |
 | `amount` | Integer | ✅ | — | — | The minimum number of conditions that must pass. |
 
 ## 📝 Source Notes

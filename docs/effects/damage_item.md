@@ -10,7 +10,7 @@ outline: deep
 
 # damage_item <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Damages the item
+> Applies durability damage to the triggering item.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `damage` | Custom | — | — | — | The durability to damage |
+| `damage` | Expression | ✅ | — | — | The amount of durability damage to apply to the item. Supports expressions. Inherited from the `DamageItemEffect` abstract template. |
 
 ## 📝 Source Notes
 

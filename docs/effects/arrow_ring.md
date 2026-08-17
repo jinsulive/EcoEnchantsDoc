@@ -10,7 +10,7 @@ outline: deep
 
 # arrow_ring <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Spawns a ring of arrows around a location
+> Spawns a ring of arrows falling downward at the trigger location.
 
 ## Overview
 
@@ -25,11 +25,11 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of arrows in the ring. Supports expressions. Example: `8 + %level%` |
-| `height` | Expression(数学表达式) | ✅ | — | — | The height above the location to spawn the arrows. Supports expressions. |
-| `radius` | Expression(数学表达式) | ✅ | — | — | The radius of the arrow ring. Supports expressions. Example: `3 + %level% * 0.3` |
-| `arrow_damage` | Expression(数学表达式) | ✅ | — | — | The damage each arrow deals. Supports expressions. Example: `%level% * 1.5` |
-| `fire_ticks` | Expression(数学表达式) | ✅ | — | — | How many ticks the arrows are on fire. Supports expressions. |
+| `amount` | Expression | ✅ | — | — | The number of arrows in the ring. Supports expressions. Example: `8 + %level%` |
+| `height` | Expression | ✅ | — | — | The height above the location to spawn the arrows. Supports expressions. |
+| `radius` | Expression | ✅ | — | — | The radius of the arrow ring. Supports expressions. Example: `3 + %level% * 0.3` |
+| `arrow_damage` | Expression | ✅ | — | — | The damage each arrow deals. Supports expressions. Example: `%level% * 1.5` |
+| `fire_ticks` | Expression | ✅ | — | — | How many ticks the arrows are on fire. Supports expressions. |
 
 ## 📝 Source Notes
 

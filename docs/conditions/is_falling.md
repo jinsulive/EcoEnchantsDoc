@@ -10,7 +10,7 @@ outline: deep
 
 # is_falling <Badge type="info" text="libreforge" />
 
-> Requires a player to be falling
+> Passes when the entity has a significant downward velocity, indicating it is falling.
 
 ## Overview
 
@@ -23,6 +23,12 @@ outline: deep
 ::: tip Inverse Argument
 Every condition supports the optional `inverse` argument, which negates the condition.
 :::
+
+## Parameters
+
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| — | — | — | — | — | This component takes no parameters. |
 
 ## 📝 Source Notes
 

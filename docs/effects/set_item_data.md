@@ -10,7 +10,7 @@ outline: deep
 
 # set_item_data <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Set item data
+> Sets a custom data key on the trigger item to a given value.
 
 ## Overview
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 攻击击退倍率。支持表达式。示例：`1 + %level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | The knockback multiplier to apply. Supports expressions. 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

@@ -9,6 +9,7 @@ outline: deep
 ---
 
 # is_season <Badge type="info" text="libreforge" />
+> **需要依赖：** CustomCrops
 
 > 需要处于某个季节。
 
@@ -26,10 +27,9 @@ outline: deep
 
 ## 参数说明
 
-| 参数名 | 说明 |
-|--------|------|
-| `season` | 用于单一季节。 |
-| `seasons` | 用于多个季节。 |
+| 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
+|--------|------|------|--------|--------|------|
+| `season` / `seasons`（任一） | String_list | ✅ | — | — | The season name(s) to check against (e.g. SPRING, SUMMER, AUTUMN, WINTER). |
 
 ## 配置示例
 

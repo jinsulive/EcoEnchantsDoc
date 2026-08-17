@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `drop_xp` | Boolean | ✅ | — | — | 是否随烧炼产物一起掉落烧炼经验值。 |
+| `drop_xp` | Boolean | ✅ | — | — | Whether to drop smelting XP alongside the smelted item. |
 
 ## 📝 源码注记
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | 要设置的物品数据键。示例：`custom_id` |
-| `value` | String | ✅ | — | — | 要设置成的值。示例：`epic_sword_tier_3` |
+| `key` | String | ✅ | — | — | The custom data key to set on the item. 例: `custom_id` |
+| `value` | String | ✅ | — | — | The value to store under the given key. 例: `epic_sword_tier_3` |
 
 ## 📝 源码注记
 

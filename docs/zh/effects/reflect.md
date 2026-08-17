@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | 反弹伤害比例。支持表达式。示例：`0.2 + %level% * 0.02` |
+| `multiplier` | Expression | ✅ | — | — | The fraction of incoming damage to reflect back at the attacker. Supports expressions. 例: `0.2 + %level% * 0.02` |
 
 ## 📝 源码注记
 

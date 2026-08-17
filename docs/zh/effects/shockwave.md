@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 冲击波的最终半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
-| `pulses` | Expression(数学表达式) | ✅ | — | — | 冲击波扩张的脉冲次数。支持表达式。 |
-| `damage` | Expression(数学表达式) | ✅ | — | — | 对每个被冲击波击中的实体造成的伤害。支持表达式。示例：`%level% * 2` |
-| `knockback` | Expression(数学表达式) | ✅ | — | — | 施加给被击中实体的击退力度。支持表达式。示例：`1 + %level% * 0.1` |
+| `radius` | Expression | ✅ | — | — | The maximum radius the shockwave expands to. Supports expressions. 例: `5 + %level% * 0.5` |
+| `pulses` | Expression | ✅ | — | — | How many pulses the shockwave expands over before reaching its full radius. Supports expressions. |
+| `damage` | Expression | ✅ | — | — | The amount of damage dealt to each entity caught in the shockwave. Supports expressions. 例: `%level% * 2` |
+| `knockback` | Expression | ✅ | — | — | The knockback force applied to each entity hit. Supports expressions. 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

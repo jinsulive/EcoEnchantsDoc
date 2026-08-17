@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # swing <Badge type="info" text="libreforge" /> <Badge type="warning" text="Paper" />
+> **需要依赖：** Paper
 
 > 当挥动物品、手或武器时触发。
 

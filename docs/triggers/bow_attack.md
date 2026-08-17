@@ -10,7 +10,7 @@ outline: deep
 
 # bow_attack <Badge type="info" text="libreforge" /> 
 
-> Triggered when shooting an entity with a bow and arrow (or crossbow)
+> Fires when the player hits an entity with an arrow.
 
 ## Overview
 

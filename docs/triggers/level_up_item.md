@@ -10,7 +10,7 @@ outline: deep
 
 # level_up_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when levelling up an item
+> Fires when a libreforge item levels up.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # cast_mythic_skill <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Casts a MythicMobs skill on the target.
+> Casts a MythicMobs skill from the player, targeting the victim or the player's current target.
 
 > **Requires:** MythicMobs
 
@@ -25,10 +25,10 @@ outline: deep
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `skill` | The ID of the skill to cast |
-| `victim_to_player` | For passive skill, set it to true. |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `skill` | String | ✅ | — | — | The MythicMobs skill name to cast. |
+| `victim_to_player` | Boolean | — | `false` | — | Whether to target the casting player instead of the victim. Defaults to false. |
 
 ## Configuration Example
 

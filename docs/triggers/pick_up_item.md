@@ -10,7 +10,7 @@ outline: deep
 
 # pick_up_item <Badge type="info" text="libreforge" /> 
 
-> Triggered when picking up an item
+> Fires when an entity picks up an item from the ground.
 
 ## Overview
 

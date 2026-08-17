@@ -28,9 +28,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | 占位符（含 % 符号）。示例：`%player_gamemode%` |
-| `value` | String | ✅ | — | — | 它必须等于的值。 |
-| `ignore_case` | Boolean | — | `false` | — | 相等性检查是否忽略大小写。 |
+| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and compare. 例: `%player_gamemode%` |
+| `value` | String | ✅ | — | — | The exact string the resolved placeholder must equal. |
+| `ignore_case` | Boolean | — | `false` | — | Whether the equality check should be case-insensitive. |
 
 ## 📝 源码注记
 

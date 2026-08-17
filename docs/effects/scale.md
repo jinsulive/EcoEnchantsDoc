@@ -10,7 +10,7 @@ outline: deep
 
 # scale <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Multiplies scale
+> Scales the entity's size by a given multiplier.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `multiplier` | Expression(数学表达式) | ✅ | — | — | The scale multiplier to apply to the entity's size. Supports expressions. Example: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | The scale multiplier to apply to the entity's size. Supports expressions. Example: `1 + %level% * 0.05` |
 
 ## 📝 Source Notes
 

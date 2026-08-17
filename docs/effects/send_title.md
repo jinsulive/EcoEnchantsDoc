@@ -10,7 +10,7 @@ outline: deep
 
 # send_title <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Send a title/subtitle to the player
+> Sends a title and subtitle to the player's screen.
 
 ## Overview
 

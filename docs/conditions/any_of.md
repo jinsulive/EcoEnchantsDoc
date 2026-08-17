@@ -10,7 +10,7 @@ outline: deep
 
 # any_of <Badge type="info" text="libreforge" />
 
-> Requires any of a certain list of conditions to be matched
+> Passes when at least one of the listed conditions is met.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `conditions` | Any/Custom | ✅ | — | — | List of conditions — passes when any one is met. |
+| `conditions` | Any | ✅ | — | — | List of conditions — passes when any one is met. |
 
 ## 📝 Source Notes
 

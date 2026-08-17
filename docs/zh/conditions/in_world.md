@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `world` | String | ✅ | — | — | 要检查的世界名称。 |
+| `world` | String | ✅ | — | — | The name of the world to check against. |
 
 ## 📝 源码注记
 

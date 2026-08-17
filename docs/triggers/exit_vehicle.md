@@ -10,7 +10,7 @@ outline: deep
 
 # exit_vehicle <Badge type="info" text="libreforge" /> 
 
-> Triggered when exiting a vehicle
+> Fires when the player exits a vehicle.
 
 ## Overview
 

@@ -10,7 +10,7 @@ outline: deep
 
 # mine_block_progress <Badge type="info" text="libreforge" /> 
 
-> Triggered when damaging a block
+> Fires each time the player deals a hit of damage to a block while mining.
 
 ## Overview
 

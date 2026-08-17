@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression(数学表达式) | ✅ | — | — | 影响实体的半径（以方块为单位）。支持表达式。示例：`5 + %level% * 0.5` |
-| `damage` | Expression(数学表达式) | ✅ | — | — | 对每个附近实体造成的伤害。支持表达式。示例：`%level% * 2` |
-| `heal_multiplier` | Expression(数学表达式) | — | `1.0` | — | （可选）作用于总治疗量的倍率，默认为 1.0。 |
+| `radius` | Expression | ✅ | — | — | The radius around the player to search for targets. Supports expressions. 例: `5 + %level% * 0.5` |
+| `damage` | Expression | ✅ | — | — | The amount of damage dealt to each nearby entity. Supports expressions. 例: `%level% * 2` |
+| `heal_multiplier` | Expression | — | `1.0` | — | A multiplier applied to the total damage dealt before it is converted to healing. 例: `0.5 + %level% * 0.02` |
 
 ## 📝 源码注记
 

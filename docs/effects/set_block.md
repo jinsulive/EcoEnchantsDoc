@@ -10,7 +10,7 @@ outline: deep
 
 # set_block <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Set a block
+> Sets the block at the trigger location to a specified block type.
 
 ## Overview
 

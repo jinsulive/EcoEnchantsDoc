@@ -9,8 +9,9 @@ outline: deep
 ---
 
 # has_lands_role <Badge type="info" text="libreforge" />
+> **Requires:** Lands
 
-> Requires a player to have a certain role in the Land
+> Passes when the player holds one of the specified roles in the Lands area at their current location.
 
 ## Overview
 
@@ -26,9 +27,9 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `roles` | The ID of the role |
+| Parameter | Type | Required | Default | Choices | Description |
+|-----------|------|----------|---------|---------|-------------|
+| `roles` | String_list | ✅ | — | — | A list of Lands role names to check against (e.g. owner, member). |
 
 ## Configuration Example
 

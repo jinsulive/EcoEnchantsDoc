@@ -10,7 +10,7 @@ outline: deep
 
 # set_saturation <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Sets the player's saturation
+> Sets the player's food saturation to a specific value.
 
 ## Overview
 
@@ -25,7 +25,7 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The saturation level to set for the player. Supports expressions. |
+| `amount` | Expression | ✅ | — | — | The saturation level to set for the player. Supports expressions. |
 
 ## 📝 Source Notes
 

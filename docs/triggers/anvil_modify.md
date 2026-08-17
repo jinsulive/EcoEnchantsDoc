@@ -10,8 +10,9 @@ outline: deep
 ---
 
 # anvil_modify <Badge type="info" text="libreforge" /> <Badge type="warning" text="Purpur" />
+> **Requires:** Purpur
 
-> Triggered when a player takes a modified item from an anvil
+> Fires when the player takes a modified item from an anvil.
 
 ## Overview
 

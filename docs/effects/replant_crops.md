@@ -10,7 +10,7 @@ outline: deep
 
 # replant_crops <Badge type="info" text="libreforge" /> <Badge type="warning" text="Permanent" />
 
-> Automatically replants crops
+> Automatically replants harvested crops at age 0 when the player breaks them.
 
 ## Overview
 

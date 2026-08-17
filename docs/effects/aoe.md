@@ -10,7 +10,7 @@ outline: deep
 
 # aoe <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Runs effects for all entities within an area of effect (aoe)
+> Runs a set of effects on all nearby entities within an AOE shape.
 
 ## Overview
 
@@ -26,9 +26,7 @@ outline: deep
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
 | `effects` | Effect List | ✅ | — | — | The effects to run on each entity within the AOE. |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use (see above). |
-| `radius` | Custom | — | — | — | The radius of the cone (see above) |
-| `angle` | Custom | — | — | — | The angle of the cone (see above) |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use. |
 
 ## 📝 Source Notes
 

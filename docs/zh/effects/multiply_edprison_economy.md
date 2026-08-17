@@ -6,9 +6,11 @@ subcategory: economy
 tags:
   - libreforge
 outline: deep
+deprecated: true
 ---
 
 # multiply_edprison_economy <Badge type="info" text="libreforge" /> <Badge type="warning" text="永久型" />
+> ⚠️ **已废弃** —— 该组件已从 libreforge 移除，不再生效。此处仅作参考保留。
 
 > 倍率化获得的 EdPrison 经济。
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `from_slot` | String | ✅ | — | — | 源背包栏位（复制物品的来源）。示例：`mainhand` |
-| `to_slot` | String | ✅ | — | — | 目标背包栏位（复制物品的去向）。示例：`offhand` |
+| `from_slot` | String | ✅ | — | — | The slot to copy the item from, e.g. mainhand or offhand. 例: `mainhand` |
+| `to_slot` | String | ✅ | — | — | The slot to copy the item into. 例: `offhand` |
 
 ## 📝 源码注记
 

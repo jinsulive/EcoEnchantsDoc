@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `slot` | String List | ✅ | — | — | 要检查的栏位——例如 mainhand、offhand、armor 或数字快捷栏索引。示例：`mainhand, 9` |
+| `slot` / `slots`（任一） | String List | ✅ | — | — | The slot(s) to check — e.g. mainhand, offhand, armor, or a numeric hotbar index. 例: `mainhand, 9` |
 
 ## 📝 源码注记
 

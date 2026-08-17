@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `model` | Expression(数学表达式) | ✅ | — | — | 自定义模型数据 ID。支持表达式。 |
+| `model` | Expression | ✅ | — | — | The custom model data integer to apply to the item. Supports expressions. |
 
 ## 📝 源码注记
 

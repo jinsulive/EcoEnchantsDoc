@@ -10,7 +10,7 @@ outline: deep
 
 # drill <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Mine blocks behind the initial mined block
+> Breaks a line of blocks in front of the player in their look direction.
 
 ## Overview
 
@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `amount` | Expression(数学表达式) | ✅ | — | — | The number of blocks to break in a line. Supports expressions. Example: `3 + %level%` |
-| `blacklisted_blocks` | Block List | — | — | — | These block types will never be broken by the drill. |
+| `amount` | Expression | ✅ | — | — | The number of blocks to break in a line. Supports expressions. Example: `3 + %level%` |
 | `check_hardness` | Boolean | ✅ | — | — | If true, only blocks with hardness ≤ the trigger block are broken. |
 | `disable_on_sneak` | Boolean | — | `false` | — | If true, the drill effect is disabled while the player is sneaking. |
-| `whitelist` | Block List | — | — | — | Only these block types will be broken by the drill. |
 | `prevent_trigger` | Boolean | — | `false` | — | If true, breaking additional blocks will not fire further libreforge triggers. |
+| `whitelist` | Block List | — | — | — | Only these block types will be broken by the drill. |
+| `blacklisted_blocks` | Block List | — | — | — | These block types will never be broken by the drill. |
 
 ## 📝 Source Notes
 

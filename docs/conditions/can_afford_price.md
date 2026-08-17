@@ -10,7 +10,7 @@ outline: deep
 
 # can_afford_price <Badge type="info" text="libreforge" />
 
-> Requires a player to be able to afford a certain price
+> Passes when the player can afford the specified price.
 
 ## Overview
 
@@ -28,7 +28,7 @@ Every condition supports the optional `inverse` argument, which negates the cond
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `value` | Expression(数学表达式) | ✅ | — | — | The amount or expression for the price value. Example: `%level% * 100` |
+| `value` | Expression | ✅ | — | — | The amount or expression for the price value. Example: `%level% * 100` |
 | `type` | String | ✅ | — | — | The price type identifier (e.g. coins, xpl). Example: `coins` |
 
 ## 📝 Source Notes

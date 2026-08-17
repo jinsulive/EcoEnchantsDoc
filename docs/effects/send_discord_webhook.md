@@ -10,7 +10,7 @@ outline: deep
 
 # send_discord_webhook <Badge type="info" text="libreforge" /> <Badge type="info" text="Triggered" />
 
-> Send a message to a Discord webhook
+> Sends a message to a Discord channel via a webhook URL.
 
 ## Overview
 
@@ -25,12 +25,12 @@ outline: deep
 
 | Parameter | Type | Required | Default | Choices | Description |
 |-----------|------|----------|---------|---------|-------------|
-| `webhook_url` | String | ✅ | — | — | The Discord webhook URL to send the message to. Example: `https:         )         require(             ` |
-| `text` | Custom | — | — | — | The message content |
-| `username` | Custom | — | — | — | (Optional) Override the webhook username |
-| `avatar_url` | Custom | — | — | — | (Optional) Override the webhook avatar |
+| `webhook_url` | String | ✅ | — | — | The Discord webhook URL to send the message to. Example: `https://discord.com/api/webhooks/123456789012345678/abcDEF-token` |
+| `text` | String | ✅ | — | — | The message content to send to the webhook. Example: `%player_name% just found a legendary item!` |
+| `username` | String | — | — | — | The display name to use for the webhook message. |
+| `avatar_url` | String | — | — | — | A URL to an image to use as the webhook avatar. Example: `https://example.com/avatar.png` |
 | `tts` | Boolean | — | `false` | — | Whether to send the message as text-to-speech. |
-| `embeds` | Any/Custom | — | — | — | A list of embed objects to include in the webhook message. |
+| `embeds` | Any | — | — | — | A list of embed objects to include in the webhook message. |
 
 ## 📝 Source Notes
 

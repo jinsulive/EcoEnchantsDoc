@@ -10,6 +10,7 @@ outline: deep
 ---
 
 # unclaim <Badge type="info" text="libreforge" /> <Badge type="warning" text="HuskTowns / HuskClaims / Lands" />
+> **需要依赖：** HuskClaims
 
 > 当取消认领区域时触发。
 

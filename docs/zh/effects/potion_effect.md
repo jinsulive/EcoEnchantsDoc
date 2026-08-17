@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Any/Custom | ✅ | — | — | 要给予的效果。 |
-| `level` | Custom | — | — | — | 要给予的等级。 |
-| `duration` | Custom | — | — | — | 效果的持续时间（以游戏刻为单位）。 |
-| `particles` | Custom | — | — | — | （可选）效果是否显示粒子。 |
-| `icon` | Custom | — | — | — | （可选）效果是否在屏幕右上角显示图标。 |
-| `apply_to_player` | Custom | — | — | — | 为 true 时作用于玩家，为 false 时作用于受害者。 |
+| `effect` | Potion Effect | ✅ | — | — | The potion effect type to apply. |
+| `level` | Expression | ✅ | — | — | The level of the potion effect (1 = level I). Supports expressions. 例: `1 + %level% / 10` |
+| `duration` | Expression | ✅ | — | — | How long the effect lasts in ticks. Supports expressions. 例: `20 * %level%` |
+| `apply_to_player` | Boolean | — | `false` | — | If true, applies the effect to the player instead of the victim. |
+| `particles` | Boolean | — | `true` | — | Whether to show potion effect particles. |
+| `icon` | Boolean | — | `true` | — | Whether to show the effect icon in the HUD. |
 
 ## 📝 源码注记
 
