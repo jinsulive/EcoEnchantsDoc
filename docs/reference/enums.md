@@ -17,18 +17,45 @@ outline: deep
 
 > 来源：Paper API · 35 个取值
 
-> Purpose: Used for attribute-modifier parameters (e.g. `add_attribute`). Groups:
-> - Combat: ATTACK_DAMAGE, ATTACK_SPEED, ATTACK_KNOCKBACK, SWEEPING_DAMAGE_RATIO, ARMOR, ARMOR_TOUGHNESS, KNOCKBACK_RESISTANCE
-> - Movement: MOVEMENT_SPEED, FLYING_SPEED, JUMP_STRENGTH, SNEAKING_SPEED, STEP_HEIGHT, WATER_MOVEMENT_EFFICIENCY, SUBMERGED_MINING_SPEED
-> - Survival: MAX_HEALTH, MAX_ABSORPTION, FALL_DAMAGE_MULTIPLIER, SAFE_FALL_DISTANCE, OXYGEN_BONUS, BURNING_TIME, EXPLOSION_KNOCKBACK_RESISTANCE
-> - Other: LUCK, FOLLOW_RANGE, TEMPT_RANGE, BLOCK_INTERACTION_RANGE, ENTITY_INTERACTION_RANGE, BLOCK_BREAK_SPEED, MINING_EFFICIENCY, GRAVITY, SCALE
-> Full list of 35 values below (LEGACY_ excluded).
+> Purpose: Used for attribute-modifier parameters (e.g. `add_attribute`).
 
-`MAX_HEALTH` `FOLLOW_RANGE` `KNOCKBACK_RESISTANCE` `MOVEMENT_SPEED` `FLYING_SPEED` `ATTACK_DAMAGE` `ATTACK_KNOCKBACK` `ATTACK_SPEED`
-`ARMOR` `ARMOR_TOUGHNESS` `FALL_DAMAGE_MULTIPLIER` `LUCK` `MAX_ABSORPTION` `SAFE_FALL_DISTANCE` `SCALE` `STEP_HEIGHT`
-`GRAVITY` `JUMP_STRENGTH` `BURNING_TIME` `CAMERA_DISTANCE` `EXPLOSION_KNOCKBACK_RESISTANCE` `MOVEMENT_EFFICIENCY` `OXYGEN_BONUS` `WATER_MOVEMENT_EFFICIENCY`
-`TEMPT_RANGE` `BLOCK_INTERACTION_RANGE` `ENTITY_INTERACTION_RANGE` `BLOCK_BREAK_SPEED` `MINING_EFFICIENCY` `SNEAKING_SPEED` `SUBMERGED_MINING_SPEED` `SWEEPING_DAMAGE_RATIO`
-`SPAWN_REINFORCEMENTS` `WAYPOINT_TRANSMIT_RANGE` `WAYPOINT_RECEIVE_RANGE`
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `MAX_HEALTH` | Max health | The entity's maximum health |
+| `FOLLOW_RANGE` | Follow range | Max distance a mob tracks/targets |
+| `KNOCKBACK_RESISTANCE` | Knockback resistance | 0–1; higher resists knockback more |
+| `MOVEMENT_SPEED` | Movement speed | Base movement speed |
+| `FLYING_SPEED` | Flying speed | Flight/glide speed |
+| `ATTACK_DAMAGE` | Attack damage | Base melee attack damage |
+| `ATTACK_KNOCKBACK` | Attack knockback | Extra knockback level from attacks |
+| `ATTACK_SPEED` | Attack speed | Attack cooldown recovery rate |
+| `ARMOR` | Armor | Armor points (damage reduction) |
+| `ARMOR_TOUGHNESS` | Armor toughness | Armor efficiency against high damage |
+| `FALL_DAMAGE_MULTIPLIER` | Fall damage multiplier | Multiplier for fall damage |
+| `LUCK` | Luck | Affects loot/fishing quality |
+| `MAX_ABSORPTION` | Max absorption | Absorption heart (golden heart) cap |
+| `SAFE_FALL_DISTANCE` | Safe fall distance | Max fall height without damage |
+| `SCALE` | Scale | Visual size multiplier |
+| `STEP_HEIGHT` | Step height | Height that can be stepped up without jumping |
+| `GRAVITY` | Gravity | How strongly gravity affects the entity |
+| `JUMP_STRENGTH` | Jump strength | Jump height/power |
+| `BURNING_TIME` | Burning time | Fire duration |
+| `CAMERA_DISTANCE` | Camera distance | Third-person camera distance |
+| `EXPLOSION_KNOCKBACK_RESISTANCE` | Explosion knockback resistance | Resistance to explosion knockback |
+| `MOVEMENT_EFFICIENCY` | Movement efficiency | How terrain affects movement speed |
+| `OXYGEN_BONUS` | Oxygen bonus | Extra oxygen underwater/airless |
+| `WATER_MOVEMENT_EFFICIENCY` | Water movement efficiency | Movement speed in water |
+| `TEMPT_RANGE` | Tempt range | Max distance mobs follow food |
+| `BLOCK_INTERACTION_RANGE` | Block interaction range | Max reachable block distance |
+| `ENTITY_INTERACTION_RANGE` | Entity interaction range | Max reachable entity distance |
+| `BLOCK_BREAK_SPEED` | Block break speed | Bare-hand block breaking rate |
+| `MINING_EFFICIENCY` | Mining efficiency | Mining speed bonus |
+| `SNEAKING_SPEED` | Sneaking speed | Movement speed while sneaking |
+| `SUBMERGED_MINING_SPEED` | Submerged mining speed | Mining speed underwater |
+| `SWEEPING_DAMAGE_RATIO` | Sweeping damage ratio | Sweep attack damage multiplier |
+| `SPAWN_REINFORCEMENTS` | Spawn reinforcements | Zombie reinforcement spawn chance |
+| `WAYPOINT_TRANSMIT_RANGE` | Waypoint transmit range | Waypoint transmission distance |
+| `WAYPOINT_RECEIVE_RANGE` | Waypoint receive range | Waypoint reception distance |
 
 ### `Axis`（org.bukkit.Axis）
 
