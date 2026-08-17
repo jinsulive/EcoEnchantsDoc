@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The balance threshold the land's balance must exceed. |
+| `amount` | Expression | ✅ | — | — | 领地余额必须超过的余额阈值。 |
 
 ## 配置示例
 

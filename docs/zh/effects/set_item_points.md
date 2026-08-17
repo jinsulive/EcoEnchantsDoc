@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The item point type to set. |
-| `amount` | Expression | ✅ | — | — | The value to set the item point counter to. Supports expressions. 例: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要设置的物品点数类型。 |
+| `amount` | Expression | ✅ | — | — | 要将物品点数计数器设置成的数值。支持数学表达式。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

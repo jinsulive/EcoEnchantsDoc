@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The burning time multiplier. Values below 1 reduce burn duration. Supports expressions. 例: `1 - %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | 燃烧时间倍率。低于 1 的值会缩短燃烧时长。支持数学表达式。 例: `1 - %level% * 0.05` |
 
 ## 📝 源码注记
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `angle` | Expression | ✅ | — | — | The number of degrees to add to the victim's current yaw. Supports expressions. 例: `%level% * 10` |
+| `angle` | Expression | ✅ | — | — | 要添加到受害者当前偏航角的度数。支持数学表达式。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `stat` | String | ✅ | — | — | The AuraSkills stat ID to add to, e.g. strength. |
-| `amount` | Expression | ✅ | — | — | The amount to add to the stat. Supports expressions. |
+| `stat` | String | ✅ | — | — | 要增加到的 AuraSkills 属性 ID，例如 strength。 |
+| `amount` | Expression | ✅ | — | — | 要添加到属性的数值。支持数学表达式。 |
 
 ## 配置示例
 

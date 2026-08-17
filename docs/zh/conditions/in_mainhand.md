@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `items` / `item`（任一） | Item List | ✅ | — | — | The item(s) to check for. 继承自 `ItemCondition` 抽象模板。 |
+| `items` / `item`（任一） | Item List | ✅ | — | — | 要检查的物品。 继承自 `ItemCondition` 抽象模板。 |
 
 ## 📝 源码注记
 

@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `value` | Expression | ✅ | — | — | The amount or expression for the price value. 例: `%level% * 100` |
-| `type` | String | ✅ | — | — | The price type identifier (e.g. coins, xpl). 例: `coins` |
+| `value` | Expression | ✅ | — | — | 价格数值的数量或表达式。 例: `%level% * 100` |
+| `type` | String | ✅ | — | — | 价格类型标识符（例如 coins、xpl）。 例: `coins` |
 
 ## 📝 源码注记
 

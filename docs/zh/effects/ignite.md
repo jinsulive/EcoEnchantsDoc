@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage_per_tick` | Expression | ✅ | — | — | The amount of damage dealt per fire tick. Supports expressions. 例: `%level%` |
-| `ticks` | Expression | ✅ | — | — | The number of fire ticks to apply to the victim. Supports expressions. 例: `20 * %level%` |
+| `damage_per_tick` | Expression | ✅ | — | — | 每个火焰刻造成的伤害量。支持数学表达式。 例: `%level%` |
+| `ticks` | Expression | ✅ | — | — | 要应用于受害者的火焰刻数。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

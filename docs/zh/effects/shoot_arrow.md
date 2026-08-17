@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `inherit_velocity` | Boolean | — | `false` | — | Whether the arrow should inherit the player's current velocity. |
-| `launch-at-location` | Boolean | — | `false` | — | Whether the arrow should be teleported to the trigger location after launch. |
-| `allow_pickup` | Boolean | — | `false` | — | Whether the arrow can be picked up by players. |
-| `no_source` | Boolean | — | `false` | — | Whether the arrow should have no shooter, preventing attribution to the player. |
+| `inherit_velocity` | Boolean | — | `false` | — | 箭矢是否应继承玩家当前的速度。 |
+| `launch-at-location` | Boolean | — | `false` | — | 射出后箭矢是否应传送到触发位置。 |
+| `allow_pickup` | Boolean | — | `false` | — | 箭矢是否可被玩家拾取。 |
+| `no_source` | Boolean | — | `false` | — | 箭矢是否应没有射手，从而避免归因于玩家。 |
 
 ## 📝 源码注记
 

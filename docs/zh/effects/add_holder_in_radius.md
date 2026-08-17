@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The effects to apply temporarily to nearby entities. |
-| `duration` | Expression | ✅ | — | — | How long to apply the holder, in ticks. Supports expressions. 例: `20 * %level%` |
-| `radius` | Expression | ✅ | — | — | The radius to apply effects within. Supports expressions. 例: `5 + %level% * 0.5` |
-| `apply-to-self` | Boolean | — | `false` | — | Whether to also apply the effects to the dispatcher. |
-| `conditions` | Condition List | — | — | — | The conditions the holder requires to be active. |
+| `effects` | Effect List | ✅ | — | — | 要临时应用于附近实体的效果。 |
+| `duration` | Expression | ✅ | — | — | 持有器的持续时间（以刻为单位）。支持数学表达式。 例: `20 * %level%` |
+| `radius` | Expression | ✅ | — | — | 效果作用半径。支持数学表达式。 例: `5 + %level% * 0.5` |
+| `apply-to-self` | Boolean | — | `false` | — | 是否也将效果应用于调度者。 |
+| `conditions` | Condition List | — | — | — | 该持有器生效所需的条件。 |
 
 ## 📝 源码注记
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The value to multiply the victim's movement speed by. Supports expressions. 例: `1 - %level% * 0.02` |
-| `duration` | Expression | ✅ | — | — | How many ticks the speed change lasts. Supports expressions. 例: `20 * %level%` |
+| `multiplier` | Expression | ✅ | — | — | 受害者移动速度要乘以的数值。支持数学表达式。 例: `1 - %level% * 0.02` |
+| `duration` | Expression | ✅ | — | — | 速度变化持续的刻数。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

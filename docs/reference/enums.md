@@ -13,10 +13,17 @@ outline: deep
 
 > 枚举值为 **YAML 中实际配置生效的取值**。`blocks`/`items`/`entities` 等列表参数可填下列枚举的任意成员；Bukkit 枚举按常量名书写（大小写不敏感，`damage_cause`/`sheep_color` 等内部均忽略大小写）。`Material` 已排除 `LEGACY_` 前缀值（这些值无法匹配现代方块）。
 
-
 ### `Attribute`（org.bukkit.attribute.Attribute）
 
 > 来源：Paper API · 35 个取值
+
+> Purpose: Used for attribute-modifier parameters (e.g. `add_attribute`). Groups:
+> - Combat: ATTACK_DAMAGE, ATTACK_SPEED, ATTACK_KNOCKBACK, SWEEPING_DAMAGE_RATIO, ARMOR, ARMOR_TOUGHNESS, KNOCKBACK_RESISTANCE
+> - Movement: MOVEMENT_SPEED, FLYING_SPEED, JUMP_STRENGTH, SNEAKING_SPEED, STEP_HEIGHT, WATER_MOVEMENT_EFFICIENCY, SUBMERGED_MINING_SPEED
+> - Survival: MAX_HEALTH, MAX_ABSORPTION, FALL_DAMAGE_MULTIPLIER, SAFE_FALL_DISTANCE, OXYGEN_BONUS, BURNING_TIME, EXPLOSION_KNOCKBACK_RESISTANCE
+> - Other: LUCK, FOLLOW_RANGE, TEMPT_RANGE, BLOCK_INTERACTION_RANGE, ENTITY_INTERACTION_RANGE, BLOCK_BREAK_SPEED, MINING_EFFICIENCY, GRAVITY, SCALE
+> Full list of 35 values below (LEGACY_ excluded).
+
 `MAX_HEALTH` `FOLLOW_RANGE` `KNOCKBACK_RESISTANCE` `MOVEMENT_SPEED` `FLYING_SPEED` `ATTACK_DAMAGE` `ATTACK_KNOCKBACK` `ATTACK_SPEED`
 `ARMOR` `ARMOR_TOUGHNESS` `FALL_DAMAGE_MULTIPLIER` `LUCK` `MAX_ABSORPTION` `SAFE_FALL_DISTANCE` `SCALE` `STEP_HEIGHT`
 `GRAVITY` `JUMP_STRENGTH` `BURNING_TIME` `CAMERA_DISTANCE` `EXPLOSION_KNOCKBACK_RESISTANCE` `MOVEMENT_EFFICIENCY` `OXYGEN_BONUS` `WATER_MOVEMENT_EFFICIENCY`
@@ -26,21 +33,53 @@ outline: deep
 ### `Axis`（org.bukkit.Axis）
 
 > 来源：Paper API · 3 个取值
-`X` `Y` `Z`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `X` | X axis | East–west axis |
+| `Y` | Y axis | Vertical axis |
+| `Z` | Z axis | North–south axis |
 
 ### `BarColor`（org.bukkit.boss.BarColor）
 
 > 来源：Paper API · 7 个取值
-`PINK` `BLUE` `RED` `GREEN` `YELLOW` `PURPLE` `WHITE`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `PINK` | Pink | Boss bar displays pink |
+| `BLUE` | Blue | Boss bar displays blue |
+| `RED` | Red | Boss bar displays red |
+| `GREEN` | Green | Boss bar displays green |
+| `YELLOW` | Yellow | Boss bar displays yellow |
+| `PURPLE` | Purple | Boss bar displays purple |
+| `WHITE` | White | Boss bar displays white |
 
 ### `BarStyle`（org.bukkit.boss.BarStyle）
 
 > 来源：Paper API · 5 个取值
-`SOLID` `SEGMENTED_6` `SEGMENTED_10` `SEGMENTED_12` `SEGMENTED_20`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `SOLID` | Solid | Continuous bar, no segments |
+| `SEGMENTED_6` | 6 segments | Bar divided into 6 segments |
+| `SEGMENTED_10` | 10 segments | Bar divided into 10 segments |
+| `SEGMENTED_12` | 12 segments | Bar divided into 12 segments |
+| `SEGMENTED_20` | 20 segments | Bar divided into 20 segments |
 
 ### `Biome`（org.bukkit.block.Biome）
 
 > 来源：Paper API · 66 个取值
+
+> Purpose: Used for biome conditions/filters (e.g. `in_biome`). Groups:
+> - Plains/Forest: PLAINS, FOREST, BIRCH_FOREST, DARK_FOREST, FLOWER_FOREST, CHERRY_GROVE, MEADOW, SUNFLOWER_PLAINS
+> - Desert/Badlands: DESERT, BADLANDS, ERODED_BADLANDS, WOODED_BADLANDS, SAVANNA, SAVANNA_PLATEAU
+> - Mountains/Caves: STONY_PEAKS, JAGGED_PEAKS, FROZEN_PEAKS, SNOWY_SLOPES, DRIPSTONE_CAVES, LUSH_CAVES, DEEP_DARK
+> - Ocean/Water: OCEAN, COLD_OCEAN, WARM_OCEAN, FROZEN_OCEAN, DEEP_OCEAN, RIVER, BEACH, SWAMP, MANGROVE_SWAMP, MUSHROOM_FIELDS
+> - Nether/End: NETHER_WASTES, SOUL_SAND_VALLEY, CRIMSON_FOREST, WARPED_FOREST, BASALT_DELTAS, THE_END, THE_VOID, END_HIGHLANDS
+> - Snow/Taiga: SNOWY_PLAINS, SNOWY_TAIGA, TAIGA, OLD_GROWTH_PINE_TAIGA, OLD_GROWTH_SPRUCE_TAIGA, ICE_SPIKES
+> - Jungle/Other: JUNGLE, BAMBOO_JUNGLE, SPARSE_JUNGLE, CUSTOM
+> Full list of 66 values below (LEGACY_ excluded).
+
 `BADLANDS` `BAMBOO_JUNGLE` `BASALT_DELTAS` `BEACH` `BIRCH_FOREST` `CHERRY_GROVE` `COLD_OCEAN` `CRIMSON_FOREST`
 `DARK_FOREST` `DEEP_COLD_OCEAN` `DEEP_DARK` `DEEP_FROZEN_OCEAN` `DEEP_LUKEWARM_OCEAN` `DEEP_OCEAN` `DESERT` `DRIPSTONE_CAVES`
 `END_BARRENS` `END_HIGHLANDS` `END_MIDLANDS` `ERODED_BADLANDS` `FLOWER_FOREST` `FOREST` `FROZEN_OCEAN` `FROZEN_PEAKS`
@@ -54,33 +93,116 @@ outline: deep
 ### `BlockFace`（org.bukkit.block.BlockFace）
 
 > 来源：Paper API · 19 个取值
-`NORTH` `EAST` `SOUTH` `WEST` `UP` `DOWN` `NORTH_EAST` `NORTH_WEST`
-`SOUTH_EAST` `SOUTH_WEST` `WEST_NORTH_WEST` `NORTH_NORTH_WEST` `NORTH_NORTH_EAST` `EAST_NORTH_EAST` `EAST_SOUTH_EAST` `SOUTH_SOUTH_EAST`
-`SOUTH_SOUTH_WEST` `WEST_SOUTH_WEST` `SELF`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `NORTH` | North | Negative Z |
+| `EAST` | East | Positive X |
+| `SOUTH` | South | Positive Z |
+| `WEST` | West | Negative X |
+| `UP` | Up | Positive Y |
+| `DOWN` | Down | Negative Y |
+| `NORTH_EAST` | North-East | Diagonal between north and east |
+| `NORTH_WEST` | North-West | Diagonal between north and west |
+| `SOUTH_EAST` | South-East | Diagonal between south and east |
+| `SOUTH_WEST` | South-West | Diagonal between south and west |
+| `WEST_NORTH_WEST` | West-North-West | Between west and north-west |
+| `NORTH_NORTH_WEST` | North-North-West | Between north and north-west |
+| `NORTH_NORTH_EAST` | North-North-East | Between north and north-east |
+| `EAST_NORTH_EAST` | East-North-East | Between east and north-east |
+| `EAST_SOUTH_EAST` | East-South-East | Between east and south-east |
+| `SOUTH_SOUTH_EAST` | South-South-East | Between south and south-east |
+| `SOUTH_SOUTH_WEST` | South-South-West | Between south and south-west |
+| `WEST_SOUTH_WEST` | West-South-West | Between west and south-west |
+| `SELF` | Self | The block itself (no offset) |
 
 ### `DamageCause`（org.bukkit.event.entity.EntityDamageEvent$DamageCause）
 
 > 来源：Paper API · 33 个取值
-`KILL` `WORLD_BORDER` `CONTACT` `ENTITY_ATTACK` `ENTITY_SWEEP_ATTACK` `PROJECTILE` `SUFFOCATION` `FALL`
-`FIRE` `FIRE_TICK` `MELTING` `LAVA` `DROWNING` `BLOCK_EXPLOSION` `ENTITY_EXPLOSION` `VOID`
-`LIGHTNING` `SUICIDE` `STARVATION` `POISON` `MAGIC` `WITHER` `FALLING_BLOCK` `THORNS`
-`DRAGON_BREATH` `FLY_INTO_WALL` `HOT_FLOOR` `CAMPFIRE` `CRAMMING` `DRYOUT` `FREEZE` `SONIC_BOOM`
-`CUSTOM`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `KILL` | Kill | Direct kill (e.g. /kill) |
+| `WORLD_BORDER` | World border | Damage from a shrinking world border |
+| `CONTACT` | Contact | Contact damage (e.g. cactus) |
+| `ENTITY_ATTACK` | Entity attack | Melee attack by an entity |
+| `ENTITY_SWEEP_ATTACK` | Sweep attack | Sword sweep attack damage |
+| `PROJECTILE` | Projectile | Hit by a projectile (e.g. arrow) |
+| `SUFFOCATION` | Suffocation | Suffocation inside a block |
+| `FALL` | Fall | Fall damage |
+| `FIRE` | Fire | Direct fire damage |
+| `FIRE_TICK` | Fire tick | Ongoing burn damage |
+| `MELTING` | Melting | Damage caused by melting |
+| `LAVA` | Lava | Lava damage |
+| `DROWNING` | Drowning | Drowning damage |
+| `BLOCK_EXPLOSION` | Block explosion | Explosion of a block (e.g. TNT) |
+| `ENTITY_EXPLOSION` | Entity explosion | Explosion caused by an entity (e.g. creeper) |
+| `VOID` | Void | Falling into the void |
+| `LIGHTNING` | Lightning | Struck by lightning |
+| `SUICIDE` | Suicide | Self-inflicted damage |
+| `STARVATION` | Starvation | Damage from starving |
+| `POISON` | Poison | Poison effect damage |
+| `MAGIC` | Magic | Magic damage (e.g. harming potion) |
+| `WITHER` | Wither | Wither effect damage |
+| `FALLING_BLOCK` | Falling block | Hit by a falling block |
+| `THORNS` | Thorns | Thorns enchantment reflection |
+| `DRAGON_BREATH` | Dragon breath | Ender Dragon breath damage |
+| `FLY_INTO_WALL` | Fly into wall | High-speed collision while flying (elytra) |
+| `HOT_FLOOR` | Hot floor | Standing on a magma block |
+| `CAMPFIRE` | Campfire | Campfire burn damage |
+| `CRAMMING` | Cramming | Too many entities in one block |
+| `DRYOUT` | Dryout | Out-of-water damage (e.g. fish) |
+| `FREEZE` | Freeze | Freezing damage (e.g. powder snow) |
+| `SONIC_BOOM` | Sonic boom | Warden sonic attack |
+| `CUSTOM` | Custom | Custom damage cause defined by plugins |
 
 ### `DyeColor`（org.bukkit.DyeColor）
 
 > 来源：Paper API · 16 个取值
-`WHITE` `ORANGE` `MAGENTA` `LIGHT_BLUE` `YELLOW` `LIME` `PINK` `GRAY`
-`LIGHT_GRAY` `CYAN` `PURPLE` `BLUE` `BROWN` `GREEN` `RED` `BLACK`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `WHITE` | White | White dye/wool etc. |
+| `ORANGE` | Orange | Orange dye/wool etc. |
+| `MAGENTA` | Magenta | Magenta dye/wool etc. |
+| `LIGHT_BLUE` | Light Blue | Light blue dye/wool etc. |
+| `YELLOW` | Yellow | Yellow dye/wool etc. |
+| `LIME` | Lime | Lime dye/wool etc. |
+| `PINK` | Pink | Pink dye/wool etc. |
+| `GRAY` | Gray | Gray dye/wool etc. |
+| `LIGHT_GRAY` | Light Gray | Light gray dye/wool etc. |
+| `CYAN` | Cyan | Cyan dye/wool etc. |
+| `PURPLE` | Purple | Purple dye/wool etc. |
+| `BLUE` | Blue | Blue dye/wool etc. |
+| `BROWN` | Brown | Brown dye/wool etc. |
+| `GREEN` | Green | Green dye/wool etc. |
+| `RED` | Red | Red dye/wool etc. |
+| `BLACK` | Black | Black dye/wool etc. |
 
 ### `EntityCategory`（org.bukkit.entity.EntityCategory）
 
 > 来源：Paper API · 5 个取值
-`NONE` `UNDEAD` `ARTHROPOD` `ILLAGER` `WATER`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `NONE` | None | No specific category |
+| `UNDEAD` | Undead | Zombies, skeletons, etc. |
+| `ARTHROPOD` | Arthropod | Spiders, silverfish, etc. |
+| `ILLAGER` | Illager | Pillagers, evokers, etc. |
+| `WATER` | Water | Fish, squids, etc. |
 
 ### `EntityType`（org.bukkit.entity.EntityType）
 
 > 来源：Paper API · 158 个取值
+
+> Purpose: Used for entity parameters and filters (e.g. `entities`, `spawn_entity`). Groups:
+> - Hostile: ZOMBIE, SKELETON, CREEPER, SPIDER, ENDERMAN, WITCH, BLAZE, GHAST, SLIME, MAGMA_CUBE, WITHER_SKELETON, WARDEN, PILLAGER, RAVAGER, VEX
+> - Bosses: ENDER_DRAGON, WITHER, ELDER_GUARDIAN
+> - Passive/Friendly: COW, PIG, SHEEP, CHICKEN, RABBIT, HORSE, WOLF, CAT, FOX, PANDA, BEE, GOAT, VILLAGER, IRON_GOLEM, SNOW_GOLEM, ALLAY, TURTLE, DOLPHIN, SQUID, FISH
+> - Projectiles/Other: ARROW, SNOWBALL, FIREBALL, EGG, ENDER_PEARL, TRIDENT, FIREWORK_ROCKET, EXPERIENCE_ORB, ITEM, MINECART, TNT, LIGHTNING_BOLT, ARMOR_STAND, PLAYER, UNKNOWN
+> - Boats: OAK_BOAT, SPRUCE_BOAT, BIRCH_BOAT, JUNGLE_BOAT, ACACIA_BOAT, DARK_OAK_BOAT, MANGROVE_BOAT, CHERRY_BOAT, BAMBOO_RAFT, plus CHEST_BOAT variants
+> Full list of 158 values below (LEGACY_ excluded).
+
 `ACACIA_BOAT` `ACACIA_CHEST_BOAT` `ALLAY` `AREA_EFFECT_CLOUD` `ARMADILLO` `ARMOR_STAND` `ARROW` `AXOLOTL`
 `BAMBOO_CHEST_RAFT` `BAMBOO_RAFT` `BAT` `BEE` `BIRCH_BOAT` `BIRCH_CHEST_BOAT` `BLAZE` `BLOCK_DISPLAY`
 `BOGGED` `BREEZE` `BREEZE_WIND_CHARGE` `CAMEL` `CAMEL_HUSK` `CAT` `CAVE_SPIDER` `CHERRY_BOAT`
@@ -105,35 +227,111 @@ outline: deep
 ### `EquipmentSlot`（org.bukkit.inventory.EquipmentSlot）
 
 > 来源：Paper API · 8 个取值
-`HAND` `OFF_HAND` `FEET` `LEGS` `CHEST` `HEAD` `BODY` `SADDLE`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `HAND` | Main hand | Main hand slot |
+| `OFF_HAND` | Off hand | Off hand slot |
+| `FEET` | Feet | Boots slot |
+| `LEGS` | Legs | Leggings slot |
+| `CHEST` | Chest | Chestplate slot |
+| `HEAD` | Head | Helmet slot |
+| `BODY` | Body | Body equipment (e.g. wolf armor) |
+| `SADDLE` | Saddle | Rideable saddle slot |
 
 ### `GameMode`（org.bukkit.GameMode）
 
 > 来源：Paper API · 4 个取值
-`CREATIVE` `SURVIVAL` `ADVENTURE` `SPECTATOR`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `CREATIVE` | Creative | Flight and infinite blocks |
+| `SURVIVAL` | Survival | Standard survival gameplay |
+| `ADVENTURE` | Adventure | Restricted block interaction |
+| `SPECTATOR` | Spectator | Spectate only, no interaction |
 
 ### `InventoryType`（org.bukkit.event.inventory.InventoryType）
 
 > 来源：Paper API · 32 个取值
-`CHEST` `DISPENSER` `DROPPER` `FURNACE` `WORKBENCH` `CRAFTING` `ENCHANTING` `BREWING`
-`PLAYER` `CREATIVE` `MERCHANT` `ENDER_CHEST` `ANVIL` `SMITHING` `BEACON` `HOPPER`
-`SHULKER_BOX` `BARREL` `BLAST_FURNACE` `LECTERN` `SMOKER` `LOOM` `CARTOGRAPHY` `GRINDSTONE`
-`STONECUTTER` `COMPOSTER` `CHISELED_BOOKSHELF` `SHELF` `JUKEBOX` `DECORATED_POT` `CRAFTER` `SMITHING_NEW`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `CHEST` | Chest | Chest inventory |
+| `DISPENSER` | Dispenser | Dispenser inventory |
+| `DROPPER` | Dropper | Dropper inventory |
+| `FURNACE` | Furnace | Furnace inventory |
+| `WORKBENCH` | Crafting table | 3x3 crafting grid |
+| `CRAFTING` | Crafting | 2x2 player crafting grid |
+| `ENCHANTING` | Enchanting | Enchanting table UI |
+| `BREWING` | Brewing | Brewing stand UI |
+| `PLAYER` | Player inventory | Player inventory UI |
+| `CREATIVE` | Creative | Creative inventory |
+| `MERCHANT` | Merchant | Villager trading UI |
+| `ENDER_CHEST` | Ender Chest | Ender chest inventory |
+| `ANVIL` | Anvil | Anvil UI |
+| `SMITHING` | Smithing | Smithing table UI |
+| `BEACON` | Beacon | Beacon UI |
+| `HOPPER` | Hopper | Hopper inventory |
+| `SHULKER_BOX` | Shulker Box | Shulker box inventory |
+| `BARREL` | Barrel | Barrel inventory |
+| `BLAST_FURNACE` | Blast Furnace | Blast furnace inventory |
+| `LECTERN` | Lectern | Lectern UI |
+| `SMOKER` | Smoker | Smoker inventory |
+| `LOOM` | Loom | Loom UI |
+| `CARTOGRAPHY` | Cartography | Cartography table UI |
+| `GRINDSTONE` | Grindstone | Grindstone UI |
+| `STONECUTTER` | Stonecutter | Stonecutter UI |
+| `COMPOSTER` | Composter | Composter UI |
+| `CHISELED_BOOKSHELF` | Chiseled Bookshelf | Chiseled bookshelf UI |
+| `SHELF` | Shelf | Bookshelf UI |
+| `JUKEBOX` | Jukebox | Jukebox UI |
+| `DECORATED_POT` | Decorated Pot | Decorated pot UI |
+| `CRAFTER` | Crafter | Crafter UI |
+| `SMITHING_NEW` | Smithing (new) | New smithing table UI |
 
 ### `ItemFlag`（org.bukkit.inventory.ItemFlag）
 
 > 来源：Paper API · 9 个取值
-`HIDE_ENCHANTS` `HIDE_ATTRIBUTES` `HIDE_UNBREAKABLE` `HIDE_DESTROYS` `HIDE_PLACED_ON` `HIDE_ADDITIONAL_TOOLTIP` `HIDE_DYE` `HIDE_ARMOR_TRIM`
-`HIDE_STORED_ENCHANTS`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `HIDE_ENCHANTS` | Hide Enchants | Hide enchantment glint |
+| `HIDE_ATTRIBUTES` | Hide Attributes | Hide attribute modifiers |
+| `HIDE_UNBREAKABLE` | Hide Unbreakable | Hide unbreakable tooltip |
+| `HIDE_DESTROYS` | Hide Destroys | Hide can-destroy list |
+| `HIDE_PLACED_ON` | Hide Placed On | Hide can-place-on list |
+| `HIDE_ADDITIONAL_TOOLTIP` | Hide Additional Tooltip | Hide extra tooltip info |
+| `HIDE_DYE` | Hide Dye | Hide dyed color info |
+| `HIDE_ARMOR_TRIM` | Hide Armor Trim | Hide armor trim info |
+| `HIDE_STORED_ENCHANTS` | Hide Stored Enchants | Hide stored enchantments (e.g. books) |
 
 ### `ItemRarity`（org.bukkit.inventory.ItemRarity）
 
 > 来源：Paper API · 4 个取值
-`COMMON` `UNCOMMON` `RARE` `EPIC`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `COMMON` | Common | White name |
+| `UNCOMMON` | Uncommon | Yellow name |
+| `RARE` | Rare | Cyan name |
+| `EPIC` | Epic | Magenta name |
 
 ### `Material`（org.bukkit.Material）
 
 > 来源：Paper API · 1658 个取值
+
+> Purpose: Used for block/item parameters (e.g. `blocks`, `set_block`, `replace_near`). Groups:
+> - Stone: STONE, COBBLESTONE, DEEPSLATE, ANDESITE, DIORITE, GRANITE, TUFF, BLACKSTONE, BASALT, OBSIDIAN, BEDROCK
+> - Ores: COAL_ORE, IRON_ORE, GOLD_ORE, DIAMOND_ORE, REDSTONE_ORE, LAPIS_ORE, EMERALD_ORE, COPPER_ORE, DEEPSLATE_* variants, ANCIENT_DEBRIS
+> - Wood: OAK_LOG, SPRUCE_LOG, BIRCH_LOG, JUNGLE_LOG, ACACIA_LOG, DARK_OAK_LOG, MANGROVE_LOG, CHERRY_LOG, BAMBOO_BLOCK, CRIMSON_STEM, WARPED_STEM, plus planks/leaves
+> - Dirt/Grass/Sand: DIRT, GRASS_BLOCK, PODZOL, MYCELIUM, SAND, RED_SAND, GRAVEL, CLAY, MUD
+> - Glass/Liquid: GLASS, *STAINED_GLASS, GLASS_PANE, WATER, LAVA
+> - Crops: WHEAT, CARROTS, POTATOES, BEETROOTS, MELON, PUMPKIN, SUGAR_CANE, BAMBOO, COCOA, NETHER_WART
+> - Flowers: DANDELION, POPPY, BLUE_ORCHID, ALLIUM, AZURE_BLUET, TULIPS, LILY_OF_THE_VALLEY, SUNFLOWER, LILAC, ROSE_BUSH, PEONY
+> - Wool/Concrete: WHITE_WOOL + 15 colored wools, WHITE_CONCRETE + 15 colored concretes, terracottas
+> - Other Common: TORCH, CHEST, FURNACE, CRAFTING_TABLE, TNT, IRON_BLOCK, GOLD_BLOCK, DIAMOND_BLOCK, EMERALD_BLOCK, NETHERITE_BLOCK, BOOKSHELF, ENCHANTING_TABLE, ANVIL, BEACON, SPAWNER
+> Full list of 1658 values below (LEGACY_ excluded).
+
 `ACACIA_BOAT` `ACACIA_CHEST_BOAT` `AIR` `ALLAY_SPAWN_EGG` `AMETHYST_SHARD` `ANGLER_POTTERY_SHERD` `APPLE` `ARCHER_POTTERY_SHERD`
 `ARMADILLO_SCUTE` `ARMADILLO_SPAWN_EGG` `ARMOR_STAND` `ARMS_UP_POTTERY_SHERD` `ARROW` `AXOLOTL_BUCKET` `AXOLOTL_SPAWN_EGG` `BAKED_POTATO`
 `BAMBOO_CHEST_RAFT` `BAMBOO_RAFT` `BAT_SPAWN_EGG` `BEE_SPAWN_EGG` `BEEF` `BEETROOT` `BEETROOT_SEEDS` `BEETROOT_SOUP`
@@ -346,6 +544,15 @@ outline: deep
 ### `Particle`（org.bukkit.Particle）
 
 > 来源：Paper API · 115 个取值
+
+> Purpose: Used for particle parameters (e.g. `spawn_particle`, `particle_line`). Groups:
+> - General: POOF, EXPLOSION, FLAME, SMOKE, LARGE_SMOKE, CLOUD, CRIT, ENCHANTED_HIT, HEART, NOTE, PORTAL, ENCHANT, LAVA, BUBBLE, SPLASH, RAIN, SNOWFLAKE
+> - Block/Item: ITEM, BLOCK, FALLING_DUST, ITEM_SNOWBALL, ITEM_SLIME, DUST, DUST_COLOR_TRANSITION, VIBRATION, SONIC_BOOM
+> - Environment/Deco: CHERRY_LEAVES, FIREFLY, GLOW, WAX_ON, WAX_OFF, ELECTRIC_SPARK, SCRAPE, WHITE_SMOKE, CAMPFIRE_COSY_SMOKE, COMPOSTER, FLASH, TOTEM_OF_UNDYING, DAMAGE_INDICATOR, SWEEP_ATTACK, END_ROD
+> - Entity: ANGRY_VILLAGER, HAPPY_VILLAGER, ELDER_GUARDIAN, DRAGON_BREATH, SPIT, SQUID_INK, GLOW_SQUID_INK, SNEEZE, DOLPHIN, NAUTILUS
+> - Nether/Sculk: SOUL_FIRE_FLAME, SOUL, ASH, CRIMSON_SPORE, WARPED_SPORE, REVERSE_PORTAL, WHITE_ASH, SCULK_SOUL, SCULK_CHARGE, SCULK_CHARGE_POP, SHRIEK
+> Full list of 115 values below (LEGACY_ excluded).
+
 `POOF` `EXPLOSION` `EXPLOSION_EMITTER` `FIREWORK` `BUBBLE` `SPLASH` `FISHING` `UNDERWATER`
 `CRIT` `ENCHANTED_HIT` `SMOKE` `LARGE_SMOKE` `EFFECT` `INSTANT_EFFECT` `ENTITY_EFFECT` `WITCH`
 `DRIPPING_WATER` `DRIPPING_LAVA` `ANGRY_VILLAGER` `HAPPY_VILLAGER` `MYCELIUM` `NOTE` `PORTAL` `ENCHANT`
@@ -365,12 +572,32 @@ outline: deep
 ### `RegainReason`（org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason）
 
 > 来源：Paper API · 9 个取值
-`REGEN` `SATIATED` `EATING` `ENDER_CRYSTAL` `MAGIC` `MAGIC_REGEN` `WITHER_SPAWN` `WITHER`
-`CUSTOM`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `REGEN` | Regen | Natural regeneration (e.g. Regeneration) |
+| `SATIATED` | Satiated | Regeneration from saturation |
+| `EATING` | Eating | Healing from food |
+| `ENDER_CRYSTAL` | Ender Crystal | Healing from ender crystal |
+| `MAGIC` | Magic | Magic healing (e.g. healing potion) |
+| `MAGIC_REGEN` | Magic Regen | Regeneration from potion |
+| `WITHER_SPAWN` | Wither Spawn | Healing on wither spawn |
+| `WITHER` | Wither | Wither healing |
+| `CUSTOM` | Custom | Custom reason defined by plugins |
 
 ### `Sound`（org.bukkit.Sound）
 
 > 来源：Paper API · 1838 个取值
+
+> Purpose: Used for sound parameters (e.g. `play_sound`). Supports vanilla Minecraft and resource-pack sounds. Groups by prefix:
+> - AMBIENT_*: Ambient sounds: caves, nether/end biomes, underwater ambience
+> - BLOCK_*: Block sounds: break/place/step/click for blocks (e.g. BLOCK_STONE_BREAK, BLOCK_CHEST_OPEN)
+> - ENTITY_*: Entity sounds: mob/entity behavior (e.g. ENTITY_ZOMBIE_HURT, ENTITY_PLAYER_LEVELUP)
+> - ITEM_*: Item sounds: use/equip (e.g. ITEM_ARMOR_EQUIP_DIAMOND, ITEM_CROP_PLANT)
+> - MUSIC_*: Music: discs and background music (e.g. MUSIC_DISC_CAT)
+> - UI_* / WEATHER_*: UI sounds (UI_BUTTON_CLICK) and weather sounds (WEATHER_RAIN)
+> Full list of 1838 values below (LEGACY_ excluded).
+
 `AMBIENT_BASALT_DELTAS_ADDITIONS` `AMBIENT_BASALT_DELTAS_LOOP` `AMBIENT_BASALT_DELTAS_MOOD` `AMBIENT_CAVE` `AMBIENT_CRIMSON_FOREST_ADDITIONS` `AMBIENT_CRIMSON_FOREST_LOOP` `AMBIENT_CRIMSON_FOREST_MOOD` `AMBIENT_NETHER_WASTES_ADDITIONS`
 `AMBIENT_NETHER_WASTES_LOOP` `AMBIENT_NETHER_WASTES_MOOD` `AMBIENT_SOUL_SAND_VALLEY_ADDITIONS` `AMBIENT_SOUL_SAND_VALLEY_LOOP` `AMBIENT_SOUL_SAND_VALLEY_MOOD` `AMBIENT_UNDERWATER_ENTER` `AMBIENT_UNDERWATER_EXIT` `AMBIENT_UNDERWATER_LOOP`
 `AMBIENT_UNDERWATER_LOOP_ADDITIONS` `AMBIENT_UNDERWATER_LOOP_ADDITIONS_RARE` `AMBIENT_UNDERWATER_LOOP_ADDITIONS_ULTRA_RARE` `AMBIENT_WARPED_FOREST_ADDITIONS` `AMBIENT_WARPED_FOREST_LOOP` `AMBIENT_WARPED_FOREST_MOOD` `BLOCK_AMETHYST_BLOCK_BREAK` `BLOCK_AMETHYST_BLOCK_CHIME`
@@ -605,44 +832,79 @@ outline: deep
 ### `Type`（org.bukkit.FireworkEffect$Type）
 
 > 来源：Paper API · 5 个取值
-`BALL` `BALL_LARGE` `STAR` `BURST` `CREEPER`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `BALL` | Ball | Ball-shaped firework |
+| `BALL_LARGE` | Large Ball | Large ball-shaped firework |
+| `STAR` | Star | Star-shaped firework |
+| `BURST` | Burst | Burst-shaped firework |
+| `CREEPER` | Creeper | Creeper-faced firework |
 
 ### `WeatherType`（org.bukkit.WeatherType）
 
 > 来源：Paper API · 2 个取值
-`DOWNFALL` `CLEAR`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `DOWNFALL` | Downfall | Rainy or snowy weather |
+| `CLEAR` | Clear | Clear weather |
 
 ### `RunOrder`（RunOrder）
 
 > 来源：框架源码 · 5 个取值
-`START` `EARLY` `NORMAL` `LATE` `END`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `START` | Start | Run first |
+| `EARLY` | Early | Run early |
+| `NORMAL` | Normal | Run at normal stage |
+| `LATE` | Late | Run late |
+| `END` | End | Run last |
 
 ### `BossBar.Color`（net.kyori.adventure.bossbar.BossBar.Color）
 
 > 来源：Adventure · 7 个取值
-`BLUE` `GREEN` `PINK` `PURPLE` `RED` `WHITE` `YELLOW`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `BLUE` | Blue | Boss bar displays blue |
+| `GREEN` | Green | Boss bar displays green |
+| `PINK` | Pink | Boss bar displays pink |
+| `PURPLE` | Purple | Boss bar displays purple |
+| `RED` | Red | Boss bar displays red |
+| `WHITE` | White | Boss bar displays white |
+| `YELLOW` | Yellow | Boss bar displays yellow |
 
 ### `BossBar.Overlay`（net.kyori.adventure.bossbar.BossBar.Overlay）
 
 > 来源：Adventure · 5 个取值
-`PROGRESS` `NOTCHED_6` `NOTCHED_10` `NOTCHED_12` `NOTCHED_20`
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `PROGRESS` | Progress | Continuous solid bar |
+| `NOTCHED_6` | 6 segments | Bar divided into 6 segments |
+| `NOTCHED_10` | 10 segments | Bar divided into 10 segments |
+| `NOTCHED_12` | 12 segments | Bar divided into 12 segments |
+| `NOTCHED_20` | 20 segments | Bar divided into 20 segments |
 
 ### `Enchantment`（org.bukkit.enchantments.Enchantment）
 
 > 来源：注册表
+
+> Used for enchantment parameters and filters (e.g. `enchant`, `add_enchant`, `remove_enchant`). Config values are registry keys (e.g. `minecraft:sharpness`, or just `sharpness`). Common values: SHARPNESS, SMITE, POWER, PROTECTION, EFFICIENCY, FORTUNE, SILK_TOUCH, UNBREAKING, FIRE_ASPECT, FIRE_PROTECTION, FEATHER_FALLING, RESPIRATION, AQUA_AFFINITY, THORNS, LOOTING, MENDING.
 > ⚠️ 非枚举（注册表类），配置值为注册表 key，如 `minecraft:sharpness` / `minecraft:regeneration`，可省略命名空间直接写 `sharpness`
 
 ### `PotionEffectType`（org.bukkit.potion.PotionEffectType）
 
 > 来源：注册表
+
+> Used for potion-effect parameters and filters (e.g. `potion_effect`, `has_potion_effect`). Config values are registry keys (e.g. `minecraft:speed`, or just `speed`). Common values: SPEED, SLOWNESS, HASTE, STRENGTH, INSTANT_HEALTH, INSTANT_DAMAGE, JUMP_BOOST, REGENERATION, RESISTANCE, FIRE_RESISTANCE, WATER_BREATHING, INVISIBILITY, NIGHT_VISION, HUNGER, WEAKNESS, POISON, WITHER, SLOW_FALLING, GLOWING, LEVITATION, LUCK.
 > ⚠️ 非枚举（注册表类），配置值为注册表 key，如 `minecraft:sharpness` / `minecraft:regeneration`，可省略命名空间直接写 `sharpness`
 
 ### `Skills`（第三方集成枚举（AuraSkills 技能名），如 FARMING/MINING/COMBAT 等，以 AuraSkills 文档为准）
 
 > 来源：第三方集成
+
+> AuraSkills skill names, used for skill XP multiplier parameters (e.g. `skill_xp_multiplier`). Third-party integration enum — see the AuraSkills docs for the full list. Common skills: FARMING, MINING, FORAGING, FISHING, EXCAVATION, COMBAT, ARCHERY, DEFENSE, AGILITY, ALCHEMY, ENCHANTING, SORCERY, HEALING, SWORDS, AXES, UNARMED.
 > ⚠️ 第三方集成枚举（AuraSkills 技能名），如 FARMING/MINING/COMBAT 等，以 AuraSkills 文档为准
-
----
-
-
-> 说明：本文档由 `scripts/extract_builtin_components_full.py` 自动生成；如需精确参数/行为，请以源码为准。

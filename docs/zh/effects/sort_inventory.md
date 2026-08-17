@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | `all`, `hotbar`, `main` | Which section of the inventory to sort: all, hotbar, or main. |
+| `type` | String | ✅ | — | `all`, `hotbar`, `main` | 要排序的背包区域：all、hotbar 或 main。 |
 
 ## 📝 源码注记
 

@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `skill` | String | ✅ | — | — | The mcMMO primary skill name (e.g. MINING, WOODCUTTING). |
-| `level` | Integer | ✅ | — | — | The minimum skill level required. |
+| `skill` | String | ✅ | — | — | mcMMO 主技能名称（例如 MINING、WOODCUTTING）。 |
+| `level` | Integer | ✅ | — | — | 所需的最低技能等级。 |
 
 ## 📝 源码注记
 

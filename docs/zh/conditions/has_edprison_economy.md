@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The EDPrisonCore economy/currency type to check. |
-| `amount` | Expression | ✅ | — | — | The minimum amount of the currency the player must have. |
+| `type` | String | ✅ | — | — | 要检查的 EDPrisonCore 经济/货币类型。 |
+| `amount` | Expression | ✅ | — | — | 玩家必须拥有的最低货币数量。 |
 
 ## 📝 源码注记
 

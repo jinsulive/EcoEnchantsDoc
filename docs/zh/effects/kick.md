@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `message` | String | ✅ | — | — | The kick screen message shown to the player. 例: `&cYou have been kicked, %player%.` |
+| `message` | String | ✅ | — | — | 显示给玩家的踢出界面消息。 例: `&cYou have been kicked, %player%.` |
 
 ## 📝 源码注记
 

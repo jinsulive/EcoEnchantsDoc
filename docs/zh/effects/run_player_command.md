@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `commands` / `command`（任一） | String List | ✅ | — | — | The command or list of commands to run as the player. Use %player% and %victim% as placeholders. 例: `me does a flip!, kill %victim%` |
-| `as_op` | Boolean | — | `false` | — | Whether to temporarily grant the player operator permissions while running the commands. |
+| `commands` / `command`（任一） | String List | ✅ | — | — | 以玩家身份运行的命令或命令列表。使用 %player% 和 %victim% 作为占位符。 例: `me does a flip!, kill %victim%` |
+| `as_op` | Boolean | — | `false` | — | 运行命令时是否临时授予玩家管理员（OP）权限。 |
 
 ## 📝 源码注记
 

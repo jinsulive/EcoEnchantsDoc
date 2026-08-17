@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `ticks` | Expression | ✅ | — | — | How many ticks to stun the victim for. Supports expressions. 例: `20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | 使受害者眩晕的刻数。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

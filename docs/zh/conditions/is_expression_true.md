@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `expression` | Expression | ✅ | — | — | A mathematical expression or placeholder that must evaluate to 1 for the condition to pass. 例: `%player_level% >= 10` |
+| `expression` | Expression | ✅ | — | — | 必须计算为 1 才能通过条件的数学表达式或占位符。 例: `%player_level% >= 10` |
 
 ## 📝 源码注记
 

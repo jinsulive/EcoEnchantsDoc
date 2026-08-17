@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `name` | String | ✅ | — | — | The custom name to display above the entity. Supports placeholders. 例: `%player_name%'s Wolf` |
+| `name` | String | ✅ | — | — | 要在实体上方显示的显示名称。支持占位符。 例: `%player_name%'s Wolf` |
 
 ## 📝 源码注记
 

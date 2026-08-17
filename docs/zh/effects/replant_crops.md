@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `consume_seeds` | Boolean | ✅ | — | — | Whether seeds should be taken from the player's inventory when replanting. |
-| `only_fully_grown` | Boolean | ✅ | — | — | Whether to only replant crops that are fully grown. |
+| `consume_seeds` | Boolean | ✅ | — | — | 重新种植时是否从玩家背包中取种子。 |
+| `only_fully_grown` | Boolean | ✅ | — | — | 是否仅重新种植完全成熟的农作物。 |
 
 ## 📝 源码注记
 

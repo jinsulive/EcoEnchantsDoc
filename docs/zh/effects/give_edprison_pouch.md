@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The EdPrison pouch ID to give. |
-| `unlocked` | Boolean | ✅ | — | — | Whether the pouch starts fully unlocked. |
+| `type` | String | ✅ | — | — | 要给予的 EdPrison 钱包（pouch）ID。 |
+| `unlocked` | Boolean | ✅ | — | — | 钱包（pouch）是否一开始就完全解锁。 |
 
 ## 配置示例
 

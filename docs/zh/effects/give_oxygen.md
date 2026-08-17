@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of air ticks to add to the player's remaining air. Supports expressions. 例: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | 要添加到玩家剩余氧气值的空气刻数。支持数学表达式。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

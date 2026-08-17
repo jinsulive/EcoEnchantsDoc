@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `gamemode` | String | ✅ | — | — | The gamemode name (e.g. SURVIVAL, CREATIVE, ADVENTURE, SPECTATOR). |
+| `gamemode` | String | ✅ | — | — | 游戏模式名称（例如 SURVIVAL、CREATIVE、ADVENTURE、SPECTATOR）。 |
 
 ## 📝 源码注记
 

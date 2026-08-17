@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of times damage is dealt. Supports expressions. 例: `3 + %level%` |
-| `damage` | Expression | ✅ | — | — | The damage dealt per interval. Supports expressions. 例: `%level% * 0.5` |
-| `interval` | Expression | ✅ | — | — | The number of ticks between each damage application. Supports expressions. |
+| `amount` | Expression | ✅ | — | — | 造成伤害的次数。支持数学表达式。 例: `3 + %level%` |
+| `damage` | Expression | ✅ | — | — | 每间隔造成的伤害量。支持数学表达式。 例: `%level% * 0.5` |
+| `interval` | Expression | ✅ | — | — | 每次伤害应用之间的刻数。支持数学表达式。 |
 
 ## 📝 源码注记
 

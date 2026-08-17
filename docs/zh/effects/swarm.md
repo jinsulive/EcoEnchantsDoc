@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The radius to search for monsters that will target the victim. Supports expressions. 例: `10 + %level%` |
+| `radius` | Expression | ✅ | — | — | 搜索会瞄准受害者的怪物的半径。支持数学表达式。 例: `10 + %level%` |
 | `entities` | String List | — | — | — |  |
 
 ## 📝 源码注记

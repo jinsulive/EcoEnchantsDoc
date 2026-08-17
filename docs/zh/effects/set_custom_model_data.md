@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `model` | Expression | ✅ | — | — | The custom model data integer to apply to the item. Supports expressions. |
+| `model` | Expression | ✅ | — | — | 要应用于物品的自定义模型数据整数。支持数学表达式。 |
 
 ## 📝 源码注记
 

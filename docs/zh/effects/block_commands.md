@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `commands` | String List | ✅ | — | — | The list of command names to block (without the leading slash). |
-| `messages` | String List | — | — | — | Messages to send to the player when a blocked command is attempted. 例: `&cYou can't use that command right now!, &7Complete your quest first.` |
+| `commands` | String List | ✅ | — | — | 要屏蔽的命令名称列表（不含开头的斜杠）。 |
+| `messages` | String List | — | — | — | 玩家尝试被屏蔽的命令时要发送的消息。 例: `&cYou can't use that command right now!, &7Complete your quest first.` |
 
 ## 📝 源码注记
 

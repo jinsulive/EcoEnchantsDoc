@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `particle` | String | ✅ | — | — | The particle type to spawn along the line. 例: `flame` |
-| `amount` | Expression | ✅ | — | — | The number of particles to spawn at each point along the line. Supports expressions. |
-| `spacing` | Expression | ✅ | — | — | The distance between each particle point along the line. Supports expressions. |
+| `particle` | String | ✅ | — | — | 沿直线生成的粒子类型。 例: `flame` |
+| `amount` | Expression | ✅ | — | — | 沿直线每个点生成的粒子数量。支持数学表达式。 |
+| `spacing` | Expression | ✅ | — | — | 沿直线每个粒子点之间的距离。支持数学表达式。 |
 
 > 💡 完整的内置粒子类型（共 115 个）请参阅 [粒子类型](../guide/particles)。
 

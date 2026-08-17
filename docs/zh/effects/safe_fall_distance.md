@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `distance` | Expression | ✅ | — | — | The number of extra blocks the player can fall safely. Supports expressions. 例: `%level% * 0.5` |
+| `distance` | Expression | ✅ | — | — | 玩家可安全坠落的额外方块数。支持数学表达式。 例: `%level% * 0.5` |
 
 ## 📝 源码注记
 

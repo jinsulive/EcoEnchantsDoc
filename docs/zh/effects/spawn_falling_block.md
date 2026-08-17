@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block material to spawn as a falling block. |
-| `height` | Expression | — | `0` | — | The number of blocks above the trigger location to spawn the falling block. |
+| `block` | Block | ✅ | — | — | 要作为下落方块生成的方块材质。 |
+| `height` | Expression | — | `0` | — | 在触发位置上方多少格处生成下落方块。 |
 
 ## 📝 源码注记
 

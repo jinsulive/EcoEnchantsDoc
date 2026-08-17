@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The amount of money to deposit into the player's balance. Supports expressions. 例: `%level% * 10` |
+| `amount` | Expression | ✅ | — | — | 要存入玩家余额的金钱数量。支持数学表达式。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

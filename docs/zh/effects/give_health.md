@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The amount of health points to restore. Supports expressions. 例: `%level% * 2` |
-| `trigger_heal` | Boolean | — | `false` | — | If true, fires an EntityRegainHealthEvent and respects cancellation (e.g. for Mending). Defaults to false. |
+| `amount` | Expression | ✅ | — | — | 要恢复的生命值。支持数学表达式。 例: `%level% * 2` |
+| `trigger_heal` | Boolean | — | `false` | — | 若为 true，则触发 EntityRegainHealthEvent 并遵循取消（例如用于经验修补 Mending）。默认为 false。 |
 
 ## 📝 源码注记
 

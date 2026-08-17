@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The knockback resistance multiplier to apply. Supports expressions. 例: `%level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | 要应用的击退抗性倍率。支持数学表达式。 例: `%level% * 0.1` |
 
 ## 📝 源码注记
 

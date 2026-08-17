@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression | ✅ | — | — | The amount of damage to deal. Supports expressions. 例: `%level% * 2` |
-| `true_damage` | Boolean | — | `false` | — | If true, damage bypasses armor and resistance effects. |
-| `use_source` | Boolean | — | `false` | — | If true, the player is attributed as the damage source. |
+| `damage` | Expression | ✅ | — | — | 造成的伤害量。支持数学表达式。 例: `%level% * 2` |
+| `true_damage` | Boolean | — | `false` | — | 若为 true，伤害将无视护甲和抗性效果。 |
+| `use_source` | Boolean | — | `false` | — | 若为 true，则将玩家记为伤害来源。 |
 
 ## 📝 源码注记
 

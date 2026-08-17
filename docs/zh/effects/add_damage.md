@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression | ✅ | — | — | The amount of extra damage to add. Supports expressions. 例: `%victim_max_health% * 0.1` |
+| `damage` | Expression | ✅ | — | — | 要添加的额外伤害量。支持数学表达式。 例: `%victim_max_health% * 0.1` |
 
 ## 📝 源码注记
 

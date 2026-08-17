@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `season` / `seasons`（任一） | String_list | ✅ | — | — | The season name(s) to check against (e.g. SPRING, SUMMER, AUTUMN, WINTER). |
+| `season` / `seasons`（任一） | String_list | ✅ | — | — | 要检查的季节名称（例如 SPRING、SUMMER、AUTUMN、WINTER）。 |
 
 ## 配置示例
 

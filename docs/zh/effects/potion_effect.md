@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect | ✅ | — | — | The potion effect type to apply. |
-| `level` | Expression | ✅ | — | — | The level of the potion effect (1 = level I). Supports expressions. 例: `1 + %level% / 10` |
-| `duration` | Expression | ✅ | — | — | How long the effect lasts in ticks. Supports expressions. 例: `20 * %level%` |
-| `apply_to_player` | Boolean | — | `false` | — | If true, applies the effect to the player instead of the victim. |
-| `particles` | Boolean | — | `true` | — | Whether to show potion effect particles. |
-| `icon` | Boolean | — | `true` | — | Whether to show the effect icon in the HUD. |
+| `effect` | Potion Effect | ✅ | — | — | 要应用的药水效果类型。 |
+| `level` | Expression | ✅ | — | — | 药水效果的等级（1 = I 级）。支持数学表达式。 例: `1 + %level% / 10` |
+| `duration` | Expression | ✅ | — | — | 效果的持续时间（以刻为单位）。支持数学表达式。 例: `20 * %level%` |
+| `apply_to_player` | Boolean | — | `false` | — | 若为 true，则将该效果应用于玩家而非受害者。 |
+| `particles` | Boolean | — | `true` | — | 是否显示药水效果粒子。 |
+| `icon` | Boolean | — | `true` | — | 是否在 HUD 中显示效果图标。 |
 
 ## 📝 源码注记
 

@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect | ✅ | — | — | The potion effect type to apply (e.g. SPEED, STRENGTH). |
-| `level` | Expression | ✅ | — | — | The amplifier level of the potion effect (1 = level I). Supports expressions. 例: `1 + %level% / 10` |
-| `particles` | Boolean | — | `true` | — | Whether the potion effect shows particles. Defaults to true. |
-| `icon` | Boolean | — | `true` | — | Whether the potion effect shows an icon in the HUD. Defaults to true. |
+| `effect` | Potion Effect | ✅ | — | — | 要应用的药水效果类型（例如 SPEED、STRENGTH）。 |
+| `level` | Expression | ✅ | — | — | 药水效果的等级（1 = I 级）。支持数学表达式。 例: `1 + %level% / 10` |
+| `particles` | Boolean | — | `true` | — | 药水效果是否显示粒子。默认为 true。 |
+| `icon` | Boolean | — | `true` | — | 药水效果是否在 HUD 中显示图标。默认为 true。 |
 
 ## 📝 源码注记
 

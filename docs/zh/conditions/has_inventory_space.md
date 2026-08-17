@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `include_armor_slots` | Boolean | — | `true` | — | Whether to count empty armor slots as free space. Defaults to true. |
-| `include_offhand` | Boolean | — | `true` | — | Whether to count an empty offhand slot as free space. Defaults to true. |
+| `include_armor_slots` | Boolean | — | `true` | — | 是否将空的护甲槽位计为可用空间。默认为 true。 |
+| `include_offhand` | Boolean | — | `true` | — | 是否将空的副手槽位计为可用空间。默认为 true。 |
 
 ## 📝 源码注记
 

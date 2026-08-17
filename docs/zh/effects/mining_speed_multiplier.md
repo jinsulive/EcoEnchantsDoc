@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The mining speed multiplier to apply (e.g. 2 = double speed). Supports expressions. 例: `1 + %level% * 0.02` |
+| `multiplier` | Expression | ✅ | — | — | 要应用的挖掘速度倍率（例如 2 = 双倍速度）。支持数学表达式。 例: `1 + %level% * 0.02` |
 
 ## 📝 源码注记
 

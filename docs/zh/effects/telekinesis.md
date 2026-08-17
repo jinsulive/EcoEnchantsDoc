@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `on_tamed_mob_kills` | Boolean | — | `false` | — | If true, telekinesis also applies when a tamed mob kills an entity. |
+| `on_tamed_mob_kills` | Boolean | — | `false` | — | 若为 true，则被驯服的生物击杀实体时也应用心灵传动（telekinesis）。 |
 
 ## 📝 源码注记
 

@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `abilities` | String_list | ✅ | — | — | A list of mcMMO super ability names to check (e.g. SUPER_BREAKER, GIGA_DRILL_BREAKER). |
+| `abilities` | String_list | ✅ | — | — | 要检查的 mcMMO 超级技能名称列表（例如 SUPER_BREAKER、GIGA_DRILL_BREAKER）。 |
 
 ## 配置示例
 

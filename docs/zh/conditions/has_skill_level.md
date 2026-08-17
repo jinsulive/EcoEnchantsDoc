@@ -29,8 +29,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `skill` | String | ✅ | — | — | The AuraSkills skill to check (e.g. FARMING, MINING). |
-| `level` | Expression | ✅ | — | — | The minimum skill level the player must have. |
+| `skill` | String | ✅ | — | — | 要检查的 AuraSkills 技能（例如 FARMING、MINING）。 |
+| `level` | Expression | ✅ | — | — | 玩家必须拥有的最低技能等级。 |
 
 ## 配置示例
 

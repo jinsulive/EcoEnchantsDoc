@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `chance` | Expression | ✅ | — | — | The percentage chance (0–100) for this effect to activate. Supports expressions. 继承自 `ChanceMultiplierEffect` 抽象模板。 |
+| `chance` | Expression | ✅ | — | — | 该效果触发的百分比概率（0–100）。支持数学表达式。 继承自 `ChanceMultiplierEffect` 抽象模板。 |
 
 ## 📝 源码注记
 

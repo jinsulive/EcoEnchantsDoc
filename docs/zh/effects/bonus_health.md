@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `health` | Expression | ✅ | — | — | The amount of bonus max health to add. Supports expressions. 例: `%level% * 2` |
+| `health` | Expression | ✅ | — | — | 要添加的额外最大生命值。支持数学表达式。 例: `%level% * 2` |
 
 ## 📝 源码注记
 

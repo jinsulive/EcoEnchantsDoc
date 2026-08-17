@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `conditions` | Any | ✅ | — | — | List of conditions — passes when any one is met. |
+| `conditions` | Any | ✅ | — | — | 条件列表——满足其中任意一个即通过。 |
 
 ## 📝 源码注记
 

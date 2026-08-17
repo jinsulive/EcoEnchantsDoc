@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `mode` | String | — | `full` | `full`, `level` | Set to 'level' to reduce the enchantment level by 1 instead of removing it entirely. Defaults to removing the enchantment. |
+| `mode` | String | — | `full` | `full`, `level` | 设置为 'level' 可将附魔等级减 1，而非完全移除附魔。默认为移除附魔。 |
 
 ## 📝 源码注记
 

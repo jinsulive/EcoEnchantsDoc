@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The radius around the player to search for targets. Supports expressions. 例: `5 + %level% * 0.5` |
-| `damage` | Expression | ✅ | — | — | The amount of damage dealt to each nearby entity. Supports expressions. 例: `%level% * 2` |
-| `heal_multiplier` | Expression | — | `1.0` | — | A multiplier applied to the total damage dealt before it is converted to healing. 例: `0.5 + %level% * 0.02` |
+| `radius` | Expression | ✅ | — | — | 玩家周围搜索目标的半径。支持数学表达式。 例: `5 + %level% * 0.5` |
+| `damage` | Expression | ✅ | — | — | 对每个附近实体造成的伤害量。支持数学表达式。 例: `%level% * 2` |
+| `heal_multiplier` | Expression | — | `1.0` | — | 在将伤害转化为治疗之前，应用于总伤害的倍率。支持数学表达式。 例: `0.5 + %level% * 0.02` |
 
 ## 📝 源码注记
 

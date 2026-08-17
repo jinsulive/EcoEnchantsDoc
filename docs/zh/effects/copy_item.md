@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `from_slot` | String | ✅ | — | — | The slot to copy the item from, e.g. mainhand or offhand. 例: `mainhand` |
-| `to_slot` | String | ✅ | — | — | The slot to copy the item into. 例: `offhand` |
+| `from_slot` | String | ✅ | — | — | 要从中复制物品的槽位，例如 mainhand 或 offhand。 例: `mainhand` |
+| `to_slot` | String | ✅ | — | — | 要复制物品到的槽位。 例: `offhand` |
 
 ## 📝 源码注记
 

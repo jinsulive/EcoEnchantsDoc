@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `slot` | String | ✅ | — | — | The inventory slot to drop items from, e.g. mainhand or slot_0. 例: `mainhand` |
-| `amount` | Expression | — | — | — | How many items to drop. If omitted, drops the entire stack. |
+| `slot` | String | ✅ | — | — | 要从中掉落物品的背包槽位，例如 mainhand 或 slot_0。 例: `mainhand` |
+| `amount` | Expression | — | — | — | 要掉落的物品数量。若省略，则掉落整组物品。 |
 
 ## 📝 源码注记
 

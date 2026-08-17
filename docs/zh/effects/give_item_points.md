@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The item point type to add to. |
-| `amount` | Expression | ✅ | — | — | The amount of points to add to the item. Supports expressions. 例: `%level% * 5` |
+| `type` | String | ✅ | — | — | 要增加到的物品点数类型。 |
+| `amount` | Expression | ✅ | — | — | 要添加到物品的点数数量。支持数学表达式。 例: `%level% * 5` |
 
 ## 📝 源码注记
 

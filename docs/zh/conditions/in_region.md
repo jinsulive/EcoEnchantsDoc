@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `region` | String_list | ✅ | — | — | The WorldGuard region name(s) to check against. |
+| `region` | String_list | ✅ | — | — | 要检查的 WorldGuard 区域名称。 |
 
 ## 配置示例
 

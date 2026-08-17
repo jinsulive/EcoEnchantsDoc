@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | The ID of the level type to check on the held item. |
-| `level` | Expression | ✅ | — | — | The minimum level the item must exceed. 例: `5 + %level%` |
+| `id` | String | ✅ | — | — | 要在手持物品上检查的等级类型 ID。 |
+| `level` | Expression | ✅ | — | — | 物品必须超过的最低等级。 例: `5 + %level%` |
 
 ## 📝 源码注记
 

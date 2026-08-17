@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `roles` | String_list | ✅ | — | — | A list of Lands role names to check against (e.g. owner, member). |
+| `roles` | String_list | ✅ | — | — | 要检查的 Lands 角色名称列表（例如 owner、member）。 |
 
 ## 配置示例
 

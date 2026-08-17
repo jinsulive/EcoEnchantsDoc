@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The global point type to multiply. |
-| `multiplier` | Expression | ✅ | — | — | The multiplier to apply to the global point counter. Supports expressions. 例: `1 + %level% * 0.1` |
+| `type` | String | ✅ | — | — | 要乘以的全局点数类型。 |
+| `multiplier` | Expression | ✅ | — | — | 要应用于全局点数计数器的倍率。支持数学表达式。 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

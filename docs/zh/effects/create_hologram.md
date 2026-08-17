@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `text` | String List | ✅ | — | — | The lines of text to show on the hologram. Supports placeholders. 例: `&6%player%, &7Level %level%` |
-| `duration` | Expression | ✅ | — | — | How long to show the hologram, in ticks. Supports expressions. 例: `20 * %level%` |
+| `text` | String List | ✅ | — | — | 要在全息影像上显示的文本行。支持占位符。 例: `&6%player%, &7Level %level%` |
+| `duration` | Expression | ✅ | — | — | 全息影像的显示时长（以刻为单位）。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

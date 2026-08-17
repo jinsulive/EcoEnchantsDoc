@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of arrows in the ring. Supports expressions. 例: `8 + %level%` |
-| `height` | Expression | ✅ | — | — | The height above the location to spawn the arrows. Supports expressions. |
-| `radius` | Expression | ✅ | — | — | The radius of the arrow ring. Supports expressions. 例: `3 + %level% * 0.3` |
-| `arrow_damage` | Expression | ✅ | — | — | The damage each arrow deals. Supports expressions. 例: `%level% * 1.5` |
-| `fire_ticks` | Expression | ✅ | — | — | How many ticks the arrows are on fire. Supports expressions. |
+| `amount` | Expression | ✅ | — | — | 环形阵列中的箭矢数量。支持数学表达式。 例: `8 + %level%` |
+| `height` | Expression | ✅ | — | — | 在该位置上方的箭矢生成高度。支持数学表达式。 |
+| `radius` | Expression | ✅ | — | — | 箭矢环形阵列的半径。支持数学表达式。 例: `3 + %level% * 0.3` |
+| `arrow_damage` | Expression | ✅ | — | — | 每支箭矢造成的伤害。支持数学表达式。 例: `%level% * 1.5` |
+| `fire_ticks` | Expression | ✅ | — | — | 箭矢着火的刻数。支持数学表达式。 |
 
 ## 📝 源码注记
 

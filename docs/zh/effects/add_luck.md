@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The amount of luck to add. Supports expressions. 例: `%level% * 0.5` |
+| `amount` | Expression | ✅ | — | — | 要添加的幸运值。支持数学表达式。 例: `%level% * 0.5` |
 
 ## 📝 源码注记
 

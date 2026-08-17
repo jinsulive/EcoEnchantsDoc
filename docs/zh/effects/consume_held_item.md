@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of items to remove from the main hand. Supports expressions. |
+| `amount` | Expression | ✅ | — | — | 要从主手移除的物品数量。支持数学表达式。 |
 
 ## 📝 源码注记
 

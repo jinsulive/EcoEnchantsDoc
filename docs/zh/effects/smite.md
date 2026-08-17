@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression | ✅ | — | — | The amount of damage the lightning strike deals to the victim. Supports expressions. 例: `%level% * 2` |
+| `damage` | Expression | ✅ | — | — | 闪电对受害者造成的伤害量。支持数学表达式。 例: `%level% * 2` |
 
 ## 📝 源码注记
 

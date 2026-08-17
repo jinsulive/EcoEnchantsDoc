@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `robot` | String | ✅ | — | — | The EDPrisonCore robot type the player must own. |
+| `robot` | String | ✅ | — | — | 玩家必须拥有的 EDPrisonCore 机器人类型。 |
 
 ## 配置示例
 

@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effect` | Potion Effect | ✅ | — | — | The potion effect type to remove. |
-| `apply_to_player` | Boolean | — | `false` | — | If true, removes the effect from the player instead of the victim. |
+| `effect` | Potion Effect | ✅ | — | — | 要移除的药水效果类型。 |
+| `apply_to_player` | Boolean | — | `false` | — | 若为 true，则从玩家而非受害者身上移除该效果。 |
 
 ## 📝 源码注记
 

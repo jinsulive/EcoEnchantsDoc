@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The global points type identifier. |
-| `amount` | Expression | ✅ | — | — | The minimum number of global points required. 例: `%level% * 10` |
+| `type` | String | ✅ | — | — | 全局点数类型标识符。 |
+| `amount` | Expression | ✅ | — | — | 所需的最少全局点数。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

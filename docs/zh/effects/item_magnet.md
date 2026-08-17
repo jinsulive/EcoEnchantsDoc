@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The radius within which dropped items will be pulled, in blocks. Supports expressions. 例: `5 + %level% * 0.5` |
-| `items` | Item List | — | `[]` | — | A whitelist of item types to attract. If empty, all items are attracted. |
-| `exclude_items` | Item List | — | `[]` | — | A blacklist of item types to never attract, checked after the whitelist. |
-| `pull_strength` | Expression | — | `0.3` | — | How strongly items are pulled per tick. Supports expressions. 例: `0.1 + %level% * 0.02` |
+| `radius` | Expression | ✅ | — | — | 吸引掉落物品的半径（以方块为单位）。支持数学表达式。 例: `5 + %level% * 0.5` |
+| `items` | Item List | — | `[]` | — | 要吸引的物品类型白名单。若为空，则吸引所有物品。 |
+| `exclude_items` | Item List | — | `[]` | — | 永远不会吸引的物品类型黑名单（在白名单之后检查）。 |
+| `pull_strength` | Expression | — | `0.3` | — | 每刻牵引物品的力度。支持数学表达式。 例: `0.1 + %level% * 0.02` |
 
 ## 📝 源码注记
 

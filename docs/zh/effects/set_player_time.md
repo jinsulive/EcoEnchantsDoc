@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `time` | Integer | ✅ | — | — | The time in ticks to display (0=dawn, 6000=noon, 12000=dusk, 18000=midnight). |
-| `relative` | Boolean | — | `false` | — | If true, the time is applied relative to the world's current time instead of as a fixed value. |
-| `reset` | Boolean | — | `false` | — | If true, resets the player's time back to the server time. |
+| `time` | Integer | ✅ | — | — | 要显示的时间（以刻为单位）（0=黎明、6000=正午、12000=黄昏、18000=午夜）。 |
+| `relative` | Boolean | — | `false` | — | 若为 true，则时间相对于世界的当前时间应用，而非作为固定值。 |
+| `reset` | Boolean | — | `false` | — | 若为 true，则将玩家时间重置为服务器时间。 |
 
 ## 📝 源码注记
 

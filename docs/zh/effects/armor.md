@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `points` | Expression | ✅ | — | — | The number of armor points to add (or subtract if negative). Supports expressions. 例: `%level% * 0.5` |
+| `points` | Expression | ✅ | — | — | 要添加的护甲点数（负数则扣除）。支持数学表达式。 例: `%level% * 0.5` |
 
 ## 📝 源码注记
 

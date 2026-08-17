@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `roles` | String_list | ✅ | — | — | A list of HuskTowns town role names to check against (e.g. mayor, resident). |
+| `roles` | String_list | ✅ | — | — | 要检查的 HuskTowns 城镇职位名称列表（例如 mayor、resident）。 |
 
 ## 配置示例
 

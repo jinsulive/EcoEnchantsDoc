@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `particle` | String | ✅ | — | — | The particle type to spawn during the animation. 例: `flame` |
-| `animation` | String | ✅ | — | `circle`, `double_helix`, `ground_spiral`, `helix`, `trace`, `twirl`, `wing_tips`, `projectile_trail` | The animation pattern to use (e.g. circle, helix). |
-| `particle-amount` | Expression | — | `1` | — | The number of particles to spawn per animation point per tick. Supports expressions. |
-| `entity` | String | — | `player` | `player`, `victim`, `projectile` | The entity to anchor the animation to. |
-| `use-eye-location` | Boolean | — | `false` | — | Whether to use the entity's eye location instead of their feet. |
+| `particle` | String | ✅ | — | — | 动画期间生成的粒子类型。 例: `flame` |
+| `animation` | String | ✅ | — | `circle`, `double_helix`, `ground_spiral`, `helix`, `trace`, `twirl`, `wing_tips`, `projectile_trail` | 要使用的动画图案（例如 circle、helix）。 |
+| `particle-amount` | Expression | — | `1` | — | 每刻在每个动画点生成的粒子数量。支持数学表达式。 |
+| `entity` | String | — | `player` | `player`, `victim`, `projectile` | 将动画锚定到的实体。 |
+| `use-eye-location` | Boolean | — | `false` | — | 是否使用实体的眼睛位置而非脚部位置。 |
 | `particle_args` | 子节 | — | — | — | **子节参数（嵌套配置）** —— 详见下方子节字段。 |
 | `tick-multiplier` | 动态 | — | — | — | **隐式参数**（源码 `args.has()` 支持，未在 `arguments` 中声明）。 |
 

@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and evaluate as a number. 例: `%player_level%` |
-| `value` | Expression | ✅ | — | — | The minimum numeric threshold the placeholder must meet or exceed. 例: `5 + %level%` |
+| `placeholder` | String | ✅ | — | — | 要解析并作为数字计算的占位符字符串。 例: `%player_level%` |
+| `value` | Expression | ✅ | — | — | 占位符必须达到或超过的最低数值阈值。 例: `5 + %level%` |
 
 ## 📝 源码注记
 

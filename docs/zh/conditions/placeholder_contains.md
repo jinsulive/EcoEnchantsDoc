@@ -28,9 +28,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and check. 例: `%player_name%` |
-| `value` | String | — | — | — | The substring to search for within the resolved placeholder. |
-| `ignore_case` | Boolean | — | `false` | — | Whether the substring match should be case-insensitive. |
+| `placeholder` | String | ✅ | — | — | 要解析并检查的占位符字符串。 例: `%player_name%` |
+| `value` | String | — | — | — | 要在解析后的占位符中搜索的子字符串。 |
+| `ignore_case` | Boolean | — | `false` | — | 子字符串匹配是否应忽略大小写。 |
 
 ## 📝 源码注记
 

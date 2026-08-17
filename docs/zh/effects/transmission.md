@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `distance` | Expression | ✅ | — | — | The maximum distance to teleport the player forward. Supports expressions. 例: `10 + %level%` |
+| `distance` | Expression | ✅ | — | — | 向前传送玩家的最大距离。支持数学表达式。 例: `10 + %level%` |
 
 ## 📝 源码注记
 

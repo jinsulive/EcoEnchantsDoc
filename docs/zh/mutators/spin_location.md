@@ -24,8 +24,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `angle` | Expression | ✅ | — | — | The angle in degrees to rotate around the Y axis. 例: `%level% * 10` |
-| `distance` | Expression | ✅ | — | — | The distance from the current location to offset in the rotated direction. 例: `1 + %level% * 0.1` |
+| `angle` | Expression | ✅ | — | — | 绕 Y 轴旋转的角度（以度为单位）。 例: `%level% * 10` |
+| `distance` | Expression | ✅ | — | — | 沿旋转方向从当前位置偏移的距离。 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

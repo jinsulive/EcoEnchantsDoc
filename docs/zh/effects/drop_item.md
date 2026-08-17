@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item | ✅ | — | — | The item to drop. Accepts eco item lookup strings. |
-| `add_to_drops` | Boolean | — | `false` | — | If true and the trigger has a drop event, adds the item to that event's drop list instead of spawning it directly. |
+| `item` | Item | ✅ | — | — | 要掉落的物品。接受 eco 物品查找字符串。 |
+| `add_to_drops` | Boolean | — | `false` | — | 若为 true 且触发器具有掉落事件，则将物品添加到该事件的掉落列表，而非直接生成。 |
 
 ## 📝 源码注记
 

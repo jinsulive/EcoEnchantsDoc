@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `weather` | String | ✅ | — | `clear`, `downfall` | The client weather to display. |
-| `reset` | Boolean | — | `false` | — | If true, resets the player's weather back to the server weather. |
+| `weather` | String | ✅ | — | `clear`, `downfall` | 要显示的客户端天气。 |
+| `reset` | Boolean | — | `false` | — | 若为 true，则将玩家天气重置为服务器天气。 |
 
 ## 📝 源码注记
 

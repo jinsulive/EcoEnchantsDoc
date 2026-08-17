@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `level` | Expression | ✅ | — | — | The number of extra piercing levels to add to the arrow. Supports expressions. 例: `1 + %level% / 20` |
+| `level` | Expression | ✅ | — | — | 要添加到箭矢的额外穿透等级。支持数学表达式。 例: `1 + %level% / 20` |
 
 ## 📝 源码注记
 

@@ -27,10 +27,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `item` | Item | ✅ | — | — | The item to drop at the trigger location. |
-| `effects` | Any | ✅ | — | — | The effects to run when a player picks up the dropped item. |
-| `glow-color` | String | — | — | — | The ChatColor name to make the dropped item glow with (e.g. RED, GOLD). |
-| `run-type` | String | — | — | — | The chain executor type to use for the pickup effects. |
+| `item` | Item | ✅ | — | — | 要在触发位置掉落的物品。 |
+| `effects` | Any | ✅ | — | — | 玩家拾取掉落物品时运行的效果。 |
+| `glow-color` | String | — | — | — | 用于让掉落物品发光的 ChatColor 名称（例如 RED、GOLD）。 |
+| `run-type` | String | — | — | — | 用于拾取效果的链执行器类型。 |
 
 ## 配置示例
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The food level to set (0–20). Supports expressions. |
+| `amount` | Expression | ✅ | — | — | 要设置的食物等级（0–20）。支持数学表达式。 |
 
 ## 📝 源码注记
 

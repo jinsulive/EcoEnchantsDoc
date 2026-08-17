@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `enchant` | Enchantment | ✅ | — | — | The enchantment to remove from the item. |
+| `enchant` | Enchantment | ✅ | — | — | 要从物品上移除的附魔。 |
 
 ## 📝 源码注记
 

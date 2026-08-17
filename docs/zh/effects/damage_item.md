@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `damage` | Expression | ✅ | — | — | The amount of durability damage to apply to the item. Supports expressions. 继承自 `DamageItemEffect` 抽象模板。 |
+| `damage` | Expression | ✅ | — | — | 要应用于物品的耐久损耗量。支持数学表达式。 继承自 `DamageItemEffect` 抽象模板。 |
 
 ## 📝 源码注记
 

@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `balance` | Expression | ✅ | — | — | The minimum economy balance required. 例: `%level% * 500` |
+| `balance` | Expression | ✅ | — | — | 所需的最低经济余额。 例: `%level% * 500` |
 
 ## 📝 源码注记
 

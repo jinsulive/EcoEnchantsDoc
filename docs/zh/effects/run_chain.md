@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `chain` | String | ✅ | — | — | The ID of the chain to execute. |
-| `chain_args` | Any | — | — | — | A subsection of key-value pairs to expose as placeholders within the chain. |
-| `run-type` | String | — | — | `normal`, `cycle`, `random` | The chain executor type to use when running the chain. |
+| `chain` | String | ✅ | — | — | 要执行的链的 ID。 |
+| `chain_args` | Any | — | — | — | 作为链内占位符暴露的键值对子节。 |
+| `run-type` | String | — | — | `normal`, `cycle`, `random` | 运行链时要使用的链执行器类型。 |
 
 ## 📝 源码注记
 

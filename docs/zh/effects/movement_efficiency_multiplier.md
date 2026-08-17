@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The movement efficiency multiplier to apply (e.g. 2 = double efficiency). Supports expressions. 例: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | 要应用的移动效率倍率（例如 2 = 双倍效率）。支持数学表达式。 例: `1 + %level% * 0.05` |
 
 ## 📝 源码注记
 

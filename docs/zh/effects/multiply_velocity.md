@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The factor to multiply all velocity components by (e.g. 2 = double speed). Supports expressions. 例: `1 + %level% * 0.1` |
+| `multiplier` | Expression | ✅ | — | — | 所有速度分量要乘以的系数（例如 2 = 双倍速度）。支持数学表达式。 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

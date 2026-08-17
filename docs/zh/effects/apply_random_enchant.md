@@ -25,10 +25,10 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `types` | String List | — | `[]` | — | If not empty, only enchantments belonging to these enchantment types can be chosen. |
-| `rarities` | String List | — | `[]` | — | If not empty, only enchantments with these rarities can be chosen. |
-| `enchants` | Enchantment List | — | `[]` | — | If not empty, only enchantments with these IDs can be chosen. |
-| `allow_unsafe` | Boolean | — | `false` | — | If true, enchantments that wouldn't normally be allowed on the item |
+| `types` | String List | — | `[]` | — | 若非空，则只会选择属于这些附魔类型的附魔。 |
+| `rarities` | String List | — | `[]` | — | 若非空，则只会选择这些稀有度的附魔。 |
+| `enchants` | Enchantment List | — | `[]` | — | 若非空，则只会选择这些 ID 的附魔。 |
+| `allow_unsafe` | Boolean | — | `false` | — | 若为 true，则允许选择通常不允许附在该物品上的附魔 |
 
 ## 📝 源码注记
 

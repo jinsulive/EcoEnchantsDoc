@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of food points to add to the player's hunger bar. Supports expressions. 例: `%level%` |
+| `amount` | Expression | ✅ | — | — | 要添加到玩家饥饿值的食物点数。支持数学表达式。 例: `%level%` |
 
 ## 📝 源码注记
 

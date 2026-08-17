@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `distance` | Expression | ✅ | — | — | The maximum range at which the arrow will lock on to a target. Supports expressions. 例: `10 + %level%` |
-| `targets` | Entity List | — | `[]` | — | A list of entity types the arrow will home in on. Leave empty to target all entities. |
+| `distance` | Expression | ✅ | — | — | 箭矢锁定目标的最大范围。支持数学表达式。 例: `10 + %level%` |
+| `targets` | Entity List | — | `[]` | — | 箭矢将追踪的实体类型列表。留空则瞄准所有实体。 |
 
 ## 📝 源码注记
 

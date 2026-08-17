@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The maximum distance from the player's current position to teleport. Supports expressions. 例: `10 + %level%` |
-| `min_radius` | Expression | — | `0` | — | The minimum distance from the player's current position to teleport. Supports expressions. 例: `%level% * 0.1` |
+| `radius` | Expression | ✅ | — | — | 从玩家当前位置传送的最大距离。支持数学表达式。 例: `10 + %level%` |
+| `min_radius` | Expression | — | `0` | — | 从玩家当前位置传送的最小距离。支持数学表达式。 例: `%level% * 0.1` |
 
 ## 📝 源码注记
 

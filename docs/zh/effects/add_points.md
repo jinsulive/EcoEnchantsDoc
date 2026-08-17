@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The player point type to add to. |
-| `amount` | Expression | ✅ | — | — | The amount of points to add. Supports expressions. 例: `%level% * 5` |
+| `type` | String | ✅ | — | — | 要增加到的玩家点数类型。 |
+| `amount` | Expression | ✅ | — | — | 要添加的点数数量。支持数学表达式。 例: `%level% * 5` |
 
 ## 📝 源码注记
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | `all`, `hotbar`, `main`, `armor` | Which section of the inventory to clear. |
+| `type` | String | ✅ | — | `all`, `hotbar`, `main`, `armor` | 要清空的背包区域。 |
 
 ## 📝 源码注记
 

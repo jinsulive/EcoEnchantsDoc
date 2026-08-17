@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of blocks to break in a line. Supports expressions. 例: `3 + %level%` |
-| `check_hardness` | Boolean | ✅ | — | — | If true, only blocks with hardness ≤ the trigger block are broken. |
-| `disable_on_sneak` | Boolean | — | `false` | — | If true, the drill effect is disabled while the player is sneaking. |
-| `prevent_trigger` | Boolean | — | `false` | — | If true, breaking additional blocks will not fire further libreforge triggers. |
-| `whitelist` | Block List | — | — | — | Only these block types will be broken by the drill. |
-| `blacklisted_blocks` | Block List | — | — | — | These block types will never be broken by the drill. |
+| `amount` | Expression | ✅ | — | — | 沿直线破坏的方块数量。支持数学表达式。 例: `3 + %level%` |
+| `check_hardness` | Boolean | ✅ | — | — | 若为 true，仅硬度 ≤ 触发方块的方块会被破坏。 |
+| `disable_on_sneak` | Boolean | — | `false` | — | 若为 true，玩家潜行时钻头效果将被禁用。 |
+| `prevent_trigger` | Boolean | — | `false` | — | 若为 true，破坏额外方块将不再触发后续 libreforge 触发器。 |
+| `whitelist` | Block List | — | — | — | 钻头仅会破坏这些方块类型。 |
+| `blacklisted_blocks` | Block List | — | — | — | 钻头永远不会破坏这些方块类型。 |
 
 ## 📝 源码注记
 

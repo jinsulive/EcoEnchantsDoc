@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `webhook_url` | String | ✅ | — | — | The Discord webhook URL to send the message to. 例: `https://discord.com/api/webhooks/123456789012345678/abcDEF-token` |
-| `text` | String | ✅ | — | — | The message content to send to the webhook. 例: `%player_name% just found a legendary item!` |
-| `username` | String | — | — | — | The display name to use for the webhook message. |
-| `avatar_url` | String | — | — | — | A URL to an image to use as the webhook avatar. 例: `https://example.com/avatar.png` |
-| `tts` | Boolean | — | `false` | — | Whether to send the message as text-to-speech. |
-| `embeds` | Any | — | — | — | A list of embed objects to include in the webhook message. |
+| `webhook_url` | String | ✅ | — | — | 要发送消息的 Discord Webhook URL。 例: `https://discord.com/api/webhooks/123456789012345678/abcDEF-token` |
+| `text` | String | ✅ | — | — | 要发送到 Webhook 的消息内容。 例: `%player_name% just found a legendary item!` |
+| `username` | String | — | — | — | 用于 Webhook 消息的显示名称。 |
+| `avatar_url` | String | — | — | — | 用作 Webhook 头像的图片 URL。 例: `https://example.com/avatar.png` |
+| `tts` | Boolean | — | `false` | — | 是否以文字转语音（TTS）方式发送消息。 |
+| `embeds` | Any | — | — | — | 要包含在 Webhook 消息中的嵌入（embed）对象列表。 |
 
 ## 📝 源码注记
 

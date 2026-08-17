@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The list of effects to run on the randomly selected player. |
+| `effects` | Effect List | ✅ | — | — | 要在随机选中的玩家上运行的效果列表。 |
 | `run-type` | String | — | — | — |  |
 
 ## 📝 源码注记

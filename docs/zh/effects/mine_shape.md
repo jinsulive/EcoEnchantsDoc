@@ -25,13 +25,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `shape` | String List | ✅ | — | — | A list of strings forming a grid where 'T' is the trigger block and 'X' marks blocks to break. 例: `XXX, XTX, XXX` |
-| `depth` | Expression | — | `1` | — | How many layers deep to mine behind the trigger block. Supports expressions. |
-| `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. Defaults to all blocks. |
-| `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that will never be broken by this effect. |
-| `prevent_trigger` | Boolean | — | `false` | — | Whether to prevent the broken blocks from re-triggering this effect. |
-| `disable_on_sneak` | Boolean | — | `false` | — | Whether to disable the shape mining when the player is sneaking. |
-| `check_hardness` | Boolean | — | `true` | — | Whether to skip blocks harder than the trigger block. Defaults to true. |
+| `shape` | String List | ✅ | — | — | 由字符串组成的网格列表，其中 'T' 为触发方块，'X' 标记要破坏的方块。 例: `XXX, XTX, XXX` |
+| `depth` | Expression | — | `1` | — | 在触发方块后方挖掘的深度层数。支持数学表达式。 |
+| `whitelist` | Block List | — | `[]` | — | 允许被破坏的方块列表。默认为所有方块。 |
+| `blacklisted_blocks` | Block List | — | `[]` | — | 该效果永远不会破坏的方块列表。 |
+| `prevent_trigger` | Boolean | — | `false` | — | 是否防止被破坏的方块重新触发该效果。 |
+| `disable_on_sneak` | Boolean | — | `false` | — | 玩家潜行时是否禁用形状挖掘。 |
+| `check_hardness` | Boolean | — | `true` | — | 是否跳过比触发方块更硬的方块。默认为 true。 |
 
 ## 📝 源码注记
 

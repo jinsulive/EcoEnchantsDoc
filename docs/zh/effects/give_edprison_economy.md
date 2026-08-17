@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The EdPrison economy currency ID to give. |
-| `amount` | Expression | ✅ | — | — | The amount of currency to give. Supports expressions. |
+| `type` | String | ✅ | — | — | 要给予的 EdPrison 经济货币 ID。 |
+| `amount` | Expression | ✅ | — | — | 要给予的货币数量。支持数学表达式。 |
 
 ## 配置示例
 

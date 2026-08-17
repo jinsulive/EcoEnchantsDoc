@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block type to fill the area with. |
-| `radius` | Expression | ✅ | — | — | The radius of the cube around the trigger location. 例: `3 + %level% * 0.3` |
+| `block` | Block | ✅ | — | — | 用于填充区域的方块类型。 |
+| `radius` | Expression | ✅ | — | — | 触发位置周围的立方体半径。 例: `3 + %level% * 0.3` |
 
 ## 📝 源码注记
 

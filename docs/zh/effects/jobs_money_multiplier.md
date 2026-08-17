@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The multiplier to apply. Supports expressions. |
+| `multiplier` | Expression | ✅ | — | — | 要应用的倍率。支持数学表达式。 |
 
 ## 配置示例
 

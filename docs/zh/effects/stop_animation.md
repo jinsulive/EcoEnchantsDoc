@@ -27,7 +27,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `animation` | String | ✅ | — | — | The name of the animation to stop. |
+| `animation` | String | ✅ | — | — | 要停止的动画名称。 |
 
 ## 📝 源码注记
 

@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The amount of raw XP to give. Supports expressions. |
-| `skill` | String | ✅ | — | — | The McMMO skill name to give XP for, e.g. mining. |
+| `amount` | Expression | ✅ | — | — | 要给予的原始 XP 数量。支持数学表达式。 |
+| `skill` | String | ✅ | — | — | 要给予 XP 的 McMMO 技能名称，例如 mining。 |
 
 ## 配置示例
 

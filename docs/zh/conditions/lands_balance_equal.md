@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The exact land balance required. |
+| `amount` | Expression | ✅ | — | — | 所需的确切领地余额。 |
 
 ## 配置示例
 

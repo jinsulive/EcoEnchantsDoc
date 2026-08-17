@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `trigger` | String | ✅ | — | — | The ID of the custom trigger to dispatch. |
-| `value` | Expression | — | `0` | — | An optional value to pass to the dispatched trigger. Supports expressions. |
+| `trigger` | String | ✅ | — | — | 要调度的自定义触发器 ID。 |
+| `value` | Expression | — | `0` | — | 要传递给已调度触发器的可选值。支持数学表达式。 |
 
 ## 📝 源码注记
 

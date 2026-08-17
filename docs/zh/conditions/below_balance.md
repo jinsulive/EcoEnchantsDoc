@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `balance` | Expression | ✅ | — | — | The balance threshold; the player must be below this amount. 例: `%level% * 500` |
+| `balance` | Expression | ✅ | — | — | 余额阈值；玩家必须低于该数值。 例: `%level% * 500` |
 
 ## 📝 源码注记
 

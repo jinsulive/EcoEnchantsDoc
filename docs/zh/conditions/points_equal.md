@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The points type identifier to check. |
-| `amount` | Expression | ✅ | — | — | The exact points amount the player must have. 例: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要检查的点数类型标识符。 |
+| `amount` | Expression | ✅ | — | — | 玩家必须具备的确切点数。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

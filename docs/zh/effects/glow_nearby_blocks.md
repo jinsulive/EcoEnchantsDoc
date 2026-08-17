@@ -25,9 +25,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The radius around the trigger location to search for matching blocks. Supports expressions. 例: `5 + %level% * 0.5` |
-| `duration` | Expression | ✅ | — | — | How long in ticks the blocks should glow. Supports expressions. 例: `20 * %level%` |
-| `colors` | Any | ✅ | — | — | A subsection mapping block material names to ChatColor names (e.g. DIAMOND_ORE: AQUA). |
+| `radius` | Expression | ✅ | — | — | 触发位置周围搜索匹配方块的半径。支持数学表达式。 例: `5 + %level% * 0.5` |
+| `duration` | Expression | ✅ | — | — | 方块应发光的时长（以刻为单位）。支持数学表达式。 例: `20 * %level%` |
+| `colors` | Any | ✅ | — | — | 将方块材质名称映射到 ChatColor 名称的子节（例如 DIAMOND_ORE: AQUA）。 |
 
 ## 📝 源码注记
 

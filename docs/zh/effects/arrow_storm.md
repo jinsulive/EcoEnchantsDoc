@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of arrows to rain down. Supports expressions. 例: `10 + %level%` |
-| `height` | Expression | ✅ | — | — | The height above the target to spawn the arrows. Supports expressions. |
-| `spread` | Expression | ✅ | — | — | The horizontal spread radius for arrow spawning. Supports expressions. 例: `3 + %level% * 0.3` |
-| `damage` | Expression | — | — | — | The damage each arrow deals. If omitted, uses the arrow's default damage. 例: `%level% * 2` |
-| `respect_flame` | Boolean | — | `true` | — | Whether arrows inherit the Flame enchantment from the held bow. |
+| `amount` | Expression | ✅ | — | — | 要倾泻而下的箭矢数量。支持数学表达式。 例: `10 + %level%` |
+| `height` | Expression | ✅ | — | — | 在目标上方的箭矢生成高度。支持数学表达式。 |
+| `spread` | Expression | ✅ | — | — | 箭矢生成的水平散布半径。支持数学表达式。 例: `3 + %level% * 0.3` |
+| `damage` | Expression | — | — | — | 每支箭矢造成的伤害。若省略，则使用箭矢的默认伤害。 例: `%level% * 2` |
+| `respect_flame` | Boolean | — | `true` | — | 箭矢是否继承手持弓上的火焰附加（Flame）附魔。 |
 
 ## 📝 源码注记
 

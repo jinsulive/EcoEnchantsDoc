@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `message` / `messages`（任一） | String_list | ✅ | — | — | The MiniMessage-formatted message(s) to send. Supports placeholders. |
-| `action_bar` | Boolean | — | `false` | — | Whether to display the first message in the action bar instead of chat. Defaults to false. |
+| `message` / `messages`（任一） | String_list | ✅ | — | — | 要发送的 MiniMessage 格式消息。支持占位符。 |
+| `action_bar` | Boolean | — | `false` | — | 是否在快捷栏（action bar）而非聊天栏中显示第一条消息。默认为 false。 |
 
 ## 配置示例
 

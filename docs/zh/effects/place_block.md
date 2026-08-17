@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block to place at the trigger location. |
-| `duration` | Expression | — | — | — | How many ticks before the block reverts to its original state. Omit to place permanently. Supports expressions. 例: `20 * %level%` |
+| `block` | Block | ✅ | — | — | 要在触发位置放置的方块。 |
+| `duration` | Expression | — | — | — | 方块恢复原状前的刻数。省略则永久放置。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

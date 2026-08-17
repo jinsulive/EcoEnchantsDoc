@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The radius to damage entities within. Supports expressions. 例: `5 + %level% * 0.5` |
-| `damage_as_player` | Boolean | ✅ | — | — | Whether the player is attributed as the source of damage. |
-| `damage` | Expression | ✅ | — | — | The amount of damage to deal to each entity. Supports expressions. 例: `%level% * 2` |
-| `entities` | Entity List | — | — | — | If specified, only these entity types will be damaged. |
-| `damage_self` | Boolean | — | `true` | — | Whether the player can damage themselves with this effect. |
+| `radius` | Expression | ✅ | — | — | 对实体造成伤害的半径。支持数学表达式。 例: `5 + %level% * 0.5` |
+| `damage_as_player` | Boolean | ✅ | — | — | 是否将玩家记为伤害来源。 |
+| `damage` | Expression | ✅ | — | — | 对每个实体造成的伤害量。支持数学表达式。 例: `%level% * 2` |
+| `entities` | Entity List | — | — | — | 若指定，仅这些实体类型会受到伤害。 |
+| `damage_self` | Boolean | — | `true` | — | 该效果是否可对玩家自身造成伤害。 |
 
 ## 📝 源码注记
 

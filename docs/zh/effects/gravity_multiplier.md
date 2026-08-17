@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The gravity multiplier to apply. Supports expressions. 例: `1 - %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | 要应用的重力倍率。支持数学表达式。 例: `1 - %level% * 0.05` |
 
 ## 📝 源码注记
 

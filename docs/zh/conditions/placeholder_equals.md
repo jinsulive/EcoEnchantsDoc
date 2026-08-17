@@ -28,9 +28,9 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `placeholder` | String | ✅ | — | — | The placeholder string to resolve and compare. 例: `%player_gamemode%` |
-| `value` | String | ✅ | — | — | The exact string the resolved placeholder must equal. |
-| `ignore_case` | Boolean | — | `false` | — | Whether the equality check should be case-insensitive. |
+| `placeholder` | String | ✅ | — | — | 要解析并比较的占位符字符串。 例: `%player_gamemode%` |
+| `value` | String | ✅ | — | — | 解析后的占位符必须完全等于的字符串。 |
+| `ignore_case` | Boolean | — | `false` | — | 相等性检查是否应忽略大小写。 |
 
 ## 📝 源码注记
 

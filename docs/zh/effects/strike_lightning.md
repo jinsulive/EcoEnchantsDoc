@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | — | `1` | — | The number of lightning strikes. Supports expressions. 例: `1 + %level% / 10` |
+| `amount` | Expression | — | `1` | — | 闪电打击次数。支持数学表达式。 例: `1 + %level% / 10` |
 
 ## 📝 源码注记
 

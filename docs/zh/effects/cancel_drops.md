@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `on_drops` | Item List | — | — | — | If specified, only drops matching these item types are cancelled. If omitted, all drops are cancelled. |
+| `on_drops` | Item List | — | — | — | 若指定，仅取消与这些物品类型匹配的掉落。若省略，则取消所有掉落。 |
 
 ## 📝 源码注记
 

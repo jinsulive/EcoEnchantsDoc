@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` / `types`（任一） | String List | ✅ | — | — | The bucket type(s) to make infinite. Use 'any' to apply to all bucket types. |
+| `type` / `types`（任一） | String List | ✅ | — | — | 要设为无限的水桶类型。使用 'any' 可应用于所有水桶类型。 |
 
 ## 📝 源码注记
 

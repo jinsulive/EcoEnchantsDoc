@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `slot` | String | — | — | — | The inventory slot of the item to keep, e.g. mainhand or slot_0. If omitted, the item providing this effect is kept. 例: `mainhand` |
+| `slot` | String | — | — | — | 要保留的物品所在背包槽位，例如 mainhand 或 slot_0。若省略，则保留提供该效果的物品。 例: `mainhand` |
 
 ## 📝 源码注记
 

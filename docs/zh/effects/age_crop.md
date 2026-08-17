@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `age` | Expression | — | `1` | — | The number of growth stages to advance. Supports expressions. 例: `1 + %level%` |
+| `age` | Expression | — | `1` | — | 生长阶段推进的数量。支持数学表达式。 例: `1 + %level%` |
 
 ## 📝 源码注记
 

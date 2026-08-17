@@ -13,10 +13,17 @@ outline: deep
 
 > 枚举值为 **YAML 中实际配置生效的取值**。`blocks`/`items`/`entities` 等列表参数可填下列枚举的任意成员；Bukkit 枚举按常量名书写（大小写不敏感，`damage_cause`/`sheep_color` 等内部均忽略大小写）。`Material` 已排除 `LEGACY_` 前缀值（这些值无法匹配现代方块）。
 
-
 ### `Attribute`（org.bukkit.attribute.Attribute）
 
 > 来源：Paper API · 35 个取值
+
+> 用途：用于属性修饰（attribute modifier）类参数，如 `add_attribute` 等效果。按类别分组：
+> - 战斗相关：ATTACK_DAMAGE 攻击伤害、ATTACK_SPEED 攻击速度、ATTACK_KNOCKBACK 攻击击退、SWEEPING_DAMAGE_RATIO 横扫伤害比例、ARMOR 护甲、ARMOR_TOUGHNESS 护甲韧性、KNOCKBACK_RESISTANCE 击退抗性
+> - 移动相关：MOVEMENT_SPEED 移动速度、FLYING_SPEED 飞行速度、JUMP_STRENGTH 跳跃力度、SNEAKING_SPEED 潜行速度、STEP_HEIGHT 台阶高度、WATER_MOVEMENT_EFFICIENCY 水下移动效率、SUBMERGED_MINING_SPEED 水下挖掘速度
+> - 生存相关：MAX_HEALTH 最大生命值、MAX_ABSORPTION 最大伤害吸收、FALL_DAMAGE_MULTIPLIER 摔落伤害倍率、SAFE_FALL_DISTANCE 安全坠落距离、OXYGEN_BONUS 氧气加成、BURNING_TIME 燃烧时间、EXPLOSION_KNOCKBACK_RESISTANCE 爆炸击退抗性
+> - 交互/其它：LUCK 幸运、FOLLOW_RANGE 跟随范围、TEMPT_RANGE 引诱范围、BLOCK_INTERACTION_RANGE 方块交互距离、ENTITY_INTERACTION_RANGE 实体交互距离、BLOCK_BREAK_SPEED 方块破坏速度、MINING_EFFICIENCY 挖掘效率、GRAVITY 重力、SCALE 体型缩放、CAMERA_DISTANCE 相机距离、WAYPOINT_TRANSMIT_RANGE 路径点发送范围、WAYPOINT_RECEIVE_RANGE 路径点接收范围
+> 完整 35 值列表见下（LEGACY_ 已排除）。
+
 `MAX_HEALTH` `FOLLOW_RANGE` `KNOCKBACK_RESISTANCE` `MOVEMENT_SPEED` `FLYING_SPEED` `ATTACK_DAMAGE` `ATTACK_KNOCKBACK` `ATTACK_SPEED`
 `ARMOR` `ARMOR_TOUGHNESS` `FALL_DAMAGE_MULTIPLIER` `LUCK` `MAX_ABSORPTION` `SAFE_FALL_DISTANCE` `SCALE` `STEP_HEIGHT`
 `GRAVITY` `JUMP_STRENGTH` `BURNING_TIME` `CAMERA_DISTANCE` `EXPLOSION_KNOCKBACK_RESISTANCE` `MOVEMENT_EFFICIENCY` `OXYGEN_BONUS` `WATER_MOVEMENT_EFFICIENCY`
@@ -26,21 +33,53 @@ outline: deep
 ### `Axis`（org.bukkit.Axis）
 
 > 来源：Paper API · 3 个取值
-`X` `Y` `Z`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `X` | X 轴 | 沿 X 轴方向（东西方向） |
+| `Y` | Y 轴 | 沿 Y 轴方向（上下方向） |
+| `Z` | Z 轴 | 沿 Z 轴方向（南北方向） |
 
 ### `BarColor`（org.bukkit.boss.BarColor）
 
 > 来源：Paper API · 7 个取值
-`PINK` `BLUE` `RED` `GREEN` `YELLOW` `PURPLE` `WHITE`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `PINK` | 粉红 | Boss 血条显示为粉红色 |
+| `BLUE` | 蓝色 | Boss 血条显示为蓝色 |
+| `RED` | 红色 | Boss 血条显示为红色 |
+| `GREEN` | 绿色 | Boss 血条显示为绿色 |
+| `YELLOW` | 黄色 | Boss 血条显示为黄色 |
+| `PURPLE` | 紫色 | Boss 血条显示为紫色 |
+| `WHITE` | 白色 | Boss 血条显示为白色 |
 
 ### `BarStyle`（org.bukkit.boss.BarStyle）
 
 > 来源：Paper API · 5 个取值
-`SOLID` `SEGMENTED_6` `SEGMENTED_10` `SEGMENTED_12` `SEGMENTED_20`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `SOLID` | 实心 | 连续实心进度条，无分段 |
+| `SEGMENTED_6` | 6 段 | 进度条分为 6 段 |
+| `SEGMENTED_10` | 10 段 | 进度条分为 10 段 |
+| `SEGMENTED_12` | 12 段 | 进度条分为 12 段 |
+| `SEGMENTED_20` | 20 段 | 进度条分为 20 段 |
 
 ### `Biome`（org.bukkit.block.Biome）
 
 > 来源：Paper API · 66 个取值
+
+> 用途：用于 `in_biome` 等生物群系条件/过滤器。按类别分组：
+> - 平原/森林类：PLAINS 平原、FOREST 森林、BIRCH_FOREST 桦木森林、DARK_FOREST 黑森林、FLOWER_FOREST 繁花森林、CHERRY_GROVE 樱花树林、PALE_GARDEN 苍白花园、SUNFLOWER_PLAINS 向日葵平原、MEADOW 草甸、GROVE 雪林、OLD_GROWTH_BIRCH_FOREST 原始桦木森林、WINDSWEPT_FOREST 风袭森林、WINDSWEPT_HILLS 风袭丘陵
+> - 沙漠/恶地类：DESERT 沙漠、BADLANDS 恶地、ERODED_BADLANDS 被风蚀的恶地、WOODED_BADLANDS 繁茂恶地、SAVANNA 热带草原、SAVANNA_PLATEAU 热带高原、WINDSWEPT_SAVANNA 风袭热带草原
+> - 山地/洞穴类：STONY_PEAKS 石峰、JAGGED_PEAKS 尖峭山峰、FROZEN_PEAKS 冰封山峰、SNOWY_SLOPES 雪坡、DRIPSTONE_CAVES 滴水石洞穴、LUSH_CAVES 繁茂洞穴、DEEP_DARK 深暗之域
+> - 海洋/水域类：OCEAN 海洋、COLD_OCEAN 冷水海洋、WARM_OCEAN 温水海洋、FROZEN_OCEAN 冰冻海洋、LUKEWARM_OCEAN 温海洋、DEEP_OCEAN 深海、DEEP_COLD_OCEAN 深冷海洋、DEEP_FROZEN_OCEAN 深冻海洋、DEEP_LUKEWARM_OCEAN 深温海洋、RIVER 河流、FROZEN_RIVER 冰冻河流、BEACH 海滩、SNOWY_BEACH 积雪海滩、STONY_SHORE 石岸、SWAMP 沼泽、MANGROVE_SWAMP 红树林沼泽、MUSHROOM_FIELDS 蘑菇岛
+> - 下界/末地类：NETHER_WASTES 下界荒地、SOUL_SAND_VALLEY 灵魂沙峡谷、CRIMSON_FOREST 绯红森林、WARPED_FOREST 诡异森林、BASALT_DELTAS 玄武岩三角洲、THE_END 末地、THE_VOID 虚空、SMALL_END_ISLANDS 末地小岛、END_BARRENS 末地荒地、END_HIGHLANDS 末地高地、END_MIDLANDS 末地内陆
+> - 雪原/针叶林类：SNOWY_PLAINS 雪原、SNOWY_TAIGA 积雪针叶林、TAIGA 针叶林、OLD_GROWTH_PINE_TAIGA 原始松木针叶林、OLD_GROWTH_SPRUCE_TAIGA 原始云杉针叶林、ICE_SPIKES 冰刺之地、FROZEN_RIVER 冰冻河流、SNOWY_SLOPES 雪坡
+> - 丛林/其它：JUNGLE 丛林、BAMBOO_JUNGLE 竹林、SPARSE_JUNGLE 稀疏丛林、CUSTOM 自定义、WINDSWEPT_GRAVELLY_HILLS 风袭砾质丘陵
+> 完整 66 值列表见下（LEGACY_ 已排除）。
+
 `BADLANDS` `BAMBOO_JUNGLE` `BASALT_DELTAS` `BEACH` `BIRCH_FOREST` `CHERRY_GROVE` `COLD_OCEAN` `CRIMSON_FOREST`
 `DARK_FOREST` `DEEP_COLD_OCEAN` `DEEP_DARK` `DEEP_FROZEN_OCEAN` `DEEP_LUKEWARM_OCEAN` `DEEP_OCEAN` `DESERT` `DRIPSTONE_CAVES`
 `END_BARRENS` `END_HIGHLANDS` `END_MIDLANDS` `ERODED_BADLANDS` `FLOWER_FOREST` `FOREST` `FROZEN_OCEAN` `FROZEN_PEAKS`
@@ -54,33 +93,116 @@ outline: deep
 ### `BlockFace`（org.bukkit.block.BlockFace）
 
 > 来源：Paper API · 19 个取值
-`NORTH` `EAST` `SOUTH` `WEST` `UP` `DOWN` `NORTH_EAST` `NORTH_WEST`
-`SOUTH_EAST` `SOUTH_WEST` `WEST_NORTH_WEST` `NORTH_NORTH_WEST` `NORTH_NORTH_EAST` `EAST_NORTH_EAST` `EAST_SOUTH_EAST` `SOUTH_SOUTH_EAST`
-`SOUTH_SOUTH_WEST` `WEST_SOUTH_WEST` `SELF`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `NORTH` | 北 | Z 负方向 |
+| `EAST` | 东 | X 正方向 |
+| `SOUTH` | 南 | Z 正方向 |
+| `WEST` | 西 | X 负方向 |
+| `UP` | 上 | Y 正方向 |
+| `DOWN` | 下 | Y 负方向 |
+| `NORTH_EAST` | 东北 | 北与东之间的对角方向 |
+| `NORTH_WEST` | 西北 | 北与西之间的对角方向 |
+| `SOUTH_EAST` | 东南 | 南与东之间的对角方向 |
+| `SOUTH_WEST` | 西南 | 南与西之间的对角方向 |
+| `WEST_NORTH_WEST` | 西北偏西 | 介于西与西北之间的方向 |
+| `NORTH_NORTH_WEST` | 北北西 | 介于北与西北之间的方向 |
+| `NORTH_NORTH_EAST` | 北北东 | 介于北与东北之间的方向 |
+| `EAST_NORTH_EAST` | 东北偏东 | 介于东与东北之间的方向 |
+| `EAST_SOUTH_EAST` | 东南偏东 | 介于东与东南之间的方向 |
+| `SOUTH_SOUTH_EAST` | 南南东 | 介于南与东南之间的方向 |
+| `SOUTH_SOUTH_WEST` | 南南西 | 介于南与西南之间的方向 |
+| `WEST_SOUTH_WEST` | 西南偏西 | 介于西与西南之间的方向 |
+| `SELF` | 自身 | 方块自身（无方向偏移） |
 
 ### `DamageCause`（org.bukkit.event.entity.EntityDamageEvent$DamageCause）
 
 > 来源：Paper API · 33 个取值
-`KILL` `WORLD_BORDER` `CONTACT` `ENTITY_ATTACK` `ENTITY_SWEEP_ATTACK` `PROJECTILE` `SUFFOCATION` `FALL`
-`FIRE` `FIRE_TICK` `MELTING` `LAVA` `DROWNING` `BLOCK_EXPLOSION` `ENTITY_EXPLOSION` `VOID`
-`LIGHTNING` `SUICIDE` `STARVATION` `POISON` `MAGIC` `WITHER` `FALLING_BLOCK` `THORNS`
-`DRAGON_BREATH` `FLY_INTO_WALL` `HOT_FLOOR` `CAMPFIRE` `CRAMMING` `DRYOUT` `FREEZE` `SONIC_BOOM`
-`CUSTOM`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `KILL` | 击杀 | `/kill` 等直接击杀造成的伤害 |
+| `WORLD_BORDER` | 世界边界 | 世界边界收缩造成的伤害 |
+| `CONTACT` | 接触 | 与仙人掌等接触造成的伤害 |
+| `ENTITY_ATTACK` | 实体攻击 | 被实体近战攻击造成的伤害 |
+| `ENTITY_SWEEP_ATTACK` | 横扫攻击 | 剑横扫攻击造成的伤害 |
+| `PROJECTILE` | 弹射物 | 被箭矢等弹射物击中的伤害 |
+| `SUFFOCATION` | 窒息 | 方块内窒息造成的伤害 |
+| `FALL` | 坠落 | 摔落伤害 |
+| `FIRE` | 火焰 | 直接接触火焰造成的伤害 |
+| `FIRE_TICK` | 火焰灼烧 | 持续燃烧造成的伤害 |
+| `MELTING` | 融化 | 融化造成的伤害 |
+| `LAVA` | 熔岩 | 熔岩造成的伤害 |
+| `DROWNING` | 溺水 | 溺水造成的伤害 |
+| `BLOCK_EXPLOSION` | 方块爆炸 | TNT 等方块爆炸造成的伤害 |
+| `ENTITY_EXPLOSION` | 实体爆炸 | 苦力怕等实体爆炸造成的伤害 |
+| `VOID` | 虚空 | 掉入虚空造成的伤害 |
+| `LIGHTNING` | 闪电 | 被闪电击中造成的伤害 |
+| `SUICIDE` | 自杀 | 自身原因造成的伤害 |
+| `STARVATION` | 饥饿 | 饥饿值耗尽造成的伤害 |
+| `POISON` | 中毒 | 中毒效果造成的伤害 |
+| `MAGIC` | 魔法 | 魔法伤害（如瞬间伤害药水） |
+| `WITHER` | 凋零 | 凋零效果造成的伤害 |
+| `FALLING_BLOCK` | 下落方块 | 被下落的方块砸中的伤害 |
+| `THORNS` | 荆棘 | 荆棘附魔反弹的伤害 |
+| `DRAGON_BREATH` | 龙息 | 末影龙龙息造成的伤害 |
+| `FLY_INTO_WALL` | 撞墙 | 高速飞行撞墙造成的伤害（鞘翅） |
+| `HOT_FLOOR` | 岩浆块 | 站在岩浆块上受到的伤害 |
+| `CAMPFIRE` | 营火 | 营火灼烧造成的伤害 |
+| `CRAMMING` | 拥挤 | 实体堆叠过多造成的伤害 |
+| `DRYOUT` | 脱水 | 脱离水导致的伤害（如鱼） |
+| `FREEZE` | 冰冻 | 细雪等造成的冰冻伤害 |
+| `SONIC_BOOM` | 音波 | 监守者音波攻击造成的伤害 |
+| `CUSTOM` | 自定义 | 插件自定义的伤害原因 |
 
 ### `DyeColor`（org.bukkit.DyeColor）
 
 > 来源：Paper API · 16 个取值
-`WHITE` `ORANGE` `MAGENTA` `LIGHT_BLUE` `YELLOW` `LIME` `PINK` `GRAY`
-`LIGHT_GRAY` `CYAN` `PURPLE` `BLUE` `BROWN` `GREEN` `RED` `BLACK`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `WHITE` | 白色 | 白色染料/羊毛等 |
+| `ORANGE` | 橙色 | 橙色染料/羊毛等 |
+| `MAGENTA` | 品红色 | 品红色染料/羊毛等 |
+| `LIGHT_BLUE` | 淡蓝色 | 淡蓝色染料/羊毛等 |
+| `YELLOW` | 黄色 | 黄色染料/羊毛等 |
+| `LIME` | 黄绿色 | 黄绿色染料/羊毛等 |
+| `PINK` | 粉红色 | 粉红色染料/羊毛等 |
+| `GRAY` | 灰色 | 灰色染料/羊毛等 |
+| `LIGHT_GRAY` | 淡灰色 | 淡灰色染料/羊毛等 |
+| `CYAN` | 青色 | 青色染料/羊毛等 |
+| `PURPLE` | 紫色 | 紫色染料/羊毛等 |
+| `BLUE` | 蓝色 | 蓝色染料/羊毛等 |
+| `BROWN` | 棕色 | 棕色染料/羊毛等 |
+| `GREEN` | 绿色 | 绿色染料/羊毛等 |
+| `RED` | 红色 | 红色染料/羊毛等 |
+| `BLACK` | 黑色 | 黑色染料/羊毛等 |
 
 ### `EntityCategory`（org.bukkit.entity.EntityCategory）
 
 > 来源：Paper API · 5 个取值
-`NONE` `UNDEAD` `ARTHROPOD` `ILLAGER` `WATER`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `NONE` | 无 | 不属于任何特定类别 |
+| `UNDEAD` | 亡灵 | 僵尸、骷髅等亡灵生物 |
+| `ARTHROPOD` | 节肢动物 | 蜘蛛、蠹虫等节肢生物 |
+| `ILLAGER` | 灾厄村民 | 掠夺者、唤魔者等灾厄村民 |
+| `WATER` | 水生 | 鱼、鱿鱼等水生生物 |
 
 ### `EntityType`（org.bukkit.entity.EntityType）
 
 > 来源：Paper API · 158 个取值
+
+> 用途：用于 `entities`/`spawn_entity`/`damage_nearby_entities` 等实体参数与过滤器。按类别分组：
+> - 常见敌对生物：ZOMBIE 僵尸、SKELETON 骷髅、CREEPER 苦力怕、SPIDER 蜘蛛、ENDERMAN 末影人、WITCH 女巫、BLAZE 烈焰人、GHAST 恶魂、SLIME 史莱姆、MAGMA_CUBE 岩浆怪、WITHER_SKELETON 凋灵骷髅、HUSK 尸壳、DROWNED 溺尸、STRAY 流浪者、PIGLIN 猪灵、PIGLIN_BRUTE 猪灵蛮兵、ZOMBIFIED_PIGLIN 僵尸猪灵、HOGLIN 疣猪兽、ZOGLIN 僵尸疣猪兽、WARDEN 监守者、BREEZE 旋风人、BOGGED 沼骸、ILLUSIONER 幻术师、EVOKER 唤魔者、VINDICATOR 卫道士、PILLAGER 掠夺者、RAVAGER 劫掠兽、VEX 恼鬼、CAVE_SPIDER 洞穴蜘蛛
+> - Boss 级生物：ENDER_DRAGON 末影龙、WITHER 凋灵、ELDER_GUARDIAN 远古守卫者
+> - 被动/友好生物：COW 牛、PIG 猪、SHEEP 羊、CHICKEN 鸡、RABBIT 兔子、HORSE 马、DONKEY 驴、MULE 骡、LLAMA 羊驼、WOLF 狼、CAT 猫、OCELOT 豹猫、FOX 狐狸、PANDA 熊猫、POLAR_BEAR 北极熊、BEE 蜜蜂、GOAT 山羊、CAMEL 骆驼、ARMADILLO 犰狳、AXOLOTL 美西螈、FROG 青蛙、TADPOLE 蝌蚪、TURTLE 海龟、DOLPHIN 海豚、SQUID 鱿鱼、GLOW_SQUID 发光鱿鱼、COD 鳕鱼、SALMON 鲑鱼、PUFFERFISH 河豚、TROPICAL_FISH 热带鱼、BAT 蝙蝠、PARROT 鹦鹉、MOOSHROOM 哞菇、SNIFFER 嗅探兽、ALLAY 悦灵、IRON_GOLEM 铁傀儡、SNOW_GOLEM 雪傀儡、VILLAGER 村民、WANDERING_TRADER 流浪商人、TRADER_LLAMA 商旅羊驼、PHANTOM 幻翼、GUARDIAN 守卫者、SILVERFISH 蠹虫、ENDERMITE 末影螨、SHULKER 潜影贝
+> - 弹射物/载具/其它：ARROW 箭矢、SNOWBALL 雪球、FIREBALL 火球、SMALL_FIREBALL 小火球、EGG 鸡蛋、ENDER_PEARL 末影珍珠、TRIDENT 三叉戟、FIREWORK_ROCKET 烟花火箭、FISHING_BOBBER 浮漂、EXPERIENCE_ORB 经验球、ITEM 物品实体、PAINTING 画、ITEM_FRAME 物品展示框、MINECART 矿车、CHEST_MINECART 运输矿车、TNT 点燃的 TNT、LIGHTNING_BOLT 闪电、AREA_EFFECT_CLOUD 区域效果云、ARMOR_STAND 盔甲架、BLOCK_DISPLAY 方块展示实体、TEXT_DISPLAY 文本展示实体、PLAYER 玩家、UNKNOWN 未知
+> - 船类：OAK_BOAT 橡木船、SPRUCE_BOAT 云杉木船、BIRCH_BOAT 白桦木船、JUNGLE_BOAT 丛林木船、ACACIA_BOAT 金合欢木船、DARK_OAK_BOAT 深色橡木船、MANGROVE_BOAT 红树木船、CHERRY_BOAT 樱花木船、BAMBOO_RAFT 竹筏、PALE_OAK_BOAT 苍白橡木船、各色 CHEST_BOAT 运输船变体
+> 完整 158 值列表见下（LEGACY_ 已排除）。
+
 `ACACIA_BOAT` `ACACIA_CHEST_BOAT` `ALLAY` `AREA_EFFECT_CLOUD` `ARMADILLO` `ARMOR_STAND` `ARROW` `AXOLOTL`
 `BAMBOO_CHEST_RAFT` `BAMBOO_RAFT` `BAT` `BEE` `BIRCH_BOAT` `BIRCH_CHEST_BOAT` `BLAZE` `BLOCK_DISPLAY`
 `BOGGED` `BREEZE` `BREEZE_WIND_CHARGE` `CAMEL` `CAMEL_HUSK` `CAT` `CAVE_SPIDER` `CHERRY_BOAT`
@@ -105,35 +227,111 @@ outline: deep
 ### `EquipmentSlot`（org.bukkit.inventory.EquipmentSlot）
 
 > 来源：Paper API · 8 个取值
-`HAND` `OFF_HAND` `FEET` `LEGS` `CHEST` `HEAD` `BODY` `SADDLE`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `HAND` | 主手 | 手持物品栏位 |
+| `OFF_HAND` | 副手 | 副手物品栏位 |
+| `FEET` | 脚部 | 靴子栏位 |
+| `LEGS` | 腿部 | 护腿栏位 |
+| `CHEST` | 胸部 | 胸甲栏位 |
+| `HEAD` | 头部 | 头盔栏位 |
+| `BODY` | 身体 | 身体装备栏位（如狼铠） |
+| `SADDLE` | 鞍 | 坐骑鞍具栏位 |
 
 ### `GameMode`（org.bukkit.GameMode）
 
 > 来源：Paper API · 4 个取值
-`CREATIVE` `SURVIVAL` `ADVENTURE` `SPECTATOR`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `CREATIVE` | 创造模式 | 可飞行、无限方块 |
+| `SURVIVAL` | 生存模式 | 标准生存玩法 |
+| `ADVENTURE` | 冒险模式 | 受方块交互限制 |
+| `SPECTATOR` | 旁观模式 | 仅可旁观，无法交互 |
 
 ### `InventoryType`（org.bukkit.event.inventory.InventoryType）
 
 > 来源：Paper API · 32 个取值
-`CHEST` `DISPENSER` `DROPPER` `FURNACE` `WORKBENCH` `CRAFTING` `ENCHANTING` `BREWING`
-`PLAYER` `CREATIVE` `MERCHANT` `ENDER_CHEST` `ANVIL` `SMITHING` `BEACON` `HOPPER`
-`SHULKER_BOX` `BARREL` `BLAST_FURNACE` `LECTERN` `SMOKER` `LOOM` `CARTOGRAPHY` `GRINDSTONE`
-`STONECUTTER` `COMPOSTER` `CHISELED_BOOKSHELF` `SHELF` `JUKEBOX` `DECORATED_POT` `CRAFTER` `SMITHING_NEW`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `CHEST` | 箱子 | 普通箱子界面 |
+| `DISPENSER` | 发射器 | 发射器界面 |
+| `DROPPER` | 投掷器 | 投掷器界面 |
+| `FURNACE` | 熔炉 | 熔炉界面 |
+| `WORKBENCH` | 工作台 | 3x3 合成界面 |
+| `CRAFTING` | 合成 | 2x2 随身合成界面 |
+| `ENCHANTING` | 附魔台 | 附魔界面 |
+| `BREWING` | 酿造台 | 酿造界面 |
+| `PLAYER` | 玩家背包 | 玩家背包界面 |
+| `CREATIVE` | 创造物品栏 | 创造模式物品栏 |
+| `MERCHANT` | 村民交易 | 村民交易界面 |
+| `ENDER_CHEST` | 末影箱 | 末影箱界面 |
+| `ANVIL` | 铁砧 | 铁砧界面 |
+| `SMITHING` | 锻造台 | 锻造台界面 |
+| `BEACON` | 信标 | 信标界面 |
+| `HOPPER` | 漏斗 | 漏斗界面 |
+| `SHULKER_BOX` | 潜影盒 | 潜影盒界面 |
+| `BARREL` | 木桶 | 木桶界面 |
+| `BLAST_FURNACE` | 高炉 | 高炉界面 |
+| `LECTERN` | 讲台 | 讲台界面 |
+| `SMOKER` | 烟熏炉 | 烟熏炉界面 |
+| `LOOM` | 织布机 | 织布机界面 |
+| `CARTOGRAPHY` | 制图台 | 制图台界面 |
+| `GRINDSTONE` | 砂轮 | 砂轮界面 |
+| `STONECUTTER` | 切石机 | 切石机界面 |
+| `COMPOSTER` | 堆肥桶 | 堆肥桶界面 |
+| `CHISELED_BOOKSHELF` | 雕纹书架 | 雕纹书架界面 |
+| `SHELF` | 书架 | 书架界面 |
+| `JUKEBOX` | 唱片机 | 唱片机界面 |
+| `DECORATED_POT` | 饰纹陶罐 | 饰纹陶罐界面 |
+| `CRAFTER` | 合成器 | 合成器界面 |
+| `SMITHING_NEW` | 锻造台（新版） | 新版锻造台界面 |
 
 ### `ItemFlag`（org.bukkit.inventory.ItemFlag）
 
 > 来源：Paper API · 9 个取值
-`HIDE_ENCHANTS` `HIDE_ATTRIBUTES` `HIDE_UNBREAKABLE` `HIDE_DESTROYS` `HIDE_PLACED_ON` `HIDE_ADDITIONAL_TOOLTIP` `HIDE_DYE` `HIDE_ARMOR_TRIM`
-`HIDE_STORED_ENCHANTS`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `HIDE_ENCHANTS` | 隐藏附魔 | 隐藏附魔光效 |
+| `HIDE_ATTRIBUTES` | 隐藏属性 | 隐藏属性修饰信息 |
+| `HIDE_UNBREAKABLE` | 隐藏不可破坏 | 隐藏「无法破坏」提示 |
+| `HIDE_DESTROYS` | 隐藏可破坏方块 | 隐藏可破坏方块列表 |
+| `HIDE_PLACED_ON` | 隐藏可放置方块 | 隐藏可放置方块列表 |
+| `HIDE_ADDITIONAL_TOOLTIP` | 隐藏附加提示 | 隐藏附加信息提示 |
+| `HIDE_DYE` | 隐藏染色 | 隐藏染色信息 |
+| `HIDE_ARMOR_TRIM` | 隐藏盔甲纹饰 | 隐藏盔甲纹饰信息 |
+| `HIDE_STORED_ENCHANTS` | 隐藏储存附魔 | 隐藏储存的附魔（如附魔书） |
 
 ### `ItemRarity`（org.bukkit.inventory.ItemRarity）
 
 > 来源：Paper API · 4 个取值
-`COMMON` `UNCOMMON` `RARE` `EPIC`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `COMMON` | 常见 | 白色名称的普通物品 |
+| `UNCOMMON` | 少见 | 黄色名称的少见物品 |
+| `RARE` | 稀有 | 青色名称的稀有物品 |
+| `EPIC` | 史诗 | 品红色名称的史诗物品 |
 
 ### `Material`（org.bukkit.Material）
 
 > 来源：Paper API · 1658 个取值
+
+> 用途：用于 `blocks`/`set_block`/`replace_near`/`mine_*` 等方块/物品参数。按类别分组：
+> - 石头类：STONE 石头、COBBLESTONE 圆石、DEEPSLATE 深板岩、ANDESITE 安山岩、DIORITE 闪长岩、GRANITE 花岗岩、TUFF 凝灰岩、BLACKSTONE 黑石、BASALT 玄武岩、OBSIDIAN 黑曜岩、BEDROCK 基岩、BRICK 红砖
+> - 矿石类：COAL_ORE 煤矿石、IRON_ORE 铁矿石、GOLD_ORE 金矿石、DIAMOND_ORE 钻石矿石、REDSTONE_ORE 红石矿石、LAPIS_ORE 青金石矿石、EMERALD_ORE 绿宝石矿石、COPPER_ORE 铜矿石、DEEPSLATE_* 深层变种、NETHER_QUARTZ_ORE 下界石英矿石、ANCIENT_DEBRIS 远古残骸、NETHERITE_SCRAP 下界合金碎片
+> - 木材类：OAK_LOG 橡木原木、SPRUCE_LOG 云杉原木、BIRCH_LOG 白桦原木、JUNGLE_LOG 丛林原木、ACACIA_LOG 金合欢原木、DARK_OAK_LOG 深色橡木原木、MANGROVE_LOG 红树木原木、CHERRY_LOG 樱花原木、BAMBOO_BLOCK 竹块、CRIMSON_STEM 绯红菌柄、WARPED_STEM 诡异菌柄、OAK_PLANKS 橡木木板及各色木板、OAK_LEAVES 橡树树叶及各色树叶
+> - 泥土/草/沙类：DIRT 泥土、GRASS_BLOCK 草方块、PODZOL 灰化土、MYCELIUM 菌丝、SAND 沙子、RED_SAND 红沙、GRAVEL 沙砾、CLAY 黏土块、MUD 泥巴
+> - 玻璃/液体类：GLASS 玻璃、WHITE_STAINED_GLASS 白色染色玻璃及各色染色玻璃、GLASS_PANE 玻璃板、WATER 水、LAVA 熔岩
+> - 农作物类：WHEAT 小麦、CARROTS 胡萝卜、POTATOES 马铃薯、BEETROOTS 甜菜、MELON 西瓜、PUMPKIN 南瓜、SUGAR_CANE 甘蔗、BAMBOO 竹子、COCOA 可可、NETHER_WART 下界疣
+> - 花类：DANDELION 蒲公英、POPPY 虞美人、BLUE_ORCHID 兰花、ALLIUM 绒球葱、AZURE_BLUET 蓝花美耳草、RED_TULIP 红色郁金香等郁金香、LILY_OF_THE_VALLEY 铃兰、SUNFLOWER 向日葵、LILAC 丁香、ROSE_BUSH 玫瑰丛、PEONY 牡丹
+> - 羊毛/混凝土类：WHITE_WOOL 白色羊毛及各 16 色羊毛、WHITE_CONCRETE 白色混凝土及各 16 色混凝土、WHITE_TERRACOTTA 白色陶瓦及各色陶瓦
+> - 其它常用：TORCH 火把、CHEST 箱子、FURNACE 熔炉、CRAFTING_TABLE 工作台、TNT、IRON_BLOCK 铁块、GOLD_BLOCK 金块、DIAMOND_BLOCK 钻石块、EMERALD_BLOCK 绿宝石块、NETHERITE_BLOCK 下界合金块、REDSTONE_BLOCK 红石块、LAPIS_BLOCK 青金石块、COAL_BLOCK 煤炭块、COPPER_BLOCK 铜块、BOOKSHELF 书架、ENCHANTING_TABLE 附魔台、ANVIL 铁砧、BEACON 信标、SPAWNER 刷怪笼、END_PORTAL_FRAME 末地传送门框架、DRAGON_EGG 龙蛋
+> 完整 1658 值列表见下（LEGACY_ 已排除）。
+
 `ACACIA_BOAT` `ACACIA_CHEST_BOAT` `AIR` `ALLAY_SPAWN_EGG` `AMETHYST_SHARD` `ANGLER_POTTERY_SHERD` `APPLE` `ARCHER_POTTERY_SHERD`
 `ARMADILLO_SCUTE` `ARMADILLO_SPAWN_EGG` `ARMOR_STAND` `ARMS_UP_POTTERY_SHERD` `ARROW` `AXOLOTL_BUCKET` `AXOLOTL_SPAWN_EGG` `BAKED_POTATO`
 `BAMBOO_CHEST_RAFT` `BAMBOO_RAFT` `BAT_SPAWN_EGG` `BEE_SPAWN_EGG` `BEEF` `BEETROOT` `BEETROOT_SEEDS` `BEETROOT_SOUP`
@@ -346,6 +544,15 @@ outline: deep
 ### `Particle`（org.bukkit.Particle）
 
 > 来源：Paper API · 115 个取值
+
+> 用途：用于粒子类效果参数，如 `spawn_particle`/`particle_line`/`particle_animation` 等。按类别分组：
+> - 通用效果粒子：POOF 烟雾、EXPLOSION 爆炸、FLAME 火焰、SMOKE 小烟雾、LARGE_SMOKE 大烟雾、CLOUD 云、CRIT 暴击、ENCHANTED_HIT 附魔打击、HEART 爱心、NOTE 音符、PORTAL 传送门、ENCHANT 附魔、LAVA 熔岩、DRIPPING_WATER 滴水、DRIPPING_LAVA 滴熔岩、BUBBLE 气泡、SPLASH 水花、FISHING 钓鱼、UNDERWATER 水下、RAIN 雨、SNOWFLAKE 雪花
+> - 方块/物品粒子：ITEM 物品粒子、BLOCK 方块粒子、FALLING_DUST 下落尘土、ITEM_SNOWBALL 雪球物品、ITEM_SLIME 黏液物品、DUST 灰尘、DUST_COLOR_TRANSITION 渐变色灰尘、VIBRATION 振动、SONIC_BOOM 音波、SCULK_SOUL 幽匿灵魂、SHRIEK 尖啸、SCULK_CHARGE 幽匿充能
+> - 环境/装饰粒子：CHERRY_LEAVES 樱花叶、PALE_OAK_LEAVES 苍白橡树叶、FIREFLY 萤火虫、GLOW 发光、WAX_ON 上蜡、WAX_OFF 去蜡、ELECTRIC_SPARK 电火花、SCRAPE 刮拭、WHITE_SMOKE 白烟、CAMPFIRE_COSY_SMOKE 营火暖烟、CAMPFIRE_SIGNAL_SMOKE 营火信号烟、COMPOSTER 堆肥、FLASH 闪光、TOTEM_OF_UNDYING 不死图腾、DAMAGE_INDICATOR 伤害指示、SWEEP_ATTACK 横扫攻击、END_ROD 末地烛
+> - 实体相关粒子：ANGRY_VILLAGER 愤怒村民、HAPPY_VILLAGER 开心村民、ELDER_GUARDIAN 远古守卫者、DRAGON_BREATH 龙息、SPIT 吐唾沫、SQUID_INK 鱿鱼墨汁、GLOW_SQUID_INK 发光鱿鱼墨汁、SNEEZE 打喷嚏、DOLPHIN 海豚、NAUTILUS 鹦鹉螺
+> - 下界/幽匿类：SOUL_FIRE_FLAME 灵魂火焰、SOUL 灵魂、ASH 灰烬、CRIMSON_SPORE 绯红孢子、WARPED_SPORE 诡异孢子、REVERSE_PORTAL 反向传送门、WHITE_ASH 白灰、SCULK_SOUL 幽匿灵魂、SCULK_CHARGE 幽匿充能、SCULK_CHARGE_POP 幽匿充能迸发、SHRIEK 尖啸
+> 完整 115 值列表见下（LEGACY_ 已排除）。
+
 `POOF` `EXPLOSION` `EXPLOSION_EMITTER` `FIREWORK` `BUBBLE` `SPLASH` `FISHING` `UNDERWATER`
 `CRIT` `ENCHANTED_HIT` `SMOKE` `LARGE_SMOKE` `EFFECT` `INSTANT_EFFECT` `ENTITY_EFFECT` `WITCH`
 `DRIPPING_WATER` `DRIPPING_LAVA` `ANGRY_VILLAGER` `HAPPY_VILLAGER` `MYCELIUM` `NOTE` `PORTAL` `ENCHANT`
@@ -365,12 +572,32 @@ outline: deep
 ### `RegainReason`（org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason）
 
 > 来源：Paper API · 9 个取值
-`REGEN` `SATIATED` `EATING` `ENDER_CRYSTAL` `MAGIC` `MAGIC_REGEN` `WITHER_SPAWN` `WITHER`
-`CUSTOM`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `REGEN` | 自然恢复 | 生命恢复效果等自然恢复 |
+| `SATIATED` | 饱和 | 饱和度自然恢复 |
+| `EATING` | 进食 | 进食恢复生命 |
+| `ENDER_CRYSTAL` | 末影水晶 | 末影水晶治疗 |
+| `MAGIC` | 魔法 | 治疗药水等魔法治疗 |
+| `MAGIC_REGEN` | 魔法恢复 | 生命恢复药水 |
+| `WITHER_SPAWN` | 凋灵生成 | 凋灵生成时的生命恢复 |
+| `WITHER` | 凋灵 | 凋灵的生命恢复 |
+| `CUSTOM` | 自定义 | 插件自定义的恢复原因 |
 
 ### `Sound`（org.bukkit.Sound）
 
 > 来源：Paper API · 1838 个取值
+
+> 用途：用于 `play_sound` 等声音参数。支持 Minecraft 原版声音名与资源包声音。按前缀分组：
+> - AMBIENT_*：环境音效：洞穴、下界/末地群系氛围音、水下环境音等
+> - BLOCK_*：方块音效：各类方块的破坏/放置/行走/点击音（如 BLOCK_STONE_BREAK、BLOCK_CHEST_OPEN）
+> - ENTITY_*：实体音效：生物/实体的行为音（如 ENTITY_ZOMBIE_HURT、ENTITY_PLAYER_LEVELUP）
+> - ITEM_*：物品音效：物品使用/装备音（如 ITEM_ARMOR_EQUIP_DIAMOND、ITEM_CROP_PLANT）
+> - MUSIC_*：音乐：唱片机唱片与背景音乐（如 MUSIC_DISC_CAT、MUSIC_DRAGON）
+> - UI_* / WEATHER_*：界面音效（UI_BUTTON_CLICK 等）与天气音效（WEATHER_RAIN 等）
+> 完整 1838 值列表见下（LEGACY_ 已排除）。
+
 `AMBIENT_BASALT_DELTAS_ADDITIONS` `AMBIENT_BASALT_DELTAS_LOOP` `AMBIENT_BASALT_DELTAS_MOOD` `AMBIENT_CAVE` `AMBIENT_CRIMSON_FOREST_ADDITIONS` `AMBIENT_CRIMSON_FOREST_LOOP` `AMBIENT_CRIMSON_FOREST_MOOD` `AMBIENT_NETHER_WASTES_ADDITIONS`
 `AMBIENT_NETHER_WASTES_LOOP` `AMBIENT_NETHER_WASTES_MOOD` `AMBIENT_SOUL_SAND_VALLEY_ADDITIONS` `AMBIENT_SOUL_SAND_VALLEY_LOOP` `AMBIENT_SOUL_SAND_VALLEY_MOOD` `AMBIENT_UNDERWATER_ENTER` `AMBIENT_UNDERWATER_EXIT` `AMBIENT_UNDERWATER_LOOP`
 `AMBIENT_UNDERWATER_LOOP_ADDITIONS` `AMBIENT_UNDERWATER_LOOP_ADDITIONS_RARE` `AMBIENT_UNDERWATER_LOOP_ADDITIONS_ULTRA_RARE` `AMBIENT_WARPED_FOREST_ADDITIONS` `AMBIENT_WARPED_FOREST_LOOP` `AMBIENT_WARPED_FOREST_MOOD` `BLOCK_AMETHYST_BLOCK_BREAK` `BLOCK_AMETHYST_BLOCK_CHIME`
@@ -605,44 +832,79 @@ outline: deep
 ### `Type`（org.bukkit.FireworkEffect$Type）
 
 > 来源：Paper API · 5 个取值
-`BALL` `BALL_LARGE` `STAR` `BURST` `CREEPER`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `BALL` | 球形 | 球形烟花 |
+| `BALL_LARGE` | 大球形 | 大型球形烟花 |
+| `STAR` | 星形 | 星形烟花 |
+| `BURST` | 爆裂形 | 爆裂状烟花 |
+| `CREEPER` | 苦力怕形 | 苦力怕脸形状烟花 |
 
 ### `WeatherType`（org.bukkit.WeatherType）
 
 > 来源：Paper API · 2 个取值
-`DOWNFALL` `CLEAR`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `DOWNFALL` | 降雨 | 雨天/雪天等降水天气 |
+| `CLEAR` | 晴朗 | 晴朗天气 |
 
 ### `RunOrder`（RunOrder）
 
 > 来源：框架源码 · 5 个取值
-`START` `EARLY` `NORMAL` `LATE` `END`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `START` | 起始 | 最先执行 |
+| `EARLY` | 较早 | 在较早阶段执行 |
+| `NORMAL` | 正常 | 在正常阶段执行 |
+| `LATE` | 较晚 | 在较晚阶段执行 |
+| `END` | 末尾 | 最后执行 |
 
 ### `BossBar.Color`（net.kyori.adventure.bossbar.BossBar.Color）
 
 > 来源：Adventure · 7 个取值
-`BLUE` `GREEN` `PINK` `PURPLE` `RED` `WHITE` `YELLOW`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `BLUE` | 蓝色 | Boss 血条显示为蓝色 |
+| `GREEN` | 绿色 | Boss 血条显示为绿色 |
+| `PINK` | 粉红 | Boss 血条显示为粉红色 |
+| `PURPLE` | 紫色 | Boss 血条显示为紫色 |
+| `RED` | 红色 | Boss 血条显示为红色 |
+| `WHITE` | 白色 | Boss 血条显示为白色 |
+| `YELLOW` | 黄色 | Boss 血条显示为黄色 |
 
 ### `BossBar.Overlay`（net.kyori.adventure.bossbar.BossBar.Overlay）
 
 > 来源：Adventure · 5 个取值
-`PROGRESS` `NOTCHED_6` `NOTCHED_10` `NOTCHED_12` `NOTCHED_20`
+
+| 值 | 含义 | 作用/说明 |
+|----|------|-----------|
+| `PROGRESS` | 进度条 | 连续实心进度条 |
+| `NOTCHED_6` | 6 段 | 进度条分为 6 段 |
+| `NOTCHED_10` | 10 段 | 进度条分为 10 段 |
+| `NOTCHED_12` | 12 段 | 进度条分为 12 段 |
+| `NOTCHED_20` | 20 段 | 进度条分为 20 段 |
 
 ### `Enchantment`（org.bukkit.enchantments.Enchantment）
 
 > 来源：注册表
+
+> 用于附魔相关参数与过滤器，如 `enchant`/`add_enchant`/`remove_enchant`/`enchantments` 等。配置值为注册表 key（如 `minecraft:sharpness`，可省略命名空间直接写 `sharpness`）。常用取值：SHARPNESS 锋利、SMITE 亡灵杀手、BANE_OF_ARTHROPODS 节肢杀手、POWER 力量、PROTECTION 保护、EFFICIENCY 效率、FORTUNE 时运、SILK_TOUCH 精准采集、UNBREAKING 耐久、FIRE_ASPECT 火焰附加、FIRE_PROTECTION 火焰保护、FEATHER_FALLING 摔落保护、RESPIRATION 水下呼吸、AQUA_AFFINITY 水下速掘、THORNS 荆棘、LOOTING 抢夺、MENDING 经验修补。
 > ⚠️ 非枚举（注册表类），配置值为注册表 key，如 `minecraft:sharpness` / `minecraft:regeneration`，可省略命名空间直接写 `sharpness`
 
 ### `PotionEffectType`（org.bukkit.potion.PotionEffectType）
 
 > 来源：注册表
+
+> 用于药水效果相关参数与过滤器，如 `potion_effect`/`has_potion_effect`/`remove_potion_effect` 等。配置值为注册表 key（如 `minecraft:speed`，可省略命名空间直接写 `speed`）。常用取值：SPEED 速度、SLOWNESS 缓慢、HASTE 急迫、STRENGTH 力量、INSTANT_HEALTH 瞬间治疗、INSTANT_DAMAGE 瞬间伤害、JUMP_BOOST 跳跃提升、REGENERATION 生命恢复、RESISTANCE 抗性提升、FIRE_RESISTANCE 抗火、WATER_BREATHING 水下呼吸、INVISIBILITY 隐身、BLINDNESS 失明、NIGHT_VISION 夜视、HUNGER 饥饿、WEAKNESS 虚弱、POISON 中毒、WITHER 凋零、SLOW_FALLING 缓降、GLOWING 发光、LEVITATION 漂浮、LUCK 幸运、DARKNESS 黑暗。
 > ⚠️ 非枚举（注册表类），配置值为注册表 key，如 `minecraft:sharpness` / `minecraft:regeneration`，可省略命名空间直接写 `sharpness`
 
 ### `Skills`（第三方集成枚举（AuraSkills 技能名），如 FARMING/MINING/COMBAT 等，以 AuraSkills 文档为准）
 
 > 来源：第三方集成
+
+> AuraSkills 技能名，用于 `skill_xp_multiplier` 等技能经验倍率参数。第三方集成枚举，具体取值以 AuraSkills 文档为准。常见技能：FARMING 农业、MINING 挖掘、FORAGING 采集、FISHING 钓鱼、EXCAVATION 考古、COMBAT 战斗、ARCHERY 箭术、DEFENSE 防御、AGILITY 敏捷、ALCHEMY 炼金、ENCHANTING 附魔、SORCERY 巫术、HEALING 治疗、SWORDS 剑术、AXES 斧术、UNARMED 徒手。
 > ⚠️ 第三方集成枚举（AuraSkills 技能名），如 FARMING/MINING/COMBAT 等，以 AuraSkills 文档为准
-
----
-
-
-> 说明：本文档由 `scripts/extract_builtin_components_full.py` 自动生成；如需精确参数/行为，请以源码为准。

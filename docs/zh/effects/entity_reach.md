@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `reach` | Expression | ✅ | — | — | The number of blocks to add to the entity interaction range. Supports expressions. 例: `%level% * 0.5` |
+| `reach` | Expression | ✅ | — | — | 要添加到实体交互范围的方块数量。支持数学表达式。 例: `%level% * 0.5` |
 
 ## 📝 源码注记
 

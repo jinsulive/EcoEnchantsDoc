@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `type` | String | ✅ | — | — | The global point type to add to. |
-| `amount` | Expression | — | `0` | — | The amount of global points to add. Supports expressions. Defaults to 0. 例: `%level% * 10` |
+| `type` | String | ✅ | — | — | 要增加到的全局点数类型。 |
+| `amount` | Expression | — | `0` | — | 要添加的全局点数数量。支持数学表达式。默认为 0。 例: `%level% * 10` |
 
 ## 📝 源码注记
 

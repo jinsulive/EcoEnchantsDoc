@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `distance` | Expression | ✅ | — | — | The maximum number of blocks to teleport forward. Supports expressions. 例: `5 + %level%` |
+| `distance` | Expression | ✅ | — | — | 向前传送的最大方块数量。支持数学表达式。 例: `5 + %level%` |
 
 ## 📝 源码注记
 

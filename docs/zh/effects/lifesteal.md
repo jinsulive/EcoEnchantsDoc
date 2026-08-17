@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The fraction of damage dealt that is converted into healing. Supports expressions. 例: `0.1 + %level% * 0.01` |
+| `multiplier` | Expression | ✅ | — | — | 转化为治疗的伤害比例。支持数学表达式。 例: `0.1 + %level% * 0.01` |
 
 ## 📝 源码注记
 

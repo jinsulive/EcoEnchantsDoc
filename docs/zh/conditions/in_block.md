@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block material name to check (e.g. WATER). |
+| `block` | Block | ✅ | — | — | 要检查的方块材质名称（例如 WATER）。 |
 
 ## 📝 源码注记
 

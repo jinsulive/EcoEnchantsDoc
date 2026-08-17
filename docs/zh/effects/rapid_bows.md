@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent_faster` | Expression | ✅ | — | — | How many percent faster the bow charges. Supports expressions. 例: `10 + %level%` |
+| `percent_faster` | Expression | ✅ | — | — | 弓蓄力速度加快的百分比。支持数学表达式。 例: `10 + %level%` |
 
 ## 📝 源码注记
 

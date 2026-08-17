@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `entity` | Entity | ✅ | — | — | The entity type to spawn at the trigger location. |
+| `entity` | Entity | ✅ | — | — | 要在触发位置生成的实体类型。 |
 | `owner` | Boolean | — | — | — |  |
 
 ## 📝 源码注记

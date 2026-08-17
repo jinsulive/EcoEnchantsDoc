@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `velocity` | Expression | ✅ | — | — | The speed at which the victim is knocked away from the player. Supports expressions. 例: `1 + %level% * 0.1` |
+| `velocity` | Expression | ✅ | — | — | 受害者被击退远离玩家的速度。支持数学表达式。 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

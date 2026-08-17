@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `id` | String | ✅ | — | — | The unique ID of the boss bar to remove. Supports placeholders. 例: `boss_%player_name%` |
+| `id` | String | ✅ | — | — | 要移除的 Boss 血条唯一 ID。支持占位符。 例: `boss_%player_name%` |
 
 ## 📝 源码注记
 

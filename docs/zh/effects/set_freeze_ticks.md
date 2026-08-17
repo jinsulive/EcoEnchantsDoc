@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `ticks` | Expression | ✅ | — | — | The number of freeze ticks to apply to the victim. Supports expressions. 例: `20 * %level%` |
+| `ticks` | Expression | ✅ | — | — | 要应用于受害者的冰冻刻数。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

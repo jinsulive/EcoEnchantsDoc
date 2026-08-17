@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The number of absorption hearts to add. Supports expressions. 例: `%level%` |
+| `amount` | Expression | ✅ | — | — | 要添加的伤害吸收心数。支持数学表达式。 例: `%level%` |
 
 ## 📝 源码注记
 

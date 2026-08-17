@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The damage multiplier applied on a critical hit. Supports expressions. 例: `1.5 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | 暴击时应用的伤害倍率。支持数学表达式。 例: `1.5 + %level% * 0.05` |
 
 ## 📝 源码注记
 

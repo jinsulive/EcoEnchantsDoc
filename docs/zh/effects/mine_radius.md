@@ -25,12 +25,12 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `radius` | Expression | ✅ | — | — | The radius of blocks to break around the triggered block. Supports expressions. 例: `2 + %level% / 20` |
-| `prevent_trigger` | Boolean | — | `false` | — | Whether breaking these blocks should prevent triggering further effects. |
-| `disable_on_sneak` | Boolean | — | `false` | — | Whether the effect should be disabled while the player is sneaking. |
-| `whitelist` | Block List | — | `[]` | — | A list of blocks that are allowed to be broken. If omitted, all blocks are eligible. |
-| `blacklisted_blocks` | Block List | — | `[]` | — | A list of blocks that should never be broken by this effect. |
-| `check_hardness` | Boolean | — | `true` | — | Whether blocks harder than the triggered block should be skipped. |
+| `radius` | Expression | ✅ | — | — | 触发方块周围要破坏的方块半径。支持数学表达式。 例: `2 + %level% / 20` |
+| `prevent_trigger` | Boolean | — | `false` | — | 破坏这些方块是否应阻止触发后续效果。 |
+| `disable_on_sneak` | Boolean | — | `false` | — | 玩家潜行时该效果是否应被禁用。 |
+| `whitelist` | Block List | — | `[]` | — | 允许被破坏的方块列表。若省略，所有方块均可。 |
+| `blacklisted_blocks` | Block List | — | `[]` | — | 该效果永远不会破坏的方块列表。 |
+| `check_hardness` | Boolean | — | `true` | — | 是否跳过比触发方块更硬的方块。 |
 
 ## 📝 源码注记
 

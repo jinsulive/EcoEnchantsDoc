@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The movement speed multiplier to apply (e.g. 1.5 = 50% faster). Supports expressions. 例: `1 + %level% * 0.05` |
+| `multiplier` | Expression | ✅ | — | — | 要应用的移动速度倍率（例如 1.5 = 快 50%）。支持数学表达式。 例: `1 + %level% * 0.05` |
 
 ## 📝 源码注记
 

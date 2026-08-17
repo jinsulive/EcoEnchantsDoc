@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The XP multiplier. Supports expressions. |
-| `jobs` | String_list | — | — | — | List of job names to apply the multiplier to. If omitted, applies to all jobs. |
+| `multiplier` | Expression | ✅ | — | — | 经验值（XP）倍率。支持数学表达式。 |
+| `jobs` | String_list | — | — | — | 要应用倍率的职业名称列表。若省略，则应用于所有职业。 |
 
 ## 配置示例
 

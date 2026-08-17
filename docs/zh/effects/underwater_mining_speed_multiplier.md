@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The multiplier to apply to underwater mining speed. Supports expressions. 例: `1 + %level% * 0.02` |
+| `multiplier` | Expression | ✅ | — | — | 要应用于水下挖掘速度的倍率。支持数学表达式。 例: `1 + %level% * 0.02` |
 
 ## 📝 源码注记
 

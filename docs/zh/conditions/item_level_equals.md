@@ -28,8 +28,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `name` | String | ✅ | — | — | The name of the level type to check on the held item. |
-| `level` | Expression | ✅ | — | — | The exact level the item must have. 例: `5 + %level%` |
+| `name` | String | ✅ | — | — | 要在手持物品上检查的等级类型名称。 |
+| `level` | Expression | ✅ | — | — | 物品必须具备的确切等级。 例: `5 + %level%` |
 
 ## 📝 源码注记
 

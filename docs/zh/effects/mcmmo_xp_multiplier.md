@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The XP multiplier. Supports expressions. |
-| `skills` | String_list | — | — | — | List of McMMO skill names to apply the multiplier to. If omitted, applies to all skills. |
+| `multiplier` | Expression | ✅ | — | — | 经验值（XP）倍率。支持数学表达式。 |
+| `skills` | String_list | — | — | — | 要应用倍率的 McMMO 技能名称列表。若省略，则应用于所有技能。 |
 
 ## 配置示例
 

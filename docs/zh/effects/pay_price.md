@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `value` | String | ✅ | — | — | The amount to deduct from the player. Supports expressions and placeholders. 例: `%level% * 10` |
-| `type` | String | ✅ | — | — | The price type identifier (e.g. coins, xp, xpl, item). 例: `coins` |
+| `value` | String | ✅ | — | — | 要从玩家处扣除的数值。支持数学表达式和占位符。 例: `%level% * 10` |
+| `type` | String | ✅ | — | — | 价格类型标识符（例如 coins、xp、xpl、item）。 例: `coins` |
 
 ## 📝 源码注记
 

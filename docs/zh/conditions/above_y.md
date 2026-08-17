@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `y` | Expression | ✅ | — | — | The minimum Y coordinate. |
+| `y` | Expression | ✅ | — | — | 最小 Y 坐标。 |
 
 ## 📝 源码注记
 

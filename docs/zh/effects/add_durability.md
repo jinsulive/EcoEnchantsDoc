@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `durability` | Expression | ✅ | — | — | The amount of maximum durability to add. Supports expressions. 例: `50 + %level% * 10` |
+| `durability` | Expression | ✅ | — | — | 要添加的最大耐久值。支持数学表达式。 例: `50 + %level% * 10` |
 
 ## 📝 源码注记
 

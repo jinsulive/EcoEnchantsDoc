@@ -27,13 +27,13 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `animation` | String | ✅ | — | — | The name of the animation to play. |
-| `mode` | String | — | `PLAY_ONCE` | — | The animation playback mode (e.g. PLAY_ONCE, LOOP). Defaults to PLAY_ONCE. |
-| `self` | Boolean | — | `false` | — | Whether to show the animation only to the triggering player. |
-| `override` | Boolean | — | — | — | Whether to override any currently playing animation. |
-| `speed` | Double | — | — | — | Playback speed multiplier for the animation. |
-| `start` | Integer | — | — | — | The frame index at which to start the animation. |
-| `end` | Integer | — | — | — | The frame index at which to end the animation. |
+| `animation` | String | ✅ | — | — | 要播放的动画名称。 |
+| `mode` | String | — | `PLAY_ONCE` | — | 动画播放模式（例如 PLAY_ONCE、LOOP）。默认为 PLAY_ONCE。 |
+| `self` | Boolean | — | `false` | — | 是否仅向触发玩家显示动画。 |
+| `override` | Boolean | — | — | — | 是否覆盖当前正在播放的动画。 |
+| `speed` | Double | — | — | — | 动画的播放速度倍率。 |
+| `start` | Integer | — | — | — | 动画开始时的帧索引。 |
+| `end` | Integer | — | — | — | 动画结束时的帧索引。 |
 
 ## 配置示例
 

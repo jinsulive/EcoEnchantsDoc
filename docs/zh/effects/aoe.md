@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `effects` | Effect List | ✅ | — | — | The effects to run on each entity within the AOE. |
-| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | The AOE shape to use. |
+| `effects` | Effect List | ✅ | — | — | 对范围内每个实体运行的效果。 |
+| `shape` | String | ✅ | — | `circle`, `cone`, `offset_circle`, `scan_in_front`, `beam` | 要使用的范围效果（AOE）形状。 |
 
 ## 📝 源码注记
 

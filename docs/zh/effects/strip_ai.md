@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `duration` | Expression | ✅ | — | — | How long to disable the entity's AI, in ticks. Supports expressions. 例: `20 * %level%` |
+| `duration` | Expression | ✅ | — | — | 禁用实体 AI 的时长（以刻为单位）。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

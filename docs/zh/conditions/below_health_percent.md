@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `percent` | Expression | ✅ | — | — | The maximum health percentage (0–100). 例: `25 + %level% * 0.5` |
+| `percent` | Expression | ✅ | — | — | 最大生命百分比（0–100）。 例: `25 + %level% * 0.5` |
 
 ## 📝 源码注记
 

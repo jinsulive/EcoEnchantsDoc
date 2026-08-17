@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The amount to add to the land's balance. Supports expressions. |
-| `only_trusted` | Boolean | — | `true` | — | Whether to restrict the effect to trusted land members. Defaults to true. |
+| `amount` | Expression | ✅ | — | — | 要添加到领地余额的金额。支持数学表达式。 |
+| `only_trusted` | Boolean | — | `true` | — | 是否将该效果限制为受信任的领地成员。默认为 true。 |
 
 ## 配置示例
 

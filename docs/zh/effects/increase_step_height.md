@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `height` | Expression | ✅ | — | — | The number of extra blocks the player can step up automatically. Supports expressions. 例: `0.5 + %level% * 0.1` |
+| `height` | Expression | ✅ | — | — | 玩家可自动上台阶的额外方块数。支持数学表达式。 例: `0.5 + %level% * 0.1` |
 
 ## 📝 源码注记
 

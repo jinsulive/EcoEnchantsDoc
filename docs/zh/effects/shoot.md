@@ -25,11 +25,11 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `projectile` | Entity | ✅ | — | — | The entity type to launch as a projectile, e.g. ARROW or SNOWBALL. |
-| `inherit_velocity` | Boolean | — | `false` | — | Whether the projectile should inherit the player's current velocity. |
-| `launch-at-location` | Boolean | — | `false` | — | Whether the projectile should be teleported to the trigger location after launch. |
-| `allow_pickup` | Boolean | — | `false` | — | Whether the projectile can be picked up by players (applies to arrows). |
-| `no_source` | Boolean | — | `false` | — | Whether the projectile should have no shooter, preventing attribution to the player. |
+| `projectile` | Entity | ✅ | — | — | 要作为弹射物发射的实体类型，例如 ARROW 或 SNOWBALL。 |
+| `inherit_velocity` | Boolean | — | `false` | — | 弹射物是否应继承玩家当前的速度。 |
+| `launch-at-location` | Boolean | — | `false` | — | 发射后弹射物是否应传送到触发位置。 |
+| `allow_pickup` | Boolean | — | `false` | — | 弹射物是否可被玩家拾取（适用于箭矢）。 |
+| `no_source` | Boolean | — | `false` | — | 弹射物是否应没有射手，从而避免归因于玩家。 |
 
 ## 📝 源码注记
 

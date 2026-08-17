@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `glowing` | Boolean | — | `true` | — | Whether to enable or disable the glowing effect. |
-| `duration` | Expression | — | — | — | How long to apply the glow, in ticks. Reverts when expired. Supports expressions. 例: `20 * %level%` |
+| `glowing` | Boolean | — | `true` | — | 是否启用或禁用发光效果。 |
+| `duration` | Expression | — | — | — | 发光效果的持续时间（以刻为单位）。到期后恢复。支持数学表达式。 例: `20 * %level%` |
 
 ## 📝 源码注记
 

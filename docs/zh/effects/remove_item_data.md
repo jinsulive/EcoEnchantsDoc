@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `key` | String | ✅ | — | — | The key of the custom item data entry to remove. 例: `custom_id` |
+| `key` | String | ✅ | — | — | 要移除的自定义物品数据条目的键。 例: `custom_id` |
 
 ## 📝 源码注记
 

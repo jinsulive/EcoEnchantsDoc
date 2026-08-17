@@ -28,7 +28,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `entities` | Entity List | ✅ | — | — | The list of entity types the player must be riding. |
+| `entities` | Entity List | ✅ | — | — | 玩家必须骑乘的实体类型列表。 |
 
 ## 📝 源码注记
 

@@ -29,7 +29,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `amount` | Expression | ✅ | — | — | The minimum amount of mana the player must have. |
+| `amount` | Expression | ✅ | — | — | 玩家必须拥有的最低魔力值。 |
 
 ## 配置示例
 

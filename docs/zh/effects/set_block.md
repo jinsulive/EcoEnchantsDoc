@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block type to place at the trigger location. |
+| `block` | Block | ✅ | — | — | 要在触发位置放置的方块类型。 |
 
 ## 📝 源码注记
 

@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `seconds` | Expression | ✅ | — | — | How many seconds into the past to teleport the player (clamped to 1–30). Supports expressions. 例: `1 + %level% / 10` |
+| `seconds` | Expression | ✅ | — | — | 将玩家传送回过去的秒数（限制在 1–30）。支持数学表达式。 例: `1 + %level% / 10` |
 
 ## 📝 源码注记
 

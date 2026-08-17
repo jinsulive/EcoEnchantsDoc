@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `value` | Expression | ✅ | — | — | The amount to give, as an expression string (may reference placeholders). 例: `%level% * 100` |
-| `type` | String | ✅ | — | — | The eco price type identifier (e.g. coins, xp, points:mytype). 例: `points:mytype` |
+| `value` | Expression | ✅ | — | — | 要给予的数量，作为表达式字符串（可引用占位符）。 例: `%level% * 100` |
+| `type` | String | ✅ | — | — | eco 价格类型标识符（例如 coins、xp、points:mytype）。 例: `points:mytype` |
 
 ## 📝 源码注记
 

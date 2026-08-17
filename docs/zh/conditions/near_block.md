@@ -25,8 +25,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `block` | Block | ✅ | — | — | The block type to search for. |
-| `radius` | Integer | ✅ | — | — | The radius of the cube around the entity to search within. |
+| `block` | Block | ✅ | — | — | 要搜索的方块类型。 |
+| `radius` | Integer | ✅ | — | — | 实体周围搜索的立方体半径。 |
 
 ## 📝 源码注记
 

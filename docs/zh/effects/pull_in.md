@@ -25,7 +25,7 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `velocity` | Expression | ✅ | — | — | The strength of the pull force applied to the victim. Supports expressions. 例: `1 + %level% * 0.1` |
+| `velocity` | Expression | ✅ | — | — | 应用于受害者的牵引力强度。支持数学表达式。 例: `1 + %level% * 0.1` |
 
 ## 📝 源码注记
 

@@ -27,8 +27,8 @@ outline: deep
 
 | 参数名 | 类型 | 必填 | 默认值 | 可选值 | 说明 |
 |--------|------|------|--------|--------|------|
-| `multiplier` | Expression | ✅ | — | — | The economy earnings multiplier. Supports expressions. |
-| `economies` | String_list | — | — | — | List of EdPrison economy types to apply the multiplier to. If omitted, applies to all economies. |
+| `multiplier` | Expression | ✅ | — | — | 经济收益倍率。支持数学表达式。 |
+| `economies` | String_list | — | — | — | 要应用倍率的 EdPrison 经济类型列表。若省略，则应用于所有经济。 |
 
 ## 📝 源码注记
 
