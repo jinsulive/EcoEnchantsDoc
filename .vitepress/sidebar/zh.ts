@@ -1021,13 +1021,6 @@ export const zhSidebar: DefaultTheme.Sidebar = {
       text: "参考",
       items: [
         { text: "枚举值速查表（导航页）", link: "/zh/reference/enums" },
-        {
-          text: "通用",
-          collapsed: false,
-          items: [
-            { text: "枚举值速查表", link: "/zh/reference/enums" },
-          ],
-        },
       ],
     },
   ],

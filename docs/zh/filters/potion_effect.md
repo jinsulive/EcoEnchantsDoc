@@ -39,7 +39,7 @@ filters:
   not_potion_effect: <value>
 ```
 
-> 💡 完整 `PotionEffectType` 取值列表见[枚举值速查表](../reference/enums#potioneffecttype)。
+> 💡 完整 `PotionEffectType` 取值列表见[枚举值速查表](../reference/enums/potion_effect_type)。
 
 > **取值说明**：药水效果列表 → `PotionEffectType` key（见附录）
 

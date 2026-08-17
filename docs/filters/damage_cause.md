@@ -45,7 +45,7 @@ This filter passes automatically when the trigger has no damage cause data (e.g.
 
 :::
 
-> 💡 See the [Enum Quick Reference](../reference/enums#damagecause) for the full `DamageCause` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/damage_cause) for the full `DamageCause` value list.
 
 > **Value**: Damage cause list → `DamageCause` enum, e.g. `[magic, fire]`.
 

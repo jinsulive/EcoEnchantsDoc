@@ -39,7 +39,7 @@ filters:
   not_enchant: <value>
 ```
 
-> 💡 完整 `Enchantment` 取值列表见[枚举值速查表](../reference/enums#enchantment)。
+> 💡 完整 `Enchantment` 取值列表见[枚举值速查表](../reference/enums/enchantment)。
 
 > **取值说明**：附魔 key 列表，如 `sharpness`（内部转大写）
 

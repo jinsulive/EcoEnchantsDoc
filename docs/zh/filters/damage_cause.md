@@ -45,7 +45,7 @@ filters:
 
 :::
 
-> 💡 完整 `DamageCause` 取值列表见[枚举值速查表](../reference/enums#damagecause)。
+> 💡 完整 `DamageCause` 取值列表见[枚举值速查表](../reference/enums/damage_cause)。
 
 > **取值说明**：伤害原因列表 → `DamageCause` 枚举（见附录），如 `[magic, fire]`
 

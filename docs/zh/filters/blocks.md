@@ -45,7 +45,7 @@ filters:
 
 :::
 
-> 💡 完整 `Material` 取值列表见[枚举值速查表](../reference/enums#material)。
+> 💡 完整 `Material` 取值列表见[枚举值速查表](../reference/enums/material)。
 
 > **取值说明**：方块列表 → `Material` 枚举（见附录），如 `[STONE, DIRT]`
 

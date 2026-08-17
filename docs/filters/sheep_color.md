@@ -39,7 +39,7 @@ filters:
   not_sheep_color: <value>
 ```
 
-> 💡 See the [Enum Quick Reference](../reference/enums#dyecolor) for the full `DyeColor` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/dye_color) for the full `DyeColor` value list.
 
 > **Value**: Wool color list → `DyeColor` enum, e.g. `[RED, BLUE]`.
 

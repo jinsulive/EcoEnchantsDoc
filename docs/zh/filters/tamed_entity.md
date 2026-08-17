@@ -39,7 +39,7 @@ filters:
   not_tamed_entity: <value>
 ```
 
-> 💡 完整 `EntityType` 取值列表见[枚举值速查表](../reference/enums#entitytype)。
+> 💡 完整 `EntityType` 取值列表见[枚举值速查表](../reference/enums/entity_type)。
 
 > **取值说明**：驯服实体类型 → `EntityType` 枚举
 

@@ -39,7 +39,7 @@ filters:
   not_sheep_color: <value>
 ```
 
-> 💡 完整 `DyeColor` 取值列表见[枚举值速查表](../reference/enums#dyecolor)。
+> 💡 完整 `DyeColor` 取值列表见[枚举值速查表](../reference/enums/dye_color)。
 
 > **取值说明**：羊毛颜色列表 → `DyeColor` 枚举（见附录），如 `[RED, BLUE]`
 

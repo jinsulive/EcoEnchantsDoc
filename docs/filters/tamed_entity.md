@@ -39,7 +39,7 @@ filters:
   not_tamed_entity: <value>
 ```
 
-> 💡 See the [Enum Quick Reference](../reference/enums#entitytype) for the full `EntityType` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/entity_type) for the full `EntityType` value list.
 
 > **Value**: Tamed entity type list → `EntityType` enum.
 

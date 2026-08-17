@@ -39,7 +39,7 @@ filters:
   not_items: <value>
 ```
 
-> 💡 完整 `Material` 取值列表见[枚举值速查表](../reference/enums#material)。
+> 💡 完整 `Material` 取值列表见[枚举值速查表](../reference/enums/material)。
 
 > **取值说明**：物品 id/名称列表（eco Items 解析），如 `[DIAMOND_SWORD]` 或 `[minecraft:diamond_sword]`
 

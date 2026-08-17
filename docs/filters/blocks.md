@@ -45,7 +45,7 @@ This filter passes automatically when the target is missing from the trigger dat
 
 :::
 
-> 💡 See the [Enum Quick Reference](../reference/enums#material) for the full `Material` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/material) for the full `Material` value list.
 
 > **Value**: Block list → `Material` enum, e.g. `[STONE, DIRT]`.
 

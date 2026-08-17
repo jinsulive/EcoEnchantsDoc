@@ -39,7 +39,7 @@ filters:
   not_enchant: <value>
 ```
 
-> 💡 See the [Enum Quick Reference](../reference/enums#enchantment) for the full `Enchantment` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/enchantment) for the full `Enchantment` value list.
 
 > **Value**: Enchantment key list, e.g. `sharpness` (case-insensitive).
 

@@ -39,7 +39,7 @@ filters:
   not_items: <value>
 ```
 
-> 💡 See the [Enum Quick Reference](../reference/enums#material) for the full `Material` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/material) for the full `Material` value list.
 
 > **Value**: Item id/name list (eco Items resolution), e.g. `[DIAMOND_SWORD]` or `[minecraft:diamond_sword]`.
 

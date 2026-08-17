@@ -1021,13 +1021,6 @@ export const enSidebar: DefaultTheme.Sidebar = {
       text: "Reference",
       items: [
         { text: "Enum Quick Reference (Landing)", link: "/reference/enums" },
-        {
-          text: "General",
-          collapsed: false,
-          items: [
-            { text: "enums", link: "/reference/enums" },
-          ],
-        },
       ],
     },
   ],

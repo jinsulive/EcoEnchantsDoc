@@ -39,7 +39,7 @@ filters:
   not_potion_effect: <value>
 ```
 
-> 💡 See the [Enum Quick Reference](../reference/enums#potioneffecttype) for the full `PotionEffectType` value list.
+> 💡 See the [Enum Quick Reference](../reference/enums/potion_effect_type) for the full `PotionEffectType` value list.
 
 > **Value**: Potion effect list → `PotionEffectType` key.
 
